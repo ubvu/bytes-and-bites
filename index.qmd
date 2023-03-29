@@ -1,5 +1,5 @@
 ---
-title: "bnb-website"
+title: "bnb-website test"
 ---
 
 This is a Quarto website.
