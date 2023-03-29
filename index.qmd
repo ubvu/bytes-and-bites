@@ -1,7 +1,26 @@
 ---
-title: "bnb-website test"
+title: "Bytes and Bites"
+toc: true
+listing:
+  id: events
+  contents: events
+  sort: "date desc"
+  type: table
+  fields: [title, date, description]
+  date-format: full
 ---
 
-This is a Quarto website.
+**- the VU Amsterdam programming Café**
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+Do you want to improve your programming skills, ask questions related to programming, and feel yourself part of the broader VU community working on their programming skills? 
+
+**Come to Bytes and Bites - peer support for researchers and students learning to program!**
+
+## Events
+
+::: {#events}
+:::
+
+
+
+
