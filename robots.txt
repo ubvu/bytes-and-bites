@@ -1,1 +1,1 @@
-Sitemap: https://github.com/ubvu/bnb-website/sitemap.xml
+Sitemap: https://github.com/ubvu/bytes-and-bites/sitemap.xml
