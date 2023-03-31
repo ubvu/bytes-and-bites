@@ -9,8 +9,8 @@ Theme: Visualizations
 [Register](https://vu-nl.libcal.com/event/4023149)
 
 ### General tips on visualization
-[Introduction to data visualization](https://carpentries-incubator.github.io/intro-data-viz/)
-[Examples of bad graphs in papers](https://www.biostat.wisc.edu/~kbroman/topten_worstgraphs/)
+- [Introduction to data visualization](https://carpentries-incubator.github.io/intro-data-viz/)
+- [Examples of bad graphs in papers](https://www.biostat.wisc.edu/~kbroman/topten_worstgraphs/)
 
 ### Datasets
 - [Datasets about Dutch society by the CBS](https://opendata.cbs.nl/statline/#/CBS/en/navigatieScherm/thema)
