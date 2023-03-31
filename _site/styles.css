@@ -1,9 +1,9 @@
 /* css styles */
 
 :root {
-    --cl-main: #6f42c1;
+    --vu-blue: #0077B3;
 }
 
 .navbar-dark {
-    background-color: var(--cl-main);
+    background-color: var(--vu-blue);
 }

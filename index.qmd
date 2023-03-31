@@ -1,5 +1,4 @@
 ---
-title: "Bytes and Bites"
 toc: true
 listing:
   id: events
@@ -8,13 +7,21 @@ listing:
   type: table
   fields: [title, date, description]
   date-format: full
+about:
+  id: about
+  template: solana
+  image: images/logo.png
+  image-shape: rounded
 ---
 
-**- the VU Amsterdam programming Café**
+:::{#about}
+
+**The programming Café @ VU Amsterdam **
 
 Do you want to improve your programming skills, ask questions related to programming, and feel yourself part of the broader VU community working on their programming skills? 
 
-**Come to Bytes and Bites - peer support for researchers and students learning to program!**
+**Join us!**
+:::
 
 ## Events
 
