@@ -1,0 +1,10 @@
+title: "Bytes & Bites"
+date: "09/05/2023"
+description: "16-18 @ O|2 building, room 01W08"
+---
+
+Theme: Puzzles
+
+[Register](https://vu-nl.libcal.com/calendar/universitylibrary/bytesbites)
+
+[Slides](09_May_23_puzzles.pdf)
