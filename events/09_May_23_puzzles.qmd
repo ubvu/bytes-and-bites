@@ -15,3 +15,6 @@ Theme: Puzzles
 - [AoC 2019 day 1](https://adventofcode.com/2019/day/1)
 - [AoC 2020 day 5](https://adventofcode.com/2020/day/5)
 - [AoC 2021 day 5](https://adventofcode.com/2021/day/5)
+
+### Let us know what you want!
+[Fill in this short survey to shape B&B to your liking!](https://vuamsterdam.eu.qualtrics.com/jfe/form/SV_aWetUoYr6Gf8JcW)
