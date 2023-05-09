@@ -1,6 +1,6 @@
 ---
 title: "Bytes & Bites"
-date: "09/05/2023"
+date: "05/09/2023"
 description: "16-18 @ O|2 building, room 01W08"
 ---
 
