@@ -1,5 +1,5 @@
 ---
-title: "Bytes & Bites"
+title: "Bytes & Bites - Puzzles"
 date: "05/09/2023"
 description: "16-18 @ O|2 building, room 01W08"
 ---
