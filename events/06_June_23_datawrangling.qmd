@@ -1,0 +1,9 @@
+---
+title: "Bytes & Bites"
+date: "06/06/2023"
+description: "16-18 @ O|2 building, room 01W08"
+---
+
+Theme: Data wrangling with guest speaker Douwe Molenaar
+
+[Register](https://vu-nl.libcal.com/calendar/universitylibrary/bytesbites)
