@@ -8,6 +8,9 @@ Theme: Data wrangling with guest speaker Douwe Molenaar
 
 [Register](https://vu-nl.libcal.com/calendar/universitylibrary/bytesbites)
 
+[Slides](Bytes&Bites_wrangling.pdf)
+
+
 ### Code
 
 * [Python (Jupyter notebook)](../notebooks/portal_project.ipynb)
