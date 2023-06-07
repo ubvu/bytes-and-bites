@@ -8,7 +8,7 @@ Theme: Visualizations
 
 [Register](https://vu-nl.libcal.com/event/4023149)
 
-[Slides](04_April_23_visualizations.pdf)
+[Slides](../presentations/04_April_23_visualizations.pdf)
 
 ### General tips on visualization
 - [Introduction to data visualization](https://carpentries-incubator.github.io/intro-data-viz/)

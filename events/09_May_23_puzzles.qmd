@@ -8,7 +8,7 @@ Theme: Puzzles
 
 [Register](https://vu-nl.libcal.com/calendar/universitylibrary/bytesbites)
 
-[Slides](09_May_23_puzzles.pdf)
+[Slides](../presentations/09_May_23_puzzles.pdf)
 
 ### Suggested puzzles to get started
 - [AoC 2020 day 1](https://adventofcode.com/2020/day/1)
