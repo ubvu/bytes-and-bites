@@ -1,6 +1,6 @@
 ---
-title: "Bytes & Bites - Bugs and Demonstrations"
-date: "11/07/2023"
+title: "Bytes & Bites - Bugs and Demos"
+date: "07/11/2023"
 description: "16-18 @ O|2 building, room 01W08"
 ---
 
