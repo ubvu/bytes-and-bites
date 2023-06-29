@@ -8,8 +8,13 @@ Theme: Bring your own bugs!
 
 [Register](https://vu-nl.libcal.com/event/4049294)
 
+This edition of Bytes and Bites is all about you and your code! Tell us more about what you are working on or share what is blocking you. We meet one last time before the summer break for an informal bug-party.
 
-### Bring your own Bug
+### No preparation required
 
+This meeting is as informal as you like. We make sure that there will be enough time and space to talk about what we are working on and what bugs us.
 
-### Demo your project
+### Have a bigger problem or would like to present your project with more time?
+
+You can send us your projects or questions before if you want. This way we can plan presenter time or make sure that we have the right persons to answer your question as good as anyone can.
+
