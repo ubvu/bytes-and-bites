@@ -7,11 +7,18 @@
     "text": "import pandas as pd\n\n\nd = pd.read_csv('data/portal_project.tsv', delimiter='\\t')\n\n\nCreate separate tables\n\nspecies = d.copy()[['species_id', 'species', 'genus', 'taxa']]\nspecies = species.drop_duplicates()\n\nspecies1 = d.copy()[['species_id', 'species', 'genus', 'taxa']].drop_duplicates()\n\nobservations = d.copy().drop(columns=['species', 'genus', 'taxa'])\n\n\n\nAverage hindfoot length per species\n\naverage_length = observations.hindfoot_length.mean(skipna=True)  # skipna=True is also the default\n\n\naverage_length\n\n29.287931802277498\n\n\n\naverage_length_ps = observations.groupby('species_id', as_index=False).\\\n    agg(mean_hf_length = ('hindfoot_length', 'mean')).\\\n    merge(species, how='inner')\naverage_length_ps.head()\n\n\n\n\n\n\n\n\nspecies_id\nmean_hf_length\nspecies\ngenus\ntaxa\n\n\n\n\n0\nAB\nNaN\nbilineata\nAmphispiza\nBird\n\n\n1\nAH\n33.0\nharrisi\nAmmospermophilus\nRodent\n\n\n2\nAS\nNaN\nsavannarum\nAmmodramus\nBird\n\n\n3\nBA\n13.0\ntaylori\nBaiomys\nRodent\n\n\n4\nCB\nNaN\nbrunneicapillus\nCampylorhynchus\nBird\n\n\n\n\n\n\n\n\n\nRatio M/F per species per year\n\nratios = observations.\\\n    groupby(['species_id', 'year', 'sex'], as_index=False).\\\n    agg(nr = ('record_id', 'count')).\\\n    pivot(index = ['species_id', 'year'], columns = 'sex', values = 'nr')\nratios['mfratio'] = ratios.M / ratios.F\nratios = ratios.reset_index()\n\n\nratios.head()\n\n\n\n\n\n\n\nsex\nspecies_id\nyear\nF\nM\nmfratio\n\n\n\n\n0\nAH\n1995\nNaN\n1.0\nNaN\n\n\n1\nBA\n1989\nNaN\n3.0\nNaN\n\n\n2\nBA\n1990\n8.0\n3.0\n0.375000\n\n\n3\nBA\n1991\n19.0\n6.0\n0.315789\n\n\n4\nBA\n1992\n4.0\n2.0\n0.500000\n\n\n\n\n\n\n\n\n\nNumber of observations per species and year\n\nobspspy = observations.\\\n    groupby(['species_id', 'year'], as_index=False).\\\n    agg(obs = ('record_id', 'count'))\n\nobspspy['totobs'] = obspspy.groupby('species_id').obs.transform('sum')\n\nobspspy = obspspy[obspspy.totobs &gt; 300].\\\n    merge(species, how='inner')\n\nobspspy['speciesname'] = obspspy.genus + ' ' + obspspy.species\n\nMake a plot\n\nimport plotnine as p9\n\n\n(\n    p9.ggplot(obspspy, mapping=p9.aes(x='year', y='obs', color='speciesname')) \n    + p9.geom_line()\n)\n\n\n\n\n&lt;Figure Size: (640 x 480)&gt;\n\n\n\n(\n    p9.ggplot(obspspy, mapping=p9.aes(x='year', y='obs')) \n    + p9.geom_line() \n    + p9.facet_wrap('speciesname') \n    + p9.scale_y_log10()\n)\n\n\n\n\n&lt;Figure Size: (640 x 480)&gt;"
   },
   {
+    "objectID": "events/04_April_23_visualizations.html",
+    "href": "events/04_April_23_visualizations.html",
+    "title": "Bytes & Bites - Visualization",
+    "section": "",
+    "text": "Theme: Visualizations\nRegister\nSlides\n\nGeneral tips on visualization\n\nIntroduction to data visualization\nExamples of bad graphs in papers\n\n\n\nDatasets\n\nDatasets about Dutch society by the CBS\nPublic datasets from different domains\nDatasets from data science community Kaggle\n\n\n\nExamples of programming resources\n\nR\n\nChapter in data carpentries workshop\nIntroduction to ggplot\n\n\n\nPython\n\nCarpentries workshop on how to create interactive visualizations\nNotebooks to play with some examples\nA collection of Jupyter notebooks for geoscientists\nChapter in data carpentries workshop\n\n\n\nMatlab\n\nOverview of different plot options\nTutorial for plotting and graphics\nTutorial to visualizations (including 3d)\n\n\n\nHPC (any language)\n\nAcademic training for HPC users\nWork in progress, examples and tips"
+  },
+  {
     "objectID": "events/11_July_23_bugs.html",
     "href": "events/11_July_23_bugs.html",
     "title": "Bytes & Bites - Bugs and Demos",
     "section": "",
-    "text": "Theme: Bring your own bugs!\nRegister\n\nBring your own Bug\n\n\nDemo your project"
+    "text": "Theme: Bring your own bugs!\nRegister\nThis edition of Bytes and Bites is all about you and your code! Tell us more about what you are working on or share what is blocking you. We meet one last time before the summer break for an informal bug-party.\n\nNo preparation required\nThis meeting is as informal as you like. We make sure that there will be enough time and space to talk about what we are working on and what bugs us.\n\n\nHave a bigger problem or would like to present your project with more time?\nYou can send us your projects or questions before if you want. This way we can plan presenter time or make sure that we have the right persons to answer your question as good as anyone can."
   },
   {
     "objectID": "events/09_May_23_puzzles.html",
@@ -19,20 +26,6 @@
     "title": "Bytes & Bites - Puzzles",
     "section": "",
     "text": "Theme: Puzzles\nRegister\nSlides\n\nSuggested puzzles to get started\n\nAoC 2020 day 1\nAoC 2019 day 1\nAoC 2020 day 5\nAoC 2021 day 5\n\n\n\nLet us know what you want!\nFill in this short survey to shape B&B to your liking!"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Bytes & Bites",
-    "section": "",
-    "text": "The programming Café @ VU Amsterdam \nDo you want to improve your programming skills, ask questions related to programming, and feel yourself part of the broader VU community working on their programming skills?\nJoin us!"
-  },
-  {
-    "objectID": "index.html#events",
-    "href": "index.html#events",
-    "title": "Bytes & Bites",
-    "section": "Events",
-    "text": "Events\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\nDate\n\n\nDescription\n\n\n\n\n\n\nBytes & Bites - Bugs and Demos\n\n\nTuesday, July 11, 2023\n\n\n16-18 @ O|2 building, room 01W08\n\n\n\n\nBytes & Bites - Data wrangling\n\n\nTuesday, June 6, 2023\n\n\n16-18 @ O|2 building, room 01W08\n\n\n\n\nBytes & Bites - Puzzles\n\n\nTuesday, May 9, 2023\n\n\n16-18 @ O|2 building, room 01W08\n\n\n\n\nBytes & Bites - Visualization\n\n\nTuesday, April 4, 2023\n\n\n16-18 @ O|2 building, room 01W08\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "events/06_June_23_datawrangling.html",
@@ -49,10 +42,17 @@
     "text": "Data\n\nportal project\n\n\nLet us know what you want!\nFill in this short survey to shape B&B to your liking!"
   },
   {
-    "objectID": "events/04_April_23_visualizations.html",
-    "href": "events/04_April_23_visualizations.html",
-    "title": "Bytes & Bites - Visualization",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Bytes & Bites",
     "section": "",
-    "text": "Theme: Visualizations\nRegister\nSlides\n\nGeneral tips on visualization\n\nIntroduction to data visualization\nExamples of bad graphs in papers\n\n\n\nDatasets\n\nDatasets about Dutch society by the CBS\nPublic datasets from different domains\nDatasets from data science community Kaggle\n\n\n\nExamples of programming resources\n\nR\n\nChapter in data carpentries workshop\nIntroduction to ggplot\n\n\n\nPython\n\nCarpentries workshop on how to create interactive visualizations\nNotebooks to play with some examples\nA collection of Jupyter notebooks for geoscientists\nChapter in data carpentries workshop\n\n\n\nMatlab\n\nOverview of different plot options\nTutorial for plotting and graphics\nTutorial to visualizations (including 3d)\n\n\n\nHPC (any language)\n\nAcademic training for HPC users\nWork in progress, examples and tips"
+    "text": "The programming Café @ VU Amsterdam \nDo you want to improve your programming skills, ask questions related to programming, and feel yourself part of the broader VU community working on their programming skills?\nJoin us!"
+  },
+  {
+    "objectID": "index.html#events",
+    "href": "index.html#events",
+    "title": "Bytes & Bites",
+    "section": "Events",
+    "text": "Events\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\nDate\n\n\nDescription\n\n\n\n\n\n\nBytes & Bites - Bugs and Demos\n\n\nTuesday, July 11, 2023\n\n\n16-18 @ O|2 building, room 01W08\n\n\n\n\nBytes & Bites - Data wrangling\n\n\nTuesday, June 6, 2023\n\n\n16-18 @ O|2 building, room 01W08\n\n\n\n\nBytes & Bites - Puzzles\n\n\nTuesday, May 9, 2023\n\n\n16-18 @ O|2 building, room 01W08\n\n\n\n\nBytes & Bites - Visualization\n\n\nTuesday, April 4, 2023\n\n\n16-18 @ O|2 building, room 01W08\n\n\n\n\n\n\nNo matching items"
   }
 ]
