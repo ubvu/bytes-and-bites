@@ -1,0 +1,11 @@
+---
+title: "Bytes & Bites - JupyterLab & IDEs"
+date: "10/03/2023"
+description: "16-18 @ O|2 building, room 01W08"
+---
+
+Theme: Coding environments
+
+[Register](https://vu-nl.libcal.com/event/4085321)
+
+[Slides] here
