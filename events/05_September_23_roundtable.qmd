@@ -8,7 +8,7 @@ Theme: Roundtable and Introduction to Bytes & Bites
 
 [Register](https://vu-nl.libcal.com/event/4070575)
 
-[Slides] here
+[Slides (Introducing Bytes & Bites)](../presentations/Bytes&Bites.pdf)
 
 Our first session after the summer break will focus on our projects we’ve been working on over the summer, and introduce our plans for the rest of the year. This can be software project related, but it’s also a great opportunity to talk about future plans for our software community meetings “Bytes & Bites”. We used the summer break to identify interesting topics and sketch out some ideas for the remaining year. Let’s share some pizzas and discuss together some ideas.
 
