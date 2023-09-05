@@ -1,5 +1,12 @@
 [
   {
+    "objectID": "events/05_September_23_roundtable.html",
+    "href": "events/05_September_23_roundtable.html",
+    "title": "Bytes & Bites - Roundtable & Introduction",
+    "section": "",
+    "text": "Theme: Roundtable and Introduction to Bytes & Bites\nRegister\n[Slides] here\nOur first session after the summer break will focus on our projects we’ve been working on over the summer, and introduce our plans for the rest of the year. This can be software project related, but it’s also a great opportunity to talk about future plans for our software community meetings “Bytes & Bites”. We used the summer break to identify interesting topics and sketch out some ideas for the remaining year. Let’s share some pizzas and discuss together some ideas.\nWe can collect our ideas in this Google Doc"
+  },
+  {
     "objectID": "events/06_June_23_datawrangling.html",
     "href": "events/06_June_23_datawrangling.html",
     "title": "Bytes & Bites - Data wrangling",
@@ -12,13 +19,6 @@
     "title": "Bytes & Bites - Data wrangling",
     "section": "Data",
     "text": "Data\n\nportal project\n\n\nLet us know what you want!\nFill in this short survey to shape B&B to your liking!"
-  },
-  {
-    "objectID": "events/09_May_23_puzzles.html",
-    "href": "events/09_May_23_puzzles.html",
-    "title": "Bytes & Bites - Puzzles",
-    "section": "",
-    "text": "Theme: Puzzles\nRegister\nSlides\n\nSuggested puzzles to get started\n\nAoC 2020 day 1\nAoC 2019 day 1\nAoC 2020 day 5\nAoC 2021 day 5\n\n\n\nLet us know what you want!\nFill in this short survey to shape B&B to your liking!"
   },
   {
     "objectID": "events/04_April_23_visualizations.html",
@@ -49,11 +49,11 @@
     "text": "import pandas as pd\n\n\nd = pd.read_csv('data/portal_project.tsv', delimiter='\\t')\n\n\nCreate separate tables\n\nspecies = d.copy()[['species_id', 'species', 'genus', 'taxa']]\nspecies = species.drop_duplicates()\n\nspecies1 = d.copy()[['species_id', 'species', 'genus', 'taxa']].drop_duplicates()\n\nobservations = d.copy().drop(columns=['species', 'genus', 'taxa'])\n\n\n\nAverage hindfoot length per species\n\naverage_length = observations.hindfoot_length.mean(skipna=True)  # skipna=True is also the default\n\n\naverage_length\n\n29.287931802277498\n\n\n\naverage_length_ps = observations.groupby('species_id', as_index=False).\\\n    agg(mean_hf_length = ('hindfoot_length', 'mean')).\\\n    merge(species, how='inner')\naverage_length_ps.head()\n\n\n\n\n\n\n\n\nspecies_id\nmean_hf_length\nspecies\ngenus\ntaxa\n\n\n\n\n0\nAB\nNaN\nbilineata\nAmphispiza\nBird\n\n\n1\nAH\n33.0\nharrisi\nAmmospermophilus\nRodent\n\n\n2\nAS\nNaN\nsavannarum\nAmmodramus\nBird\n\n\n3\nBA\n13.0\ntaylori\nBaiomys\nRodent\n\n\n4\nCB\nNaN\nbrunneicapillus\nCampylorhynchus\nBird\n\n\n\n\n\n\n\n\n\nRatio M/F per species per year\n\nratios = observations.\\\n    groupby(['species_id', 'year', 'sex'], as_index=False).\\\n    agg(nr = ('record_id', 'count')).\\\n    pivot(index = ['species_id', 'year'], columns = 'sex', values = 'nr')\nratios['mfratio'] = ratios.M / ratios.F\nratios = ratios.reset_index()\n\n\nratios.head()\n\n\n\n\n\n\n\nsex\nspecies_id\nyear\nF\nM\nmfratio\n\n\n\n\n0\nAH\n1995\nNaN\n1.0\nNaN\n\n\n1\nBA\n1989\nNaN\n3.0\nNaN\n\n\n2\nBA\n1990\n8.0\n3.0\n0.375000\n\n\n3\nBA\n1991\n19.0\n6.0\n0.315789\n\n\n4\nBA\n1992\n4.0\n2.0\n0.500000\n\n\n\n\n\n\n\n\n\nNumber of observations per species and year\n\nobspspy = observations.\\\n    groupby(['species_id', 'year'], as_index=False).\\\n    agg(obs = ('record_id', 'count'))\n\nobspspy['totobs'] = obspspy.groupby('species_id').obs.transform('sum')\n\nobspspy = obspspy[obspspy.totobs &gt; 300].\\\n    merge(species, how='inner')\n\nobspspy['speciesname'] = obspspy.genus + ' ' + obspspy.species\n\nMake a plot\n\nimport plotnine as p9\n\n\n(\n    p9.ggplot(obspspy, mapping=p9.aes(x='year', y='obs', color='speciesname')) \n    + p9.geom_line()\n)\n\n\n\n\n&lt;Figure Size: (640 x 480)&gt;\n\n\n\n(\n    p9.ggplot(obspspy, mapping=p9.aes(x='year', y='obs')) \n    + p9.geom_line() \n    + p9.facet_wrap('speciesname') \n    + p9.scale_y_log10()\n)\n\n\n\n\n&lt;Figure Size: (640 x 480)&gt;"
   },
   {
-    "objectID": "events/05_September_23_roundtable.html",
-    "href": "events/05_September_23_roundtable.html",
-    "title": "Bytes & Bites - Roundtable & Introduction",
+    "objectID": "events/09_May_23_puzzles.html",
+    "href": "events/09_May_23_puzzles.html",
+    "title": "Bytes & Bites - Puzzles",
     "section": "",
-    "text": "Theme: Roundtable and Introduction to Bytes & Bites\nRegister\n[Slides] here"
+    "text": "Theme: Puzzles\nRegister\nSlides\n\nSuggested puzzles to get started\n\nAoC 2020 day 1\nAoC 2019 day 1\nAoC 2020 day 5\nAoC 2021 day 5\n\n\n\nLet us know what you want!\nFill in this short survey to shape B&B to your liking!"
   },
   {
     "objectID": "events/11_July_23_bugs.html",
