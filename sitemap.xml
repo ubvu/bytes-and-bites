@@ -2,30 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://github.com/ubvu/bytes-and-bites/events/05_September_23_roundtable.html</loc>
-    <lastmod>2023-09-05T11:06:14.243Z</lastmod>
+    <lastmod>2023-09-05T12:25:33.772Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/ubvu/bytes-and-bites/events/06_June_23_datawrangling.html</loc>
-    <lastmod>2023-09-05T11:06:13.659Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/ubvu/bytes-and-bites/events/04_April_23_visualizations.html</loc>
-    <lastmod>2023-09-05T11:06:13.075Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/ubvu/bytes-and-bites/index.html</loc>
-    <lastmod>2023-09-05T11:06:11.911Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/ubvu/bytes-and-bites/notebooks/portal_project.html</loc>
-    <lastmod>2023-09-05T11:06:12.731Z</lastmod>
+    <lastmod>2023-09-05T12:25:33.196Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/ubvu/bytes-and-bites/events/09_May_23_puzzles.html</loc>
-    <lastmod>2023-09-05T11:06:13.375Z</lastmod>
+    <lastmod>2023-09-05T12:25:32.636Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/ubvu/bytes-and-bites/notebooks/portal_project.html</loc>
+    <lastmod>2023-09-05T12:25:32.008Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/ubvu/bytes-and-bites/index.html</loc>
+    <lastmod>2023-09-05T12:25:31.200Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/ubvu/bytes-and-bites/events/04_April_23_visualizations.html</loc>
+    <lastmod>2023-09-05T12:25:32.336Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/ubvu/bytes-and-bites/events/03_October_23_IDEs.html</loc>
+    <lastmod>2023-09-05T12:25:32.912Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/ubvu/bytes-and-bites/events/11_July_23_bugs.html</loc>
-    <lastmod>2023-09-05T11:06:13.955Z</lastmod>
+    <lastmod>2023-09-05T12:25:33.488Z</lastmod>
   </url>
 </urlset>
