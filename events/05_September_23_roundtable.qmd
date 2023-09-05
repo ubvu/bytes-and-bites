@@ -10,3 +10,6 @@ Theme: Roundtable and Introduction to Bytes & Bites
 
 [Slides] here
 
+Our first session after the summer break will focus on our projects we’ve been working on over the summer, and introduce our plans for the rest of the year. This can be software project related, but it’s also a great opportunity to talk about future plans for our software community meetings “Bytes & Bites”. We used the summer break to identify interesting topics and sketch out some ideas for the remaining year. Let’s share some pizzas and discuss together some ideas.
+
+We can collect our ideas in this [Google Doc](https://docs.google.com/document/d/1HXEJx9wLbhtYvCuhquoZul802ymH14DFShdMeV9uTLs/edit?usp=sharing)
