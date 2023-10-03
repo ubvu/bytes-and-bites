@@ -8,4 +8,9 @@ Theme: Coding environments
 
 [Register](https://vu-nl.libcal.com/event/4085321)
 
-[Slides] here
+[Slides]
+
+(../presentations/Bytes&Bites_ides.pdf)
+(../presentations/Jupyter.pdf)
+
+[Notes]
