@@ -12,10 +12,11 @@ Theme: Coding environments
 
 [Slides for IDEs & JupyterLab](../presentations/Jupyter.pdf)
 
-#Notes
+# Notes
 
 Useful links:
 
 * [Miniconda](https://coderefinery.github.io/installation/conda/)
 * [Anaconda](https://www.anaconda.com)
 * [Jupyter Lab](https://jupyter.org)
+* [Software Carpentry Python workshop in November](https://vu-nl.libcal.com/event/4031010)
