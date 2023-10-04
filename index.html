@@ -70,7 +70,7 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-date','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
+      valueNames: ['listing-title','listing-date',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
       
       searchColumns: ["listing-date","listing-title","listing-author"],
     };
@@ -158,121 +158,76 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="events" class="level2">
 <h2 data-anchor-id="events">Events</h2>
+<p>We meet once a month on Tuesdays, time: 16-18, location: O|2 building, room 01W08</p>
 <div id="listing-events" class="quarto-listing quarto-listing-container-table">
-<div class="listing-actions-group">
-   <div class="input-group input-group-sm quarto-listing-sort">
-     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-     <select id="listing-events-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-events'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
-       <option value="" disabled="" selected="" hidden="">Order By</option>
-       <option value="index" data-direction="asc">Default</option>
-         <option value="listing-date-sort" data-direction="asc">
-          Date - Oldest
-        </option>
-         <option value="listing-date-sort" data-direction="desc">
-          Date - Newest
-        </option>
-         <option value="listing-title-sort" data-direction="asc">
-          Title
-        </option>
-     </select>
-  </div>
-    <div class="input-group input-group-sm quarto-listing-filter">
-      <span class="input-group-text"><i class="bi bi-search"></i></span>
-      <input type="text" class="search form-control" placeholder="Filter">
-    </div>
-</div>
 
 <table class="quarto-listing-table table">
 <thead>
 <tr>
 <th>
-<a class="sort" data-sort="listing-title-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Title</a>
+Title
 </th>
 <th>
-<a class="sort" data-sort="listing-date-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Date</a>
-</th>
-<th>
-Description
+Date
 </th>
 </tr>
 </thead>
 <tbody class="list">
-<tr data-index="0" data-listing-date-sort="1699315200000" data-listing-file-modified-sort="1696347294004" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-title-sort="Bytes &amp; Bites - Software Maintenance" data-listing-filename-sort="07_November_23.qmd">
+<tr data-index="0" data-listing-date-sort="1699315200000" data-listing-file-modified-sort="1696410064562" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-title-sort="Bytes &amp; Bites - Software Maintenance" data-listing-filename-sort="07_November_23.qmd">
 <td>
 <a href="./events/07_November_23.html" class="title listing-title">Bytes &amp; Bites - Software Maintenance</a>
 </td>
 <td>
-<span class="listing-date">Tuesday, November 7, 2023</span>
-</td>
-<td>
-<span class="listing-description">16-18 @ O|2 building, room 01W08</span>
+<span class="listing-date">November 7, 2023</span>
 </td>
 </tr>
-<tr data-index="1" data-listing-date-sort="1696291200000" data-listing-file-modified-sort="1696347294000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-title-sort="Bytes &amp; Bites - JupyterLab &amp; IDEs" data-listing-filename-sort="03_October_23_IDEs.qmd">
+<tr data-index="1" data-listing-date-sort="1696291200000" data-listing-file-modified-sort="1696410064562" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-title-sort="Bytes &amp; Bites - JupyterLab &amp; IDEs" data-listing-filename-sort="03_October_23_IDEs.qmd">
 <td>
 <a href="./events/03_October_23_IDEs.html" class="title listing-title">Bytes &amp; Bites - JupyterLab &amp; IDEs</a>
 </td>
 <td>
-<span class="listing-date">Tuesday, October 3, 2023</span>
-</td>
-<td>
-<span class="listing-description">16-18 @ O|2 building, room 01W08</span>
+<span class="listing-date">October 3, 2023</span>
 </td>
 </tr>
 
-<tr data-index="2" data-listing-date-sort="1693872000000" data-listing-file-modified-sort="1696347294004" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-title-sort="Bytes &amp; Bites - Roundtable &amp; Introduction" data-listing-filename-sort="05_September_23_roundtable.qmd">
+<tr data-index="2" data-listing-date-sort="1693872000000" data-listing-file-modified-sort="1696410064562" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-title-sort="Bytes &amp; Bites - Roundtable &amp; Introduction" data-listing-filename-sort="05_September_23_roundtable.qmd">
 <td>
 <a href="./events/05_September_23_roundtable.html" class="title listing-title">Bytes &amp; Bites - Roundtable &amp; Introduction</a>
 </td>
 <td>
-<span class="listing-date">Tuesday, September 5, 2023</span>
-</td>
-<td>
-<span class="listing-description">16-18 @ O|2 building, room 01W08</span>
+<span class="listing-date">September 5, 2023</span>
 </td>
 </tr>
-<tr data-index="3" data-listing-date-sort="1689033600000" data-listing-file-modified-sort="1696347294004" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-title-sort="Bytes &amp; Bites - Bugs and Demos" data-listing-filename-sort="11_July_23_bugs.qmd">
+<tr data-index="3" data-listing-date-sort="1689033600000" data-listing-file-modified-sort="1696410064562" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-title-sort="Bytes &amp; Bites - Bugs and Demos" data-listing-filename-sort="11_July_23_bugs.qmd">
 <td>
 <a href="./events/11_July_23_bugs.html" class="title listing-title">Bytes &amp; Bites - Bugs and Demos</a>
 </td>
 <td>
-<span class="listing-date">Tuesday, July 11, 2023</span>
-</td>
-<td>
-<span class="listing-description">16-18 @ O|2 building, room 01W08</span>
+<span class="listing-date">July 11, 2023</span>
 </td>
 </tr>
-<tr data-index="4" data-listing-date-sort="1686009600000" data-listing-file-modified-sort="1696347294004" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-title-sort="Bytes &amp; Bites - Data wrangling" data-listing-filename-sort="06_June_23_datawrangling.qmd">
+<tr data-index="4" data-listing-date-sort="1686009600000" data-listing-file-modified-sort="1696410064562" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-title-sort="Bytes &amp; Bites - Data wrangling" data-listing-filename-sort="06_June_23_datawrangling.qmd">
 <td>
 <a href="./events/06_June_23_datawrangling.html" class="title listing-title">Bytes &amp; Bites - Data wrangling</a>
 </td>
 <td>
-<span class="listing-date">Tuesday, June 6, 2023</span>
-</td>
-<td>
-<span class="listing-description">16-18 @ O|2 building, room 01W08</span>
+<span class="listing-date">June 6, 2023</span>
 </td>
 </tr>
-<tr data-index="5" data-listing-date-sort="1683590400000" data-listing-file-modified-sort="1696347294004" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-title-sort="Bytes &amp; Bites - Puzzles" data-listing-filename-sort="09_May_23_puzzles.qmd">
+<tr data-index="5" data-listing-date-sort="1683590400000" data-listing-file-modified-sort="1696410064562" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-title-sort="Bytes &amp; Bites - Puzzles" data-listing-filename-sort="09_May_23_puzzles.qmd">
 <td>
 <a href="./events/09_May_23_puzzles.html" class="title listing-title">Bytes &amp; Bites - Puzzles</a>
 </td>
 <td>
-<span class="listing-date">Tuesday, May 9, 2023</span>
-</td>
-<td>
-<span class="listing-description">16-18 @ O|2 building, room 01W08</span>
+<span class="listing-date">May 9, 2023</span>
 </td>
 </tr>
-<tr data-index="6" data-listing-date-sort="1680566400000" data-listing-file-modified-sort="1696347294000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-title-sort="Bytes &amp; Bites - Visualization" data-listing-filename-sort="04_April_23_visualizations.qmd">
+<tr data-index="6" data-listing-date-sort="1680566400000" data-listing-file-modified-sort="1696410064562" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-title-sort="Bytes &amp; Bites - Visualization" data-listing-filename-sort="04_April_23_visualizations.qmd">
 <td>
 <a href="./events/04_April_23_visualizations.html" class="title listing-title">Bytes &amp; Bites - Visualization</a>
 </td>
 <td>
-<span class="listing-date">Tuesday, April 4, 2023</span>
-</td>
-<td>
-<span class="listing-description">16-18 @ O|2 building, room 01W08</span>
+<span class="listing-date">April 4, 2023</span>
 </td>
 </tr>
 </tbody>
