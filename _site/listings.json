@@ -2,6 +2,10 @@
   {
     "listing": "/index.html",
     "items": [
+      "/events/07_November_23.html",
+      "/events/03_October_23_IDEs.html",
+      "/events/05_September_23_roundtable.html",
+      "/events/11_July_23_bugs.html",
       "/events/06_June_23_datawrangling.html",
       "/events/09_May_23_puzzles.html",
       "/events/04_April_23_visualizations.html"
