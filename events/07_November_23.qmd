@@ -6,4 +6,10 @@ description: "16-18 @ O|2 building, room 01W08"
 
 Theme: Software Management Plans and how you can benefit from them
 
+Guest speaker: [Dr. Carlos Martinez-Ortiz](https://www.esciencecenter.nl/team/dr-carlos-martinez-ortiz/) Community Manager at the Netherlands eScience Center.
+
 [Register](https://vu-nl.libcal.com/event/4107697)
+
+This session of Bytes & Bites will focus on Software Management Plans (SMPs) and how your software project can benefit from planning ahead. SMPs are relevant for beginners and professionals alike and can be applied to any project of any size in any language. We will learn together how to create a SMP and discover in a playful way what components matter to our project.
+
+Pizza will be served as always!
