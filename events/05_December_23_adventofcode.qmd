@@ -1,0 +1,12 @@
+---
+title: "Bytes & Bites - National Advent of Code Challenge"
+date: "12/05/2023"
+description: "16-18 @ O|2 building, room 01W08"
+---
+
+Theme: Advent of Code
+
+[Register](https://vu-nl.libcal.com/event/4118723)
+
+
+Psssst - we're developing something nice for you. Details will follow as soon as we
