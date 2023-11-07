@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="dcterms.date" content="2023-12-05">
+<meta name="description" content="16-18 @ O|2 building, room 01W08">
 
-<title>Bytes &amp; Bites</title>
+<title>Bytes &amp; Bites - Bytes &amp; Bites - National Advent of Code Challenge</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,23 +25,22 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -60,40 +61,9 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-events .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
 
-    const options = {
-      valueNames: ['listing-title','listing-date',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-events'] = new List('listing-events', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../styles.css">
 </head>
 
 <body class="nav-fixed">
@@ -103,7 +73,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">Bytes &amp; Bites</span>
     </a>
   </div>
@@ -114,7 +84,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" rel="" target="" aria-current="page">
+    <a class="nav-link" href="../index.html" rel="" target="">
  <span class="menu-text">Home</span></a>
   </li>  
 </ul>
@@ -129,127 +99,44 @@ ul.task-list li input[type="checkbox"] {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#events" id="toc-events" class="nav-link active" data-scroll-target="#events">Events</a></li>
-  </ul>
-</nav>
+        
     </div>
 <!-- main -->
-<main class="content page-columns page-full" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Bytes &amp; Bites - National Advent of Code Challenge</h1>
+</div>
 
-
-<div class="quarto-about-solana column-body">
-  <div class="about-entity">
-    <div class="entity-contents">
-      <div class="about-contents"><div id="about">
-<p><strong>The programming Café @ VU Amsterdam </strong></p>
-<p>Do you want to improve your programming skills, ask questions related to programming, and feel yourself part of the broader VU community working on their programming skills?</p>
-<p><strong>Join us!</strong></p>
-</div></div>
-    </div>
-    <img src="images/logo.png" class="about-image
-  rounded " style="width: 15em;">
+<div>
+  <div class="description">
+    16-18 @ O|2 building, room 01W08
   </div>
 </div>
 
-<section id="events" class="level2">
-<h2 data-anchor-id="events">Events</h2>
-<p>We meet once a month on Tuesdays, time: 16-18, location: O|2 building, room 01W08</p>
-<div id="listing-events" class="quarto-listing quarto-listing-container-table">
 
-<table class="quarto-listing-table table">
-<thead>
-<tr>
-<th>
-Title
-</th>
-<th>
-Date
-</th>
-</tr>
-</thead>
-<tbody class="list">
-<tr data-index="0" data-listing-date-sort="1701734400000" data-listing-file-modified-sort="1699362198155" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-title-sort="Bytes &amp; Bites - National Advent of Code Challenge" data-listing-filename-sort="05_December_23_adventofcode.qmd">
-<td>
-<a href="./events/05_December_23_adventofcode.html" class="title listing-title">Bytes &amp; Bites - National Advent of Code Challenge</a>
-</td>
-<td>
-<span class="listing-date">December 5, 2023</span>
-</td>
-</tr>
-<tr data-index="1" data-listing-date-sort="1699315200000" data-listing-file-modified-sort="1699362198155" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-title-sort="Bytes &amp; Bites - Software Management Plans" data-listing-filename-sort="07_November_23.qmd">
-<td>
-<a href="./events/07_November_23.html" class="title listing-title">Bytes &amp; Bites - Software Management Plans</a>
-</td>
-<td>
-<span class="listing-date">November 7, 2023</span>
-</td>
-</tr>
-<tr data-index="2" data-listing-date-sort="1696291200000" data-listing-file-modified-sort="1699362198155" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-title-sort="Bytes &amp; Bites - JupyterLab &amp; IDEs" data-listing-filename-sort="03_October_23_IDEs.qmd">
-<td>
-<a href="./events/03_October_23_IDEs.html" class="title listing-title">Bytes &amp; Bites - JupyterLab &amp; IDEs</a>
-</td>
-<td>
-<span class="listing-date">October 3, 2023</span>
-</td>
-</tr>
+<div class="quarto-title-meta">
 
-<tr data-index="3" data-listing-date-sort="1693872000000" data-listing-file-modified-sort="1699362198155" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-title-sort="Bytes &amp; Bites - Roundtable &amp; Introduction" data-listing-filename-sort="05_September_23_roundtable.qmd">
-<td>
-<a href="./events/05_September_23_roundtable.html" class="title listing-title">Bytes &amp; Bites - Roundtable &amp; Introduction</a>
-</td>
-<td>
-<span class="listing-date">September 5, 2023</span>
-</td>
-</tr>
-<tr data-index="4" data-listing-date-sort="1689033600000" data-listing-file-modified-sort="1699362198155" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-title-sort="Bytes &amp; Bites - Bugs and Demos" data-listing-filename-sort="11_July_23_bugs.qmd">
-<td>
-<a href="./events/11_July_23_bugs.html" class="title listing-title">Bytes &amp; Bites - Bugs and Demos</a>
-</td>
-<td>
-<span class="listing-date">July 11, 2023</span>
-</td>
-</tr>
-<tr data-index="5" data-listing-date-sort="1686009600000" data-listing-file-modified-sort="1699362198155" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-title-sort="Bytes &amp; Bites - Data wrangling" data-listing-filename-sort="06_June_23_datawrangling.qmd">
-<td>
-<a href="./events/06_June_23_datawrangling.html" class="title listing-title">Bytes &amp; Bites - Data wrangling</a>
-</td>
-<td>
-<span class="listing-date">June 6, 2023</span>
-</td>
-</tr>
-<tr data-index="6" data-listing-date-sort="1683590400000" data-listing-file-modified-sort="1699362198155" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-title-sort="Bytes &amp; Bites - Puzzles" data-listing-filename-sort="09_May_23_puzzles.qmd">
-<td>
-<a href="./events/09_May_23_puzzles.html" class="title listing-title">Bytes &amp; Bites - Puzzles</a>
-</td>
-<td>
-<span class="listing-date">May 9, 2023</span>
-</td>
-</tr>
-<tr data-index="7" data-listing-date-sort="1680566400000" data-listing-file-modified-sort="1699362198155" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-title-sort="Bytes &amp; Bites - Visualization" data-listing-filename-sort="04_April_23_visualizations.qmd">
-<td>
-<a href="./events/04_April_23_visualizations.html" class="title listing-title">Bytes &amp; Bites - Visualization</a>
-</td>
-<td>
-<span class="listing-date">April 4, 2023</span>
-</td>
-</tr>
-</tbody>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">December 5, 2023</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
 
-</table>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div>
+</header>
+
+<p>Theme: Advent of Code</p>
+<p><a href="https://vu-nl.libcal.com/event/4118723">Register</a></p>
+<p>Psssst - we’re developing something nice for you. Details will follow as soon as we</p>
 
 
-
-
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -272,6 +159,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     
