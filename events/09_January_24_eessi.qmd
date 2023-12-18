@@ -1,0 +1,12 @@
+---
+title: "Bytes & Bites - EESSI"
+date: "01/09/2024"
+description: "16-18 @ O|2 building, room 01W08"
+---
+
+Theme: Environment for Scientific Software Installations
+
+In the first edition of 2024 of Bytes and Bites, Peter Stol (BAZIS, clusters and supercomputers) will tell you all about [EESSI](https://www.eessi-hpc.org/).
+
+
+[Register](https://vu-nl.libcal.com/event/4132911)
