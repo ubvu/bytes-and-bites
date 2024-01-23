@@ -1,0 +1,13 @@
+---
+title: "Bytes & Bites - Computational Analysis of Communication with Wouter van Atteveldt"
+date: "02/06/2024"
+description: "16-18 @ O|2 building, room 01W08"
+---
+
+Theme: Computational Analysis of Communication
+
+In this edition of Bytes & Bites, Prof. Wouter van Atteveldt will present his book [Computational Analysis of Communication](https://cssbook.net). The book gives a practical introduction to the analysis of texts, networks, and images with code examples in Python and R. The book is open and freely available, which makes computational techniques accessible (and fun!) to as many students and researchers as possible, regardless of means and institutional support. Wouter van Atteveldt will give us insights in his book and answers questions around programming with Python and R.
+
+
+
+[Register](https://vu-nl.libcal.com/event/4162072)
