@@ -9,4 +9,8 @@ Theme: Environment for Scientific Software Installations
 In the first edition of 2024 of Bytes and Bites, Peter Stol (BAZIS, clusters and supercomputers) will tell you all about [EESSI](https://www.eessi-hpc.org/).
 
 
+This event had to be cancelled due to unforeseeable circumstances! We will hear about EESSI later this year.
+
+
+
 [Register](https://vu-nl.libcal.com/event/4132911)
