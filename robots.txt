@@ -1,1 +1,1 @@
-Sitemap: https://github.com/ubvu/bytes-and-bites/sitemap.xml
+Sitemap: https://ubvu.github.io/bytes-and-bites/sitemap.xml
