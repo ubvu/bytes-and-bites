@@ -6,8 +6,12 @@ description: "16-18 @ O|2 building, room 01W08"
 
 Theme: Computational Analysis of Communication
 
-In this edition of Bytes & Bites, Prof. Wouter van Atteveldt will present his book [Computational Analysis of Communication](https://cssbook.net). The book gives a practical introduction to the analysis of texts, networks, and images with code examples in Python and R. The book is open and freely available, which makes computational techniques accessible (and fun!) to as many students and researchers as possible, regardless of means and institutional support. Wouter van Atteveldt will give us insights in his book and answers questions around programming with Python and R.
+In this edition of Bytes & Bites, Prof. Wouter van Atteveldt and Prof. Damian Trilling will present their work at the Societal Analytics Lab and talk about their book "Computational Analysis of Communication". The book gives a practical introduction to the analysis of texts, networks, and images with code examples in Python and R. The book is open and freely available, which makes computational techniques accessible (and fun!) to as many students and researchers as possible, regardless of means and institutional support.
+
+Our guest speakers also well known for their journal: CCR - Computational Communication Research, an Open Access and community-owned journalabout the understanding, development and application of computational methods in communication research.
 
 
 
 [Register](https://vu-nl.libcal.com/event/4162072)
+
+[Slides](https://docs.google.com/presentation/d/1TUAXBvdGrUmvJe-3IdlsjsrehJeMTezr8XntHou7yJk/edit?usp=sharing)
