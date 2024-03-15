@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.549">
+<meta name="generator" content="quarto-1.4.551">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -145,13 +145,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#the-portal-project-data" id="toc-the-portal-project-data" class="nav-link active" data-scroll-target="#the-portal-project-data">The Portal Project data</a>
-  <ul class="collapse">
-  <li><a href="#create-separate-tables" id="toc-create-separate-tables" class="nav-link" data-scroll-target="#create-separate-tables">Create separate tables</a></li>
+  <li><a href="#create-separate-tables" id="toc-create-separate-tables" class="nav-link active" data-scroll-target="#create-separate-tables">Create separate tables</a></li>
   <li><a href="#average-hindfoot-length-per-species" id="toc-average-hindfoot-length-per-species" class="nav-link" data-scroll-target="#average-hindfoot-length-per-species">Average hindfoot length per species</a></li>
   <li><a href="#ratio-mf-per-species-per-year" id="toc-ratio-mf-per-species-per-year" class="nav-link" data-scroll-target="#ratio-mf-per-species-per-year">Ratio M/F per species per year</a></li>
   <li><a href="#number-of-observations-per-species-and-year" id="toc-number-of-observations-per-species-and-year" class="nav-link" data-scroll-target="#number-of-observations-per-species-and-year">Number of observations per species and year</a></li>
-  </ul></li>
   </ul>
 </nav>
     </div>
@@ -180,8 +177,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <div id="f7612534-7ead-43dd-b61c-2f41dfddc6f4" class="cell" data-tags="[]" data-execution_count="1">
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<section id="the-portal-project-data" class="level2">
-<h2 class="anchored" data-anchor-id="the-portal-project-data">The Portal Project data</h2>
 <div id="11b7a6bc-a53d-472b-b5f5-873b232a0e94" class="cell" data-tags="[]" data-execution_count="2">
 <div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>d <span class="op">=</span> pd.read_csv(<span class="st">'data/portal_project.tsv'</span>, delimiter<span class="op">=</span><span class="st">'</span><span class="ch">\t</span><span class="st">'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
@@ -213,6 +208,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>    merge(species, how<span class="op">=</span><span class="st">'inner'</span>)</span>
 <span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a>average_length_ps.head()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display" data-execution_count="6">
+<div>
 <div>
 
 
@@ -274,6 +270,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </div>
 </div>
+</div>
 </section>
 <section id="ratio-mf-per-species-per-year" class="level3">
 <h3 class="anchored" data-anchor-id="ratio-mf-per-species-per-year">Ratio M/F per species per year</h3>
@@ -288,6 +285,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <div id="678b45f8-cb98-475a-b30e-283ae33356c8" class="cell" data-tags="[]" data-execution_count="8">
 <div class="sourceCode cell-code" id="cb9"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>ratios.head()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display" data-execution_count="8">
+<div>
 <div>
 
 
@@ -349,6 +347,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </div>
 </div>
+</div>
 </section>
 <section id="number-of-observations-per-species-and-year" class="level3">
 <h3 class="anchored" data-anchor-id="number-of-observations-per-species-and-year">Number of observations per species and year</h3>
@@ -398,7 +397,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->
@@ -481,6 +479,24 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/ubvu\.github\.io\/bytes-and-bites\/");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
   function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
@@ -515,7 +531,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      return note.innerHTML;
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
     });
   }
   const xrefs = window.document.querySelectorAll('a.quarto-xref');
