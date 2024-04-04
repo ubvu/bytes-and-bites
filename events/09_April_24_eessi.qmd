@@ -19,8 +19,8 @@ There will also be time to ask questions related to programming, improve your pr
 
 [Register](https://vu-nl.libcal.com/event/4195798)
 
-<p style="font-size: 8px;color:red">
+<span style="font-size: 8px; color: red;">
 POSTPONED:
 In this edition of Bytes & Bites, Peter Stol (BAZIS, cluster computing and supercomputers) will tell you all about the European Environment for Scientific Software Installations ([EESSI](https://www.eessi-hpc.org/) pronounced as “easy“).
 
-The EESSI is a brand new collaboration between different European HPC sites & industry partners, with the common goal to set up a shared repository of scientific software installations that can be used on a variety of systems, regardless of which flavor/version of Linux distribution or processor architecture is used, or whether it’s a full size HPC cluster, a cloud environment or a personal workstation.</p>
+The EESSI is a brand new collaboration between different European HPC sites & industry partners, with the common goal to set up a shared repository of scientific software installations that can be used on a variety of systems, regardless of which flavor/version of Linux distribution or processor architecture is used, or whether it’s a full size HPC cluster, a cloud environment or a personal workstation.</span>
