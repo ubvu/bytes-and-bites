@@ -1,15 +1,25 @@
 ---
-title: "Bytes & Bites - EESSI"
+title: "Bytes & Bites - (how to) Bring your code"
 date: "04/09/2024"
 description: "16-18 @ main building, room HG-02A37"
 ---
 
-Theme: Environment for Scientific Software Installations
+Theme: (how to) Bring your code
 
+This session will focus on your project! There will be time to work on your code, collaborate and ask for help.
+
+We will talk about code reviews, what they are and how you could use them.
+
+There will also be time to talk about future plans for our software community meetings “Bytes & Bites”.
+
+Let’s share some pizzas and discuss together some ideas.
+
+<font color='red'>
 In this edition of Bytes & Bites, Peter Stol (BAZIS, cluster computing and supercomputers) will tell you all about the European Environment for Scientific Software Installations ([EESSI](https://www.eessi-hpc.org/) pronounced as “easy“).
 
-The EESSI is a brand new collaboration between different European HPC sites & industry partners, with the common goal to set up a shared repository of scientific software installations that can be used on a variety of systems, regardless of which flavor/version of Linux distribution or processor architecture is used, or whether it’s a full size HPC cluster, a cloud environment or a personal workstation.
+The EESSI is a brand new collaboration between different European HPC sites & industry partners, with the common goal to set up a shared repository of scientific software installations that can be used on a variety of systems, regardless of which flavor/version of Linux distribution or processor architecture is used, or whether it’s a full size HPC cluster, a cloud environment or a personal workstation.</font>
 
 There will also be time to ask questions related to programming, improve your programming skills, meet other researchers, or delve into any topic that piques your interest. 
+
 
 [Register](https://vu-nl.libcal.com/event/4195798)
