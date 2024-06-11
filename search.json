@@ -1,68 +1,5 @@
 [
   {
-    "objectID": "notebooks/portal_project.html",
-    "href": "notebooks/portal_project.html",
-    "title": "The Portal Project data",
-    "section": "",
-    "text": "import pandas as pd\n\n\nd = pd.read_csv('data/portal_project.tsv', delimiter='\\t')\n\n\nCreate separate tables\n\nspecies = d.copy()[['species_id', 'species', 'genus', 'taxa']]\nspecies = species.drop_duplicates()\n\nspecies1 = d.copy()[['species_id', 'species', 'genus', 'taxa']].drop_duplicates()\n\nobservations = d.copy().drop(columns=['species', 'genus', 'taxa'])\n\n\n\nAverage hindfoot length per species\n\naverage_length = observations.hindfoot_length.mean(skipna=True)  # skipna=True is also the default\n\n\naverage_length\n\n29.287931802277498\n\n\n\naverage_length_ps = observations.groupby('species_id', as_index=False).\\\n    agg(mean_hf_length = ('hindfoot_length', 'mean')).\\\n    merge(species, how='inner')\naverage_length_ps.head()\n\n\n\n\n\n\n\n\n\nspecies_id\nmean_hf_length\nspecies\ngenus\ntaxa\n\n\n\n\n0\nAB\nNaN\nbilineata\nAmphispiza\nBird\n\n\n1\nAH\n33.0\nharrisi\nAmmospermophilus\nRodent\n\n\n2\nAS\nNaN\nsavannarum\nAmmodramus\nBird\n\n\n3\nBA\n13.0\ntaylori\nBaiomys\nRodent\n\n\n4\nCB\nNaN\nbrunneicapillus\nCampylorhynchus\nBird\n\n\n\n\n\n\n\n\n\n\nRatio M/F per species per year\n\nratios = observations.\\\n    groupby(['species_id', 'year', 'sex'], as_index=False).\\\n    agg(nr = ('record_id', 'count')).\\\n    pivot(index = ['species_id', 'year'], columns = 'sex', values = 'nr')\nratios['mfratio'] = ratios.M / ratios.F\nratios = ratios.reset_index()\n\n\nratios.head()\n\n\n\n\n\n\n\n\nsex\nspecies_id\nyear\nF\nM\nmfratio\n\n\n\n\n0\nAH\n1995\nNaN\n1.0\nNaN\n\n\n1\nBA\n1989\nNaN\n3.0\nNaN\n\n\n2\nBA\n1990\n8.0\n3.0\n0.375000\n\n\n3\nBA\n1991\n19.0\n6.0\n0.315789\n\n\n4\nBA\n1992\n4.0\n2.0\n0.500000\n\n\n\n\n\n\n\n\n\n\nNumber of observations per species and year\n\nobspspy = observations.\\\n    groupby(['species_id', 'year'], as_index=False).\\\n    agg(obs = ('record_id', 'count'))\n\nobspspy['totobs'] = obspspy.groupby('species_id').obs.transform('sum')\n\nobspspy = obspspy[obspspy.totobs &gt; 300].\\\n    merge(species, how='inner')\n\nobspspy['speciesname'] = obspspy.genus + ' ' + obspspy.species\n\nMake a plot\n\nimport plotnine as p9\n\n\n(\n    p9.ggplot(obspspy, mapping=p9.aes(x='year', y='obs', color='speciesname')) \n    + p9.geom_line()\n)\n\n\n\n\n\n\n\n\n\n(\n    p9.ggplot(obspspy, mapping=p9.aes(x='year', y='obs')) \n    + p9.geom_line() \n    + p9.facet_wrap('speciesname') \n    + p9.scale_y_log10()\n)"
-  },
-  {
-    "objectID": "events/06_February_24_book.html",
-    "href": "events/06_February_24_book.html",
-    "title": "Bytes & Bites - Computational Analysis of Communication with Wouter van Atteveldt",
-    "section": "",
-    "text": "Theme: Computational Analysis of Communication\nIn this edition of Bytes & Bites, Prof. Wouter van Atteveldt and Prof. Damian Trilling will present their work at the Societal Analytics Lab and talk about their book “Computational Analysis of Communication”. The book gives a practical introduction to the analysis of texts, networks, and images with code examples in Python and R. The book is open and freely available, which makes computational techniques accessible (and fun!) to as many students and researchers as possible, regardless of means and institutional support.\nOur guest speakers also well known for their journal: CCR - Computational Communication Research, an Open Access and community-owned journalabout the understanding, development and application of computational methods in communication research.\nRegister\nSlides"
-  },
-  {
-    "objectID": "events/03_October_23_IDEs.html",
-    "href": "events/03_October_23_IDEs.html",
-    "title": "Bytes & Bites - JupyterLab & IDEs",
-    "section": "",
-    "text": "Theme: Coding environments\nRegister\nIntroduction Slides\nSlides for IDEs & JupyterLab\n\nNotes\nUseful links:\n\nMiniconda\nAnaconda\nJupyter Lab\nSoftware Carpentry Python workshop in November"
-  },
-  {
-    "objectID": "events/09_January_24_eessi.html",
-    "href": "events/09_January_24_eessi.html",
-    "title": "Bytes & Bites - EESSI",
-    "section": "",
-    "text": "Theme: Environment for Scientific Software Installations\nIn the first edition of 2024 of Bytes and Bites, Peter Stol (BAZIS, clusters and supercomputers) will tell you all about EESSI.\nThis event had to be cancelled due to unforeseeable circumstances! We will hear about EESSI later this year.\nRegister"
-  },
-  {
-    "objectID": "events/05_December_23_adventofcode.html",
-    "href": "events/05_December_23_adventofcode.html",
-    "title": "Bytes & Bites - National Advent of Code Challenge",
-    "section": "",
-    "text": "Theme: Advent of Code\nRegister\nPsssst - we’re developing something nice for you. Details will follow as soon as we"
-  },
-  {
-    "objectID": "events/09_April_24_eessi.html",
-    "href": "events/09_April_24_eessi.html",
-    "title": "Bytes & Bites - (how to) Bring your code",
-    "section": "",
-    "text": "Theme: (how to) Bring your code\nThis session will focus on your project! There will be time to work on your code, collaborate and ask for help.\nWe will talk about code reviews, what they are and how you could use them.\nThere will also be time to talk about future plans for our software community meetings “Bytes & Bites”.\nLet’s share some pizzas and discuss together some ideas.\nThere will also be time to ask questions related to programming, improve your programming skills, meet other researchers, or delve into any topic that piques your interest.\nRegister\nSlides\n POSTPONED:\n In this edition of Bytes & Bites, Peter Stol (BAZIS, cluster computing and supercomputers) will tell you all about the European Environment for Scientific Software Installations (EESSI pronounced as “easy”).\n The EESSI is a brand new collaboration between different European HPC sites & industry partners, with the common goal to set up a shared repository of scientific software installations that can be used on a variety of systems, regardless of which flavor/version of Linux distribution or processor architecture is used, or whether it’s a full size HPC cluster, a cloud environment or a personal workstation."
-  },
-  {
-    "objectID": "events/09_May_23_puzzles.html",
-    "href": "events/09_May_23_puzzles.html",
-    "title": "Bytes & Bites - Puzzles",
-    "section": "",
-    "text": "Theme: Puzzles\nRegister\nSlides\n\nSuggested puzzles to get started\n\nAoC 2020 day 1\nAoC 2019 day 1\nAoC 2020 day 5\nAoC 2021 day 5\n\n\n\nLet us know what you want!\nFill in this short survey to shape B&B to your liking!"
-  },
-  {
-    "objectID": "events/11_July_23_bugs.html",
-    "href": "events/11_July_23_bugs.html",
-    "title": "Bytes & Bites - Bugs and Demos",
-    "section": "",
-    "text": "Theme: Bring your own bugs!\nRegister\nThis edition of Bytes and Bites is all about you and your code! Tell us more about what you are working on or share what is blocking you. We meet one last time before the summer break for an informal bug-party.\n\nNo preparation required\nThis meeting is as informal as you like. We make sure that there will be enough time and space to talk about what we are working on and what bugs us.\n\n\nHave a bigger problem or would like to present your project with more time?\nYou can send us your projects or questions before if you want. This way we can plan presenter time or make sure that we have the right persons to answer your question as good as anyone can."
-  },
-  {
-    "objectID": "events/04_April_23_visualizations.html",
-    "href": "events/04_April_23_visualizations.html",
-    "title": "Bytes & Bites - Visualization",
-    "section": "",
-    "text": "Theme: Visualizations\nRegister\nSlides\n\nGeneral tips on visualization\n\nIntroduction to data visualization\nExamples of bad graphs in papers\n\n\n\nDatasets\n\nDatasets about Dutch society by the CBS\nPublic datasets from different domains\nDatasets from data science community Kaggle\n\n\n\nExamples of programming resources\n\nR\n\nChapter in data carpentries workshop\nIntroduction to ggplot\n\n\n\nPython\n\nCarpentries workshop on how to create interactive visualizations\nNotebooks to play with some examples\nA collection of Jupyter notebooks for geoscientists\nChapter in data carpentries workshop\n\n\n\nMatlab\n\nOverview of different plot options\nTutorial for plotting and graphics\nTutorial to visualizations (including 3d)\n\n\n\nHPC (any language)\n\nAcademic training for HPC users\nWork in progress, examples and tips"
-  },
-  {
     "objectID": "events/05_March_24_documentation.html",
     "href": "events/05_March_24_documentation.html",
     "title": "Bytes & Bites - Documentation and Good Practices",
@@ -70,11 +7,18 @@
     "text": "Theme: Documentation and Good Practices\nThis edition of Bytes & Bites will focus on making your life and work easier in the long-term. We will talk about very practical first steps you can do right away to organize your code in a better way, for example by documenting your code for yourself, your collaborators, and potential reviewers and third-party users.\nWe will run this event slightly different than usual and make it as interactive and fun as possible. Practice your Lego skills and join us on March 5th!\nThere is only limited time to give you a good overview and get you started. If you are interested in learning more about best software management practices, please consider taking part in the CodeRefinery in March: https://coderefinery.github.io/2024-03-12-workshop/\nThe CodeRefinery workshop is online and covers the following topics:\n\ncollaboration;\nresolving conflicts;\nsocial coding;\ndocumentation;\ntesting;\nmodular coding;\nGit for version control.\n\nRegister"
   },
   {
-    "objectID": "events/07_November_23.html",
-    "href": "events/07_November_23.html",
-    "title": "Bytes & Bites - Software Management Plans",
+    "objectID": "events/18_December_24_visualization.html",
+    "href": "events/18_December_24_visualization.html",
+    "title": "Bytes & Bites - Data Visualisation Coding Tutorial",
     "section": "",
-    "text": "Theme: Software Management Plans and how you can benefit from them\nGuest speaker: Dr. Carlos Martinez-Ortiz Community Manager at the Netherlands eScience Center.\nRegister\nThis session of Bytes & Bites will focus on Software Management Plans (SMPs) and how your software project can benefit from planning ahead. SMPs are relevant for beginners and professionals alike and can be applied to any project of any size in any language. We will learn together how to create a SMP and discover in a playful way what components matter to our project.\nPizza will be served as always!"
+    "text": "Theme: A Data Visualisation Coding Tutorial in R and Python.\nProgramming beginners in R ans/or Python will be empowered to harness basic data analysis tools essential for Neuroscientific research and beyond. We will provide basic practical insights and hands-on experience to enhance your research analysis capabilities. Don’t miss this opportunity to enhance your skill set and network with fellow enthusiasts.\nIf you are a novice and wouldn’t want to miss some tasty pizza and snacks, this event is for you. We look forward to seeing you on Tuesday the 18th of June!\nThis session’s speakers are Fatima Khan and Carmen Domínguez, 2nd year Master in Neuroscience VU students.\nRegister"
+  },
+  {
+    "objectID": "events/09_May_23_puzzles.html",
+    "href": "events/09_May_23_puzzles.html",
+    "title": "Bytes & Bites - Puzzles",
+    "section": "",
+    "text": "Theme: Puzzles\nRegister\nSlides\n\nSuggested puzzles to get started\n\nAoC 2020 day 1\nAoC 2019 day 1\nAoC 2020 day 5\nAoC 2021 day 5\n\n\n\nLet us know what you want!\nFill in this short survey to shape B&B to your liking!"
   },
   {
     "objectID": "events/06_June_23_datawrangling.html",
@@ -91,11 +35,25 @@
     "text": "Data\n\nportal project\n\n\nLet us know what you want!\nFill in this short survey to shape B&B to your liking!"
   },
   {
-    "objectID": "events/05_September_23_roundtable.html",
-    "href": "events/05_September_23_roundtable.html",
-    "title": "Bytes & Bites - Roundtable & Introduction",
+    "objectID": "events/04_April_23_visualizations.html",
+    "href": "events/04_April_23_visualizations.html",
+    "title": "Bytes & Bites - Visualization",
     "section": "",
-    "text": "Theme: Roundtable and Introduction to Bytes & Bites\nRegister\nSlides (Introducing Bytes & Bites)\nOur first session after the summer break will focus on our projects we’ve been working on over the summer, and introduce our plans for the rest of the year. This can be software project related, but it’s also a great opportunity to talk about future plans for our software community meetings “Bytes & Bites”. We used the summer break to identify interesting topics and sketch out some ideas for the remaining year. Let’s share some pizzas and discuss together some ideas.\nWe can collect our ideas in this Google Doc"
+    "text": "Theme: Visualizations\nRegister\nSlides\n\nGeneral tips on visualization\n\nIntroduction to data visualization\nExamples of bad graphs in papers\n\n\n\nDatasets\n\nDatasets about Dutch society by the CBS\nPublic datasets from different domains\nDatasets from data science community Kaggle\n\n\n\nExamples of programming resources\n\nR\n\nChapter in data carpentries workshop\nIntroduction to ggplot\n\n\n\nPython\n\nCarpentries workshop on how to create interactive visualizations\nNotebooks to play with some examples\nA collection of Jupyter notebooks for geoscientists\nChapter in data carpentries workshop\n\n\n\nMatlab\n\nOverview of different plot options\nTutorial for plotting and graphics\nTutorial to visualizations (including 3d)\n\n\n\nHPC (any language)\n\nAcademic training for HPC users\nWork in progress, examples and tips"
+  },
+  {
+    "objectID": "events/03_October_23_IDEs.html",
+    "href": "events/03_October_23_IDEs.html",
+    "title": "Bytes & Bites - JupyterLab & IDEs",
+    "section": "",
+    "text": "Theme: Coding environments\nRegister\nIntroduction Slides\nSlides for IDEs & JupyterLab\n\nNotes\nUseful links:\n\nMiniconda\nAnaconda\nJupyter Lab\nSoftware Carpentry Python workshop in November"
+  },
+  {
+    "objectID": "events/07_November_23.html",
+    "href": "events/07_November_23.html",
+    "title": "Bytes & Bites - Software Management Plans",
+    "section": "",
+    "text": "Theme: Software Management Plans and how you can benefit from them\nGuest speaker: Dr. Carlos Martinez-Ortiz Community Manager at the Netherlands eScience Center.\nRegister\nThis session of Bytes & Bites will focus on Software Management Plans (SMPs) and how your software project can benefit from planning ahead. SMPs are relevant for beginners and professionals alike and can be applied to any project of any size in any language. We will learn together how to create a SMP and discover in a playful way what components matter to our project.\nPizza will be served as always!"
   },
   {
     "objectID": "index.html",
@@ -109,6 +67,55 @@
     "href": "index.html#events",
     "title": "Bytes & Bites",
     "section": "Events",
-    "text": "Events\nWe meet once a month on Tuesdays, time: 16-18, location: O|2 building, room 01W08\n\n\n\n\n\nTitle\n\n\nDate\n\n\n\n\n\n\nBytes & Bites - (how to) Bring your code\n\n\nApril 9, 2024\n\n\n\n\nBytes & Bites - Documentation and Good Practices\n\n\nMarch 5, 2024\n\n\n\n\nBytes & Bites - Computational Analysis of Communication with Wouter van Atteveldt\n\n\nFebruary 6, 2024\n\n\n\n\nBytes & Bites - EESSI\n\n\nJanuary 9, 2024\n\n\n\n\nBytes & Bites - National Advent of Code Challenge\n\n\nDecember 5, 2023\n\n\n\n\nBytes & Bites - Software Management Plans\n\n\nNovember 7, 2023\n\n\n\n\nBytes & Bites - JupyterLab & IDEs\n\n\nOctober 3, 2023\n\n\n\n\nBytes & Bites - Roundtable & Introduction\n\n\nSeptember 5, 2023\n\n\n\n\nBytes & Bites - Bugs and Demos\n\n\nJuly 11, 2023\n\n\n\n\nBytes & Bites - Data wrangling\n\n\nJune 6, 2023\n\n\n\n\nBytes & Bites - Puzzles\n\n\nMay 9, 2023\n\n\n\n\nBytes & Bites - Visualization\n\n\nApril 4, 2023\n\n\n\n\n\nNo matching items"
+    "text": "Events\nWe meet once a month on Tuesdays, time: 16-18, location: O|2 building, room 01W08\n\n\n\n\n\nTitle\n\n\nDate\n\n\n\n\n\n\nBytes & Bites - Data Visualisation Coding Tutorial\n\n\nJune 18, 2024\n\n\n\n\nBytes & Bites - (how to) Bring your code\n\n\nApril 9, 2024\n\n\n\n\nBytes & Bites - Documentation and Good Practices\n\n\nMarch 5, 2024\n\n\n\n\nBytes & Bites - Computational Analysis of Communication with Wouter van Atteveldt\n\n\nFebruary 6, 2024\n\n\n\n\nBytes & Bites - EESSI\n\n\nJanuary 9, 2024\n\n\n\n\nBytes & Bites - National Advent of Code Challenge\n\n\nDecember 5, 2023\n\n\n\n\nBytes & Bites - Software Management Plans\n\n\nNovember 7, 2023\n\n\n\n\nBytes & Bites - JupyterLab & IDEs\n\n\nOctober 3, 2023\n\n\n\n\nBytes & Bites - Roundtable & Introduction\n\n\nSeptember 5, 2023\n\n\n\n\nBytes & Bites - Bugs and Demos\n\n\nJuly 11, 2023\n\n\n\n\nBytes & Bites - Data wrangling\n\n\nJune 6, 2023\n\n\n\n\nBytes & Bites - Puzzles\n\n\nMay 9, 2023\n\n\n\n\nBytes & Bites - Visualization\n\n\nApril 4, 2023\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "notebooks/portal_project.html",
+    "href": "notebooks/portal_project.html",
+    "title": "The Portal Project data",
+    "section": "",
+    "text": "import pandas as pd\n\n\nd = pd.read_csv('data/portal_project.tsv', delimiter='\\t')\n\n\nCreate separate tables\n\nspecies = d.copy()[['species_id', 'species', 'genus', 'taxa']]\nspecies = species.drop_duplicates()\n\nspecies1 = d.copy()[['species_id', 'species', 'genus', 'taxa']].drop_duplicates()\n\nobservations = d.copy().drop(columns=['species', 'genus', 'taxa'])\n\n\n\nAverage hindfoot length per species\n\naverage_length = observations.hindfoot_length.mean(skipna=True)  # skipna=True is also the default\n\n\naverage_length\n\n29.287931802277498\n\n\n\naverage_length_ps = observations.groupby('species_id', as_index=False).\\\n    agg(mean_hf_length = ('hindfoot_length', 'mean')).\\\n    merge(species, how='inner')\naverage_length_ps.head()\n\n\n\n\n\n\n\n\nspecies_id\nmean_hf_length\nspecies\ngenus\ntaxa\n\n\n\n\n0\nAB\nNaN\nbilineata\nAmphispiza\nBird\n\n\n1\nAH\n33.0\nharrisi\nAmmospermophilus\nRodent\n\n\n2\nAS\nNaN\nsavannarum\nAmmodramus\nBird\n\n\n3\nBA\n13.0\ntaylori\nBaiomys\nRodent\n\n\n4\nCB\nNaN\nbrunneicapillus\nCampylorhynchus\nBird\n\n\n\n\n\n\n\n\n\nRatio M/F per species per year\n\nratios = observations.\\\n    groupby(['species_id', 'year', 'sex'], as_index=False).\\\n    agg(nr = ('record_id', 'count')).\\\n    pivot(index = ['species_id', 'year'], columns = 'sex', values = 'nr')\nratios['mfratio'] = ratios.M / ratios.F\nratios = ratios.reset_index()\n\n\nratios.head()\n\n\n\n\n\n\n\nsex\nspecies_id\nyear\nF\nM\nmfratio\n\n\n\n\n0\nAH\n1995\nNaN\n1.0\nNaN\n\n\n1\nBA\n1989\nNaN\n3.0\nNaN\n\n\n2\nBA\n1990\n8.0\n3.0\n0.375000\n\n\n3\nBA\n1991\n19.0\n6.0\n0.315789\n\n\n4\nBA\n1992\n4.0\n2.0\n0.500000\n\n\n\n\n\n\n\n\n\nNumber of observations per species and year\n\nobspspy = observations.\\\n    groupby(['species_id', 'year'], as_index=False).\\\n    agg(obs = ('record_id', 'count'))\n\nobspspy['totobs'] = obspspy.groupby('species_id').obs.transform('sum')\n\nobspspy = obspspy[obspspy.totobs &gt; 300].\\\n    merge(species, how='inner')\n\nobspspy['speciesname'] = obspspy.genus + ' ' + obspspy.species\n\nMake a plot\n\nimport plotnine as p9\n\n\n(\n    p9.ggplot(obspspy, mapping=p9.aes(x='year', y='obs', color='speciesname')) \n    + p9.geom_line()\n)\n\n\n\n\n\n\n\n\n\n(\n    p9.ggplot(obspspy, mapping=p9.aes(x='year', y='obs')) \n    + p9.geom_line() \n    + p9.facet_wrap('speciesname') \n    + p9.scale_y_log10()\n)"
+  },
+  {
+    "objectID": "events/05_September_23_roundtable.html",
+    "href": "events/05_September_23_roundtable.html",
+    "title": "Bytes & Bites - Roundtable & Introduction",
+    "section": "",
+    "text": "Theme: Roundtable and Introduction to Bytes & Bites\nRegister\nSlides (Introducing Bytes & Bites)\nOur first session after the summer break will focus on our projects we’ve been working on over the summer, and introduce our plans for the rest of the year. This can be software project related, but it’s also a great opportunity to talk about future plans for our software community meetings “Bytes & Bites”. We used the summer break to identify interesting topics and sketch out some ideas for the remaining year. Let’s share some pizzas and discuss together some ideas.\nWe can collect our ideas in this Google Doc"
+  },
+  {
+    "objectID": "events/09_January_24_eessi.html",
+    "href": "events/09_January_24_eessi.html",
+    "title": "Bytes & Bites - EESSI",
+    "section": "",
+    "text": "Theme: Environment for Scientific Software Installations\nIn the first edition of 2024 of Bytes and Bites, Peter Stol (BAZIS, clusters and supercomputers) will tell you all about EESSI.\nThis event had to be cancelled due to unforeseeable circumstances! We will hear about EESSI later this year.\nRegister"
+  },
+  {
+    "objectID": "events/11_July_23_bugs.html",
+    "href": "events/11_July_23_bugs.html",
+    "title": "Bytes & Bites - Bugs and Demos",
+    "section": "",
+    "text": "Theme: Bring your own bugs!\nRegister\nThis edition of Bytes and Bites is all about you and your code! Tell us more about what you are working on or share what is blocking you. We meet one last time before the summer break for an informal bug-party.\n\nNo preparation required\nThis meeting is as informal as you like. We make sure that there will be enough time and space to talk about what we are working on and what bugs us.\n\n\nHave a bigger problem or would like to present your project with more time?\nYou can send us your projects or questions before if you want. This way we can plan presenter time or make sure that we have the right persons to answer your question as good as anyone can."
+  },
+  {
+    "objectID": "events/05_December_23_adventofcode.html",
+    "href": "events/05_December_23_adventofcode.html",
+    "title": "Bytes & Bites - National Advent of Code Challenge",
+    "section": "",
+    "text": "Theme: Advent of Code\nRegister\nPsssst - we’re developing something nice for you. Details will follow as soon as we"
+  },
+  {
+    "objectID": "events/09_April_24_eessi.html",
+    "href": "events/09_April_24_eessi.html",
+    "title": "Bytes & Bites - (how to) Bring your code",
+    "section": "",
+    "text": "Theme: (how to) Bring your code\nThis session will focus on your project! There will be time to work on your code, collaborate and ask for help.\nWe will talk about code reviews, what they are and how you could use them.\nThere will also be time to talk about future plans for our software community meetings “Bytes & Bites”.\nLet’s share some pizzas and discuss together some ideas.\nThere will also be time to ask questions related to programming, improve your programming skills, meet other researchers, or delve into any topic that piques your interest.\nRegister\nSlides\n POSTPONED:\n In this edition of Bytes & Bites, Peter Stol (BAZIS, cluster computing and supercomputers) will tell you all about the European Environment for Scientific Software Installations (EESSI pronounced as “easy”).\n The EESSI is a brand new collaboration between different European HPC sites & industry partners, with the common goal to set up a shared repository of scientific software installations that can be used on a variety of systems, regardless of which flavor/version of Linux distribution or processor architecture is used, or whether it’s a full size HPC cluster, a cloud environment or a personal workstation."
+  },
+  {
+    "objectID": "events/06_February_24_book.html",
+    "href": "events/06_February_24_book.html",
+    "title": "Bytes & Bites - Computational Analysis of Communication with Wouter van Atteveldt",
+    "section": "",
+    "text": "Theme: Computational Analysis of Communication\nIn this edition of Bytes & Bites, Prof. Wouter van Atteveldt and Prof. Damian Trilling will present their work at the Societal Analytics Lab and talk about their book “Computational Analysis of Communication”. The book gives a practical introduction to the analysis of texts, networks, and images with code examples in Python and R. The book is open and freely available, which makes computational techniques accessible (and fun!) to as many students and researchers as possible, regardless of means and institutional support.\nOur guest speakers also well known for their journal: CCR - Computational Communication Research, an Open Access and community-owned journalabout the understanding, development and application of computational methods in communication research.\nRegister\nSlides"
   }
 ]
