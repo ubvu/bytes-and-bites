@@ -23,7 +23,9 @@ Talking about Pizza, how often do you wonder about science around *cheese*?
 
 This week's dataset is all about cheese: [Dataset of the week](https://github.com/rfordatascience/tidytuesday/tree/master/data/2024/2024-06-04)
 
-``` The data this week comes from [cheese.com](https://www.cheese.com).
+
+> Blockquote
+The data this week comes from [cheese.com](https://www.cheese.com).
 
 Cheese is nutritious food made mostly from the milk of cows but also other mammals, including sheep, goats, buffalo, reindeer, camels and yaks. Around 4000 years ago people have started to breed animals and process their milk. That's when the cheese was born.
 Explore this site to find out about different kinds of cheese from all around the world.
@@ -32,5 +34,4 @@ Explore this site to find out about different kinds of cheese from all around th
 
 * Is there a relationship between fat content and cheese type? 
 * What about texture, flavor, or aroma? 
-
-```
+> Blockquote
