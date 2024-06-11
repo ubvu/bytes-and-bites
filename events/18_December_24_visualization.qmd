@@ -1,0 +1,15 @@
+---
+title: "Bytes & Bites - Data Visualisation Coding Tutorial"
+date: "06/18/2024"
+description: "16-18 @ O|2 building, event room on ground floor"
+---
+
+Theme: A Data Visualisation Coding Tutorial in R and Python.
+
+Programming beginners in R ans/or Python will be empowered to harness basic data analysis tools essential for Neuroscientific research and beyond. We will provide basic practical insights and hands-on experience to enhance your research analysis capabilities. Don't miss this opportunity to enhance your skill set and network with fellow enthusiasts.
+
+If you are a novice and wouldn’t want to miss some tasty pizza and snacks, this event is for you. We look forward to seeing you on Tuesday the 18th of June!
+
+This session’s speakers are Fatima Khan and Carmen Domínguez, 2nd year Master in Neuroscience VU students.
+
+[Register](https://vu-nl.libcal.com/event/4216258 m)
