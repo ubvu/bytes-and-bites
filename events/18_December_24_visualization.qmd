@@ -10,10 +10,9 @@ Programming beginners in R ans/or Python will be empowered to harness basic data
 
 If you are a novice and wouldn’t want to miss some tasty pizza and snacks, this event is for you. We look forward to seeing you on Tuesday the 18th of June!
 
-This session’s speakers are Fatima Khan and Carmen Domínguez, 2nd year Master in Neuroscience VU students.
+This session’s speakers are Fatima Khan and Carmen Domínguez, 2nd year Master in Neuroscience VU students. They created a visualization tutorial that can be done [here](https://ubvu.github.io/data-visualization/).
 
 [Register](https://vu-nl.libcal.com/event/4216258)
-
 
 # Featured TidyTuesday Dataset 
 
