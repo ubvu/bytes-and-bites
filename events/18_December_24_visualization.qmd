@@ -13,6 +13,7 @@ If you are a novice and wouldn’t want to miss some tasty pizza and snacks, thi
 This session’s speakers are Fatima Khan and Carmen Domínguez, 2nd year Master in Neuroscience VU students. They created a visualization tutorial that can be done [here](https://ubvu.github.io/data-visualization/).
 
 [Register](https://vu-nl.libcal.com/event/4216258)
+[Slides](https://docs.google.com/presentation/d/1FI0Kgn2UM679IPb1leVTiRAudtzT7s2tyPNIpCNPjgM/edit?usp=sharing)
 
 # Featured TidyTuesday Dataset 
 
