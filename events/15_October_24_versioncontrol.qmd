@@ -13,7 +13,7 @@ Join us for the next engaging session of Bytes & Bites where will talk about bei
 You do not need to bring your own dataset for the practical part. Instead, we will challenge you with a TidyTuesday dataset about the most important thing for a researcher: [Coffee](https://github.com/rfordatascience/tidytuesday/blob/master/data/2024/2024-05-14/readme.md)
 We can be creative, work together in teams and have some tasty pizza and snacks.
 
-⭐👕:star: :shirt: Best analysis/visualization of the coffee dataset gets a prize! 👕⭐:shirt: :star:
+⭐👕 Best analysis/visualization of the coffee dataset gets a cool shirt as a prize! 👕⭐
 
 <img src="https://miro.medium.com/v2/resize:fit:4800/format:webp/1*9jr5ECH_Z2YUKAL31nBLFA.png" alt="Bar graph of what people add to their coffee." width="500">
 
