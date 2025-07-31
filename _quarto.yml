@@ -2,6 +2,7 @@ project:
   type: website
 
 website:
+  site-url: "https://ubvu.github.io/bytes-and-bites/"
   title: "Bytes & Bites"
   navbar:
     left:
