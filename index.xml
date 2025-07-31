@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Bytes &amp; Bites</title>
+<link>https://ubvu.github.io/bytes-and-bites/</link>
+<atom:link href="https://ubvu.github.io/bytes-and-bites/index.xml" rel="self" type="application/rss+xml"/>
+<description></description>
+<generator>quarto-1.7.32</generator>
+<lastBuildDate>Tue, 13 May 2025 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>Bytes &amp; Bites - Project Templates &amp; AUMC Intro</title>
+  <link>https://ubvu.github.io/bytes-and-bites/events/25_05-May_13_templates.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Theme: Templates &amp; Introductions</p>
+<p>Guest speakers: <a href="https://www.linkedin.com/in/bauke-van-der-velde-0b8985b4/">Dr.&nbsp;Bauke van der Velde</a> Reseach Data Management and Software Management Consultant at the AUMC, a recent start with a lot of programming experience within research (as the title would suggest). <a href="https://thomaspronk.com/index.php/about">Dr.&nbsp;Thomas Pronk</a> a Research Software Consultant at the AUMC who has a focus on FAIR and open science, with a focus on improving research code quality.</p>
+<p><a href="https://vu-nl.libcal.com/calendar/universitylibrary/BytesBitesMay2025">Register</a></p>
+<p>This week is a somewhat more open session. Starting with two presentations, the introduction of the AUMC Reseach Support team and the introduction of software project templates here at the VU. There will be plenty of space for questions and discussion after each presentation, as well as a general discussion session in the second hour.</p>
+<p>Pizza will be served as always!</p>
+
+
+
+ ]]></description>
+  <guid>https://ubvu.github.io/bytes-and-bites/events/25_05-May_13_templates.html</guid>
+  <pubDate>Tue, 13 May 2025 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Bytes &amp; Bites - R Packaging</title>
+  <link>https://ubvu.github.io/bytes-and-bites/events/25_04-April_09_make_R_package.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Theme: R Packaging</p>
+<p>Bytes &amp; Bites is back! This time with a new host, the UBVU Research Software Engineer <a href="https://vu.nl/en/about-vu/divisions/university-library/more-about/team-research-support">Charlie Greene</a>, who will be taking over organising sessions from here on out.</p>
+<p>Guest speaker: <a href="https://www.tudelft.nl/library/data-management/ondersteuning-bij-data-management/contact/bjoern-bartholdy">Dr.&nbsp;Bjørn Bartholdy</a> Data Steward at TU Delft and general R wizard.</p>
+<p><a href="https://vu-nl.libcal.com/calendar/universitylibrary/BytesBitesApril2025?f=h">Register</a></p>
+<p>This session of Bytes &amp; Bites covers the topic of Reusability in software development and how using an R package over a project can increase it. We will cover how to make a package in R with an example project. Suitable for all levels!</p>
+<p>Pizza will be served as always!</p>
+
+
+
+ ]]></description>
+  <guid>https://ubvu.github.io/bytes-and-bites/events/25_04-April_09_make_R_package.html</guid>
+  <pubDate>Wed, 09 Apr 2025 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Bytes &amp; Bites - Version Control</title>
+  <link>https://ubvu.github.io/bytes-and-bites/events/15_October_24_versioncontrol.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="theme-version-control" class="level3">
+<h3 class="anchored" data-anchor-id="theme-version-control">Theme: Version Control</h3>
+<p><a href="https://vu-nl.libcal.com/event/4276065">Register</a></p>
+<p>Join us for the next engaging session of Bytes &amp; Bites where will talk about being in control of your coding, jumping back to better times, and collaborating with others on a programming challenge. We will use Git and train with GitHub as an example platform.</p>
+<p>You do not need to bring your own dataset for the practical part. Instead, we will challenge you with a TidyTuesday dataset about the most important thing for a researcher: <a href="https://github.com/rfordatascience/tidytuesday/blob/master/data/2024/2024-05-14/readme.md">Coffee</a> We can be creative, work together in teams and have some tasty pizza and snacks.</p>
+<p>⭐👕 Best analysis/visualization of the coffee dataset gets a cool shirt as a prize! 👕⭐</p>
+<p><img src="https://miro.medium.com/v2/resize:fit:4800/format:webp/1*9jr5ECH_Z2YUKAL31nBLFA.png" alt="Bar graph of what people add to their coffee." width="500"></p>
+</section>
+<section id="let-us-know-what-you-want" class="level3">
+<h3 class="anchored" data-anchor-id="let-us-know-what-you-want">Let us know what you want!</h3>
+<p><a href="https://vuamsterdam.eu.qualtrics.com/jfe/form/SV_aWetUoYr6Gf8JcW">Fill in this short survey to shape B&amp;B to your liking!</a></p>
+
+
+</section>
+
+ ]]></description>
+  <guid>https://ubvu.github.io/bytes-and-bites/events/15_October_24_versioncontrol.html</guid>
+  <pubDate>Tue, 15 Oct 2024 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Bytes &amp; Bites - Data Visualisation Coding Tutorial</title>
+  <link>https://ubvu.github.io/bytes-and-bites/events/18_December_24_visualization.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Theme: A Data Visualisation Coding Tutorial in R and Python.</p>
+<p>Programming beginners in R ans/or Python will be empowered to harness basic data analysis tools essential for Neuroscientific research and beyond. We will provide basic practical insights and hands-on experience to enhance your research analysis capabilities. Don’t miss this opportunity to enhance your skill set and network with fellow enthusiasts.</p>
+<p>If you are a novice and wouldn’t want to miss some tasty pizza and snacks, this event is for you. We look forward to seeing you on Tuesday the 18th of June!</p>
+<p>This session’s speakers are Fatima Khan and Carmen Domínguez, 2nd year Master in Neuroscience VU students. They created a visualization tutorial that can be done <a href="https://ubvu.github.io/data-visualization/">here</a>.</p>
+<p><a href="https://vu-nl.libcal.com/event/4216258">Register</a> <a href="https://docs.google.com/presentation/d/1FI0Kgn2UM679IPb1leVTiRAudtzT7s2tyPNIpCNPjgM/edit?usp=sharing">Slides</a></p>
+<section id="featured-tidytuesday-dataset" class="level1">
+<h1>Featured TidyTuesday Dataset</h1>
+<p>Would you like to practice your coding skills and experiment with others (or individually) with a real dataset that is (probably) not related to your research project? We select a featured dataset from the <a href="https://github.com/rfordatascience/tidytuesday">TidyTuesday</a> Data Science Learning challenge that you can analyze during the event. Ask for help if you get stuck and practice your data analysis skills.</p>
+<p>Talking about Pizza, how often do you wonder about science around <strong>cheese</strong>?</p>
+<blockquote class="blockquote">
+<p>This week’s dataset is all about cheese: <a href="https://github.com/rfordatascience/tidytuesday/tree/master/data/2024/2024-06-04">Dataset of the week</a></p>
+</blockquote>
+<p>The data this week comes from <a href="https://www.cheese.com">cheese.com</a>.</p>
+<p>Cheese is nutritious food made mostly from the milk of cows but also other mammals, including sheep, goats, buffalo, reindeer, camels and yaks. Around 4000 years ago people have started to breed animals and process their milk. That’s when the cheese was born. Explore this site to find out about different kinds of cheese from all around the world.</p>
+<p>248 cheeses have listed fat content.</p>
+<ul>
+<li>Is there a relationship between fat content and cheese type?</li>
+<li>What about texture, flavor, or aroma?</li>
+</ul>
+
+
+</section>
+
+ ]]></description>
+  <guid>https://ubvu.github.io/bytes-and-bites/events/18_December_24_visualization.html</guid>
+  <pubDate>Tue, 18 Jun 2024 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Bytes &amp; Bites - (how to) Bring your code</title>
+  <link>https://ubvu.github.io/bytes-and-bites/events/09_April_24_eessi.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Theme: (how to) Bring your code</p>
+<p>This session will focus on your project! There will be time to work on your code, collaborate and ask for help.</p>
+<p>We will talk about code reviews, what they are and how you could use them.</p>
+<p>There will also be time to talk about future plans for our software community meetings “Bytes &amp; Bites”.</p>
+<p>Let’s share some pizzas and discuss together some ideas.</p>
+<p>There will also be time to ask questions related to programming, improve your programming skills, meet other researchers, or delve into any topic that piques your interest.</p>
+<p><a href="https://vu-nl.libcal.com/event/4195798">Register</a></p>
+<p><a href="https://docs.google.com/presentation/d/1nUTBU6WHEgNq9IggT6edrXVGTvypyYyy/edit?usp=sharing&amp;ouid=100199522561101718712&amp;rtpof=true&amp;sd=true">Slides</a></p>
+<p><span style="font-size: 12px; color: red;"> POSTPONED:</span></p>
+<p><span style="font-size: 10px; color: red;"> In this edition of Bytes &amp; Bites, Peter Stol (BAZIS, cluster computing and supercomputers) will tell you all about the European Environment for Scientific Software Installations (<a href="https://www.eessi-hpc.org/">EESSI</a> pronounced as “easy”).</span></p>
+<p><span style="font-size: 10px; color: red;"> The EESSI is a brand new collaboration between different European HPC sites &amp; industry partners, with the common goal to set up a shared repository of scientific software installations that can be used on a variety of systems, regardless of which flavor/version of Linux distribution or processor architecture is used, or whether it’s a full size HPC cluster, a cloud environment or a personal workstation.</span></p>
+
+
+
+ ]]></description>
+  <guid>https://ubvu.github.io/bytes-and-bites/events/09_April_24_eessi.html</guid>
+  <pubDate>Tue, 09 Apr 2024 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Bytes &amp; Bites - Documentation and Good Practices</title>
+  <link>https://ubvu.github.io/bytes-and-bites/events/05_March_24_documentation.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Theme: Documentation and Good Practices</p>
+<p>This edition of Bytes &amp; Bites will focus on making your life and work easier in the long-term. We will talk about very practical first steps you can do right away to organize your code in a better way, for example by documenting your code for yourself, your collaborators, and potential reviewers and third-party users.</p>
+<p>We will run this event slightly different than usual and make it as interactive and fun as possible. Practice your Lego skills and join us on March 5th!</p>
+<p>There is only limited time to give you a good overview and get you started. If you are interested in learning more about best software management practices, please consider taking part in the CodeRefinery in March: https://coderefinery.github.io/2024-03-12-workshop/</p>
+<p>The CodeRefinery workshop is online and covers the following topics:</p>
+<ul>
+<li>collaboration;</li>
+<li>resolving conflicts;</li>
+<li>social coding;</li>
+<li>documentation;</li>
+<li>testing;</li>
+<li>modular coding;</li>
+<li>Git for version control.</li>
+</ul>
+<p><a href="https://vu-nl.libcal.com/event/4186166">Register</a></p>
+
+
+
+ ]]></description>
+  <guid>https://ubvu.github.io/bytes-and-bites/events/05_March_24_documentation.html</guid>
+  <pubDate>Tue, 05 Mar 2024 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Bytes &amp; Bites - Computational Analysis of Communication with Wouter van Atteveldt</title>
+  <link>https://ubvu.github.io/bytes-and-bites/events/06_February_24_book.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Theme: Computational Analysis of Communication</p>
+<p>In this edition of Bytes &amp; Bites, Prof.&nbsp;Wouter van Atteveldt and Prof.&nbsp;Damian Trilling will present their work at the Societal Analytics Lab and talk about their book “Computational Analysis of Communication”. The book gives a practical introduction to the analysis of texts, networks, and images with code examples in Python and R. The book is open and freely available, which makes computational techniques accessible (and fun!) to as many students and researchers as possible, regardless of means and institutional support.</p>
+<p>Our guest speakers also well known for their journal: CCR - Computational Communication Research, an Open Access and community-owned journalabout the understanding, development and application of computational methods in communication research.</p>
+<p><a href="https://vu-nl.libcal.com/event/4162072">Register</a></p>
+<p><a href="https://docs.google.com/presentation/d/1TUAXBvdGrUmvJe-3IdlsjsrehJeMTezr8XntHou7yJk/edit?usp=sharing">Slides</a></p>
+
+
+
+ ]]></description>
+  <guid>https://ubvu.github.io/bytes-and-bites/events/06_February_24_book.html</guid>
+  <pubDate>Tue, 06 Feb 2024 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Bytes &amp; Bites - EESSI</title>
+  <link>https://ubvu.github.io/bytes-and-bites/events/09_January_24_eessi.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Theme: Environment for Scientific Software Installations</p>
+<p>In the first edition of 2024 of Bytes and Bites, Peter Stol (BAZIS, clusters and supercomputers) will tell you all about <a href="https://www.eessi-hpc.org/">EESSI</a>.</p>
+<p>This event had to be cancelled due to unforeseeable circumstances! We will hear about EESSI later this year.</p>
+<p><a href="https://vu-nl.libcal.com/event/4132911">Register</a></p>
+
+
+
+ ]]></description>
+  <guid>https://ubvu.github.io/bytes-and-bites/events/09_January_24_eessi.html</guid>
+  <pubDate>Tue, 09 Jan 2024 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Bytes &amp; Bites - National Advent of Code Challenge</title>
+  <link>https://ubvu.github.io/bytes-and-bites/events/05_December_23_adventofcode.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Theme: Advent of Code</p>
+<p><a href="https://vu-nl.libcal.com/event/4118723">Register</a></p>
+<p>Psssst - we’re developing something nice for you. Details will follow as soon as we</p>
+
+
+
+ ]]></description>
+  <guid>https://ubvu.github.io/bytes-and-bites/events/05_December_23_adventofcode.html</guid>
+  <pubDate>Tue, 05 Dec 2023 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Bytes &amp; Bites - Software Management Plans</title>
+  <link>https://ubvu.github.io/bytes-and-bites/events/07_November_23.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Theme: Software Management Plans and how you can benefit from them</p>
+<p>Guest speaker: <a href="https://www.esciencecenter.nl/team/dr-carlos-martinez-ortiz/">Dr.&nbsp;Carlos Martinez-Ortiz</a> Community Manager at the Netherlands eScience Center.</p>
+<p><a href="https://vu-nl.libcal.com/event/4107697">Register</a></p>
+<p>This session of Bytes &amp; Bites will focus on Software Management Plans (SMPs) and how your software project can benefit from planning ahead. SMPs are relevant for beginners and professionals alike and can be applied to any project of any size in any language. We will learn together how to create a SMP and discover in a playful way what components matter to our project.</p>
+<p>Pizza will be served as always!</p>
+
+
+
+ ]]></description>
+  <guid>https://ubvu.github.io/bytes-and-bites/events/07_November_23.html</guid>
+  <pubDate>Tue, 07 Nov 2023 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Bytes &amp; Bites - JupyterLab &amp; IDEs</title>
+  <link>https://ubvu.github.io/bytes-and-bites/events/03_October_23_IDEs.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Theme: Coding environments</p>
+<p><a href="https://vu-nl.libcal.com/event/4085321">Register</a></p>
+<p><a href="../presentations/Bytes&amp;Bites_ides.pdf">Introduction Slides</a></p>
+<p><a href="../presentations/Jupyter.pdf">Slides for IDEs &amp; JupyterLab</a></p>
+<section id="notes" class="level1">
+<h1>Notes</h1>
+<p>Useful links:</p>
+<ul>
+<li><a href="https://coderefinery.github.io/installation/conda/">Miniconda</a></li>
+<li><a href="https://www.anaconda.com">Anaconda</a></li>
+<li><a href="https://jupyter.org">Jupyter Lab</a></li>
+<li><a href="https://vu-nl.libcal.com/event/4031010">Software Carpentry Python workshop in November</a></li>
+</ul>
+
+
+</section>
+
+ ]]></description>
+  <guid>https://ubvu.github.io/bytes-and-bites/events/03_October_23_IDEs.html</guid>
+  <pubDate>Tue, 03 Oct 2023 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Bytes &amp; Bites - Roundtable &amp; Introduction</title>
+  <link>https://ubvu.github.io/bytes-and-bites/events/05_September_23_roundtable.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Theme: Roundtable and Introduction to Bytes &amp; Bites</p>
+<p><a href="https://vu-nl.libcal.com/event/4070575">Register</a></p>
+<p><a href="../presentations/Bytes&amp;Bites.pdf">Slides (Introducing Bytes &amp; Bites)</a></p>
+<p>Our first session after the summer break will focus on our projects we’ve been working on over the summer, and introduce our plans for the rest of the year. This can be software project related, but it’s also a great opportunity to talk about future plans for our software community meetings “Bytes &amp; Bites”. We used the summer break to identify interesting topics and sketch out some ideas for the remaining year. Let’s share some pizzas and discuss together some ideas.</p>
+<p>We can collect our ideas in this <a href="https://docs.google.com/document/d/1HXEJx9wLbhtYvCuhquoZul802ymH14DFShdMeV9uTLs/edit?usp=sharing">Google Doc</a></p>
+
+
+
+ ]]></description>
+  <guid>https://ubvu.github.io/bytes-and-bites/events/05_September_23_roundtable.html</guid>
+  <pubDate>Tue, 05 Sep 2023 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Bytes &amp; Bites - Bugs and Demos</title>
+  <link>https://ubvu.github.io/bytes-and-bites/events/11_July_23_bugs.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Theme: Bring your own bugs!</p>
+<p><a href="https://vu-nl.libcal.com/event/4049294">Register</a></p>
+<p>This edition of Bytes and Bites is all about you and your code! Tell us more about what you are working on or share what is blocking you. We meet one last time before the summer break for an informal bug-party.</p>
+<section id="no-preparation-required" class="level3">
+<h3 class="anchored" data-anchor-id="no-preparation-required">No preparation required</h3>
+<p>This meeting is as informal as you like. We make sure that there will be enough time and space to talk about what we are working on and what bugs us.</p>
+</section>
+<section id="have-a-bigger-problem-or-would-like-to-present-your-project-with-more-time" class="level3">
+<h3 class="anchored" data-anchor-id="have-a-bigger-problem-or-would-like-to-present-your-project-with-more-time">Have a bigger problem or would like to present your project with more time?</h3>
+<p>You can send us your projects or questions before if you want. This way we can plan presenter time or make sure that we have the right persons to answer your question as good as anyone can.</p>
+
+
+</section>
+
+ ]]></description>
+  <guid>https://ubvu.github.io/bytes-and-bites/events/11_July_23_bugs.html</guid>
+  <pubDate>Tue, 11 Jul 2023 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Bytes &amp; Bites - Data wrangling</title>
+  <link>https://ubvu.github.io/bytes-and-bites/events/06_June_23_datawrangling.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Theme: Data wrangling with guest speaker Douwe Molenaar</p>
+<p><a href="https://vu-nl.libcal.com/calendar/universitylibrary/bytesbites">Register</a></p>
+<p><a href="../presentations/Bytes&amp;Bites_wrangling.pdf">Slides (introduction)</a></p>
+<p><a href="../presentations/reproducible_research_with_R.html">Slides (data wrangling)</a></p>
+<section id="code" class="level3">
+<h3 class="anchored" data-anchor-id="code">Code</h3>
+<ul>
+<li><a href="../presentations/wrangling.html">R</a></li>
+<li><a href="../notebooks/portal_project.html">Python (Jupyter notebook)</a></li>
+</ul>
+</section>
+<section id="data" class="level2">
+<h2 class="anchored" data-anchor-id="data">Data</h2>
+<ul>
+<li><a href="https://raw.githubusercontent.com/ubvu/bytes-and-bites/main/data/portal_project.tsv">portal project</a></li>
+</ul>
+<section id="let-us-know-what-you-want" class="level3">
+<h3 class="anchored" data-anchor-id="let-us-know-what-you-want">Let us know what you want!</h3>
+<p><a href="https://vuamsterdam.eu.qualtrics.com/jfe/form/SV_aWetUoYr6Gf8JcW">Fill in this short survey to shape B&amp;B to your liking!</a></p>
+
+
+</section>
+</section>
+
+ ]]></description>
+  <guid>https://ubvu.github.io/bytes-and-bites/events/06_June_23_datawrangling.html</guid>
+  <pubDate>Tue, 06 Jun 2023 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Bytes &amp; Bites - Puzzles</title>
+  <link>https://ubvu.github.io/bytes-and-bites/events/09_May_23_puzzles.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Theme: Puzzles</p>
+<p><a href="https://vu-nl.libcal.com/calendar/universitylibrary/bytesbites">Register</a></p>
+<p><a href="../presentations/09_May_23_puzzles.pdf">Slides</a></p>
+<section id="suggested-puzzles-to-get-started" class="level3">
+<h3 class="anchored" data-anchor-id="suggested-puzzles-to-get-started">Suggested puzzles to get started</h3>
+<ul>
+<li><a href="https://adventofcode.com/2020/day/1">AoC 2020 day 1</a></li>
+<li><a href="https://adventofcode.com/2019/day/1">AoC 2019 day 1</a></li>
+<li><a href="https://adventofcode.com/2020/day/5">AoC 2020 day 5</a></li>
+<li><a href="https://adventofcode.com/2021/day/5">AoC 2021 day 5</a></li>
+</ul>
+</section>
+<section id="let-us-know-what-you-want" class="level3">
+<h3 class="anchored" data-anchor-id="let-us-know-what-you-want">Let us know what you want!</h3>
+<p><a href="https://vuamsterdam.eu.qualtrics.com/jfe/form/SV_aWetUoYr6Gf8JcW">Fill in this short survey to shape B&amp;B to your liking!</a></p>
+
+
+</section>
+
+ ]]></description>
+  <guid>https://ubvu.github.io/bytes-and-bites/events/09_May_23_puzzles.html</guid>
+  <pubDate>Tue, 09 May 2023 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Bytes &amp; Bites - Visualization</title>
+  <link>https://ubvu.github.io/bytes-and-bites/events/04_April_23_visualizations.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Theme: Visualizations</p>
+<p><a href="https://vu-nl.libcal.com/event/4023149">Register</a></p>
+<p><a href="../presentations/04_April_23_visualizations.pdf">Slides</a></p>
+<section id="general-tips-on-visualization" class="level3">
+<h3 class="anchored" data-anchor-id="general-tips-on-visualization">General tips on visualization</h3>
+<ul>
+<li><a href="https://carpentries-incubator.github.io/intro-data-viz/">Introduction to data visualization</a></li>
+<li><a href="https://www.biostat.wisc.edu/~kbroman/topten_worstgraphs/">Examples of bad graphs in papers</a></li>
+</ul>
+</section>
+<section id="datasets" class="level3">
+<h3 class="anchored" data-anchor-id="datasets">Datasets</h3>
+<ul>
+<li><a href="https://opendata.cbs.nl/statline/#/CBS/en/navigatieScherm/thema">Datasets about Dutch society by the CBS</a></li>
+<li><a href="https://github.com/awesomedata/awesome-public-datasets">Public datasets from different domains</a></li>
+<li><a href="https://www.kaggle.com/datasets">Datasets from data science community Kaggle</a></li>
+</ul>
+</section>
+<section id="examples-of-programming-resources" class="level3">
+<h3 class="anchored" data-anchor-id="examples-of-programming-resources">Examples of programming resources</h3>
+<section id="r" class="level5">
+<h5 class="anchored" data-anchor-id="r">R</h5>
+<ul>
+<li><a href="https://datacarpentry.org/R-ecology-lesson/04-visualization-ggplot2.html">Chapter in data carpentries workshop</a></li>
+<li><a href="https://stulp.gmw.rug.nl/ggplotworkshop/ggplotquick.html">Introduction to ggplot</a></li>
+</ul>
+</section>
+<section id="python" class="level5">
+<h5 class="anchored" data-anchor-id="python">Python</h5>
+<ul>
+<li><a href="https://carpentries-incubator.github.io/python-interactive-data-visualizations/">Carpentries workshop on how to create interactive visualizations</a></li>
+<li><a href="https://mybinder.org/v2/gh/jgarciab/workshop_data_viz/HEAD">Notebooks to play with some examples</a></li>
+<li><a href="https://github.com/pinshuai/jupyter-for-geoscience">A collection of Jupyter notebooks for geoscientists</a></li>
+<li><a href="https://datacarpentry.org/python-ecology-lesson/08-putting-it-all-together/index.html">Chapter in data carpentries workshop</a></li>
+</ul>
+</section>
+<section id="matlab" class="level5">
+<h5 class="anchored" data-anchor-id="matlab">Matlab</h5>
+<ul>
+<li><a href="https://nl.mathworks.com/help/matlab/creating_plots/types-of-matlab-plots.html">Overview of different plot options</a></li>
+<li><a href="https://www.tutorialspoint.com/matlab/matlab_plotting.htm">Tutorial for plotting and graphics</a></li>
+<li><a href="https://www.bu.edu/tech/support/research/training-consulting/online-tutorials/visualization-with-matlab/">Tutorial to visualizations (including 3d)</a></li>
+</ul>
+</section>
+<section id="hpc-any-language" class="level5">
+<h5 class="anchored" data-anchor-id="hpc-any-language">HPC (any language)</h5>
+<ul>
+<li><a href="https://hpc-portal.eu/search/node?keys=visualization">Academic training for HPC users</a></li>
+<li><a href="https://bazis.readthedocs.io/">Work in progress, examples and tips</a></li>
+</ul>
+
+
+</section>
+</section>
+
+ ]]></description>
+  <guid>https://ubvu.github.io/bytes-and-bites/events/04_April_23_visualizations.html</guid>
+  <pubDate>Tue, 04 Apr 2023 00:00:00 GMT</pubDate>
+</item>
+</channel>
+</rss>
