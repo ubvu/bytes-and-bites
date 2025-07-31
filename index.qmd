@@ -3,6 +3,7 @@ toc: true
 listing:
   id: events
   contents: events
+  feed: true
   sort: "date desc"
   type: table
   fields: [title, date]

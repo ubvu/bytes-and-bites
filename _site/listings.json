@@ -2,6 +2,15 @@
   {
     "listing": "/index.html",
     "items": [
+      "/events/25_05-May_13_templates.html",
+      "/events/25_04-April_09_make_R_package.html",
+      "/events/15_October_24_versioncontrol.html",
+      "/events/18_December_24_visualization.html",
+      "/events/09_April_24_eessi.html",
+      "/events/05_March_24_documentation.html",
+      "/events/06_February_24_book.html",
+      "/events/09_January_24_eessi.html",
+      "/events/05_December_23_adventofcode.html",
       "/events/07_November_23.html",
       "/events/03_October_23_IDEs.html",
       "/events/05_September_23_roundtable.html",
