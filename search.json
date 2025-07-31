@@ -21,25 +21,25 @@
     "text": "Theme: Bring your own bugs!\nRegister\nThis edition of Bytes and Bites is all about you and your code! Tell us more about what you are working on or share what is blocking you. We meet one last time before the summer break for an informal bug-party.\n\nNo preparation required\nThis meeting is as informal as you like. We make sure that there will be enough time and space to talk about what we are working on and what bugs us.\n\n\nHave a bigger problem or would like to present your project with more time?\nYou can send us your projects or questions before if you want. This way we can plan presenter time or make sure that we have the right persons to answer your question as good as anyone can."
   },
   {
-    "objectID": "events/06_June_23_datawrangling.html",
-    "href": "events/06_June_23_datawrangling.html",
-    "title": "Bytes & Bites - Data wrangling",
+    "objectID": "events/25_05-May_13_templates.html",
+    "href": "events/25_05-May_13_templates.html",
+    "title": "Bytes & Bites - Project Templates & AUMC Intro",
     "section": "",
-    "text": "Theme: Data wrangling with guest speaker Douwe Molenaar\nRegister\nSlides (introduction)\nSlides (data wrangling)"
+    "text": "Theme: Templates & Introductions\nGuest speakers: Dr. Bauke van der Velde Reseach Data Management and Software Management Consultant at the AUMC, a recent start with a lot of programming experience within research (as the title would suggest). Dr. Thomas Pronk a Research Software Consultant at the AUMC who has a focus on FAIR and open science, with a focus on improving research code quality.\nRegister\nThis week is a somewhat more open session. Starting with two presentations, the introduction of the AUMC Reseach Support team and the introduction of software project templates here at the VU. There will be plenty of space for questions and discussion after each presentation, as well as a general discussion session in the second hour.\nPizza will be served as always!"
   },
   {
-    "objectID": "events/06_June_23_datawrangling.html#data",
-    "href": "events/06_June_23_datawrangling.html#data",
-    "title": "Bytes & Bites - Data wrangling",
-    "section": "Data",
-    "text": "Data\n\nportal project\n\n\nLet us know what you want!\nFill in this short survey to shape B&B to your liking!"
+    "objectID": "events/03_October_23_IDEs.html",
+    "href": "events/03_October_23_IDEs.html",
+    "title": "Bytes & Bites - JupyterLab & IDEs",
+    "section": "",
+    "text": "Theme: Coding environments\nRegister\nIntroduction Slides\nSlides for IDEs & JupyterLab\n\nNotes\nUseful links:\n\nMiniconda\nAnaconda\nJupyter Lab\nSoftware Carpentry Python workshop in November"
   },
   {
-    "objectID": "events/05_March_24_documentation.html",
-    "href": "events/05_March_24_documentation.html",
-    "title": "Bytes & Bites - Documentation and Good Practices",
+    "objectID": "events/09_January_24_eessi.html",
+    "href": "events/09_January_24_eessi.html",
+    "title": "Bytes & Bites - EESSI",
     "section": "",
-    "text": "Theme: Documentation and Good Practices\nThis edition of Bytes & Bites will focus on making your life and work easier in the long-term. We will talk about very practical first steps you can do right away to organize your code in a better way, for example by documenting your code for yourself, your collaborators, and potential reviewers and third-party users.\nWe will run this event slightly different than usual and make it as interactive and fun as possible. Practice your Lego skills and join us on March 5th!\nThere is only limited time to give you a good overview and get you started. If you are interested in learning more about best software management practices, please consider taking part in the CodeRefinery in March: https://coderefinery.github.io/2024-03-12-workshop/\nThe CodeRefinery workshop is online and covers the following topics:\n\ncollaboration;\nresolving conflicts;\nsocial coding;\ndocumentation;\ntesting;\nmodular coding;\nGit for version control.\n\nRegister"
+    "text": "Theme: Environment for Scientific Software Installations\nIn the first edition of 2024 of Bytes and Bites, Peter Stol (BAZIS, clusters and supercomputers) will tell you all about EESSI.\nThis event had to be cancelled due to unforeseeable circumstances! We will hear about EESSI later this year.\nRegister"
   },
   {
     "objectID": "events/15_October_24_versioncontrol.html",
@@ -126,25 +126,25 @@
     "text": "Theme: Visualizations\nRegister\nSlides\n\nGeneral tips on visualization\n\nIntroduction to data visualization\nExamples of bad graphs in papers\n\n\n\nDatasets\n\nDatasets about Dutch society by the CBS\nPublic datasets from different domains\nDatasets from data science community Kaggle\n\n\n\nExamples of programming resources\n\nR\n\nChapter in data carpentries workshop\nIntroduction to ggplot\n\n\n\nPython\n\nCarpentries workshop on how to create interactive visualizations\nNotebooks to play with some examples\nA collection of Jupyter notebooks for geoscientists\nChapter in data carpentries workshop\n\n\n\nMatlab\n\nOverview of different plot options\nTutorial for plotting and graphics\nTutorial to visualizations (including 3d)\n\n\n\nHPC (any language)\n\nAcademic training for HPC users\nWork in progress, examples and tips"
   },
   {
-    "objectID": "events/09_January_24_eessi.html",
-    "href": "events/09_January_24_eessi.html",
-    "title": "Bytes & Bites - EESSI",
+    "objectID": "events/05_March_24_documentation.html",
+    "href": "events/05_March_24_documentation.html",
+    "title": "Bytes & Bites - Documentation and Good Practices",
     "section": "",
-    "text": "Theme: Environment for Scientific Software Installations\nIn the first edition of 2024 of Bytes and Bites, Peter Stol (BAZIS, clusters and supercomputers) will tell you all about EESSI.\nThis event had to be cancelled due to unforeseeable circumstances! We will hear about EESSI later this year.\nRegister"
+    "text": "Theme: Documentation and Good Practices\nThis edition of Bytes & Bites will focus on making your life and work easier in the long-term. We will talk about very practical first steps you can do right away to organize your code in a better way, for example by documenting your code for yourself, your collaborators, and potential reviewers and third-party users.\nWe will run this event slightly different than usual and make it as interactive and fun as possible. Practice your Lego skills and join us on March 5th!\nThere is only limited time to give you a good overview and get you started. If you are interested in learning more about best software management practices, please consider taking part in the CodeRefinery in March: https://coderefinery.github.io/2024-03-12-workshop/\nThe CodeRefinery workshop is online and covers the following topics:\n\ncollaboration;\nresolving conflicts;\nsocial coding;\ndocumentation;\ntesting;\nmodular coding;\nGit for version control.\n\nRegister"
   },
   {
-    "objectID": "events/03_October_23_IDEs.html",
-    "href": "events/03_October_23_IDEs.html",
-    "title": "Bytes & Bites - JupyterLab & IDEs",
+    "objectID": "events/06_June_23_datawrangling.html",
+    "href": "events/06_June_23_datawrangling.html",
+    "title": "Bytes & Bites - Data wrangling",
     "section": "",
-    "text": "Theme: Coding environments\nRegister\nIntroduction Slides\nSlides for IDEs & JupyterLab\n\nNotes\nUseful links:\n\nMiniconda\nAnaconda\nJupyter Lab\nSoftware Carpentry Python workshop in November"
+    "text": "Theme: Data wrangling with guest speaker Douwe Molenaar\nRegister\nSlides (introduction)\nSlides (data wrangling)"
   },
   {
-    "objectID": "events/25_05-May_13_templates.html",
-    "href": "events/25_05-May_13_templates.html",
-    "title": "Bytes & Bites - Project Templates & AUMC Intro",
-    "section": "",
-    "text": "Theme: Templates & Introductions\nGuest speakers: Dr. Bauke van der Velde Reseach Data Management and Software Management Consultant at the AUMC, a recent start with a lot of programming experience within research (as the title would suggest). Dr. Thomas Pronk a Research Software Consultant at the AUMC who has a focus on FAIR and open science, with a focus on improving research code quality.\nRegister\nThis week is a somewhat more open session. Starting with two presentations, the introduction of the AUMC Reseach Support team and the introduction of software project templates here at the VU. There will be plenty of space for questions and discussion after each presentation, as well as a general discussion session in the second hour.\nPizza will be served as always!"
+    "objectID": "events/06_June_23_datawrangling.html#data",
+    "href": "events/06_June_23_datawrangling.html#data",
+    "title": "Bytes & Bites - Data wrangling",
+    "section": "Data",
+    "text": "Data\n\nportal project\n\n\nLet us know what you want!\nFill in this short survey to shape B&B to your liking!"
   },
   {
     "objectID": "events/05_September_23_roundtable.html",
