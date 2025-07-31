@@ -1,0 +1,17 @@
+---
+title: "Bytes & Bites - R Packaging"
+date: "04/09/2025"
+description: "16-18 @ NU building, room 02A54"
+---
+
+Theme: R Packaging
+
+Bytes & Bites is back! This time with a new host, the UBVU Research Software Engineer [Charlie Greene](https://vu.nl/en/about-vu/divisions/university-library/more-about/team-research-support), who will be taking over organising sessions from here on out.
+
+Guest speaker: [Dr. Bjørn Bartholdy](https://www.tudelft.nl/library/data-management/ondersteuning-bij-data-management/contact/bjoern-bartholdy) Data Steward at TU Delft and general R wizard.
+
+[Register](https://vu-nl.libcal.com/calendar/universitylibrary/BytesBitesApril2025?f=h)
+
+This session of Bytes & Bites covers the topic of Reusability in software development and how using an R package over a project can increase it. We will cover how to make a package in R with an example project. Suitable for all levels!
+
+Pizza will be served as always!

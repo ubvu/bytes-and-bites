@@ -1,0 +1,15 @@
+---
+title: "Bytes & Bites - Project Templates & AUMC Intro"
+date: "05/13/2025"
+description: "16-18 @ O2 building, room 01W08"
+---
+
+Theme: Templates & Introductions
+
+Guest speakers: [Dr. Bauke van der Velde](https://www.linkedin.com/in/bauke-van-der-velde-0b8985b4/) Reseach Data Management and Software Management Consultant at the AUMC, a recent start with a lot of programming experience within research (as the title would suggest). [Dr. Thomas Pronk](https://thomaspronk.com/index.php/about) a Research Software Consultant at the AUMC who has a focus on FAIR and open science, with a focus on improving research code quality.
+
+[Register](https://vu-nl.libcal.com/calendar/universitylibrary/BytesBitesMay2025)
+
+This week is a somewhat more open session. Starting with two presentations, the introduction of the AUMC Reseach Support team and the introduction of software project templates here at the VU. There will be plenty of space for questions and discussion after each presentation, as well as a general discussion session in the second hour.
+
+Pizza will be served as always!
