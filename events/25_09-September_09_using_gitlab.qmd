@@ -1,0 +1,17 @@
+---
+title: "Bytes & Bites - Gitlab: A Guide"
+draft: true
+date: "09/09/2025"
+description: "16-18 @ O2 building, room 01W08"
+---
+
+Theme: Version Control
+
+Guest speakers: [Dr. Stefan Kirsch](https://tdcc.nl/spotlight-on-stefan-kirsch/) is a Data Steward at Tilburg University and a fellow of the eScience center. 
+
+[Register](https://vu-nl.libcal.com/calendar/universitylibrary/BytesBitesSeptember2025)
+
+Stefan will be presenting using Gitlab,including all the tips and tricks he has learned. During the discussion of the current state of geopolitics at the Data conversations in June the looming potential security issue of using American made technology was covered. Microsoft is currently widely used in the Netherlands and it is also the owner of Github.
+Thankfully the VU has its own [Gitlab environment](https://git.vu.nl) available to all employees of the VU. 
+
+Pizza will be served as always!

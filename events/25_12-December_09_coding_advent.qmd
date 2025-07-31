@@ -1,0 +1,14 @@
+---
+title: "Bytes & Bites - National Advent of Code Challenge"
+draft: true
+date: "12/09/2025"
+description: "16-18 @ O2 building, room 01W08"
+---
+
+Theme: Advent of Code
+
+We are once more approaching the winter festivities and that means two things, every other evening is a borrel and the advent of code has returned! To keep up with tradition we will work on the problems collectively and see if we can solve all 9 in our regular 2 hour session. No peeking at solutions before we try them!
+
+Some festive foods will be served this time around!
+
+[Register](https://vu-nl.libcal.com/calendar/universitylibrary/BytesBitesSeptember2025)
