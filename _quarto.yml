@@ -8,6 +8,14 @@ website:
     left:
       - href: index.qmd
         text: Home
+      - href: about.qmd
+        text: About
+      - href: events.qmd
+        text: Events
+    tools:
+      - icon: github
+        href: https://github.com/ubvu/bytes-and-bites/tree/main
+
 
 format:
   html:

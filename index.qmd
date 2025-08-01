@@ -10,6 +10,7 @@ listing:
   date-format: long
   sort-ui: false
   filter-ui: false
+  max-items: 4
 about:
   id: about
   template: solana
@@ -29,6 +30,7 @@ Do you want to improve your programming skills, ask questions related to program
 ## Events
 
 We meet once a month on Tuesdays, time: 16-18, location: O|2 building, room 01W08
+
 
 ::: {#events}
 :::

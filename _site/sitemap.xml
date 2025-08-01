@@ -6,54 +6,18 @@
   </url>
   <url>
     <loc>https://ubvu.github.io/bytes-and-bites/index.html</loc>
-    <lastmod>2025-07-31T10:17:16.226Z</lastmod>
+    <lastmod>2025-08-01T08:38:08.114Z</lastmod>
   </url>
   <url>
-    <loc>https://ubvu.github.io/bytes-and-bites/events/25_04-April_09_make_R_package.html</loc>
-    <lastmod>2025-07-14T11:48:59.510Z</lastmod>
+    <loc>https://ubvu.github.io/bytes-and-bites/events/25_05-May_13_templates.html</loc>
+    <lastmod>2025-07-14T15:49:55.157Z</lastmod>
   </url>
   <url>
-    <loc>https://ubvu.github.io/bytes-and-bites/events/15_October_24_versioncontrol.html</loc>
+    <loc>https://ubvu.github.io/bytes-and-bites/events/18_December_24_visualization.html</loc>
     <lastmod>2025-07-15T07:44:46.558Z</lastmod>
   </url>
   <url>
-    <loc>https://ubvu.github.io/bytes-and-bites/events/09_May_23_puzzles.html</loc>
-    <lastmod>2025-07-15T07:44:46.550Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ubvu.github.io/bytes-and-bites/events/09_April_24_eessi.html</loc>
-    <lastmod>2025-07-15T07:44:46.550Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ubvu.github.io/bytes-and-bites/events/06_June_23_datawrangling.html</loc>
-    <lastmod>2025-07-15T07:44:46.550Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ubvu.github.io/bytes-and-bites/events/05_September_23_roundtable.html</loc>
-    <lastmod>2025-07-15T07:44:46.542Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ubvu.github.io/bytes-and-bites/events/05_December_23_adventofcode.html</loc>
-    <lastmod>2025-07-15T07:44:46.542Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ubvu.github.io/bytes-and-bites/events/03_October_23_IDEs.html</loc>
-    <lastmod>2025-07-15T07:44:46.534Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ubvu.github.io/bytes-and-bites/events/04_April_23_visualizations.html</loc>
-    <lastmod>2025-07-15T07:44:46.534Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ubvu.github.io/bytes-and-bites/events/05_March_24_documentation.html</loc>
-    <lastmod>2025-07-15T07:44:46.542Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ubvu.github.io/bytes-and-bites/events/06_February_24_book.html</loc>
-    <lastmod>2025-07-15T07:44:46.542Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ubvu.github.io/bytes-and-bites/events/07_November_23.html</loc>
+    <loc>https://ubvu.github.io/bytes-and-bites/events/11_July_23_bugs.html</loc>
     <lastmod>2025-07-15T07:44:46.550Z</lastmod>
   </url>
   <url>
@@ -61,16 +25,60 @@
     <lastmod>2025-07-15T07:44:46.550Z</lastmod>
   </url>
   <url>
-    <loc>https://ubvu.github.io/bytes-and-bites/events/11_July_23_bugs.html</loc>
+    <loc>https://ubvu.github.io/bytes-and-bites/events/07_November_23.html</loc>
     <lastmod>2025-07-15T07:44:46.550Z</lastmod>
   </url>
   <url>
-    <loc>https://ubvu.github.io/bytes-and-bites/events/18_December_24_visualization.html</loc>
+    <loc>https://ubvu.github.io/bytes-and-bites/events/06_February_24_book.html</loc>
+    <lastmod>2025-07-15T07:44:46.542Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ubvu.github.io/bytes-and-bites/events/05_March_24_documentation.html</loc>
+    <lastmod>2025-07-15T07:44:46.542Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ubvu.github.io/bytes-and-bites/events/04_April_23_visualizations.html</loc>
+    <lastmod>2025-07-15T07:44:46.534Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ubvu.github.io/bytes-and-bites/about.html</loc>
+    <lastmod>2025-08-01T10:56:51.469Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ubvu.github.io/bytes-and-bites/events/03_October_23_IDEs.html</loc>
+    <lastmod>2025-07-15T07:44:46.534Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ubvu.github.io/bytes-and-bites/events/05_December_23_adventofcode.html</loc>
+    <lastmod>2025-07-15T07:44:46.542Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ubvu.github.io/bytes-and-bites/events/05_September_23_roundtable.html</loc>
+    <lastmod>2025-07-15T07:44:46.542Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ubvu.github.io/bytes-and-bites/events/06_June_23_datawrangling.html</loc>
+    <lastmod>2025-07-15T07:44:46.550Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ubvu.github.io/bytes-and-bites/events/09_April_24_eessi.html</loc>
+    <lastmod>2025-07-15T07:44:46.550Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ubvu.github.io/bytes-and-bites/events/09_May_23_puzzles.html</loc>
+    <lastmod>2025-07-15T07:44:46.550Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ubvu.github.io/bytes-and-bites/events/15_October_24_versioncontrol.html</loc>
     <lastmod>2025-07-15T07:44:46.558Z</lastmod>
   </url>
   <url>
-    <loc>https://ubvu.github.io/bytes-and-bites/events/25_05-May_13_templates.html</loc>
-    <lastmod>2025-07-14T15:49:55.157Z</lastmod>
+    <loc>https://ubvu.github.io/bytes-and-bites/events/25_04-April_09_make_R_package.html</loc>
+    <lastmod>2025-07-14T11:48:59.510Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ubvu.github.io/bytes-and-bites/events.html</loc>
+    <lastmod>2025-07-31T14:30:13.822Z</lastmod>
   </url>
   <url>
     <loc>https://ubvu.github.io/bytes-and-bites/notebooks/portal_project.html</loc>

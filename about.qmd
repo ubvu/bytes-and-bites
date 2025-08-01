@@ -1,0 +1,15 @@
+## What is Bytes & Bites?
+
+Bytes & Bites is a **programming CAFE**, CAFE being an acronym for "_Code Along, Feel Empowered_". It was started in April 2023 as part of a cross institution initiative to support researchers in the domain of programming. There is no specific language focus (both human and machine), but it tends to mostly be Python and R.
+
+
+>**programming café** /noun/ - a welcoming and
+>inclusive space to connect people, share knowledge
+>and support researchers in their coding journeys
+
+Bytes & Bites is a monthly meetup, usually in the O|2 building, room 01W08 on the Vrije Universiteit Amsterdam campus. It is a part of the VU software community typically with VULTURE level 2 and 3 talks, workshops, and presentations, though everyone of any level is welcome.
+
+The idea is to provide a welcoming and inclusive space to connect anyone interested in programming with other programmers to help facilitate knowledge sharing and support. We also eat pizza and chat!
+
+If you would like to learn more about Bytes and Bites why not read about previous events on the [events page](../events.qmd) or join us at the next session?  
+To find out more about the CAFE initiative read the paper [here](https://zenodo.org/records/8047119).

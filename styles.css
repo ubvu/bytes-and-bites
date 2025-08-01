@@ -2,6 +2,8 @@
 
 :root {
     --vu-blue: #0077B3;
+    --darkmode-bg:   #222222;
+    --darkmode-font: #dfcccc;
 }
 
 .navbar-dark {
