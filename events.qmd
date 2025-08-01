@@ -1,0 +1,19 @@
+---
+toc: true
+listing:
+  id: events
+  contents: events
+  sort: "date desc"
+  type: table
+  fields: [title, date]
+  date-format: long
+  sort-ui: false
+  filter-ui: false
+---
+
+## Events
+
+We meet once a month on Tuesdays, time: 16-18, location: O|2 building, room 01W08
+
+::: {#events}
+:::
