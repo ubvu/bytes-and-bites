@@ -1,0 +1,11 @@
+/* css styles */
+
+:root {
+    --four-oh-four-bg:   #222222;
+    --four-oh-four-font: #dfcccc;
+}
+
+#quarto-content{
+    background-color: var(--four-oh-four-bg);
+    color: var(--four-oh-four-font);
+}
