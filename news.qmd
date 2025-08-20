@@ -1,0 +1,21 @@
+---
+toc: true
+listing:
+  id: news
+  contents: "news/*.qmd"
+  sort: "date desc"
+  type: grid
+  fields: [image, title, date, description, reading-time]
+  date-format: long
+  sort-ui: true
+  filter-ui: true
+---
+
+![_Credit investorinthefamily.com_](images/Newspaper.jpg){width=300}
+
+## News
+
+This is an area where short blog posts are made to update the community on what is happening within the VU, the Dutch research support world, and the field of software development in general. 
+
+::: {#news}
+:::

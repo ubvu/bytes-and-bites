@@ -1,5 +1,9 @@
 [
   {
+    "listing": "/news.html",
+    "items": []
+  },
+  {
     "listing": "/index.html",
     "items": [
       "/events/25_05-May_13_templates.html",

@@ -1,0 +1,26 @@
+---
+title: "Update - LLMs in research: An abridged summary"
+draft: true
+date: "08/07/2025"
+description: "A round up of the available services"
+categories: [LLM, b, c]
+image: "../news/images/x.png"
+---
+
+![<credit for image>](../news/images/x.png)
+
+# <Title as a question>
+
+## <subtitle if needed>
+
+<Introduction>
+
+<Key quote>
+
+<main body>
+
+<TL;DR, conclusion>
+
+https://itsfoss.com/opencoder-vscode/
+
+<links used as reference/ further reading>

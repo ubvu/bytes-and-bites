@@ -1,0 +1,85 @@
+---
+title: Tools
+format: html
+---
+
+Programming is a collaborative effort, not only in research, but in all fields. Stackoverflow being a place where people
+freely share their knowledge and experience and the large number of open github repos and opensource projects should
+make that clear. 
+
+> "if I have seen further [than others], it is by standing on the shoulders of giants."
+> - Isaac Newton
+
+To keep us on top of those metaphorical shoulders we have compiled a list of useful or interesting tools, scripts, 
+and frameworks that are free to use. Happy coding!
+
+[Simple Python template](https://git.vu.nl/tis254/simple-python-template) is a project template for simple Python projects
+that we have developed primarily for researchers. This template is easy to setup and use and is intended to keep
+your code clean, readable, and secure. It is a work in progress and there are two other standard types to come - 
+"Shared code" and "Package or Software". Similar templates will also be developed for other languages such as R.
+
+[F-UJI](https://www.f-uji.net/index.php?action=home) provides a service to automate the FAIR assessment of datasets.
+The service uses the DOI or URL of your datasets to measure it against the FAIR metrics as defined by the 
+[FAIRSFAIR](https://www.fairsfair.eu/) project. As ever take privacy and security into account whenever uploading 
+anything to the internet. Any projects with sensitive data should be appropriately cleaned, anonymised, or pseudonymised.
+
+[Jan](https://jan.ai/) - "_Jan is an open source ChatGPT-alternative that runs 100% offline._" It is a a GUI to interact
+a selection of open source LLM models from the [Hugging Face](https://huggingface.co/janhq) repository. It works in the 
+same familiar chatbot manner and is available on all major operating systems.
+
+[OpenRefine](https://openrefine.org/), an open source tool for data manipulation. Clean, change format, add connected 
+data sources, cluster editing, filtered functions, and more. If you have questions or get stuck there is an active 
+community that can help or if you want to use some of the features directly in your own code you can, provided you
+respect their license agreement.
+
+[deploy2zenodo](https://gitlab.com/deploy2zenodo/deploy2zenodo) - a shell script to deploy files to Zenodo that can be
+used as part of a CI pipeline meaning it can be an automatic part of your development process.
+
+[CFF INIT](https://citation-file-format.github.io/cff-initializer-javascript/#/) is a web tool for creating or updating 
+CITATION.cff files. If you aren't already including citation instructions in your software this could be the way to
+get started!
+
+[TAXILA](https://taxila.nl/content_providers) - a scraping service that finds courses, workshops, events, learning 
+materials, and trainers from 37 different partner institutions in the Netherlands. You can create an account and 
+subscribe to get alerts on the information that interests you or if you prefer curate your own list with the RSS feed
+or via their API.
+
+[Ersilia](https://www.ersilia.io/tools) has a CLI (command line interface) download that allows you to download and 
+directly use any of their open source ML models for Chemistry straight out of the box. 
+
+[EUROPEAN ALTERNATIVES](https://european-alternatives.eu/) - a website with European digital services and products as 
+alternatives for their American counterparts. They are categorised for ease of browsing and you can also try searching 
+for products or services you already use to find the suggested alternatives.
+
+[_Oh My Git!_](https://ohmygit.org/) - an open source game built in Godot to help you learn Git. A fun and interactive 
+way to learn Git intended for beginners, but with plenty of tricks more advanced users might not know.
+
+[Positron](https://positron.posit.co/) - an R IDE from the makers of RStudio is a modern revamp of that same IDE you know 
+and love. The integrated features and marketplace mindset for extensions of VS code meets the familiarity and accessiblity 
+of RStudio. 
+
+### Visual Programming
+
+[Orange](https://orangedatamining.com/) -
+A python based visual programming tool from the University of Ljubljana that is used for everything from data cleaning, to visualisation, to classification models. Straightforward to use and with easy to understand lessons on youtube. Developing your own widgets and add-ons is also possible.
+
+[Red-R](https://red-r.org/) -
+An R based visual programming tool developed by Anup Parikh and Kyle Covington. Sadly it is no longer maintained, but it could still be a useful intro to programming in R for some. 
+
+[FME](https://fme.safe.com/) -
+A paid no code software solution. It has an active community that develop new tools and features and share them at summits and conferences. It also has the possibility to deploy on their servers to setup scheduled runs.
+
+[Scratch](https://scratch.mit.edu/) -
+A visual programming language made by MIT to introduce children and newcomers to programming. It is a great way to help you understand the logic of programming. A very active community that typically uses the tool to make games. Nice docs here.
+
+[Blockly](https://developers.google.com/blockly) -
+The Google made competitor to Scratch, again the target audience is children and newcomers, but there are capabilities for easy deployment and embedding into your own website. They have games to learn how to use it and the concepts.
+
+
+### Special mention: Open source tools
+
+[Jasp](https://jasp-stats.org/) -
+R based SPSS replacement developed by a team at the UvA. It is still in development, but a functional version is available. 
+
+[AntTools](https://www.laurenceanthony.net/software.html) -
+A set of open source tools for text analysis made by Lawrence Anthony.

@@ -1,0 +1,26 @@
+---
+title: "<Category> - x: A"
+draft: true
+date: "xx/xx/20xx"
+description: "16-18 @ O2 building, room 01W08"
+categories: [a, b, c]
+about:
+    template: jolla
+    image: "../news/images/x.png"
+---
+
+![<credit for image>](../news/images/x.png)
+
+# <Title as a question>
+
+## <subtitle if needed>
+
+<Introduction>
+
+<Key quote>
+
+<main body>
+
+<TL;DR, conclusion>
+
+<links used as reference/ further reading>

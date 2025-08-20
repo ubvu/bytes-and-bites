@@ -1,0 +1,15 @@
+---
+title: "Info"
+about:
+  template: jolla
+  image: ../images/networking.jpg
+---
+_Credit publicdomainpictures.net_
+
+The research software community can be fragmented and resources can be spread with sadly little knowledge about them.
+This page is to shine the light on some resources from the VU and others in the field of research support.
+
+The [RDM Handbook]() from the UBVU has short articles covering both data and software knowledge, services, tools, and 
+guidelines within the VU.
+
+Learn how to keep your software FAIR and your research open with [fair-software.nl](https://fair-software.nl/)

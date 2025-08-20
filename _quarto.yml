@@ -4,7 +4,9 @@ project:
 website:
   site-url: "https://ubvu.github.io/bytes-and-bites/"
   title: "Bytes & Bites"
+  favicon: "/images/favicon.ico"
   navbar:
+    logo: "/images/favicon.ico"
     left:
       - href: index.qmd
         text: Home
@@ -12,6 +14,18 @@ website:
         text: About
       - href: events.qmd
         text: Events
+      - text: Learn  
+        menu:
+        - text: Info
+          href: learning_files/info.qmd
+        - text: Resources
+          href: learning_files/resources.qmd
+        - text: Tools
+          href: learning_files/tools.qmd
+      - href: eat.qmd
+        text: Eat
+      - href: news.qmd
+        text: News
     tools:
       - icon: github
         href: https://github.com/ubvu/bytes-and-bites/tree/main
