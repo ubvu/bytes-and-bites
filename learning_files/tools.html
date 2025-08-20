@@ -6,10 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2023-10-03">
-<meta name="description" content="16-18 @ O|2 building, room 01W08">
 
-<title>Bytes &amp; Bites - JupyterLab &amp; IDEs – Bytes &amp; Bites</title>
+<title>Tools – Bytes &amp; Bites</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -151,7 +149,8 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#notes" id="toc-notes" class="nav-link active" data-scroll-target="#notes">Notes</a></li>
+  <li><a href="#visual-programming" id="toc-visual-programming" class="nav-link active" data-scroll-target="#visual-programming">Visual Programming</a></li>
+  <li><a href="#special-mention-open-source-tools" id="toc-special-mention-open-source-tools" class="nav-link" data-scroll-target="#special-mention-open-source-tools">Special mention: Open source tools</a></li>
   </ul>
 </nav>
     </div>
@@ -160,25 +159,14 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Bytes &amp; Bites - JupyterLab &amp; IDEs</h1>
+<h1 class="title">Tools</h1>
 </div>
 
-<div>
-  <div class="description">
-    16-18 @ O|2 building, room 01W08
-  </div>
-</div>
 
 
 <div class="quarto-title-meta">
 
     
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">October 3, 2023</p>
-    </div>
-  </div>
   
     
   </div>
@@ -188,19 +176,34 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Theme: Coding environments</p>
-<p><a href="https://vu-nl.libcal.com/event/4085321">Register</a></p>
-<p><a href="../presentations/Bytes&amp;Bites_ides.pdf">Introduction Slides</a></p>
-<p><a href="../presentations/Jupyter.pdf">Slides for IDEs &amp; JupyterLab</a></p>
-<section id="notes" class="level1">
-<h1>Notes</h1>
-<p>Useful links:</p>
-<ul>
-<li><a href="https://coderefinery.github.io/installation/conda/">Miniconda</a></li>
-<li><a href="https://www.anaconda.com">Anaconda</a></li>
-<li><a href="https://jupyter.org">Jupyter Lab</a></li>
-<li><a href="https://vu-nl.libcal.com/event/4031010">Software Carpentry Python workshop in November</a></li>
-</ul>
+<p>Programming is a collaborative effort, not only in research, but in all fields. Stackoverflow being a place where people freely share their knowledge and experience and the large number of open github repos and opensource projects should make that clear.</p>
+<blockquote class="blockquote">
+<p>“if I have seen further [than others], it is by standing on the shoulders of giants.” - Isaac Newton</p>
+</blockquote>
+<p>To keep us on top of those metaphorical shoulders we have compiled a list of useful or interesting tools, scripts, and frameworks that are free to use. Happy coding!</p>
+<p><a href="https://git.vu.nl/tis254/simple-python-template">Simple Python template</a> is a project template for simple Python projects that we have developed primarily for researchers. This template is easy to setup and use and is intended to keep your code clean, readable, and secure. It is a work in progress and there are two other standard types to come - “Shared code” and “Package or Software”. Similar templates will also be developed for other languages such as R.</p>
+<p><a href="https://www.f-uji.net/index.php?action=home">F-UJI</a> provides a service to automate the FAIR assessment of datasets. The service uses the DOI or URL of your datasets to measure it against the FAIR metrics as defined by the <a href="https://www.fairsfair.eu/">FAIRSFAIR</a> project. As ever take privacy and security into account whenever uploading anything to the internet. Any projects with sensitive data should be appropriately cleaned, anonymised, or pseudonymised.</p>
+<p><a href="https://jan.ai/">Jan</a> - “<em>Jan is an open source ChatGPT-alternative that runs 100% offline.</em>” It is a a GUI to interact a selection of open source LLM models from the <a href="https://huggingface.co/janhq">Hugging Face</a> repository. It works in the same familiar chatbot manner and is available on all major operating systems.</p>
+<p><a href="https://openrefine.org/">OpenRefine</a>, an open source tool for data manipulation. Clean, change format, add connected data sources, cluster editing, filtered functions, and more. If you have questions or get stuck there is an active community that can help or if you want to use some of the features directly in your own code you can, provided you respect their license agreement.</p>
+<p><a href="https://gitlab.com/deploy2zenodo/deploy2zenodo">deploy2zenodo</a> - a shell script to deploy files to Zenodo that can be used as part of a CI pipeline meaning it can be an automatic part of your development process.</p>
+<p><a href="https://citation-file-format.github.io/cff-initializer-javascript/#/">CFF INIT</a> is a web tool for creating or updating CITATION.cff files. If you aren’t already including citation instructions in your software this could be the way to get started!</p>
+<p><a href="https://taxila.nl/content_providers">TAXILA</a> - a scraping service that finds courses, workshops, events, learning materials, and trainers from 37 different partner institutions in the Netherlands. You can create an account and subscribe to get alerts on the information that interests you or if you prefer curate your own list with the RSS feed or via their API.</p>
+<p><a href="https://www.ersilia.io/tools">Ersilia</a> has a CLI (command line interface) download that allows you to download and directly use any of their open source ML models for Chemistry straight out of the box.</p>
+<p><a href="https://european-alternatives.eu/">EUROPEAN ALTERNATIVES</a> - a website with European digital services and products as alternatives for their American counterparts. They are categorised for ease of browsing and you can also try searching for products or services you already use to find the suggested alternatives.</p>
+<p><a href="https://ohmygit.org/"><em>Oh My Git!</em></a> - an open source game built in Godot to help you learn Git. A fun and interactive way to learn Git intended for beginners, but with plenty of tricks more advanced users might not know.</p>
+<p><a href="https://positron.posit.co/">Positron</a> - an R IDE from the makers of RStudio is a modern revamp of that same IDE you know and love. The integrated features and marketplace mindset for extensions of VS code meets the familiarity and accessiblity of RStudio.</p>
+<section id="visual-programming" class="level3">
+<h3 class="anchored" data-anchor-id="visual-programming">Visual Programming</h3>
+<p><a href="https://orangedatamining.com/">Orange</a> - A python based visual programming tool from the University of Ljubljana that is used for everything from data cleaning, to visualisation, to classification models. Straightforward to use and with easy to understand lessons on youtube. Developing your own widgets and add-ons is also possible.</p>
+<p><a href="https://red-r.org/">Red-R</a> - An R based visual programming tool developed by Anup Parikh and Kyle Covington. Sadly it is no longer maintained, but it could still be a useful intro to programming in R for some.</p>
+<p><a href="https://fme.safe.com/">FME</a> - A paid no code software solution. It has an active community that develop new tools and features and share them at summits and conferences. It also has the possibility to deploy on their servers to setup scheduled runs.</p>
+<p><a href="https://scratch.mit.edu/">Scratch</a> - A visual programming language made by MIT to introduce children and newcomers to programming. It is a great way to help you understand the logic of programming. A very active community that typically uses the tool to make games. Nice docs here.</p>
+<p><a href="https://developers.google.com/blockly">Blockly</a> - The Google made competitor to Scratch, again the target audience is children and newcomers, but there are capabilities for easy deployment and embedding into your own website. They have games to learn how to use it and the concepts.</p>
+</section>
+<section id="special-mention-open-source-tools" class="level3">
+<h3 class="anchored" data-anchor-id="special-mention-open-source-tools">Special mention: Open source tools</h3>
+<p><a href="https://jasp-stats.org/">Jasp</a> - R based SPSS replacement developed by a team at the UvA. It is still in development, but a functional version is available.</p>
+<p><a href="https://www.laurenceanthony.net/software.html">AntTools</a> - A set of open source tools for text analysis made by Lawrence Anthony.</p>
 
 
 </section>

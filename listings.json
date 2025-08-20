@@ -1,6 +1,10 @@
 [
   {
-    "listing": "/index.html",
+    "listing": "/news.html",
+    "items": []
+  },
+  {
+    "listing": "/events.html",
     "items": [
       "/events/25_05-May_13_templates.html",
       "/events/25_04-April_09_make_R_package.html",
@@ -21,7 +25,7 @@
     ]
   },
   {
-    "listing": "/events.html",
+    "listing": "/index.html",
     "items": [
       "/events/25_05-May_13_templates.html",
       "/events/25_04-April_09_make_R_package.html",
