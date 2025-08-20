@@ -10,7 +10,28 @@
 <atom:link href="https://ubvu.github.io/bytes-and-bites/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.7.31</generator>
-<lastBuildDate>Mon, 12 May 2025 22:00:00 GMT</lastBuildDate>
+<lastBuildDate>Mon, 08 Sep 2025 22:00:00 GMT</lastBuildDate>
+<item>
+  <title>Bytes &amp; Bites - Gitlab: A Guide</title>
+  <link>https://ubvu.github.io/bytes-and-bites/events/25_09-September_09_using_gitlab.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Theme: Version Control</p>
+<p>Guest speakers: <a href="https://tdcc.nl/spotlight-on-stefan-kirsch/">Dr.&nbsp;Stefan Kirsch</a> is a Data Steward at Tilburg University and a fellow of the eScience center.</p>
+<p><a href="https://vu-nl.libcal.com/calendar/universitylibrary/BytesBitesSeptember2025">Register</a></p>
+<p>Stefan will be presenting using Gitlab,including all the tips and tricks he has learned. There will also be some coverage of GitHub exclusive functions and how they can be used.</p>
+<p>During the discussion of the current state of geopolitics at the Data conversations in June the looming potential security issue of using American made technology was covered. Microsoft is currently widely used in the Netherlands and it is also the owner of Github. Thankfully the VU has its own <a href="https://git.vu.nl">Gitlab environment</a> available to all employees of the VU.</p>
+<p>Pizza will be served as always!</p>
+
+
+
+ ]]></description>
+  <guid>https://ubvu.github.io/bytes-and-bites/events/25_09-September_09_using_gitlab.html</guid>
+  <pubDate>Mon, 08 Sep 2025 22:00:00 GMT</pubDate>
+</item>
 <item>
   <title>Bytes &amp; Bites - Project Templates &amp; AUMC Intro</title>
   <link>https://ubvu.github.io/bytes-and-bites/events/25_05-May_13_templates.html</link>

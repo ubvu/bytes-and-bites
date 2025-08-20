@@ -6,6 +6,7 @@
   {
     "listing": "/index.html",
     "items": [
+      "/events/25_09-September_09_using_gitlab.html",
       "/events/25_05-May_13_templates.html",
       "/events/25_04-April_09_make_R_package.html",
       "/events/15_October_24_versioncontrol.html",
@@ -27,6 +28,7 @@
   {
     "listing": "/events.html",
     "items": [
+      "/events/25_09-September_09_using_gitlab.html",
       "/events/25_05-May_13_templates.html",
       "/events/25_04-April_09_make_R_package.html",
       "/events/15_October_24_versioncontrol.html",

@@ -1,6 +1,6 @@
 ---
 title: "Bytes & Bites - Gitlab: A Guide"
-draft: true
+draft: false
 date: "09/09/2025"
 description: "16-18 @ O2 building, room 01W08"
 ---

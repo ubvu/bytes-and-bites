@@ -1,0 +1,24 @@
+---
+title: "Bytes & Bites - Code Auditor: Automated code reviews"
+draft: true
+date: "04/11/2025"
+description: "16-18 @ O2 building, room 01W08"
+---
+
+Theme: Code review, FAIR, Tool
+
+Guest speakers: [Dr. Serkan Girgin](https://research.utwente.nl/en/persons/serkan-girgin) is an expert in Big Geodata and as a result has a lot of experience with cloud computing both of which 
+require clean and functional code. To deal with this he has created [Code Auditor](https://github.com/SS-NES/code-auditor) (DOI [here](https://zenodo.org/records/14989889)). The open-source 
+Code Auditor tool can help you to identify potential issues and offer guidance on how to resolve them. 
+
+[Register](https://vu-nl.libcal.com/calendar/universitylibrary/[EVENTNAME])
+
+In this session, you'll learn how to use Code Auditor to assess research software projects against best practices, identify potential issues, and receive actionable recommendations for 
+improvement. The session is aimed at researchers and RSEs who develop research software, as well as data and software stewards who support FAIR practices in research software development.
+
+With Code Auditor, you can quickly analyze an existing software project, such as a local code base or GitHub repository, and receive a detailed report on various aspects, including code layout, 
+version control, license, citation, user documentation, code documentation, packaging, unit testing, and publishing. The report will highlight issues like missing citation files, inconsistent 
+packaging information, incomplete code documentation, and more, while providing actionable suggestions for improvement. 
+
+
+Pizza will be served as always!
