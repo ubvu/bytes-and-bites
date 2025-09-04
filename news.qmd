@@ -2,7 +2,7 @@
 toc: true
 listing:
   id: news
-  contents: "news/*.qmd"
+  contents: "news/articles/*.qmd"
   sort: "date desc"
   type: grid
   fields: [image, title, date, description, reading-time]

@@ -1,0 +1,26 @@
+---
+title: "Bytes & Bites - Hackathon: Making a chatbot"
+draft: true
+date: "07/10/2025"
+description: "16-20 @ O2 building, room 01W08"
+---
+
+Theme: Chatbots
+
+Guest speakers: [Maurice Vanderfeesten](<link>), who manages research innovation here in the VU, has been testing 
+training different models for LLMs. He will show some of his work and outline the process he used for each of the 
+models.
+
+[Radu Apsan](<link>) from the Nebula team in the Network Institute will also give a short presentation on the great 
+work they are doing on their LLM stack hosted at the VU, its current capabilities and plans for the future. 
+
+[Elisa Rodenberg](<link>) will outline the parameters of the chatbot, what it should do, provide some data to work 
+with and the typical process and rules of the work the bot should do.
+
+[Register](https://vu-nl.libcal.com/calendar/universitylibrary/[EVENTNAME])
+
+Come one, come all, Bytes & Bites is hosting a hackathon! The gauntlet has been laid down to make a chatbot for use
+in the VU. Form a team or craft it solo, for your chance to win the prize! The royal highness has decreed that the
+three best entrants will enjoy each enjoy a prize, so try your hand at the challenge.
+
+Pizza and drinks will be served as always!

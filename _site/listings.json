@@ -1,7 +1,9 @@
 [
   {
     "listing": "/news.html",
-    "items": []
+    "items": [
+      "/news/articles/07_08-August_25_.html"
+    ]
   },
   {
     "listing": "/index.html",
