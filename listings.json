@@ -2,6 +2,7 @@
   {
     "listing": "/index.html",
     "items": [
+      "/events/25_10-October_07_hackathon.html",
       "/events/25_09-September_09_using_gitlab.html",
       "/events/25_05-May_13_templates.html",
       "/events/25_04-April_09_make_R_package.html",
@@ -24,6 +25,7 @@
   {
     "listing": "/events.html",
     "items": [
+      "/events/25_10-October_07_hackathon.html",
       "/events/25_09-September_09_using_gitlab.html",
       "/events/25_05-May_13_templates.html",
       "/events/25_04-April_09_make_R_package.html",
@@ -46,7 +48,8 @@
   {
     "listing": "/news.html",
     "items": [
-      "/news/articles/07_08-August_25_.html"
+      "/news/articles/25_09-September_18.html",
+      "/news/articles/25_09-September_04_LLMs.html"
     ]
   }
 ]

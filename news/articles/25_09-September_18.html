@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="dcterms.date" content="2026-04-09">
+<meta name="description" content="A follow up to the September Bytes&amp;Bites session">
 
-<title>news – Bytes &amp; Bites</title>
+<title>Update - About last Tuesday: A follow up to questions asked – Bytes &amp; Bites</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,27 +25,25 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<link href=".//images/favicon.ico" rel="icon">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dc55a5b9e770e841cd82e46aadbfb9b0.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-bf780f34dd70b02f70b9c7e0c168d62c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../..//images/favicon.ico" rel="icon">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dc55a5b9e770e841cd82e46aadbfb9b0.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-bf780f34dd70b02f70b9c7e0c168d62c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -71,67 +71,9 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-news .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
 
-    const options = {
-      valueNames: ['listing-image','listing-title','listing-date','listing-description','listing-reading-time',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-news'] = new List('listing-news', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
 <body class="nav-fixed quarto-light">
@@ -141,11 +83,11 @@ window.Quarto = {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./images/favicon.ico" alt="" class="navbar-logo light-content">
-    <img src="./images/favicon.ico" alt="" class="navbar-logo dark-content">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../images/favicon.ico" alt="" class="navbar-logo light-content">
+    <img src="../../images/favicon.ico" alt="" class="navbar-logo dark-content">
     </a>
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Bytes &amp; Bites</span>
     </a>
   </div>
@@ -156,15 +98,15 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
+    <a class="nav-link" href="../../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
+    <a class="nav-link" href="../../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./events.html"> 
+    <a class="nav-link" href="../../events.html"> 
 <span class="menu-text">Events</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -173,25 +115,25 @@ window.Quarto = {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-learn">    
         <li>
-    <a class="dropdown-item" href="./learning_files/info.html">
+    <a class="dropdown-item" href="../../learning_files/info.html">
  <span class="dropdown-text">Info</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./learning_files/resources.html">
+    <a class="dropdown-item" href="../../learning_files/resources.html">
  <span class="dropdown-text">Resources</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./learning_files/tools.html">
+    <a class="dropdown-item" href="../../learning_files/tools.html">
  <span class="dropdown-text">Tools</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="./eat.html"> 
+    <a class="nav-link" href="../../eat.html"> 
 <span class="menu-text">Eat</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./news.html" aria-current="page"> 
+    <a class="nav-link" href="../../news.html"> 
 <span class="menu-text">News</span></a>
   </li>  
 </ul>
@@ -211,99 +153,93 @@ window.Quarto = {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#news" id="toc-news" class="nav-link active" data-scroll-target="#news">News</a></li>
+  <li><a href="#did-you-have-any-questions" id="toc-did-you-have-any-questions" class="nav-link active" data-scroll-target="#did-you-have-any-questions">Did you have any questions?</a>
+  <ul class="collapse">
+  <li><a href="#whats-next" id="toc-whats-next" class="nav-link" data-scroll-target="#whats-next">What’s next?</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Update - About last Tuesday: A follow up to questions asked</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">follow up</div>
+    <div class="quarto-category">Q&amp;A</div>
+  </div>
+  </div>
+
+<div>
+  <div class="description">
+    A follow up to the September Bytes&amp;Bites session
+  </div>
+</div>
 
 
+<div class="quarto-title-meta">
+
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">April 9, 2026</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
 
 
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="images/Newspaper.jpg" class="img-fluid figure-img" width="300"></p>
-<figcaption><em>Credit investorinthefamily.com</em></figcaption>
+<p><img src="../mediabag/images/2025/question_mark.png" class="img-fluid figure-img"></p>
+<figcaption>Credit: pngimg.com</figcaption>
 </figure>
 </div>
-<section id="news" class="level2">
-<h2 class="anchored" data-anchor-id="news">News</h2>
-<p>This is an area where short blog posts are made to update the community on what is happening within the VU, the Dutch research support world, and the field of software development in general.</p>
-<div id="listing-news" class="quarto-listing quarto-listing-container-grid">
-<div class="listing-actions-group">
-   <div class="input-group input-group-sm quarto-listing-sort">
-    <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-    <select id="listing-news-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-news'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
-      <option value="" disabled="" selected="" hidden="">Order By</option>
-      <option value="index" data-direction="asc">Default</option>
-      <option value="listing-title" data-direction="asc">
-        Title
-      </option>
-      <option value="listing-date-sort" data-direction="asc">
-        Date - Oldest
-      </option>
-      <option value="listing-date-sort" data-direction="desc">
-        Date - Newest
-      </option>
-    </select>
-  </div>
-    <div class="input-group input-group-sm quarto-listing-filter">
-      <span class="input-group-text"><i class="bi bi-search"></i></span>
-      <input type="text" class="search form-control" placeholder="Filter">
-    </div>
-</div>
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="Zm9sbG93JTIwdXAlMkNRJTI2QQ==" data-listing-date-sort="1775692800000" data-listing-file-modified-sort="1758040632863" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="474">
-<a href="./news/articles/25_09-September_18.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./news/mediabag/images/2025/question_mark.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Update - About last Tuesday: A follow up to questions asked
-</h5>
-<div class="listing-reading-time card-text text-muted">3 min</div>
-<div class="card-text listing-description delink">
-<p>A follow up to the September Bytes&amp;Bites session</p>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-April 9, 2026
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="1" data-categories="TExNcyUyQ0VVJTIwYWx0ZXJuYXRpdmVzJTJDc29sdXRpb25zJTJDdG9vbHM=" data-listing-date-sort="1756944000000" data-listing-file-modified-sort="1758040632863" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="845">
-<a href="./news/articles/25_09-September_04_LLMs.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./news/mediabag/images/2025/robot_thumbnail.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Update - LLMs in research: A round up of services
-</h5>
-<div class="listing-reading-time card-text text-muted">5 min</div>
-<div class="card-text listing-description delink">
-<p>A round up of the available services</p>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-September 4, 2025
-</div>
-</div>
-</div>
-</div></a>
-</div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div>
+<section id="did-you-have-any-questions" class="level1">
+<h1>Did you have any questions?</h1>
+<p>It was great to see all the new faces and big turn out at our first Bytes and Bites of the academic year. Hopefully everyone enjoyed themselves and learned a bit about version control and the power of GitLab and GitHub!</p>
+<p>There were some questions asked during pizza time that were answered or promised to be answered, so here are the questions and the answers;</p>
+<ul>
+<li>What’s the difference between GitHub and GitLab?
+<ul>
+<li>They both use Git for version control and have largely the same services, although often with different names. Most people use GitHub (owned by Microsoft) to publicly display and share their work. As Stefan mentioned, developing in the VU GitLab environment is a little safer as we have direct control and can remove any sensitive information you might have accidentally added, you can always mirror, clone, or copy your project to GitHub after.</li>
+<li><a href="https://zenodo.org/records/11065899">A colleague in the AUMC wrote areport comparing three Git repo services</a></li>
+</ul></li>
+<li>Where can I find the code for today’s session?
+<ul>
+<li>You can find Stefan’s repo on the <a href="https://gitlab.vu.nl/1000SKirsch/amazing_gitlab_research_repo">VU GitLab environment</a> or in <a href="https://github.com/StefKirsch/amazing_github_research_repo">his GitHub repo</a></li>
+</ul></li>
+<li>I haven’t used a virtual environment before, how can I get started?
+<ul>
+<li>Virtual environments (venvs) are tricky to get a hang of, to help with this we have developed a <a href="https://git.vu.nl/tis254/simple-python-template">Python project template</a> (still in early stages)</li>
+<li>You can find a write up on venvs <a href="https://realpython.com/python-virtual-environments-a-primer/">here</a></li>
+<li>The standard <a href="https://docs.python.org/3/">Python documentation</a> lays out <a href="https://docs.python.org/3/library/venv.html">how to setup a venv</a></li>
+</ul></li>
+<li>Where can I find the VU GitLab environment?
+<ul>
+<li>The VU Amsterdam has two different GitLab environments available, <a href="https://git.vu.nl/">one general</a> and another <a href="https://gitlab.vu.nl/">slightly more closed and for cross institution collaboration</a></li>
+</ul></li>
+<li>How can I start a project the “right way”?
+<ul>
+<li>There are a lot of coding templates available with different pros and cons. Here are a few examples <a href="https://cookiecutter-data-science.drivendata.org/">Cookiecutter Data Science template</a>, <a href="https://gatlen.me/gatlens-opinionated-template/">one dev’s stricter build</a> based on the cookie cutter template, <a href="https://git.wur.nl/bif-templates/python-templates/python-template-maxi">Wageningen University’s template</a></li>
+</ul></li>
+</ul>
+<section id="whats-next" class="level2">
+<h2 class="anchored" data-anchor-id="whats-next">What’s next?</h2>
+<p>The rest of the sessions for this year have been planned and will be announced in the coming days. Our next session will be a hackathon, so get your Matrix outfits ready!</p>
+<p>If you are just starting your programming journey check out the university libcal for Software Carpentries. The next course is <a href="https://vu-nl.libcal.com/event/4408733">R for beginners</a> in October 2025 and the next Python course is in December. For those between beginner and intermediate check out the <a href="../../learning_files/resources.html">Resources page</a></p>
+<p>If you have any other questions contact the Bytes &amp; Bites team via the issues on the <a href="https://github.com/ubvu/bytes-and-bites/issues">GitHub repo</a> or email the RDM team <a href="mailto:rdm@vu.nl">here</a>. We are always happy to answer your questions, and if you are happy to share we can write up a blog post to save others from getting stuck!</p>
 
 
-
+</section>
 </section>
 
 </main> <!-- /main -->
