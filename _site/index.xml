@@ -10,7 +10,36 @@
 <atom:link href="https://ubvu.github.io/bytes-and-bites/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.7.31</generator>
-<lastBuildDate>Mon, 08 Sep 2025 22:00:00 GMT</lastBuildDate>
+<lastBuildDate>Mon, 06 Oct 2025 22:00:00 GMT</lastBuildDate>
+<item>
+  <title>Bytes &amp; Bites - Hackathon: Making a chatbot</title>
+  <link>https://ubvu.github.io/bytes-and-bites/events/25_10-October_07_hackathon.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://ubvu.github.io/bytes-and-bites/events/mediabag/images/2025/hackathon_poster.png" height="650" class="figure-img"></p>
+<figcaption><em>Hackathon poster</em></figcaption>
+</figure>
+</div>
+<p>Theme: Chatbots</p>
+<p>Guest speakers:</p>
+<p><a href="https://maurice.vanderfeesten.name/blog/">Maurice Vanderfeesten</a>, who manages research innovation here in the VU, has been testing training different models for LLMs. He will show some of his work and outline the process he used for each of the models.</p>
+<p><a href="https://www.researchgate.net/profile/Radu-Apsan">Radu Apsan</a> from the Nebula team in the Network Institute will also give a short presentation on the great work they are doing on their LLM stack hosted at the VU, its current capabilities and plans for the future.</p>
+<p><a href="https://libereurope.eu/member/elisa-rodenburg/">Elisa Rodenberg</a> will outline the parameters of the chatbot, what it should do, provide some data to work with and the typical process and rules of the work the bot should do.</p>
+<p><a href="https://vu-nl.libcal.com/calendar/universitylibrary/BytesBitesOctober2025">Register</a></p>
+<p>Come one, come all, Bytes &amp; Bites is hosting a hackathon! The gauntlet has been laid down to make a chatbot for use in the VU. Form a team or craft it solo, for your chance to win the prize! The royal highness has decreed that the three best entrants will enjoy each enjoy a prize, so try your hand at the challenge.</p>
+<p>Pizza and drinks will be served as always!</p>
+
+
+
+ ]]></description>
+  <guid>https://ubvu.github.io/bytes-and-bites/events/25_10-October_07_hackathon.html</guid>
+  <pubDate>Mon, 06 Oct 2025 22:00:00 GMT</pubDate>
+</item>
 <item>
   <title>Bytes &amp; Bites - Gitlab: A Guide</title>
   <link>https://ubvu.github.io/bytes-and-bites/events/25_09-September_09_using_gitlab.html</link>
