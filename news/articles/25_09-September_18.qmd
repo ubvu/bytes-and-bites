@@ -1,0 +1,39 @@
+---
+title: "Update - About last Tuesday: A follow up to questions asked"
+draft: false
+date: "16/09/2025"
+description: "A follow up to the September Bytes&Bites session"
+categories: [follow up, Q&A]
+image: "../mediabag/images/2025/question_mark.png"
+---
+
+![Credit: pngimg.com](../mediabag/images/2025/question_mark.png)
+
+# Did you have any questions?
+
+It was great to see all the new faces and big turn out at our first Bytes and Bites of the academic year. Hopefully everyone enjoyed themselves and learned a bit about version control and the power of GitLab and GitHub!
+
+There were some questions asked during pizza time that were answered or promised to be answered, so here are the questions and the answers;
+
+- What's the difference between GitHub and GitLab?
+    - They both use Git for version control and have largely the same services, although often with different names. Most people use GitHub (owned by Microsoft) to publicly display and share their work. As Stefan mentioned, developing in the VU GitLab environment is a little safer as we have direct control and can remove any sensitive information you might have accidentally added, you can always mirror, clone, or copy your project to GitHub after.
+    - [A colleague in the AUMC wrote  areport comparing three Git repo services](https://zenodo.org/records/11065899)
+- Where can I find the code for today's session?
+    - You can find Stefan's repo on the [VU GitLab environment](https://gitlab.vu.nl/1000SKirsch/amazing_gitlab_research_repo) or in [his GitHub repo](https://github.com/StefKirsch/amazing_github_research_repo)
+- I haven't used a virtual environment before, how can I get started?
+    - Virtual environments (venvs) are tricky to get a hang of, to help with this we have developed a [Python project template](https://git.vu.nl/tis254/simple-python-template) (still in early stages)
+    - You can find a write up on venvs [here](https://realpython.com/python-virtual-environments-a-primer/)
+    - The standard [Python documentation](https://docs.python.org/3/) lays out [how to setup a venv](https://docs.python.org/3/library/venv.html)
+- Where can I find the VU GitLab environment?
+    - The VU Amsterdam has two different GitLab environments available, [one general](https://git.vu.nl/) and another [slightly more closed and for cross institution collaboration](https://gitlab.vu.nl/)
+- How can I start a project the "right way"?
+    - There are a lot of coding templates available with different pros and cons. Here are a few examples [Cookiecutter Data Science template](https://cookiecutter-data-science.drivendata.org/), [one dev's stricter build](https://gatlen.me/gatlens-opinionated-template/) based on the cookie cutter template, [Wageningen University's template](https://git.wur.nl/bif-templates/python-templates/python-template-maxi)
+
+## What's next?
+
+The rest of the sessions for this year have been planned and will be announced in the coming days. Our next session will be a hackathon, so get your Matrix outfits ready!
+
+If you are just starting your programming journey check out the university libcal for Software Carpentries. The next course is [R for beginners](https://vu-nl.libcal.com/event/4408733) in October 2025 and the next Python course is in December. For those between beginner and intermediate check out the [Resources page](../../learning_files/resources.qmd)
+
+If you have any other questions contact the Bytes &  Bites team via the issues on the [GitHub repo](https://github.com/ubvu/bytes-and-bites/issues) or email the RDM team [here](mailto:rdm@vu.nl). We are always happy to answer your questions, and if you are happy to share we can write up a blog post to save others from getting stuck!
+
