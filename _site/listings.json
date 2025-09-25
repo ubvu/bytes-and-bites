@@ -9,6 +9,7 @@
   {
     "listing": "/events.html",
     "items": [
+      "/events/25_11-November_04_code_auditor.html",
       "/events/25_10-October_07_hackathon.html",
       "/events/25_09-September_09_using_gitlab.html",
       "/events/25_05-May_13_templates.html",
@@ -32,6 +33,7 @@
   {
     "listing": "/index.html",
     "items": [
+      "/events/25_11-November_04_code_auditor.html",
       "/events/25_10-October_07_hackathon.html",
       "/events/25_09-September_09_using_gitlab.html",
       "/events/25_05-May_13_templates.html",

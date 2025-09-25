@@ -64,6 +64,8 @@ _______
 
 [Al Sweigart](https://inventwithpython.com/), an Python powerhouse, has many books covering different topics, and has several of them freely available to read online. The topics of the books range from automation to game development to recursion to automation to game development to recursion to automation to game development to recursion to `break…`
 
+[python-course.eu](https://python-course.eu/) is a website that covers all the fundamentals (from beginner to advanced) of programming in python using mostly standard Python libraries meaning few installations are needed.
+
 ##### Videos
 [Arjan codes](https://www.youtube.com/@ArjanCodes) is a channel that covers all sorts of programming conventions and tips to keep clean and sustainably scalable code. 
 
@@ -86,6 +88,10 @@ _______
 [R Studio Education](https://education.rstudio.com/), a collection of educational resources for R split into skill levels.
 
 [Hands-on Programming with R](https://rstudio-education.github.io/hopr/) is another website edition of a book, and a great starting point for those wanting to learn how to code. It is also written by Garrett Grolemund.
+
+The [Communcation Science R Book](https://dataliteracy.cc/) is a web-book developed by the communication sciences team in the VU Amsterdam that covers all the concepts needed to start with using R for statistical analyses including concept explanations alongside the code guides.
+
+[CCS R Course Materials](https://github.com/ccs-amsterdam/r-course-material/tree/master) _"a collection of R tutorials, developed at the Vrije Universiteit Amsterdam for Communication Science courses that use R."_ From data wrangling to data scraping, simulations to LLMs, if the Communication Science team has taught an R course on it, you can find it here.
 
 ##### Inline or Interactive
 [Swirl](https://swirlstats.com/) is an R package that teaches you to code in line. Install the package, call upon it and follow the instructions. There are also websites to help with solutions when you are stuck. 
