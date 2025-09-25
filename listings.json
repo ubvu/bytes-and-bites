@@ -1,7 +1,15 @@
 [
   {
+    "listing": "/news.html",
+    "items": [
+      "/news/articles/25_09-September_18.html",
+      "/news/articles/25_09-September_04_LLMs.html"
+    ]
+  },
+  {
     "listing": "/index.html",
     "items": [
+      "/events/25_11-November_04_code_auditor.html",
       "/events/25_10-October_07_hackathon.html",
       "/events/25_09-September_09_using_gitlab.html",
       "/events/25_05-May_13_templates.html",
@@ -25,6 +33,7 @@
   {
     "listing": "/events.html",
     "items": [
+      "/events/25_11-November_04_code_auditor.html",
       "/events/25_10-October_07_hackathon.html",
       "/events/25_09-September_09_using_gitlab.html",
       "/events/25_05-May_13_templates.html",
@@ -43,13 +52,6 @@
       "/events/06_June_23_datawrangling.html",
       "/events/09_May_23_puzzles.html",
       "/events/04_April_23_visualizations.html"
-    ]
-  },
-  {
-    "listing": "/news.html",
-    "items": [
-      "/news/articles/25_09-September_18.html",
-      "/news/articles/25_09-September_04_LLMs.html"
     ]
   }
 ]

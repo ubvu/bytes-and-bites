@@ -10,7 +10,28 @@
 <atom:link href="https://ubvu.github.io/bytes-and-bites/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.8.24</generator>
-<lastBuildDate>Tue, 07 Oct 2025 00:00:00 GMT</lastBuildDate>
+<lastBuildDate>Tue, 04 Nov 2025 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>Bytes &amp; Bites - Code Auditor: Automated code reviews</title>
+  <link>https://ubvu.github.io/bytes-and-bites/events/25_11-November_04_code_auditor.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Theme: Code review, FAIR, Tool</p>
+<p>Guest speakers: <a href="https://research.utwente.nl/en/persons/serkan-girgin">Dr.&nbsp;Serkan Girgin</a> is an expert in Big Geodata and as a result has a lot of experience with cloud computing both of which require clean and functional code. To deal with this he has created <a href="https://github.com/SS-NES/code-auditor">Code Auditor</a> (DOI <a href="https://zenodo.org/records/14989889">here</a>). The open-source Code Auditor tool can help you to identify potential issues and offer guidance on how to resolve them.</p>
+<p><a href="https://vu-nl.libcal.com/event/4407987">Register</a></p>
+<p>In this session, you’ll learn how to use Code Auditor to assess research software projects against best practices, identify potential issues, and receive actionable recommendations for improvement. The session is aimed at researchers and RSEs who develop research software, as well as data and software stewards who support FAIR practices in research software development.</p>
+<p>With Code Auditor, you can quickly analyze an existing software project, such as a local code base or GitHub repository, and receive a detailed report on various aspects, including code layout, version control, license, citation, user documentation, code documentation, packaging, unit testing, and publishing. The report will highlight issues like missing citation files, inconsistent packaging information, incomplete code documentation, and more, while providing actionable suggestions for improvement.</p>
+<p>Pizza will be served as always!</p>
+
+
+
+ ]]></description>
+  <guid>https://ubvu.github.io/bytes-and-bites/events/25_11-November_04_code_auditor.html</guid>
+  <pubDate>Tue, 04 Nov 2025 00:00:00 GMT</pubDate>
+</item>
 <item>
   <title>Bytes &amp; Bites - Hackathon: Making a chatbot</title>
   <link>https://ubvu.github.io/bytes-and-bites/events/25_10-October_07_hackathon.html</link>
@@ -21,7 +42,7 @@
 
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://ubvu.github.io/bytes-and-bites/events/mediabag/images/2025/hackathon_poster.png" height="650" class="figure-img"></p>
+<p><img src="https://ubvu.github.io/bytes-and-bites/events/animation/hackathon/hackathon_ani_full_glow_small.gif" height="650" class="figure-img"></p>
 <figcaption><em>Hackathon poster</em></figcaption>
 </figure>
 </div>
