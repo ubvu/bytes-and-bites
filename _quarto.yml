@@ -26,6 +26,8 @@ website:
         text: Eat
       - href: news.qmd
         text: News
+      - href: community.qmd
+        text: Other communities
     tools:
       - icon: github
         href: https://github.com/ubvu/bytes-and-bites/tree/main
