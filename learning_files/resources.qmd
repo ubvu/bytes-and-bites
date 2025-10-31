@@ -16,15 +16,22 @@ If you are looking for additional sessions to Bytes & Bites you can perhaps find
 ### Coding courses
 There are many places peddling their coding courses these days, however there are still plenty of good quality free courses. In general you can find everything you need to learn for free in one way or another, including interactive courses.
 
+The UB regularly hosts a coding course for beginners based on the Carpentry workshops, so search for Software Carpentry in the events page of the VU Amsterdam!
+
 #### Honourable mentions
 ___________________
 
 [Swirl](https://swirlstats.com/) – R – An R package that teaches you to code in line. Install the package, call upon it and follow the instructions. There are also websites to help with solutions when you are stuck. 
-[MIT OpenCourseWare](https://ocw.mit.edu/collections/introductory-programming/) – All – MIT has a series of free courses from introductory to intermediate. You can pay if you want your work marked and to get a certificate, otherwise it is not needed. 
-[W3Schools](https://www.w3schools.com/) – All – A site with free courses for all sorts of programming languages that also has embedded coding playgrounds, tests, questions, and cheatsheets. 
-[OSSU Compsci course](https://github.com/ossu/computer-science) - Mixed - A (mostly) free comprehensive computer science course from mixed resources with a community for discussion, questions, and trouble shooting.
+[The Turing Way]() - A community driven overview of how you can perform open science research with regards to data, code, planning, collaboration and more. 
 [RSQKit](https://everse.software/RSQKit/) – Overview – Provides an overview of best coding practices in science including (but not limited to) management, citation, sharing code, and pipelines.
 [Intro to programming in R](https://github.com/SofiaG1l/R_Course) - A course from the VU Amsterdam's very own Sofia Gil-Clavel
+
+#### Free coding courses
+
+[W3Schools](https://www.w3schools.com/) – All – A site with free courses for all sorts of programming languages that also has embedded coding playgrounds, tests, questions, and cheatsheets. 
+[OSSU Compsci course](https://github.com/ossu/computer-science) - Mixed - A (mostly) free comprehensive computer science course from mixed resources with a community for discussion, questions, and trouble shooting.
+[MIT OpenCourseWare](https://ocw.mit.edu/collections/introductory-programming/) – All – MIT has a series of free courses from introductory to intermediate. You can pay if you want your work marked and to get a certificate, otherwise it is not needed. 
+[The Carpentries](https://carpentries.org/lessons/) - Research related programming - An international programme that has been running almost 30 years that has introductory courses on topics covering shell, Git, Python, R, and more.
 
 #### Paid coding course sites
 

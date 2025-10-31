@@ -1,0 +1,73 @@
+---
+title: "History - A Brief History of Chatbots"
+draft: true
+date: "10/10/2025"
+description: "16-18 @ O2 building, room 01W08"
+categories: [LLMs, history, background]
+image: "../news/images/x.png"
+---
+
+![<credit for image>](../news/images/x.png)
+
+# Where did it all begin?
+
+
+The history of chatbots goes back the 50s with Alan Turing's twist on the "_imitation game_", now more commonly know as the Turing test. The test being in essence comparing the answers to several from two unseen participants, one human and the other a computer, and seeing if you can tell which is which. 
+
+This lay as an interesting philosophical question (and computer science challenge) until the first chatbot that had a chance in the Turing test in 1966, [ELIZA](https://en.wikipedia.org/wiki/ELIZA). Arguably the most famous first generation chatterbot, ELIZA used pattern recognition and stock responses to talk on the persona of a calm and curious therapist. But, to the surprise of the creator, Joseph Weizenbaum, and others it did succeed in tricking early users into believing it could actually understand them by turning statements back to users as questions. 
+
+
+<br/><br/>
+
+> "_It supposedly had been created to demonstrate how superficial human to computer communications was at that time. But, when it was put on personal computers, humans found it quite engaging._" 
+>
+> -- Kenneth Ronkowitz on ELIZA, Humanities, New Jersey Institute of Technology 
+
+<br/><br/> 
+
+The next big break through was with PARRY, a chatbot that approached the patient therapist relationship from the otherside. PARRY posed as a person with paranoid schizophrenia supposed to distrust the user and using rules to heighten its "emotions". When tested in the 1970s a group of psyschiatrists were unable to estabilish which conversational transcript was from a PARRY model and which was a real patient more than 50% of the time. Though this could have more to do with the understanding of the disorder at the time as opposed to the power of the chatbot.
+
+## The age of scripted bots
+
+Skipping ahead a generation and we are in the 90s. The Spice Girls have recently formed, but not yet released any songs meaning that Richard Wallace can finish his work on A.L.I.C.E without distraction from the quadruple platinum single "Wannabe". 
+
+ALICE (Artificial Linguistic Internet Computer Entity) was a popular evolution of the pattern recognition of ELIZA, but this time had an XML file of conversational rules and responses. Wallace improved upon his model by adding new responses where ALICE failed conversationally. This, however, is time consuming and you can't predict all failures yourself. In 1997 Rollo Carpenter's Jabberwacky (now also known as Cleverbot) was released and solved this issue to an extent by saving chat history from all users to form future answers. 
+
+A few years later breaking in to the new millenium and instant messanger services were all the rage giving a great opportunity for chatbot creators to put their work to the test. The most famous of these being SmarterChild (aka MSN's most abused user) a bot that took the continuous training idea to heart, but with a bespoke selection of hand crafted responses.
+
+Originally created as a source of information, a new way to connect with a computer and the wisdom within, the founding trio (Timothy Kay, Robert Hoffer, and Peter Levitan) hired a ragtag team of New Yorkers to write for them. As a result their bot built a broad knowledge base only to find their main audience of teens were less interested in finding out about stocks, weather, and word definitions and far more interested in just talking to a computer. The big boost came when the signature SmarterChild sass was added to deal with its teen bullies. 
+
+## Datascience and the NLP boom
+
+It's 2011 and to celebrate LMFAO's latest hit single, Party Rock Anthem, Apple decided it is time to debut their digital assistant, Siri. Its machine learning powered speech to text met with smarter childs original intention and functionality and even retained a bit of its sass for the new generation. 
+
+With the boom in datascience Natural Language Processing (NLP) was growing and 
+
+https://www.theguardian.com/technology/2023/jul/25/joseph-weizenbaum-inventor-eliza-chatbot-turned-against-artificial-intelligence-ai 
+https://www.chatbots.org/chatbot/parry/
+https://liacademy.co.uk/the-1972-parry-chatbot-an-entry-in-ai-and-mental-health/ 
+https://en.wikipedia.org/wiki/Turing_test 
+https://en.wikipedia.org/wiki/Chatbot 
+https://en.wikipedia.org/wiki/PARRY 
+https://www.botlibre.com/browse?id=857177 
+https://raffle.ai/newsroom/the-history-of-chatbots 
+https://www.sciencedirect.com/science/article/pii/S2666827020300062
+https://web.njit.edu/~ronkowit/eliza.html 
+https://computerhistory.org/blog/smarterchild-a-chatbot-buddy-from-2001/ 
+https://en.wikipedia.org/wiki/Spice_Girls_discography
+https://www.britannica.com/topic/chatbot#ref1325160 
+https://www.oreilly.com/library/view/hands-on-machine-learning/9781788393485/ee95f02d-4dd3-4da6-a859-9ed139db4328.xhtml 
+https://www.jabberwacky.com/ 
+
+
+<Introduction>
+
+<Key quote>
+
+<main body>
+
+<TL;DR, conclusion>
+
+# Links used as reference/ further reading
+Kenneth Ronkowitz's write up on his experiences with ELIZA and a replica of the ELIZA DOCTOR variant can be found on [his webpage](https://web.njit.edu/~ronkowit/eliza.html).
+The article on smartchild is [found here](https://computerhistory.org/blog/smarterchild-a-chatbot-buddy-from-2001/).
