@@ -2,6 +2,7 @@
   {
     "listing": "/news.html",
     "items": [
+      "/news/articles/25_11-November_06_digital_preservation_day.html",
       "/news/articles/25_10-October_14_hackathon_results.html",
       "/news/articles/25_09-September_18.html",
       "/news/articles/25_09-September_04_LLMs.html"
@@ -10,6 +11,7 @@
   {
     "listing": "/events.html",
     "items": [
+      "/events/25_12-December_09_coding_advent.html",
       "/events/25_11-November_04_code_auditor.html",
       "/events/25_10-October_07_hackathon.html",
       "/events/25_09-September_09_using_gitlab.html",
@@ -34,6 +36,7 @@
   {
     "listing": "/index.html",
     "items": [
+      "/events/25_12-December_09_coding_advent.html",
       "/events/25_11-November_04_code_auditor.html",
       "/events/25_10-October_07_hackathon.html",
       "/events/25_09-September_09_using_gitlab.html",
