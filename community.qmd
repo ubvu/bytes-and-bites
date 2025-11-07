@@ -8,3 +8,4 @@ No, there are other great coding communities and courses right here in our unive
 - [Software and Sustainability](https://s2group.cs.vu.nl/) 
 - [SPINlab](https://github.com/SPINLab) the Spatial Information Laboratory is the centre for research and education in Geo-Information Science at the Vrije Universiteit Amsterdam.
 - [VUSec](https://www.vusec.net/) is the Systems and Network Security Group at the VU and is part of the computer science department.
+- [equals in tech](https://equals.nl/equals-in-tech/) a group looking to even the playing field for women in the Dutch tech world.
