@@ -1,6 +1,6 @@
 ---
 title: "Bytes & Bites - National Advent of Code Challenge"
-draft: true
+draft: false
 date: "12/09/2025"
 description: "16-18 @ O2 building, room 01W08"
 ---
@@ -11,4 +11,4 @@ We are once more approaching the winter festivities and that means two things, e
 
 Some festive foods will be served this time around!
 
-[Register](https://vu-nl.libcal.com/calendar/universitylibrary/BytesBitesSeptember2025)
+[Register](https://vu-nl.libcal.com/calendar/universitylibrary/BytesBitesDecember2025)
