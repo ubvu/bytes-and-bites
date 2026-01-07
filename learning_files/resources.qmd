@@ -22,7 +22,7 @@ The UB regularly hosts a coding course for beginners based on the Carpentry work
 ___________________
 
 [Swirl](https://swirlstats.com/) – R – An R package that teaches you to code in line. Install the package, call upon it and follow the instructions. There are also websites to help with solutions when you are stuck. 
-[The Turing Way]() - A community driven overview of how you can perform open science research with regards to data, code, planning, collaboration and more. 
+[The Turing Way](https://book.the-turing-way.org/) - A community driven overview of how you can perform open science research with regards to data, code, planning, collaboration and more. 
 [RSQKit](https://everse.software/RSQKit/) – Overview – Provides an overview of best coding practices in science including (but not limited to) management, citation, sharing code, and pipelines.
 [Intro to programming in R](https://github.com/SofiaG1l/R_Course) - A course from the VU Amsterdam's very own Sofia Gil-Clavel
 
@@ -32,6 +32,7 @@ ___________________
 [OSSU Compsci course](https://github.com/ossu/computer-science) - Mixed - A (mostly) free comprehensive computer science course from mixed resources with a community for discussion, questions, and trouble shooting.
 [MIT OpenCourseWare](https://ocw.mit.edu/collections/introductory-programming/) – All – MIT has a series of free courses from introductory to intermediate. You can pay if you want your work marked and to get a certificate, otherwise it is not needed. 
 [The Carpentries](https://carpentries.org/lessons/) - Research related programming - An international programme that has been running almost 30 years that has introductory courses on topics covering shell, Git, Python, R, and more.
+[eScience center](https://www.esciencecenter.nl/training-materials/) - The Netherlands has several centralised support groups, one of the better known ones is the eScience center. To attend their courses costs, but they keep their learning materials free, so you can follow them in your own time.
 
 #### Paid coding course sites
 
@@ -73,10 +74,16 @@ _______
 
 [python-course.eu](https://python-course.eu/) is a website that covers all the fundamentals (from beginner to advanced) of programming in python using mostly standard Python libraries meaning few installations are needed.
 
+[TheLinuxCode](https://thelinuxcode.com/tag/python/) A blog site from a seasoned programmer Augusto Dueñas writing about all manner of topics that he has come across or worked on. This is the filtered list for Python posts only.
+
+##### Assignments
+[Introductory level - ASC](https://github.com/ubvu/Python-Software-Carpentry/tree/main/Introductory/Homeworks) homeworks are intended for those who have followed a beginners Carpentry course or an equivalent introduction level Python course or self study. The first homework can be done twice, first with simple techniques (no loops or functions), second using more advanced methods. The second homework introduces a little more than is covered in the regular beginners Python course taught by the UBVU and is closer to the beginner+ course. 
+
 ##### Videos
 [Arjan codes](https://www.youtube.com/@ArjanCodes) is a channel that covers all sorts of programming conventions and tips to keep clean and sustainably scalable code. 
 
 #### Web tools and Dashboards
+_______
 
 ##### Video
 [Andriana Fanilo](https://www.youtube.com/c/faniloandrianasolo) is a Streamlit expert and developer who regularly produces short videos on how to develop webapplets (in Python) using Streamlit as well as developing new features himself.
@@ -105,12 +112,26 @@ The [Communcation Science R Book](https://dataliteracy.cc/) is a web-book develo
 
 [TidyTuesday](https://github.com/rfordatascience/tidytuesday) is a weekly event where a dataset is released and programmers are let loose upon it. The idea is to create the an attractive and or informative collection of graphics that give some insight from the dataset. An article is written about it and the code used to produce the analysis and graphics is provided at the end of it. It's a great way to learn some more interesting and real life programming and design skills.
 
+##### Assignments
+[Introductory level - ASC](https://github.com/ubvu/R-Software-Carpentry/tree/main/Introductory/Homeworks/R_Homework) homeworks are intended for those who have followed a beginners+ Carpentry course or an equivalent introduction level R course or self study. If you have followed the regular beginners course you can try this as the answers are available too.
+
+#### Web tools and Dashboards
+_______
+
+##### Articles & Guides
+[Mastering Shiny](https://mastering-shiny.org/preface.html) is a free web book from Hadley Wickham that clearly and extensively covers everything you might want to know to create your own interactive dashboards and web tools using R. Just don't forget to keep sensitive and personal data or passwords safe before making your tool live!
+
+[Shiny Basics](https://shiny.posit.co/r/getstarted/shiny-basics/lesson1/) is what is says it is. It is a short walkthrough to help new users to start using R Shiny, provided by the creators of R Shiny and RStudio, Posit.
+
 ### Javascript
 
 ![JavaScript logo](../images/programming-logos/JavaScript-logo.png){width=200}
 
 #### General
 _______
+
+##### Articles & Guides
+[TheLinuxCode](https://thelinuxcode.com/tag/javascript/) A blog site from a seasoned programmer Augusto Dueñas writing about all manner of topics that he has come across or worked on. This is the filtered list for JavaScript posts only.
 
 #### Video
 [Hyperplexed]() a youtube channel that has videos on various tips and tricks to make attractive web pages.
