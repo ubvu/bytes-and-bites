@@ -9,7 +9,8 @@ _Credit publicdomainpictures.net_
 The research software community can be fragmented and resources can be spread with sadly little knowledge about them.
 This page is to shine the light on some resources from the VU and others in the field of research support.
 
-The [RDM Handbook](https://rdm.vu.nl/) from the UBVU has short articles covering both data and software knowledge, services, tools, and 
-guidelines within the VU.
+The [RDM Handbook](https://rdm.vu.nl/) (Research Data Managment) from the UBVU has short articles covering both data and software knowledge, services, tools, and 
+guidelines within the VU. For an RDM handbook aimed at students check out [the guidebook](https://zenodo.org/records/15576176) from the Radboud University Digital 
+Competence Centre. For a shorter read you could always skim the [RDM checklist for students](https://zenodo.org/records/15673026).
 
 Learn how to keep your software FAIR and your research open with [fair-software.nl](https://fair-software.nl/)

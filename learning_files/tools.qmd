@@ -83,3 +83,6 @@ R based SPSS replacement developed by a team at the UvA. It is still in developm
 
 [AntTools](https://www.laurenceanthony.net/software.html) -
 A set of open source tools for text analysis made by Lawrence Anthony.
+
+[VSCodium](https://vscodium.com/) - 
+Use the versatility of the VS Code without the tracking of Microsoft!

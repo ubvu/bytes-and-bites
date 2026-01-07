@@ -2,7 +2,7 @@ It would be bold of us to assume that Bytes & Bites is the only coding community
 
 No, there are other great coding communities and courses right here in our university including, but not limited to:
 
-- [low volume coding](https://vu-nl.libcal.com/event/4455553), a chill coding session every two weeks on a Thursday afternoon where programmers of all levels and backgrounds are welcome to turn up with questions and problems or just to have a space to work on your project. 
+- [low volume coding](https://vu-nl.libcal.com/calendar/universitylibrary/low_volume), a chill coding session every two weeks on a Thursday afternoon where programmers of all levels and backgrounds are welcome to turn up with questions and problems or just to have a space to work on your project. 
 - [hack4her](https://hack4her.org/) as you can probably guess is female orientated hackathon event, or in their own words "_Hack4Her is the only annual female-focused student hackathon in the Netherlands_".
 - [VULTURE]() the university wide coding community for programmers of all levels in all roles to learn about events, share tools, articles, problems, ideas, and  of course solutions.
 - [Software and Sustainability](https://s2group.cs.vu.nl/) 
