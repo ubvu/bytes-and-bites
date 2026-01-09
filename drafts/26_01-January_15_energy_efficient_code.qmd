@@ -1,0 +1,32 @@
+---
+title: "Efficiency - Writing energy efficient code: A"
+draft: true
+date: "01/15/2026"
+description: "16-18 @ O2 building, room 01W08"
+categories: [efficiency, tips, research]
+about:
+    template: jolla
+    image: "../mediabag/images/20xx/x.png"
+---
+
+![<credit for image>](../mediabag/images/20xx/x.png)
+
+# <Title as a question>
+
+## <subtitle if needed>
+
+<Introduction>
+
+<Key quote>
+
+<main body>
+
+<TL;DR, conclusion>
+
+<links used as reference/ further reading>
+https://arxiv.org/html/2509.10099v1
+https://dev.to/vaib/the-developers-guide-to-green-coding-reducing-your-softwares-carbon-footprint-5amo 
+https://www.e-spincorp.com/green-coding-energy-efficient-software/ 
+https://www.softwareimprovementgroup.com/blog/green-software-development/ 
+https://www.computer.org/publications/tech-news/trends/environmental-cost-of-code 
+https://indico.cern.ch/event/1484669/contributions/6456380/attachments/3062279/5415878/Julia%20Efficiency%20Sustainability.pdf

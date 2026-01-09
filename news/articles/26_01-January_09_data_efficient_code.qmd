@@ -1,0 +1,133 @@
+---
+title: "Efficiency - \"we should have always been counting bytes\": Writing data efficient code"
+draft: false
+date: "02/16/2026"
+description: "16-18 @ O2 building, room 01W08"
+categories: [efficiency, tips, data, webdev]
+about:
+    template: jolla
+    image: "../mediabag/images/2026/data_binary_blocks.jpg"
+---
+
+![_Credit to https://www.publicdomainpictures.net_](../mediabag/images/2026/data_binary_blocks.jpg){height=300}
+
+# Have you ever converted your tool into a webapp or executable?
+
+## and seen the bloat of the project before your eyes
+
+All those who have made their first webtool or executable with PyInstaller (other options are available) have quickly seen one thing after their initial joy of creation, it lags. 60 seconds before you see anything other than a black box, images loading so slowly you start to worry it's 1999. "I know", you think, "I will add a fun loading animation"--the problem is patched and the file bloat grows.
+
+
+<br><br/>
+
+> "_... I just did a wild extrapolation saying it's going to continue to double every year for the next 10 years._"
+>
+> -- Gordon Moore
+
+<br><br/>
+
+
+You might be familiar with relatively reliable observation, [**Moore's law**](https://en.wikipedia.org/wiki/Moore%27s_law), that states that every two years the number of transistors in an integrated circuit will double. Since 1965 this "law" has held up rather well allowing for predictably regular increase in computing power. This, in combination with the ship-now-fix-later mentality of commercial code has resulted in very little efficiency gain when it comes to web browsing, software, games, and code in general. This is known as [**Wirth's Law**](https://en.wikipedia.org/wiki/Wirth%27s_law). That isn't to say you shouldn't fret over creating the most efficient code instead of writing it (that's for senior devs to do), just a comment to say don't forget about it. 
+
+However, there is a physical limitation to the size that a transitor can be and in some ways it has already reached the limit. Transistor size is now small enough that quantum effects are a significant consideration in the engineering process as electron tunnelling can occur, affecting performance. Quantum problems require quantum solutions. So, if we to keep following Moore's law for a little longer the quantum physicists better hurry!
+
+<br><br/>
+
+# The _Gainz_ of the modern web
+
+![_Credit https://4.bp.blogspot.com_](../mediabag/images/2026/dialup_icon.jpg)
+
+From the humble beginnings of Times New Roman in plain html, to the pop-up wild west of the late 90s, to the flash(y) interactive days of the late 2000s, up until the tracker-filled-socials-embedded-JavaScript-laden web of today we have seen dramatic changes in page weight. In fact your constant demand for glossy, glossy JPEGs has resulted in a **102.3%** increase for the median desktop website in the **last 10 years** (1442KB to 2930KB). For mobile, there has been **1700%** increase over the **last 15 years** according to the [http archive](https://httparchive.org/reports/page-weight), and a 186% increase in the last 10 years alone from a median of 910KB to a median of 2606KB. Even this relatively simple webpage is xKB.
+
+There is a movement against this bloat though. Whether you are a webdev interested in well optimised sites, environmentalist that wants to reduce the energy use of your web browsing, someone financially or computationally restricted, or a hater of capitalism, you can make a difference by simply [using an adblocker](https://eu-opensci.org/index.php/ejece/article/view/19650). There are even mobile orientated browsers with built-in adblockers, [such as the ecosia browser](https://play.google.com/store/apps/details?id=com.ecosia.android&pli=1)! 
+
+<br><br/>
+
+# Limitations (can) breed innovation
+
+Being restricted with the tools you can work with, or the by framework, or system you can work within is a make of break moment. It might feel like the right limitation can bring out incredibly creative solutions, but that is just the ones that make it. For a relatively pedestrian example of this, you can look at the TV programme [Ready Steady Cook](https://en.wikipedia.org/wiki/Ready_Steady_Cook) (1994-2010). Two members of the public would have a £5 budget to purchase ingredients and present this to the professional chef they were teamed up with they would then cook together to have their dishes rated by the audience. The results were a mixed bag, but plenty of nice dishes were cooked in the process. For creatives the limitation can be used as a good warm up in their process of making; in programming it can work the same way.
+
+Another 1994 creation from limited resources is the Playstation1 game Crash Bandicoot. The new console was pioneering 3D gaming technology and Naughty Dog Inc had their sights set on making a 3D platformer. Limitations appeared in two fundamental parts: the animation and the level design. The libraries Playstation provided were leaving the animation style stiff and with little room left to have their full animation set. One of the team members analysed the animations and found they could reduce the allocated space for the libraries with minimal loss. The animation was dealt with, next was the level design. 
+
+At the time, PS1 CDs generally held 640MB, but game levels were kept to 1-2MB to allow them to be held in the RAM. This left a large part of the CD going to waste. Naughty Dog originally had far larger levels, but they also had a plan. The full level sat at 30MB, but more can always be read from the disc, right? This is what loading screens are for, but the team wanted to load the level during play. The limitation here was the reading speed and movement of the disc capped loading at about 8 seconds per MB. The obvious solution? Break the levels down into smaller chunks. The levels were broken into 64KB "pages" and dynamically loaded. This might seem like a given these days, but this was the first time it was done. As you move in one direction the relevant page(s) are loaded and eventually you will have moved through the whole 30MB level!
+
+A slight reversal of this limitation breeding innovation concept is the idea of creatively limiting existing work, as seen by the [_Can it run Doom_](https://itrunsdoom.tumblr.com/) phenomena. Seen as test of hacking skills, creativity, and technological hubris the community encourages people to try to run Doom on any device they can get their hands on. This ranges from kernel drivers to printers, to air fryers and [even the organic](https://www.popsci.com/science/doom-e-coli-cells/) when in 2024 Lauren Ramlan used fluorescent E. coli cells to form a 32x48 cell screen and ran Doom on it. Unfortunately, at 0.00003 frames a second a full play through will take her several hundred years.
+
+<br><br/>
+
+# Efficiency and global accessibility
+
+It isn't only the battery life of your _Jadegreen Samsung Galaxy S25 Ultra with smart stylus_ that the lack of bloat reduction affects. Those who are less well off, and in particular in developing countries, will typically have less coverage, less powerful devices, and slower internet speeds. This ends up locking poorer people out of what most would consider a free access part of the digital world. 
+
+This is also a growing problem in the academic world. As analysis and data collection is digitised, more is done with excel macros, various scripts, and tools and datasets grow to unwieldly sizes. The larger these become, the more citizen scientists, concerned or interested citizens, or even full time researchers, are pushed out. Of course, as with most issues, this disproportionately affects the Global South. While unintentional dumping your dataset as one large 19GB csv file will deny access to a lot of people and in turn will restrict the number of citations and collaborations you will have. 
+
+This might not often be your primary concern when you have a deadline for a journal, but it is worth keeping in mind the impact that simplifying access to your data can have. For example, creating a webinterface or API to allow the relevant parts of your data to be accessed or breaking it up to be downloaded in chunks. At the minimum, you can provide a sample dataset along side your regular one so people can check it is relevant to their work before committing to an overnight download.
+
+<br><br/>
+
+# How can I improve the data efficiency of my code?
+
+All this whinging about inefficiency probably has you thinking about how you could improve your code in the future or finally refactor that pet project you promised yourself you will come back to. That or you're long gone and the rest of this post has been written if only to satisfy my need to write and my contractual obligations.  
+
+
+
+## Quick wins
+
+-   Limit imports only to what you need. Importing a whole package instead of the module you need will cost more loading time, just as including additional packages will add to the load time of the executable. 
+
+-   Keep font sets small and only load the characters needed.
+
+-   Allow compression or pre-compress objects.
+
+-   Write comments in your code. It might seem counterintuitive, but doing this can help identify code that is unused or poorly optimised. 
+
+-   Minimise or remove embeds and plugins where possible.
+
+-   Avoid re-calculating values. Often people will write code as a proof and then place it in a loop to run for the whole dataset, meaning a fixed value is repeatedly calculated.
+
+-   Optimise data structures. Using a dictionary, list, or vector, instead of a dataframe will keep your code lean and allow you to run faster functions on it too.
+
+
+
+## Advanced methods
+
+-   Test code in a limited power environment. Try spinning up a Virtual Machine with limited power to see if your script will run or crash.
+
+-   Time parts of your code. Tracking the time taken can help you to identify bottlenecks. 
+
+-   Memory management. Only load and define when it is needed, if possible clear unused large objects with rm() in R and del in Python. The garbage collection can require relatively large amounts of computational power though, so ensure that this is done minimally and **does** help run times. A short article visualising memory use can be [found here](https://samwho.dev/memory-allocation/).
+
+-   Vectorise your code. Performing computations on a set of values all at once instead of looping over the individual elements. [Short guide for Python](https://www.practicaldatascience.org/notebooks/class_2/week_4/11_vectorization.html).
+
+-   Look at using your other cores and run in parallel. If you have multiple cores you can split the workload across them meaning less raw power per core is needed.
+
+
+
+## Choice of language
+
+It has been a talking point in the programming community for a while, but high level languages are generally faster to write and slower to run. When looking for efficiency improvements a lot can be made in the language used, with C++ and Fortran consistently ranking at the top end of speed and efficiency. A [2015 economic paper](https://www.sciencedirect.com/science/article/abs/pii/S0165188915000883) found that they were 44-491 times faster than Python or R, but use of [Rcpp](https://www.rcpp.org/) or [Numba](https://numba.pydata.org/) brought the difference to about 4 times faster. While Numba needs little change, Rcpp is much like [Cython](https://cython.org/) and allows C code to be combined with R code. 
+
+For an inbetween step you can always look to [Julia](https://julialang.org/), a high level language with C like performance. [JuliaGPU](https://juliagpu.org/) was made to run on generic GPUs running both graphical and non-graphical code. It also makes running your code on high performance cluster (HPC) computers (like [ADA at the VU](https://rdm.vu.nl/topics/ada.html)) easy. You can read a short intro to JuliaGPU in an [article written by the eScience Center](https://blog.esciencecenter.nl/3710cc8362da).
+
+<br><br/>
+
+# Conclusion
+
+Writing data efficient code is not only good practice, but also environmentally better, a fun challenge, an opportunity for innovation, and a way to include those with limited resources. You can start small by keeping track of imports and using inbuilt functions (or ones written in a lower level language) where possible. While it can be seen to be a noble endeavour it is still better to write the script (and promise yourself you'll fix it up later) than to try to plan the perfect tool that is never made.
+
+# TL;DR
+
+Ever increasing CPU and GPU power, more powerful RAM, cheaper storage, and faster internet speeds, have meant that programmers have gotten lazier with optimisation. This affects access for those with less resources and results in greater environmental impact. 
+
+# Links used as reference
+[Table of energy costs for differing file sizes](https://v2.tauri.app/blog/tauri-1-0/#environment)
+
+[Wikipage for Moore's law](https://en.wikipedia.org/wiki/Moore%27s_law) (always a good starting point)
+
+[A link to the interview with Andy Gavin about Crash Bandicoot](https://arstechnica.com/gaming/2021/09/war-stories-how-crash-bandicoot-hacked-the-original-playstation/)
+
+[A report on the change in web page weight](https://www.keycdn.com/support/the-growth-of-web-page-size)
+
+[Some tips on reducing size of your website](https://climatelogic.com.au/websites-a-decade-of-growth/)
+
+[Stats on page weight through the years](https://almanac.httparchive.org/en/2021/page-weight)
