@@ -1,0 +1,16 @@
+---
+title: "Bytes & Bites - x: A"
+draft: true
+date: "xx/xx/20xx"
+description: "16-18 @ O2 building, room 01W08"
+---
+
+Theme: *
+
+Guest speakers: [<name>](<link>) <DESCRIPTION & COMPLIMENT>.
+
+[Register](https://vu-nl.libcal.com/calendar/universitylibrary/[EVENTNAME])
+
+<DESCRIPTION OF EVENT>
+
+Pizza will be served as always!

@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.7.31">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="dcterms.date" content="2026-02-16">
+<meta name="description" content="16-18 @ O2 building, room 01W08">
+
+<title>Efficiency - “we should have always been counting bytes”: Writing data efficient code – Bytes &amp; Bites</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../..//images/favicon.ico" rel="icon">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-36055dde38e1c66a85944b0e21486264.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../../styles.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../images/favicon.ico" alt="" class="navbar-logo">
+    </a>
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Bytes &amp; Bites</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../about.html"> 
+<span class="menu-text">About</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../events.html"> 
+<span class="menu-text">Events</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-learn" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Learn</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-learn">    
+        <li>
+    <a class="dropdown-item" href="../../learning_files/info.html">
+ <span class="dropdown-text">Info</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../learning_files/resources.html">
+ <span class="dropdown-text">Resources</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../learning_files/tools.html">
+ <span class="dropdown-text">Tools</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="../../eat.html"> 
+<span class="menu-text">Eat</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../news.html"> 
+<span class="menu-text">News</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../community.html"> 
+<span class="menu-text">Other communities</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+    <a href="https://github.com/ubvu/bytes-and-bites/tree/main" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-github"></i></a>
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+  <ul>
+  <li><a href="#have-you-ever-converted-your-tool-into-a-webapp-or-executable" id="toc-have-you-ever-converted-your-tool-into-a-webapp-or-executable" class="nav-link active" data-scroll-target="#have-you-ever-converted-your-tool-into-a-webapp-or-executable">Have you ever converted your tool into a webapp or executable?</a>
+  <ul class="collapse">
+  <li><a href="#and-seen-the-bloat-of-the-project-before-your-eyes" id="toc-and-seen-the-bloat-of-the-project-before-your-eyes" class="nav-link" data-scroll-target="#and-seen-the-bloat-of-the-project-before-your-eyes">and seen the bloat of the project before your eyes</a></li>
+  </ul></li>
+  <li><a href="#the-gainz-of-the-modern-web" id="toc-the-gainz-of-the-modern-web" class="nav-link" data-scroll-target="#the-gainz-of-the-modern-web">The <em>Gainz</em> of the modern web</a></li>
+  <li><a href="#limitations-can-breed-innovation" id="toc-limitations-can-breed-innovation" class="nav-link" data-scroll-target="#limitations-can-breed-innovation">Limitations (can) breed innovation</a></li>
+  <li><a href="#efficiency-and-global-accessibility" id="toc-efficiency-and-global-accessibility" class="nav-link" data-scroll-target="#efficiency-and-global-accessibility">Efficiency and global accessibility</a></li>
+  <li><a href="#how-can-i-improve-the-data-efficiency-of-my-code" id="toc-how-can-i-improve-the-data-efficiency-of-my-code" class="nav-link" data-scroll-target="#how-can-i-improve-the-data-efficiency-of-my-code">How can I improve the data efficiency of my code?</a>
+  <ul class="collapse">
+  <li><a href="#quick-wins" id="toc-quick-wins" class="nav-link" data-scroll-target="#quick-wins">Quick wins</a></li>
+  <li><a href="#advanced-methods" id="toc-advanced-methods" class="nav-link" data-scroll-target="#advanced-methods">Advanced methods</a></li>
+  <li><a href="#choice-of-language" id="toc-choice-of-language" class="nav-link" data-scroll-target="#choice-of-language">Choice of language</a></li>
+  </ul></li>
+  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion">Conclusion</a></li>
+  <li><a href="#tldr" id="toc-tldr" class="nav-link" data-scroll-target="#tldr">TL;DR</a></li>
+  <li><a href="#links-used-as-reference" id="toc-links-used-as-reference" class="nav-link" data-scroll-target="#links-used-as-reference">Links used as reference</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<div class="quarto-about-jolla">
+  <img src="../mediabag/images/2026/data_binary_blocks.jpg" class="about-image
+  round " style="height: 15em; width: 15em;">
+ <header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Efficiency - “we should have always been counting bytes”: Writing data efficient code</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">efficiency</div>
+    <div class="quarto-category">tips</div>
+    <div class="quarto-category">data</div>
+    <div class="quarto-category">webdev</div>
+  </div>
+  </div>
+<div>
+  <div class="description">
+    16-18 @ O2 building, room 01W08
+  </div>
+</div>
+<div class="quarto-title-meta">
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">February 16, 2026</p>
+    </div>
+  </div>
+  </div>
+</header><main class="content" id="quarto-document-content">
+
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../mediabag/images/2026/data_binary_blocks.jpg" height="300" class="figure-img"></p>
+<figcaption><em>Credit to https://www.publicdomainpictures.net</em></figcaption>
+</figure>
+</div>
+<section id="have-you-ever-converted-your-tool-into-a-webapp-or-executable" class="level1">
+<h1>Have you ever converted your tool into a webapp or executable?</h1>
+<section id="and-seen-the-bloat-of-the-project-before-your-eyes" class="level2">
+<h2 data-anchor-id="and-seen-the-bloat-of-the-project-before-your-eyes">and seen the bloat of the project before your eyes</h2>
+<p>All those who have made their first webtool or executable with PyInstaller (other options are available) have quickly seen one thing after their initial joy of creation, it lags. 60 seconds before you see anything other than a black box, images loading so slowly you start to worry it’s 1999. “I know”, you think, “I will add a fun loading animation”–the problem is patched and the file bloat grows.</p>
+<p><br><br></p>
+<blockquote class="blockquote">
+<p>“<em>… I just did a wild extrapolation saying it’s going to continue to double every year for the next 10 years.</em>”</p>
+<p>– Gordon Moore</p>
+</blockquote>
+<p><br><br></p>
+<p>You might be familiar with relatively reliable observation, <a href="https://en.wikipedia.org/wiki/Moore%27s_law"><strong>Moore’s law</strong></a>, that states that every two years the number of transistors in an integrated circuit will double. Since 1965 this “law” has held up rather well allowing for predictably regular increase in computing power. This, in combination with the ship-now-fix-later mentality of commercial code has resulted in very little efficiency gain when it comes to web browsing, software, games, and code in general. This is known as <a href="https://en.wikipedia.org/wiki/Wirth%27s_law"><strong>Wirth’s Law</strong></a>. That isn’t to say you shouldn’t fret over creating the most efficient code instead of writing it (that’s for senior devs to do), just a comment to say don’t forget about it.</p>
+<p>However, there is a physical limitation to the size that a transitor can be and in some ways it has already reached the limit. Transistor size is now small enough that quantum effects are a significant consideration in the engineering process as electron tunnelling can occur, affecting performance. Quantum problems require quantum solutions. So, if we to keep following Moore’s law for a little longer the quantum physicists better hurry!</p>
+<p><br><br></p>
+</section>
+</section>
+<section id="the-gainz-of-the-modern-web" class="level1">
+<h1>The <em>Gainz</em> of the modern web</h1>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../mediabag/images/2026/dialup_icon.jpg" class="img-fluid figure-img"></p>
+<figcaption><em>Credit https://4.bp.blogspot.com</em></figcaption>
+</figure>
+</div>
+<p>From the humble beginnings of Times New Roman in plain html, to the pop-up wild west of the late 90s, to the flash(y) interactive days of the late 2000s, up until the tracker-filled-socials-embedded-JavaScript-laden web of today we have seen dramatic changes in page weight. In fact your constant demand for glossy, glossy JPEGs has resulted in a <strong>102.3%</strong> increase for the median desktop website in the <strong>last 10 years</strong> (1442KB to 2930KB). For mobile, there has been <strong>1700%</strong> increase over the <strong>last 15 years</strong> according to the <a href="https://httparchive.org/reports/page-weight">http archive</a>, and a 186% increase in the last 10 years alone from a median of 910KB to a median of 2606KB. Even this relatively simple webpage is xKB.</p>
+<p>There is a movement against this bloat though. Whether you are a webdev interested in well optimised sites, environmentalist that wants to reduce the energy use of your web browsing, someone financially or computationally restricted, or a hater of capitalism, you can make a difference by simply <a href="https://eu-opensci.org/index.php/ejece/article/view/19650">using an adblocker</a>. There are even mobile orientated browsers with built-in adblockers, <a href="https://play.google.com/store/apps/details?id=com.ecosia.android&amp;pli=1">such as the ecosia browser</a>!</p>
+<p><br><br></p>
+</section>
+<section id="limitations-can-breed-innovation" class="level1">
+<h1>Limitations (can) breed innovation</h1>
+<p>Being restricted with the tools you can work with, or the by framework, or system you can work within is a make of break moment. It might feel like the right limitation can bring out incredibly creative solutions, but that is just the ones that make it. For a relatively pedestrian example of this, you can look at the TV programme <a href="https://en.wikipedia.org/wiki/Ready_Steady_Cook">Ready Steady Cook</a> (1994-2010). Two members of the public would have a £5 budget to purchase ingredients and present this to the professional chef they were teamed up with they would then cook together to have their dishes rated by the audience. The results were a mixed bag, but plenty of nice dishes were cooked in the process. For creatives the limitation can be used as a good warm up in their process of making; in programming it can work the same way.</p>
+<p>Another 1994 creation from limited resources is the Playstation1 game Crash Bandicoot. The new console was pioneering 3D gaming technology and Naughty Dog Inc had their sights set on making a 3D platformer. Limitations appeared in two fundamental parts: the animation and the level design. The libraries Playstation provided were leaving the animation style stiff and with little room left to have their full animation set. One of the team members analysed the animations and found they could reduce the allocated space for the libraries with minimal loss. The animation was dealt with, next was the level design.</p>
+<p>At the time, PS1 CDs generally held 640MB, but game levels were kept to 1-2MB to allow them to be held in the RAM. This left a large part of the CD going to waste. Naughty Dog originally had far larger levels, but they also had a plan. The full level sat at 30MB, but more can always be read from the disc, right? This is what loading screens are for, but the team wanted to load the level during play. The limitation here was the reading speed and movement of the disc capped loading at about 8 seconds per MB. The obvious solution? Break the levels down into smaller chunks. The levels were broken into 64KB “pages” and dynamically loaded. This might seem like a given these days, but this was the first time it was done. As you move in one direction the relevant page(s) are loaded and eventually you will have moved through the whole 30MB level!</p>
+<p>A slight reversal of this limitation breeding innovation concept is the idea of creatively limiting existing work, as seen by the <a href="https://itrunsdoom.tumblr.com/"><em>Can it run Doom</em></a> phenomena. Seen as test of hacking skills, creativity, and technological hubris the community encourages people to try to run Doom on any device they can get their hands on. This ranges from kernel drivers to printers, to air fryers and <a href="https://www.popsci.com/science/doom-e-coli-cells/">even the organic</a> when in 2024 Lauren Ramlan used fluorescent E. coli cells to form a 32x48 cell screen and ran Doom on it. Unfortunately, at 0.00003 frames a second a full play through will take her several hundred years.</p>
+<p><br><br></p>
+</section>
+<section id="efficiency-and-global-accessibility" class="level1">
+<h1>Efficiency and global accessibility</h1>
+<p>It isn’t only the battery life of your <em>Jadegreen Samsung Galaxy S25 Ultra with smart stylus</em> that the lack of bloat reduction affects. Those who are less well off, and in particular in developing countries, will typically have less coverage, less powerful devices, and slower internet speeds. This ends up locking poorer people out of what most would consider a free access part of the digital world.</p>
+<p>This is also a growing problem in the academic world. As analysis and data collection is digitised, more is done with excel macros, various scripts, and tools and datasets grow to unwieldly sizes. The larger these become, the more citizen scientists, concerned or interested citizens, or even full time researchers, are pushed out. Of course, as with most issues, this disproportionately affects the Global South. While unintentional dumping your dataset as one large 19GB csv file will deny access to a lot of people and in turn will restrict the number of citations and collaborations you will have.</p>
+<p>This might not often be your primary concern when you have a deadline for a journal, but it is worth keeping in mind the impact that simplifying access to your data can have. For example, creating a webinterface or API to allow the relevant parts of your data to be accessed or breaking it up to be downloaded in chunks. At the minimum, you can provide a sample dataset along side your regular one so people can check it is relevant to their work before committing to an overnight download.</p>
+<p><br><br></p>
+</section>
+<section id="how-can-i-improve-the-data-efficiency-of-my-code" class="level1">
+<h1>How can I improve the data efficiency of my code?</h1>
+<p>All this whinging about inefficiency probably has you thinking about how you could improve your code in the future or finally refactor that pet project you promised yourself you will come back to. That or you’re long gone and the rest of this post has been written if only to satisfy my need to write and my contractual obligations.</p>
+<p><br><br></p>
+<section id="quick-wins" class="level2">
+<h2 data-anchor-id="quick-wins">Quick wins</h2>
+<ul>
+<li><p>Limit imports only to what you need. Importing a whole package instead of the module you need will cost more loading time, just as including additional packages will add to the load time of the executable.</p></li>
+<li><p>Keep font sets small and only load the characters needed.</p></li>
+<li><p>Allow compression or pre-compress objects.</p></li>
+<li><p>Write comments in your code. It might seem counterintuitive, but doing this can help identify code that is unused or poorly optimised.</p></li>
+<li><p>Minimise or remove embeds and plugins where possible.</p></li>
+<li><p>Avoid re-calculating values. Often people will write code as a proof and then place it in a loop to run for the whole dataset, meaning a fixed value is repeatedly calculated.</p></li>
+<li><p>Optimise data structures. Using a dictionary, list, or vector, instead of a dataframe will keep your code lean and allow you to run faster functions on it too.</p></li>
+</ul>
+<p><br><br></p>
+</section>
+<section id="advanced-methods" class="level2">
+<h2 data-anchor-id="advanced-methods">Advanced methods</h2>
+<ul>
+<li><p>Test code in a limited power environment. Try spinning up a Virtual Machine with limited power to see if your script will run or crash.</p></li>
+<li><p>Time parts of your code. Tracking the time taken can help you to identify bottlenecks.</p></li>
+<li><p>Memory management. Only load and define when it is needed, if possible clear unused large objects with rm() in R and del in Python. The garbage collection can require relatively large amounts of computational power though, so ensure that this is done minimally and <strong>does</strong> help run times. A short article visualising memory use can be <a href="https://samwho.dev/memory-allocation/">found here</a>.</p></li>
+<li><p>Vectorise your code. Performing computations on a set of values all at once instead of looping over the individual elements. <a href="https://www.practicaldatascience.org/notebooks/class_2/week_4/11_vectorization.html">Short guide for Python</a>.</p></li>
+<li><p>Look at using your other cores and run in parallel. If you have multiple cores you can split the workload across them meaning less raw power per core is needed.</p></li>
+</ul>
+<p><br><br></p>
+</section>
+<section id="choice-of-language" class="level2">
+<h2 data-anchor-id="choice-of-language">Choice of language</h2>
+<p>It has been a talking point in the programming community for a while, but high level languages are generally faster to write and slower to run. When looking for efficiency improvements a lot can be made in the language used, with C++ and Fortran consistently ranking at the top end of speed and efficiency. A <a href="https://www.sciencedirect.com/science/article/abs/pii/S0165188915000883">2015 economic paper</a> found that they were 44-491 times faster than Python or R, but use of <a href="https://www.rcpp.org/">Rcpp</a> or <a href="https://numba.pydata.org/">Numba</a> brought the difference to about 4 times faster. While Numba needs little change, Rcpp is much like <a href="https://cython.org/">Cython</a> and allows C code to be combined with R code.</p>
+<p>For an inbetween step you can always look to <a href="https://julialang.org/">Julia</a>, a high level language with C like performance. <a href="https://juliagpu.org/">JuliaGPU</a> was made to run on generic GPUs running both graphical and non-graphical code. It also makes running your code on high performance cluster (HPC) computers (like <a href="https://rdm.vu.nl/topics/ada.html">ADA at the VU</a>) easy. You can read a short intro to JuliaGPU in an <a href="https://blog.esciencecenter.nl/3710cc8362da">article written by the eScience Center</a>.</p>
+<p><br><br></p>
+</section>
+</section>
+<section id="conclusion" class="level1">
+<h1>Conclusion</h1>
+<p>Writing data efficient code is not only good practice, but also environmentally better, a fun challenge, an opportunity for innovation, and a way to include those with limited resources. You can start small by keeping track of imports and using inbuilt functions (or ones written in a lower level language) where possible. While it can be seen to be a noble endeavour it is still better to write the script (and promise yourself you’ll fix it up later) than to try to plan the perfect tool that is never made.</p>
+</section>
+<section id="tldr" class="level1">
+<h1>TL;DR</h1>
+<p>Ever increasing CPU and GPU power, more powerful RAM, cheaper storage, and faster internet speeds, have meant that programmers have gotten lazier with optimisation. This affects access for those with less resources and results in greater environmental impact.</p>
+</section>
+<section id="links-used-as-reference" class="level1">
+<h1>Links used as reference</h1>
+<p><a href="https://v2.tauri.app/blog/tauri-1-0/#environment">Table of energy costs for differing file sizes</a></p>
+<p><a href="https://en.wikipedia.org/wiki/Moore%27s_law">Wikipage for Moore’s law</a> (always a good starting point)</p>
+<p><a href="https://arstechnica.com/gaming/2021/09/war-stories-how-crash-bandicoot-hacked-the-original-playstation/">A link to the interview with Andy Gavin about Crash Bandicoot</a></p>
+<p><a href="https://www.keycdn.com/support/the-growth-of-web-page-size">A report on the change in web page weight</a></p>
+<p><a href="https://climatelogic.com.au/websites-a-decade-of-growth/">Some tips on reducing size of your website</a></p>
+<p><a href="https://almanac.httparchive.org/en/2021/page-weight">Stats on page weight through the years</a></p>
+
+
+</section>
+</main>  
+</div>
+ <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
+        }
+        return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/ubvu\.github\.io\/bytes-and-bites\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

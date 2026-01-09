@@ -1,0 +1,24 @@
+---
+title: "Bytes & Bites - Update: A Non-event"
+draft: false
+date: "01/08/2026"
+description: "New year, new IDE"
+---
+
+Theme: Update on the community
+
+We hope that everyone enjoyed the winter holidays and brought in the new year as they saw fit! 
+Another year has passed and we are now only (at the time of writing) 4394 days away from the 2038 problem reaching its crescendo, or passing by without a hitch. 
+
+
+This is not a blog post about that though, it is a non-event event post. There won't be a Bytes & Bites session this month, but we will return next month! There is a lot planned for the year including another hackathon and a data hack. 
+
+
+For now though we would like to hear what you would like to see in these sessions, what topics would you find interesting to hear about and is there anything you'd like to change about the format?
+If you would like to tell us, then fill out the anonymous [form here](https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=nJwqRqYt-0uzGA-DBD_km4HqWtL4iLFHsVXEaG3GTI1UQ0ZYMUlGR1Q2M1FNWUpXNEFLWTBJODdWUS4u) and we will do our best to implement your requests :)
+
+
+<br/><br/>
+
+
+p.s, if you are looking for a new IDE, why not take a look at [Positron](https://positron.posit.co/) if you are an R programmer or [VS Codium](https://vscodium.com/) if you work in another language?

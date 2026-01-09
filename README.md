@@ -1,5 +1,9 @@
 # Website for Bytes-and-Bites
 
+## License notes
+
+Please note that the CC license attached to this project applies only to the qmd files for the website. Notebooks, presentations, and linked images are property of the owner and you must follow their own licensing. For those wanting to use the images created for Bytes & Bites then please provide credit and direct to the website, other than that you are free to use them as you wish!
+
 ## How to contribute
 
 Besides cloning this respository, you need to install [quarto](https://quarto.org/docs/get-started/).
