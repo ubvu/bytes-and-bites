@@ -10,7 +10,28 @@
 <atom:link href="https://ubvu.github.io/bytes-and-bites/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.8.26</generator>
-<lastBuildDate>Tue, 09 Dec 2025 00:00:00 GMT</lastBuildDate>
+<lastBuildDate>Thu, 08 Jan 2026 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>Bytes &amp; Bites - Update: A Non-event</title>
+  <link>https://ubvu.github.io/bytes-and-bites/events/26_01-January_08_new_year.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Theme: Update on the community</p>
+<p>We hope that everyone enjoyed the winter holidays and brought in the new year as they saw fit! Another year has passed and we are now only (at the time of writing) 4394 days away from the 2038 problem reaching its crescendo, or passing by without a hitch.</p>
+<p>This is not a blog post about that though, it is a non-event event post. There won’t be a Bytes &amp; Bites session this month, but we will return next month! There is a lot planned for the year including another hackathon and a data hack.</p>
+<p>For now though we would like to hear what you would like to see in these sessions, what topics would you find interesting to hear about and is there anything you’d like to change about the format? If you would like to tell us, then fill out the anonymous <a href="https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=nJwqRqYt-0uzGA-DBD_km4HqWtL4iLFHsVXEaG3GTI1UQ0ZYMUlGR1Q2M1FNWUpXNEFLWTBJODdWUS4u">form here</a> and we will do our best to implement your requests :)</p>
+<p><br><br></p>
+<p>p.s, if you are looking for a new IDE, why not take a look at <a href="https://positron.posit.co/">Positron</a> if you are an R programmer or <a href="https://vscodium.com/">VS Codium</a> if you work in another language?</p>
+
+
+
+ ]]></description>
+  <guid>https://ubvu.github.io/bytes-and-bites/events/26_01-January_08_new_year.html</guid>
+  <pubDate>Thu, 08 Jan 2026 00:00:00 GMT</pubDate>
+</item>
 <item>
   <title>Bytes &amp; Bites - National Advent of Code Challenge</title>
   <link>https://ubvu.github.io/bytes-and-bites/events/25_12-December_09_coding_advent.html</link>
@@ -478,73 +499,6 @@
  ]]></description>
   <guid>https://ubvu.github.io/bytes-and-bites/events/09_May_23_puzzles.html</guid>
   <pubDate>Tue, 09 May 2023 00:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>Bytes &amp; Bites - Visualization</title>
-  <link>https://ubvu.github.io/bytes-and-bites/events/04_April_23_visualizations.html</link>
-  <description><![CDATA[ 
-
-
-
-
-<p>Theme: Visualizations</p>
-<p><a href="https://vu-nl.libcal.com/event/4023149">Register</a></p>
-<p><a href="../presentations/04_April_23_visualizations.pdf">Slides</a></p>
-<section id="general-tips-on-visualization" class="level3">
-<h3 class="anchored" data-anchor-id="general-tips-on-visualization">General tips on visualization</h3>
-<ul>
-<li><a href="https://carpentries-incubator.github.io/intro-data-viz/">Introduction to data visualization</a></li>
-<li><a href="https://www.biostat.wisc.edu/~kbroman/topten_worstgraphs/">Examples of bad graphs in papers</a></li>
-</ul>
-</section>
-<section id="datasets" class="level3">
-<h3 class="anchored" data-anchor-id="datasets">Datasets</h3>
-<ul>
-<li><a href="https://opendata.cbs.nl/statline/#/CBS/en/navigatieScherm/thema">Datasets about Dutch society by the CBS</a></li>
-<li><a href="https://github.com/awesomedata/awesome-public-datasets">Public datasets from different domains</a></li>
-<li><a href="https://www.kaggle.com/datasets">Datasets from data science community Kaggle</a></li>
-</ul>
-</section>
-<section id="examples-of-programming-resources" class="level3">
-<h3 class="anchored" data-anchor-id="examples-of-programming-resources">Examples of programming resources</h3>
-<section id="r" class="level5">
-<h5 class="anchored" data-anchor-id="r">R</h5>
-<ul>
-<li><a href="https://datacarpentry.org/R-ecology-lesson/04-visualization-ggplot2.html">Chapter in data carpentries workshop</a></li>
-<li><a href="https://stulp.gmw.rug.nl/ggplotworkshop/ggplotquick.html">Introduction to ggplot</a></li>
-</ul>
-</section>
-<section id="python" class="level5">
-<h5 class="anchored" data-anchor-id="python">Python</h5>
-<ul>
-<li><a href="https://carpentries-incubator.github.io/python-interactive-data-visualizations/">Carpentries workshop on how to create interactive visualizations</a></li>
-<li><a href="https://mybinder.org/v2/gh/jgarciab/workshop_data_viz/HEAD">Notebooks to play with some examples</a></li>
-<li><a href="https://github.com/pinshuai/jupyter-for-geoscience">A collection of Jupyter notebooks for geoscientists</a></li>
-<li><a href="https://datacarpentry.org/python-ecology-lesson/08-putting-it-all-together/index.html">Chapter in data carpentries workshop</a></li>
-</ul>
-</section>
-<section id="matlab" class="level5">
-<h5 class="anchored" data-anchor-id="matlab">Matlab</h5>
-<ul>
-<li><a href="https://nl.mathworks.com/help/matlab/creating_plots/types-of-matlab-plots.html">Overview of different plot options</a></li>
-<li><a href="https://www.tutorialspoint.com/matlab/matlab_plotting.htm">Tutorial for plotting and graphics</a></li>
-<li><a href="https://www.bu.edu/tech/support/research/training-consulting/online-tutorials/visualization-with-matlab/">Tutorial to visualizations (including 3d)</a></li>
-</ul>
-</section>
-<section id="hpc-any-language" class="level5">
-<h5 class="anchored" data-anchor-id="hpc-any-language">HPC (any language)</h5>
-<ul>
-<li><a href="https://hpc-portal.eu/search/node?keys=visualization">Academic training for HPC users</a></li>
-<li><a href="https://bazis.readthedocs.io/">Work in progress, examples and tips</a></li>
-</ul>
-
-
-</section>
-</section>
-
- ]]></description>
-  <guid>https://ubvu.github.io/bytes-and-bites/events/04_April_23_visualizations.html</guid>
-  <pubDate>Tue, 04 Apr 2023 00:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>
