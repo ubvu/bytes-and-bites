@@ -1,13 +1,13 @@
 ---
 title: "Bytes & Bites - x: A"
 draft: true
-date: "xx/xx/20xx"
+date: "04/14/2026"
 description: "16-18 @ O2 building, room 01W08"
 ---
 
 Theme: *
 
-Guest speakers: [<name>](<link>) <DESCRIPTION & COMPLIMENT>.
+Guest speakers: [Sofia Gil Clavel](https://sofiag1l.github.io/) Lab Manager at the [Societal Analytics Lab](https://www.societal-analytics.nl/) and expert R teacher!
 
 [Register](https://vu-nl.libcal.com/calendar/universitylibrary/[EVENTNAME])
 
