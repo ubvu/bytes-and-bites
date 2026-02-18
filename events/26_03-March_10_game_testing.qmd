@@ -1,6 +1,6 @@
 ---
 title: "Bytes & Bites - Game testing: Rogue.Ai"
-draft: true
+draft: false
 date: "03/10/2026"
 description: "16-18 @ O2 building, room 01W08"
 ---
@@ -9,10 +9,10 @@ Theme: Debugging and games
 
 Guest speakers: [Charlie Greene](https://codeberg.org/charliegreene), the Bytes & Bites host and UBVU research software engineer themselves. 
 
-[Register](https://vu-nl.libcal.com/calendar/universitylibrary/[EVENTNAME])
+[Register](https://vu-nl.libcal.com/calendar/universitylibrary/Bytes_and_Bites_Mar_2026)
 
 Over the winter in need of a new hobby the educational game [Rogue.Ai](https://codeberg.org/charliegreene/Rogue.Ai) was developed. An open source game focused on helping people to learn how to debug (or speed up their existing skills) Rogue.Ai is a [pandemic](https://en.wikipedia.org/wiki/Pandemic_(board_game)) inspired game based around the perils of trusting LLMs with too much control of your projects.
 
 Join the session to learn a bit about the creation process, pygame, and a chance to test it out (and provide some feedback if you feel like it)!
 
-Pizza will be served as always!
+Pizza will be served as always! 
