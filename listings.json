@@ -10,8 +10,9 @@
     ]
   },
   {
-    "listing": "/events.html",
+    "listing": "/index.html",
     "items": [
+      "/events/26_03-March_10_game_testing.html",
       "/events/26_02-February_10_lego_and_docs.html",
       "/events/26_01-January_08_new_year.html",
       "/events/25_12-December_09_coding_advent.html",
@@ -37,8 +38,9 @@
     ]
   },
   {
-    "listing": "/index.html",
+    "listing": "/events.html",
     "items": [
+      "/events/26_03-March_10_game_testing.html",
       "/events/26_02-February_10_lego_and_docs.html",
       "/events/26_01-January_08_new_year.html",
       "/events/25_12-December_09_coding_advent.html",

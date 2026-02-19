@@ -10,7 +10,28 @@
 <atom:link href="https://ubvu.github.io/bytes-and-bites/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.8.27</generator>
-<lastBuildDate>Tue, 10 Feb 2026 00:00:00 GMT</lastBuildDate>
+<lastBuildDate>Tue, 10 Mar 2026 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>Bytes &amp; Bites - Game testing: Rogue.Ai</title>
+  <link>https://ubvu.github.io/bytes-and-bites/events/26_03-March_10_game_testing.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Theme: Debugging and games</p>
+<p>Guest speakers: <a href="https://codeberg.org/charliegreene">Charlie Greene</a>, the Bytes &amp; Bites host and UBVU research software engineer themselves.</p>
+<p><a href="https://vu-nl.libcal.com/calendar/universitylibrary/Bytes_and_Bites_Mar_2026">Register</a></p>
+<p>Over the winter in need of a new hobby the educational game <a href="https://codeberg.org/charliegreene/Rogue.Ai">Rogue.Ai</a> was developed. An open source game focused on helping people to learn how to debug (or speed up their existing skills) Rogue.Ai is a <a href="https://en.wikipedia.org/wiki/Pandemic_(board_game)">pandemic</a> inspired game based around the perils of trusting LLMs with too much control of your projects.</p>
+<p>Join the session to learn a bit about the creation process, pygame, and a chance to test it out (and provide some feedback if you feel like it)!</p>
+<p>Pizza will be served as always!</p>
+
+
+
+ ]]></description>
+  <guid>https://ubvu.github.io/bytes-and-bites/events/26_03-March_10_game_testing.html</guid>
+  <pubDate>Tue, 10 Mar 2026 00:00:00 GMT</pubDate>
+</item>
 <item>
   <title>Bytes &amp; Bites - Documentation: A LEGO story</title>
   <link>https://ubvu.github.io/bytes-and-bites/events/26_02-February_10_lego_and_docs.html</link>
@@ -458,42 +479,6 @@
  ]]></description>
   <guid>https://ubvu.github.io/bytes-and-bites/events/11_July_23_bugs.html</guid>
   <pubDate>Tue, 11 Jul 2023 00:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>Bytes &amp; Bites - Data wrangling</title>
-  <link>https://ubvu.github.io/bytes-and-bites/events/06_June_23_datawrangling.html</link>
-  <description><![CDATA[ 
-
-
-
-
-<p>Theme: Data wrangling with guest speaker Douwe Molenaar</p>
-<p><a href="https://vu-nl.libcal.com/calendar/universitylibrary/bytesbites">Register</a></p>
-<p><a href="../presentations/Bytes&amp;Bites_wrangling.pdf">Slides (introduction)</a></p>
-<p><a href="../presentations/reproducible_research_with_R.html">Slides (data wrangling)</a></p>
-<section id="code" class="level3">
-<h3 class="anchored" data-anchor-id="code">Code</h3>
-<ul>
-<li><a href="../presentations/wrangling.html">R</a></li>
-<li><a href="../notebooks/portal_project.html">Python (Jupyter notebook)</a></li>
-</ul>
-</section>
-<section id="data" class="level2">
-<h2 class="anchored" data-anchor-id="data">Data</h2>
-<ul>
-<li><a href="https://raw.githubusercontent.com/ubvu/bytes-and-bites/main/data/portal_project.tsv">portal project</a></li>
-</ul>
-<section id="let-us-know-what-you-want" class="level3">
-<h3 class="anchored" data-anchor-id="let-us-know-what-you-want">Let us know what you want!</h3>
-<p><a href="https://vuamsterdam.eu.qualtrics.com/jfe/form/SV_aWetUoYr6Gf8JcW">Fill in this short survey to shape B&amp;B to your liking!</a></p>
-
-
-</section>
-</section>
-
- ]]></description>
-  <guid>https://ubvu.github.io/bytes-and-bites/events/06_June_23_datawrangling.html</guid>
-  <pubDate>Tue, 06 Jun 2023 00:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>
