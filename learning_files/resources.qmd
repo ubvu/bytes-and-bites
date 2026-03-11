@@ -76,6 +76,11 @@ _______
 
 [TheLinuxCode](https://thelinuxcode.com/tag/python/) A blog site from a seasoned programmer Augusto Dueñas writing about all manner of topics that he has come across or worked on. This is the filtered list for Python posts only.
 
+##### Books
+[Python for Scientists](https://wiki.physics.udel.edu/wiki_qttg/images/3/31/BOOK%3Dpython_for_scientists.pdf) is a book by John M. Stewart from the Department of Applied Mathematics & Theoretical Physics written for the use of Python in research.
+
+[Python for Scientists](https://pythonforscientists.github.io/), another book of the same title. It is "_an open-source Python textbook designed for introductory courses in computer science or scientific computing. As opposed to other textbooks, which only cover the fundamentals of coding itself, Python for Scientists also provides students with good programming and development skills. Written for students at Kenyon College_".
+
 ##### Assignments
 [Introductory level - ASC](https://github.com/ubvu/Python-Software-Carpentry/tree/main/Introductory/Homeworks) homeworks are intended for those who have followed a beginners Carpentry course or an equivalent introduction level Python course or self study. The first homework can be done twice, first with simple techniques (no loops or functions), second using more advanced methods. The second homework introduces a little more than is covered in the regular beginners Python course taught by the UBVU and is closer to the beginner+ course. 
 
@@ -97,15 +102,17 @@ _______
 _______
 
 ##### Articles & Guides
-[R for Data Science](https://r4ds.had.co.nz/introduction.html) is the website for the first edition of “R for Data Science”, published January 2017 by Hadley Wickham and Garrett Grolemund. The book covers all the basics needed for coding R projects in a scientific way.
 
 [R Studio Education](https://education.rstudio.com/), a collection of educational resources for R split into skill levels.
 
-[Hands-on Programming with R](https://rstudio-education.github.io/hopr/) is another website edition of a book, and a great starting point for those wanting to learn how to code. It is also written by Garrett Grolemund.
+[CCS R Course Materials](https://github.com/ccs-amsterdam/r-course-material/tree/master) _"a collection of R tutorials, developed at the Vrije Universiteit Amsterdam for Communication Science courses that use R."_ From data wrangling to data scraping, simulations to LLMs, if the Communication Science team has taught an R course on it, you can find it here.
 
+##### Books
 The [Communcation Science R Book](https://dataliteracy.cc/) is a web-book developed by the communication sciences team in the VU Amsterdam that covers all the concepts needed to start with using R for statistical analyses including concept explanations alongside the code guides.
 
-[CCS R Course Materials](https://github.com/ccs-amsterdam/r-course-material/tree/master) _"a collection of R tutorials, developed at the Vrije Universiteit Amsterdam for Communication Science courses that use R."_ From data wrangling to data scraping, simulations to LLMs, if the Communication Science team has taught an R course on it, you can find it here.
+[R for Data Science](https://r4ds.had.co.nz/introduction.html) is the website for the first edition of “R for Data Science”, published January 2017 by Hadley Wickham and Garrett Grolemund. The book covers all the basics needed for coding R projects in a scientific way.
+
+[Hands-on Programming with R](https://rstudio-education.github.io/hopr/) is another website edition of a book, and a great starting point for those wanting to learn how to code. It is also written by Garrett Grolemund.
 
 ##### Inline or Interactive
 [Swirl](https://swirlstats.com/) is an R package that teaches you to code in line. Install the package, call upon it and follow the instructions. There are also websites to help with solutions when you are stuck. 
