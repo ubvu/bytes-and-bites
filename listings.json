@@ -1,12 +1,30 @@
 [
   {
-    "listing": "/news.html",
+    "listing": "/events.html",
     "items": [
-      "/news/articles/26_01-January_09_data_efficient_code.html",
-      "/news/articles/25_11-November_06_digital_preservation_day.html",
-      "/news/articles/25_10-October_14_hackathon_results.html",
-      "/news/articles/25_09-September_18.html",
-      "/news/articles/25_09-September_04_LLMs.html"
+      "/events/26_03-March_10_game_testing.html",
+      "/events/26_02-February_10_lego_and_docs.html",
+      "/events/26_01-January_08_new_year.html",
+      "/events/25_12-December_09_coding_advent.html",
+      "/events/25_11-November_04_code_auditor.html",
+      "/events/25_10-October_07_hackathon.html",
+      "/events/25_09-September_09_using_gitlab.html",
+      "/events/25_05-May_13_templates.html",
+      "/events/25_04-April_09_make_R_package.html",
+      "/events/15_October_24_versioncontrol.html",
+      "/events/18_December_24_visualization.html",
+      "/events/09_April_24_eessi.html",
+      "/events/05_March_24_documentation.html",
+      "/events/06_February_24_book.html",
+      "/events/09_January_24_eessi.html",
+      "/events/05_December_23_adventofcode.html",
+      "/events/07_November_23.html",
+      "/events/03_October_23_IDEs.html",
+      "/events/05_September_23_roundtable.html",
+      "/events/11_July_23_bugs.html",
+      "/events/06_June_23_datawrangling.html",
+      "/events/09_May_23_puzzles.html",
+      "/events/04_April_23_visualizations.html"
     ]
   },
   {
@@ -38,31 +56,14 @@
     ]
   },
   {
-    "listing": "/events.html",
+    "listing": "/news.html",
     "items": [
-      "/events/26_03-March_10_game_testing.html",
-      "/events/26_02-February_10_lego_and_docs.html",
-      "/events/26_01-January_08_new_year.html",
-      "/events/25_12-December_09_coding_advent.html",
-      "/events/25_11-November_04_code_auditor.html",
-      "/events/25_10-October_07_hackathon.html",
-      "/events/25_09-September_09_using_gitlab.html",
-      "/events/25_05-May_13_templates.html",
-      "/events/25_04-April_09_make_R_package.html",
-      "/events/15_October_24_versioncontrol.html",
-      "/events/18_December_24_visualization.html",
-      "/events/09_April_24_eessi.html",
-      "/events/05_March_24_documentation.html",
-      "/events/06_February_24_book.html",
-      "/events/09_January_24_eessi.html",
-      "/events/05_December_23_adventofcode.html",
-      "/events/07_November_23.html",
-      "/events/03_October_23_IDEs.html",
-      "/events/05_September_23_roundtable.html",
-      "/events/11_July_23_bugs.html",
-      "/events/06_June_23_datawrangling.html",
-      "/events/09_May_23_puzzles.html",
-      "/events/04_April_23_visualizations.html"
+      "/news/articles/26_03-March_11_news.html",
+      "/news/articles/26_01-January_09_data_efficient_code.html",
+      "/news/articles/25_11-November_06_digital_preservation_day.html",
+      "/news/articles/25_10-October_14_hackathon_results.html",
+      "/news/articles/25_09-September_18.html",
+      "/news/articles/25_09-September_04_LLMs.html"
     ]
   }
 ]
