@@ -33,3 +33,5 @@ https://indico.cern.ch/even
 t/1484669/contributions/6456380/attachments/3062279/5415878/Julia%20Efficiency%20Sustainability.pdf
 https://pypi.org/project/eco-code-analyzer/
 https://ecologits.ai/latest/ 
+https://drive.google.com/file/d/1evA8TrdBOKpd9Uh6JWvHjdxX-ui1ZK0M/view
+https://github.com/S2-group/green-lab/tree/main

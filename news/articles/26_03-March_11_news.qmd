@@ -1,0 +1,65 @@
+---
+title: "News - What's going on?"
+draft: false
+date: "03/06/2026"
+description: "A short update on what is going on with regards to software trainings and events in the country."
+categories: [news, b, c]
+about:
+    template: jolla
+    image: "../mediabag/images/2026/news_newsletter.jpg"
+---
+
+![Credit to https://c.pxhere.com](../mediabag/images/2026/news_newsletter.jpg){height=300}
+
+# What is happening in the Dutch software world?
+
+There is always a lot of movement in the world of programming and it can be difficult to keep up with. To help you avoid having to track down the information yourself you can find a short list of events and updates in the Dutch software world right here!  
+
+  
+
+[Surf](https://www.surf.nl/en) has a free upcoming course on how to [scale your code for use on high powered computers](https://www.surf.nl/en/agenda/high-performance-computing-with-python-and-rs-dat) (HPCs), like [Snellius](https://www.surf.nl/en/services/compute/snellius-the-national-supercomputer) at Surf and [ADA](https://rdm.vu.nl/tools/ada/) at the VU. To follow this up they also have a 3 day [hackathon](https://www.surf.nl/en/agenda/hackathon-high-performance-computing-with-python-and-rs-dat) where you can get support from SURF employees to scale your project and run it on their HPC.  
+
+  
+
+[hack4her](https://hack4her.org/registration) will be hosting their 5th hackathon this summer. Open to all **female identifying students** in the country and hosted in VU Amsterdam this year. Join the event on the weekend of June the 13th for all sorts of [interesting challenges](https://hack4her.org/challenges) with a variety of prizes!  
+
+  
+
+[Equals](https://equals.nl/) is an organisation with a focus on helping women overcome working world inequalities. They provide course and support for learning Dutch, finding work, building a network and developing technical skills. Check out their [IT course from equals in tech](https://equals.nl/equals-in-tech/#omscholing)!  
+
+  
+
+The [eScience Center](https://www.esciencecenter.nl/) has a new [Julia course](https://www.esciencecenter.nl/event/efficient-computing-in-julia-2/) in April. Reach high computational speeds with a high level language in Julia. Sign up now whilst you still can!  
+
+  
+
+EuroCC Netherlands, a part of the Competence Centre network for AI and HPCs, will be hosting an HPC course to help researchers learn how to use SURF Research Cloud. The course is at Erasmus University on the 21st of April, [sign up here](https://eurocc-netherlands.nl/calendar/introduction-to-surf-research-cloud-7/).  
+
+  
+
+[BrabantHack_26](https://www.bomevents.nl/brabanthack26/home) is almost here! On Friday the 10th of April join other programmers for a day working on topics such as Defense, Decentralized Energy Systems, Medtech and Life Sciences, Plant-based Food, and Deep Tech. Sounds interesting? Then [sign up here](https://www.bomevents.nl/brabanthack26/registration)!  
+
+  
+
+## What about the VU?
+
+
+Bytes & Bites is hosting its first ever datahack! If you are a researcher you can donate your data to allow the hackers to work on it on our all day hacking session. Ideally researchers will provide an outline of the project, some documentation on the data and some ideas or directions for potential further analysis to do. For anyone there at the event itself we will of course have pizza, snacks, and drinks available. Fill out the form to sign up as a data doner [here](https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=nJwqRqYt-0uzGA-DBD_km4HqWtL4iLFHsVXEaG3GTI1UQ09ZR1RON0M5UUhDTzZYQkw5SUUyWjY3OS4u) or sign up as a hacker [here](https://libcal.vu.nl/event/4508414), see you there!   
+
+  
+
+The innovation team at the VU has been working with the AI Competence Network to pilot a service or matching researchers for potential collaborations. The tool is meant for junior researchers who are looking to connect with people outside of their field. Hopefully this will allow them to get another view on their work and perform some cool multidisciplinary work. The working name is "_University Research Network_" and the website is currently in development.  
+
+  
+
+After the success of our last hackathon Bytes & Bites is planning another on the 26th of May, watch this space for more info!  
+
+  
+
+The Computer Science and AI faculties have been unofficially partnering with researchers to pair up Bachelors and Masters students to code for the researchers with too little time or not quite enough programming skills. Now the UB is looking to act as a facilitating partner to make this official. Researchers that are interested in getting help with their analysis, or have a tool made for their project can contact the [RSE](mailto:c.c.greene@vu.nl) for more information.   
+
+  
+
+## Anything to add?
+
+Go to the [issues page](https://github.com/ubvu/bytes-and-bites/issues) of the Bytes & Bites repo to tell us what could or should be added here!  
