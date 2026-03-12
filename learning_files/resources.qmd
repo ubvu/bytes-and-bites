@@ -142,3 +142,24 @@ _______
 
 #### Video
 [Hyperplexed]() a youtube channel that has videos on various tips and tricks to make attractive web pages.
+
+
+### Julia
+
+![Julia logo](../images/programming-logos/Julia_logo.png){width=200}
+
+#### General
+_______
+
+##### Articles & Guides
+
+[Official julialang learning list](https://julialang.org/learning/) - A diverse collection of learning materials and methods in one easy to check list!
+
+[JuliaTutorial.jl](https://kathesch.github.io/JuliaTutorial.jl/dev/) is a quickstart guiude for the Julia language. 
+
+[JuliaAcademy](https://juliaacademy.com/) is a collection of free courses to learn julia for all different reasons with many different approaches.
+
+
+##### Books
+
+[Julia for Optimisation and Learning](https://juliateachingctu.github.io/Julia-for-Optimization-and-Learning/stable/) is a web book based on a course taught at the [Czech Technical University](https://www.cvut.cz/en/) in Prague.

@@ -1,0 +1,30 @@
+---
+title: "Bytes & Bites - R Workshop: Retrieve and analyse AI related news"
+draft: false
+date: "04/14/2026"
+description: "16-18 @ O2 building, room 01W08"
+---
+
+Theme: Webscraping and text analysis
+
+Guest speakers: [Sofia Gil Clavel](https://sofiag1l.github.io/) reseacher and Lab Manager at the [Societal Analytics Lab](https://www.societal-analytics.nl/) and expert R teacher will be joining us this month to provide a work shop.
+
+[Register](https://vu-nl.libcal.com/calendar/universitylibrary/[EVENTNAME])
+
+Learn how to retrieve data using Application Programming Interfaces (APIs), as well as how to analyze it. In this session we will cover scraping web data, cleaning it for analysis, analysing text, and plotting the results that are ready for publication!
+
+# Requirements
+
+Participants need to:
+
+· Bring their own laptops.
+
+· Have R and Rstudio installed.
+
+· Have experience using the tidyverse packages. · Have already required their Guardian developer token via [this webpage](https://open-platform.theguardian.com/access/).
+
+All the necessary to follow this session will be available at [this GitHub repository](https://github.com/SofiaG1l/Bytes_n_Bites_SGC) 24 hours before the workshop.   
+
+  
+
+Pizza will be served as always!

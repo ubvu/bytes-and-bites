@@ -10,7 +10,72 @@
 <atom:link href="https://ubvu.github.io/bytes-and-bites/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.7.31</generator>
-<lastBuildDate>Mon, 09 Mar 2026 23:00:00 GMT</lastBuildDate>
+<lastBuildDate>Thu, 23 Apr 2026 22:00:00 GMT</lastBuildDate>
+<item>
+  <title>Bytes &amp; Bites presents - A Datahack: Work on real research data</title>
+  <link>https://ubvu.github.io/bytes-and-bites/events/26_04-April_24_datahack.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Theme: datahack</p>
+<p><img src="https://ubvu.github.io/bytes-and-bites/events/mediabag/images/2026/datahack_icon.png" height="300"></p>
+<section id="do-you-like-the-programming-side-but-not-the-writing-side-of-academia" class="level1">
+<h1>Do you like the programming side, but not the writing side of academia?</h1>
+<p>On the 24th of April we will be hosting our first ever datahack!</p>
+<section id="what-is-a-datahack" class="level2">
+<h2 class="anchored" data-anchor-id="what-is-a-datahack">What is a datahack?</h2>
+<p>A dataset or datasets are provided with explanation of the origin, columns, codes, and purpose. The hackers are then let loose on the data to work on it to find completely new insights, make a tool, or create some cool unique graphics.</p>
+</section>
+<section id="how-does-it-work" class="level2">
+<h2 class="anchored" data-anchor-id="how-does-it-work">How does it work?</h2>
+<p>Researchers have kindly donated some datasets that they wanted to do more with but perhaps didn’t have the time, money, or skills. That’s where you come in. This all day event is for solo hackers or teams to work on a dataset to: bring the data dreams to life, find completely new insights, make an analytical tool, or create some cool unique graphics.</p>
+<p><a href="https://libcal.vu.nl/event/4508414">Register</a><br>
+<a href="https://forms.office.com/Pages/ResponsePage.aspx?id=nJwqRqYt-0uzGA-DBD_km4HqWtL4iLFHsVXEaG3GTI1UQ09ZR1RON0M5UUhDTzZYQkw5SUUyWjY3OS4u">Donate data</a></p>
+<p>Researchers will provide an explanation of the project and its aims as well as a walkthrough of the datasets provided. Some researchers may also be available during the hack to answer questions you have about quirks of their field or dataset. At the end of the session you can add a link to your repo to the project list with an explanation of what you did, how it works, and what else you would like to add. If the researcher likes it they might write a paper about it and you will be credited for your work!</p>
+</section>
+<section id="things-to-note" class="level2">
+<h2 class="anchored" data-anchor-id="things-to-note">Things to Note</h2>
+<p>This is a daytime event that runs a long time, so we expect the hackers and researchers to drop in and out as fits their agenda.</p>
+<p>Pizza and drinks will be provided as always!</p>
+
+
+</section>
+</section>
+
+ ]]></description>
+  <guid>https://ubvu.github.io/bytes-and-bites/events/26_04-April_24_datahack.html</guid>
+  <pubDate>Thu, 23 Apr 2026 22:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Bytes &amp; Bites - R Workshop: Retrieve and analyse AI related news</title>
+  <link>https://ubvu.github.io/bytes-and-bites/events/26_04-April_14_webscraping_with_R.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Theme: Webscraping and text analysis</p>
+<p>Guest speakers: <a href="https://sofiag1l.github.io/">Sofia Gil Clavel</a> reseacher and Lab Manager at the <a href="https://www.societal-analytics.nl/">Societal Analytics Lab</a> and expert R teacher will be joining us this month to provide a work shop.</p>
+<p><a href="https://vu-nl.libcal.com/calendar/universitylibrary/%5BEVENTNAME%5D">Register</a></p>
+<p>Learn how to retrieve data using Application Programming Interfaces (APIs), as well as how to analyze it. In this session we will cover scraping web data, cleaning it for analysis, analysing text, and plotting the results that are ready for publication!</p>
+<section id="requirements" class="level1">
+<h1>Requirements</h1>
+<p>Participants need to:</p>
+<p>· Bring their own laptops.</p>
+<p>· Have R and Rstudio installed.</p>
+<p>· Have experience using the tidyverse packages. · Have already required their Guardian developer token via <a href="https://open-platform.theguardian.com/access/">this webpage</a>.</p>
+<p>All the necessary to follow this session will be available at <a href="https://github.com/SofiaG1l/Bytes_n_Bites_SGC">this GitHub repository</a> 24 hours before the workshop.</p>
+<p>Pizza will be served as always!</p>
+
+
+</section>
+
+ ]]></description>
+  <guid>https://ubvu.github.io/bytes-and-bites/events/26_04-April_14_webscraping_with_R.html</guid>
+  <pubDate>Mon, 13 Apr 2026 22:00:00 GMT</pubDate>
+</item>
 <item>
   <title>Bytes &amp; Bites - Game testing: Rogue.Ai</title>
   <link>https://ubvu.github.io/bytes-and-bites/events/26_03-March_10_game_testing.html</link>
@@ -433,52 +498,6 @@
  ]]></description>
   <guid>https://ubvu.github.io/bytes-and-bites/events/03_October_23_IDEs.html</guid>
   <pubDate>Mon, 02 Oct 2023 22:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>Bytes &amp; Bites - Roundtable &amp; Introduction</title>
-  <link>https://ubvu.github.io/bytes-and-bites/events/05_September_23_roundtable.html</link>
-  <description><![CDATA[ 
-
-
-
-
-<p>Theme: Roundtable and Introduction to Bytes &amp; Bites</p>
-<p><a href="https://vu-nl.libcal.com/event/4070575">Register</a></p>
-<p><a href="../presentations/Bytes&amp;Bites.pdf">Slides (Introducing Bytes &amp; Bites)</a></p>
-<p>Our first session after the summer break will focus on our projects we’ve been working on over the summer, and introduce our plans for the rest of the year. This can be software project related, but it’s also a great opportunity to talk about future plans for our software community meetings “Bytes &amp; Bites”. We used the summer break to identify interesting topics and sketch out some ideas for the remaining year. Let’s share some pizzas and discuss together some ideas.</p>
-<p>We can collect our ideas in this <a href="https://docs.google.com/document/d/1HXEJx9wLbhtYvCuhquoZul802ymH14DFShdMeV9uTLs/edit?usp=sharing">Google Doc</a></p>
-
-
-
- ]]></description>
-  <guid>https://ubvu.github.io/bytes-and-bites/events/05_September_23_roundtable.html</guid>
-  <pubDate>Mon, 04 Sep 2023 22:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>Bytes &amp; Bites - Bugs and Demos</title>
-  <link>https://ubvu.github.io/bytes-and-bites/events/11_July_23_bugs.html</link>
-  <description><![CDATA[ 
-
-
-
-
-<p>Theme: Bring your own bugs!</p>
-<p><a href="https://vu-nl.libcal.com/event/4049294">Register</a></p>
-<p>This edition of Bytes and Bites is all about you and your code! Tell us more about what you are working on or share what is blocking you. We meet one last time before the summer break for an informal bug-party.</p>
-<section id="no-preparation-required" class="level3">
-<h3 class="anchored" data-anchor-id="no-preparation-required">No preparation required</h3>
-<p>This meeting is as informal as you like. We make sure that there will be enough time and space to talk about what we are working on and what bugs us.</p>
-</section>
-<section id="have-a-bigger-problem-or-would-like-to-present-your-project-with-more-time" class="level3">
-<h3 class="anchored" data-anchor-id="have-a-bigger-problem-or-would-like-to-present-your-project-with-more-time">Have a bigger problem or would like to present your project with more time?</h3>
-<p>You can send us your projects or questions before if you want. This way we can plan presenter time or make sure that we have the right persons to answer your question as good as anyone can.</p>
-
-
-</section>
-
- ]]></description>
-  <guid>https://ubvu.github.io/bytes-and-bites/events/11_July_23_bugs.html</guid>
-  <pubDate>Mon, 10 Jul 2023 22:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>
