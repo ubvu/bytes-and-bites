@@ -13,6 +13,8 @@
   {
     "listing": "/events.html",
     "items": [
+      "/events/26_04-April_24_datahack.html",
+      "/events/26_04-April_14_webscraping_with_R.html",
       "/events/26_03-March_10_game_testing.html",
       "/events/26_02-February_10_lego_and_docs.html",
       "/events/26_01-January_08_new_year.html",
@@ -41,6 +43,8 @@
   {
     "listing": "/index.html",
     "items": [
+      "/events/26_04-April_24_datahack.html",
+      "/events/26_04-April_14_webscraping_with_R.html",
       "/events/26_03-March_10_game_testing.html",
       "/events/26_02-February_10_lego_and_docs.html",
       "/events/26_01-January_08_new_year.html",
