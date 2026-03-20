@@ -22,25 +22,40 @@ The UB regularly hosts a coding course for beginners based on the Carpentry work
 ___________________
 
 [Swirl](https://swirlstats.com/) – R – An R package that teaches you to code in line. Install the package, call upon it and follow the instructions. There are also websites to help with solutions when you are stuck. 
+
 [The Turing Way](https://book.the-turing-way.org/) - A community driven overview of how you can perform open science research with regards to data, code, planning, collaboration and more. 
+
 [RSQKit](https://everse.software/RSQKit/) – Overview – Provides an overview of best coding practices in science including (but not limited to) management, citation, sharing code, and pipelines.
+
 [Intro to programming in R](https://github.com/SofiaG1l/R_Course) - A course from the VU Amsterdam's very own Sofia Gil-Clavel
+
+[HTML for people](https://htmlforpeople.com/) - HTML is not a programming languages, but seeing as the ability to craft a website or frontend for a tool is very useful this resource gets an honourable mention.
 
 #### Free coding courses
 
 [W3Schools](https://www.w3schools.com/) – All – A site with free courses for all sorts of programming languages that also has embedded coding playgrounds, tests, questions, and cheatsheets. 
+
 [OSSU Compsci course](https://github.com/ossu/computer-science) - Mixed - A (mostly) free comprehensive computer science course from mixed resources with a community for discussion, questions, and trouble shooting.
+
 [MIT OpenCourseWare](https://ocw.mit.edu/collections/introductory-programming/) – All – MIT has a series of free courses from introductory to intermediate. You can pay if you want your work marked and to get a certificate, otherwise it is not needed. 
+
 [The Carpentries](https://carpentries.org/lessons/) - Research related programming - An international programme that has been running almost 30 years that has introductory courses on topics covering shell, Git, Python, R, and more.
+
 [eScience center](https://www.esciencecenter.nl/training-materials/) - The Netherlands has several centralised support groups, one of the better known ones is the eScience center. To attend their courses costs, but they keep their learning materials free, so you can follow them in your own time.
+
+[CodeRefinery](https://coderefinery.org/) provides intermediate level courses for software management, data management, and project skills, orientated around research. The courses are free to join and you can review the older courses that have been recorded either on Twitch or Youtube. To ask questions in the session you will need an account for those services. 
 
 #### Paid coding course sites
 
 There are many places to find coding courses, here are a few popular ones:
 
 [Codecademy](https://www.codecademy.com/article): A site that has both paid course and free articles/guides. Ignore the courses you can find some good information in their articles, though perhaps not the best place to get it.
+
 [Datacamp](https://www.datacamp.com/tutorial/): The Etos to the Kruidvat that is Codecademy. Stick to the articles and look elsewhere for courses or topics if you don’t want to pay.
-[Coursera](https://www.coursera.org/): Essentially a course marketplace, be sure to read the reviews and check that the topics are relevant. There are free courses or some that provide a free option of their course that is a limited version of the paid one.
+
+[Coursera](https://www.coursera.org/): Essentially a course marketplace, be sure to read the reviews and check that the topics are relevant. There are free courses or some that provide a free 
+option of their course that is a limited version of the paid one.
+
 [edX](https://www.edx.org/): A more refined course marketplace intially started by a US university collective. The courses vary greatly in length (days to years) and cost (free to 10s of thousands of euros), again it is worth checking the reviews before signing up to one.
 
 ### Programming forums
@@ -107,6 +122,8 @@ _______
 
 [CCS R Course Materials](https://github.com/ccs-amsterdam/r-course-material/tree/master) _"a collection of R tutorials, developed at the Vrije Universiteit Amsterdam for Communication Science courses that use R."_ From data wrangling to data scraping, simulations to LLMs, if the Communication Science team has taught an R course on it, you can find it here.
 
+[Statology](https://www.statology.org/) has a big focus on status (who would have guessed!) and as a result has a lot of comprehensive R articles. [Check them out here!](https://www.statology.org/r-guides/)
+
 ##### Books
 The [Communcation Science R Book](https://dataliteracy.cc/) is a web-book developed by the communication sciences team in the VU Amsterdam that covers all the concepts needed to start with using R for statistical analyses including concept explanations alongside the code guides.
 
@@ -155,7 +172,7 @@ _______
 
 [Official julialang learning list](https://julialang.org/learning/) - A diverse collection of learning materials and methods in one easy to check list!
 
-[JuliaTutorial.jl](https://kathesch.github.io/JuliaTutorial.jl/dev/) is a quickstart guiude for the Julia language. 
+[JuliaTutorial.jl](https://kathesch.github.io/JuliaTutorial.jl/dev/) is a quickstart guide for the Julia language. 
 
 [JuliaAcademy](https://juliaacademy.com/) is a collection of free courses to learn julia for all different reasons with many different approaches.
 

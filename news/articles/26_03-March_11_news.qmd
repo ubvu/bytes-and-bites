@@ -48,7 +48,7 @@ Bytes & Bites is hosting its first ever datahack! If you are a researcher you ca
 
   
 
-The innovation team at the VU has been working with the AI Competence Network to pilot a service or matching researchers for potential collaborations. The tool is meant for junior researchers who are looking to connect with people outside of their field. Hopefully this will allow them to get another view on their work and perform some cool multidisciplinary work. The working name is "_University Research Network_" and the website is currently in development.  
+The innovation team at the VU has been working with the AI Competence Network to pilot a service for matching researchers for potential collaborations using a few machine learning methods. The tool is meant for junior researchers who are looking to connect with people outside of their field. Hopefully this will allow them to get another view on their work and perform some cool multidisciplinary work. The working name is "_University Research Network_" and the website is currently in development.  
 
   
 

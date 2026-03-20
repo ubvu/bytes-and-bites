@@ -6,6 +6,7 @@ description: "16-18 @ O2 building, room 01W08"
 ---
 
 Theme: Webscraping and text analysis
+Level: 2,3
 
 Guest speakers: [Sofia Gil Clavel](https://sofiag1l.github.io/) reseacher and Lab Manager at the [Societal Analytics Lab](https://www.societal-analytics.nl/) and expert R teacher will be joining us this month to provide a work shop.
 
@@ -21,7 +22,9 @@ Participants need to:
 
 · Have R and Rstudio installed.
 
-· Have experience using the tidyverse packages. · Have already required their Guardian developer token via [this webpage](https://open-platform.theguardian.com/access/).
+· Have experience using the tidyverse packages. 
+
+· Have already required their Guardian developer token via [this webpage](https://open-platform.theguardian.com/access/).
 
 All the necessary to follow this session will be available at [this GitHub repository](https://github.com/SofiaG1l/Bytes_n_Bites_SGC) 24 hours before the workshop.   
 
