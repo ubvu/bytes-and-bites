@@ -1,0 +1,86 @@
+---
+title: "Article - Copyright: Abandonware, licenses, and making your own"
+draft: true
+date: "04/02/2026"
+description: "An article looking at copyright in the software world"
+categories: [software, licenses, copyright]
+about:
+    template: jolla
+    image: "../mediabag/images/20xx/x.png"
+---
+
+![<credit for image>](../mediabag/images/20xx/x.png)
+
+# What happens when a game is owned by a company that folds?
+
+A couple of years ago after having an urge to play the 2002 game [Marble Blast Gold](https://en.wikipedia.org/wiki/Marble_Blast) I looked to see if it was available on steam. It wasn't and so I looked it up on [Ecosia](https://www.ecosia.org/) hoping to find some way to play it. In game of cat (me), mouse (Marble Blast), and poison (dodgy download sites) I came across the term _abandonware_, and so began my journey...
+
+
+
+## What is abandonware?
+By definition it is software that is no longer officially for sale or suppported by the creator. Seeing as the creator and owner of Marble Blast Gold, GarageGames, had closed down in 2022 that ticked at least one of the two boxes. I decided it must be abandonware and sought enlightenment in what that meant for me. 
+
+My first stop was at the aptly named [My Abandonware](https://www.myabandonware.com/) a website that proudly confesses to having more than 30,000 old games availabe for download. It seemed that I was in the right place. A quick search and there it sat, Marble Blast Gold looking as dated as you might expect a 2003 indy made game aimed at children to be. It sat there waiting for me to hit that download button and find out just how rose tinted my glasses were. 
+
+I've been around the world wide web block a few times, I know to check the trustworthiness of a download before committing. I did a little digging around to see how legit My Abandonware was. Are they really in it just for the love of the game or do they make some money with a cryptominer attached to every exe?
+
+
+<br><br/>
+
+> "_Legality is not relevant to a game being abandonware; only availability._"
+>
+> -- Rule 3 of the abandonware subreddit
+
+<br><br/>
+
+It seems that many are indeed in this for the love of the game(s) and thoroughly believe in the message ethos that
+
+grave robbing vs archaeology
+nintendo and roms
+
+
+## Why does software get left to fend for itself?
+
+Cold, alone, left in the rain, why do we do it to our software? For commercial software it is usually just it isn't profitable any more, but there are plenty of cases where the maintainer retires or leaves the company. If you have ever tried to work on someone else's codebase you'll know what a monster project that can be, more spaghetti than an Italian wedding!
+There is another type of commercial abandonware, that occurs when companies are taken over without the intention or knowledge of all the IP leaving software and its copyright left in limbo. One of the biggest IP sagas in the gaming world was TimeSplitters, [read the full tale here](https://www.timesplittersrewind.com/about).
+
+What about in the research world? Again there is often software for niche analysis or machines that loses the owner or maintainer from retirement, but the bigger loss is more often 
+profitability
+lack of resources
+lost knowledge
+ip ownership unclear
+unintended purchase of ip
+
+## What are the rights for abandonware?
+
+Depending on who you ask it will fall under illegal, legal, or grey area. Most will refer to the copyright law when stating it to be illegal. Intellectual property typically has a long copyright shelf life and without the software being made open source or given a felxible license the owner retains full rights. Those arguing that it is grey would point out that companies and owners have a responsibility to support the products sell and if they don't then consumers should be allowed to keep using the software and edit it remain usable. Those who claim legal might point to the fact that if the company (or even person) no longer exist there is no owner, therefore it can't be subject to copyright in this situation and that abondonment is a willing decision equivalent to a non-existent owner.
+
+
+For owner
+for consumer
+EU
+US
+John Deer case vs scientific hardware
+
+
+
+## Can I make my own version?
+AI that reverse engineers software - https://ijireeice.com/wp-content/uploads/2025/05/IJIREEICE.2025.13516.pdf
+copyright of code literal vs functional
+games vs software
+the mouse input story - https://dev.to/jbinary/40-lines-of-python-to-fake-a-serial-mouse-5cob
+
+
+<TL;DR, conclusion>
+What works as a consumer, what to do as a researcher
+
+<links used as reference/ further reading>
+https://www.keengamer.com/articles/features/others/the-art-of-abandonware-preservation/
+https://mrabandonware.wordpress.com/ 
+https://winworldpc.com/home 
+https://en.wikipedia.org/wiki/Abandonware
+https://arstechnica.com/gaming/2025/09/switch-modder-who-acted-as-his-own-lawyer-now-owes-nintendo-2-million/
+https://gamingretro.co.uk/what-is-abandonware-and-is-it-illegal-or-just-a-gray-area/ 
+https://legalclarity.org/is-abandonware-legal-understanding-software-ownership-and-rights/ 
+https://citizens-initiative.europa.eu/initiatives/details/2024/000007_en 
+https://is-this-legal.com/is-abandonware-legal-in-germany/ 

@@ -10,7 +10,34 @@
 <atom:link href="https://ubvu.github.io/bytes-and-bites/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.7.31</generator>
-<lastBuildDate>Thu, 23 Apr 2026 22:00:00 GMT</lastBuildDate>
+<lastBuildDate>Mon, 11 May 2026 22:00:00 GMT</lastBuildDate>
+<item>
+  <title>Bytes &amp; Bites - Documentation: A LEGO story (2nd attempt)</title>
+  <link>https://ubvu.github.io/bytes-and-bites/events/26_05-May_12_LEGO_and_Documentation.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://ubvu.github.io/bytes-and-bites/events/mediabag/images/2026/lego_instructions.jpg" class="img-fluid figure-img"></p>
+<figcaption><em>Credit to https://www.publicdomainpictures.net</em></figcaption>
+</figure>
+</div>
+<p>Theme: Documentation, Fundamentals</p>
+<p><strong>Note: This is a re-organisation of the event that didn’t go ahead in February.</strong></p>
+<p>Guest speakers: <a href="https://libcal.vu.nl/profile/fb462e443245">Charlie Greene</a>, the VU library research software engineer will be hosting the May edition of Bytes &amp; Bites where we will be playing with LEGO!</p>
+<p><a href="https://libcal.vu.nl/calendar/universitylibrary/Bytes_and_Bites_May_2026">Register</a></p>
+<p>The colourful bricks can be used to make anything you want and in this session they will help us learn more about documentation! So bring your creative mindset and we’ll bring the LEGO, see you there!</p>
+<p>Pizza will be served as always!</p>
+
+
+
+ ]]></description>
+  <guid>https://ubvu.github.io/bytes-and-bites/events/26_05-May_12_LEGO_and_Documentation.html</guid>
+  <pubDate>Mon, 11 May 2026 22:00:00 GMT</pubDate>
+</item>
 <item>
   <title>Bytes &amp; Bites presents - A Datahack: Work on real research data</title>
   <link>https://ubvu.github.io/bytes-and-bites/events/26_04-April_24_datahack.html</link>
@@ -470,35 +497,6 @@
  ]]></description>
   <guid>https://ubvu.github.io/bytes-and-bites/events/07_November_23.html</guid>
   <pubDate>Mon, 06 Nov 2023 23:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>Bytes &amp; Bites - JupyterLab &amp; IDEs</title>
-  <link>https://ubvu.github.io/bytes-and-bites/events/03_October_23_IDEs.html</link>
-  <description><![CDATA[ 
-
-
-
-
-<p>Theme: Coding environments</p>
-<p><a href="https://vu-nl.libcal.com/event/4085321">Register</a></p>
-<p><a href="../presentations/Bytes&amp;Bites_ides.pdf">Introduction Slides</a></p>
-<p><a href="../presentations/Jupyter.pdf">Slides for IDEs &amp; JupyterLab</a></p>
-<section id="notes" class="level1">
-<h1>Notes</h1>
-<p>Useful links:</p>
-<ul>
-<li><a href="https://coderefinery.github.io/installation/conda/">Miniconda</a></li>
-<li><a href="https://www.anaconda.com">Anaconda</a></li>
-<li><a href="https://jupyter.org">Jupyter Lab</a></li>
-<li><a href="https://vu-nl.libcal.com/event/4031010">Software Carpentry Python workshop in November</a></li>
-</ul>
-
-
-</section>
-
- ]]></description>
-  <guid>https://ubvu.github.io/bytes-and-bites/events/03_October_23_IDEs.html</guid>
-  <pubDate>Mon, 02 Oct 2023 22:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>

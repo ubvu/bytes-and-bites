@@ -1,5 +1,5 @@
 ---
-title: "Digital Preservation Day: What do you know about it?"
+title: "Article - Digital Preservation Day: What do you know about it?"
 draft: false
 date: "11/06/2025"
 description: "A post for the world digital preservation day"

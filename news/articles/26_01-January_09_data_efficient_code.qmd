@@ -1,8 +1,8 @@
 ---
-title: "Efficiency - \"we should have always been counting bytes\": Writing data efficient code"
+title: "Article - \"we should have always been counting bytes\": Writing data efficient code"
 draft: false
 date: "02/16/2026"
-description: "16-18 @ O2 building, room 01W08"
+description: "Stories of herioc saves, impact of file bloat, and some tips"
 categories: [efficiency, tips, data, webdev]
 about:
     template: jolla

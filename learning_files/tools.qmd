@@ -13,6 +13,8 @@ make that clear.
 To keep us on top of those metaphorical shoulders we have compiled a list of useful or interesting tools, scripts, 
 and frameworks that are free to use. Happy coding!
 
+### Tools for Good Practice
+
 [Simple Python template](https://git.vu.nl/tis254/simple-python-template) is a project template for simple Python projects
 that we have developed primarily for researchers. This template is easy to setup and use and is intended to keep
 your code clean, readable, and secure. It is a work in progress and there are two other standard types to come - 
@@ -23,14 +25,7 @@ The service uses the DOI or URL of your datasets to measure it against the FAIR 
 [FAIRSFAIR](https://www.fairsfair.eu/) project. As ever take privacy and security into account whenever uploading 
 anything to the internet. Any projects with sensitive data should be appropriately cleaned, anonymised, or pseudonymised.
 
-[Jan](https://jan.ai/) - "_Jan is an open source ChatGPT-alternative that runs 100% offline._" It is a a GUI to interact
-a selection of open source LLM models from the [Hugging Face](https://huggingface.co/janhq) repository. It works in the 
-same familiar chatbot manner and is available on all major operating systems.
-
-[OpenRefine](https://openrefine.org/), an open source tool for data manipulation. Clean, change format, add connected 
-data sources, cluster editing, filtered functions, and more. If you have questions or get stuck there is an active 
-community that can help or if you want to use some of the features directly in your own code you can, provided you
-respect their license agreement.
+[FAIR code template](https://ss-nes.github.io/meta-template/python-case.html) - TU Delft has crafted a python project template for making writing FAIR software in the NES domain that much easier. 
 
 [deploy2zenodo](https://gitlab.com/deploy2zenodo/deploy2zenodo) - a shell script to deploy files to Zenodo that can be
 used as part of a CI pipeline meaning it can be an automatic part of your development process.
@@ -39,24 +34,78 @@ used as part of a CI pipeline meaning it can be an automatic part of your develo
 CITATION.cff files. If you aren't already including citation instructions in your software this could be the way to
 get started!
 
-[TAXILA](https://taxila.nl/content_providers) - a scraping service that finds courses, workshops, events, learning 
-materials, and trainers from 37 different partner institutions in the Netherlands. You can create an account and 
-subscribe to get alerts on the information that interests you or if you prefer curate your own list with the RSS feed
-or via their API.
+[code-auditor](https://github.com/SS-NES/code-auditor/tree/v0.2.1) - A package and command-line utility to audit code quality and compliance to the best practices. 
 
-[Ersilia](https://www.ersilia.io/tools) has a CLI (command line interface) download that allows you to download and 
-directly use any of their open source ML models for Chemistry straight out of the box. 
 
-[EUROPEAN ALTERNATIVES](https://european-alternatives.eu/) - a website with European digital services and products as 
-alternatives for their American counterparts. They are categorised for ease of browsing and you can also try searching 
-for products or services you already use to find the suggested alternatives.
+### IDEs and Workspaces
 
-[_Oh My Git!_](https://ohmygit.org/) - an open source game built in Godot to help you learn Git. A fun and interactive 
-way to learn Git intended for beginners, but with plenty of tricks more advanced users might not know.
+[VSCodium](https://vscodium.com/) - 
+Use the versatility of the VS Code without the tracking of Microsoft!
 
 [Positron](https://positron.posit.co/) - an R IDE from the makers of RStudio is a modern revamp of that same IDE you know 
 and love. The integrated features and marketplace mindset for extensions of VS code meets the familiarity and accessiblity 
 of RStudio. 
+
+[RSpace](https://www.researchspace.com/) - a digital lab space where you can connect all the services and software you use in your project in one location to help keep a FAIR workflow.
+
+[Notebook.link](https://notebook.link/) - A place to run notebooks in your browser, there is even the possibility to [run C++ in a notebook](https://notebook.link/@quantstack/xeus-cpp).
+
+
+### Data Analysis
+
+[Jasp](https://jasp-stats.org/) -
+R based SPSS replacement developed by a team at the UvA. It is still in development, but a functional version is available. 
+
+[OpenRefine](https://openrefine.org/), an open source tool for data manipulation. Clean, change format, add connected 
+data sources, cluster editing, filtered functions, and more. If you have questions or get stuck there is an active 
+community that can help or if you want to use some of the features directly in your own code you can, provided you
+respect their license agreement.
+
+[AntTools](https://www.laurenceanthony.net/software.html) -
+A set of open source tools for text analysis made by Lawrence Anthony.
+
+[Ersilia](https://www.ersilia.io/tools) has a CLI (command line interface) download that allows you to download and directly use any of their open source ML models for Chemistry straight out of the box. 
+
+
+### Data Visualisation
+
+[Apache Superset](https://superset.apache.org/) -  an open-source modern data exploration and visualization platform. Think open source PowerBI and kick Microsoft to the curb!
+
+[VisQuill](https://visquill.com/visquill) - Build unique and interactive visuals to explain or explore your data!
+
+
+### Learning and Support
+
+[_Oh My Git!_](https://ohmygit.org/) - an open source game built in Godot to help you learn Git. A fun and interactive 
+way to learn Git intended for beginners, but with plenty of tricks more advanced users might not know.
+
+[Jan](https://jan.ai/) - "_Jan is an open source ChatGPT-alternative that runs 100% offline._" It is a a GUI to interact
+a selection of open source LLM models from the [Hugging Face](https://huggingface.co/janhq) repository. It works in the 
+same familiar chatbot manner and is available on all major operating systems.
+
+
+### Useful Python Libraries
+
+[OSMnx](https://osmnx.readthedocs.io/en/stable/) - a Python package to easily download, model, analyze, and visualize street networks and other geospatial features from OpenStreetMap. You can download and model walking, driving, or biking networks with a single line of code then analyze and visualize them.
+
+[xkcdpass](https://github.com/redacted/XKCD-password-generator) - a way to create secure, but easy to remember passwords. For those familiar with xkcd this comes from [comic 936](https://xkcd.com/936/). For those unfamiliar the concept the idea is that modern password requirements are usually quite easily broken with bruteforce and a few rules applied, but difficult for humans to remember. Writing a sentence or stringing together 3-4 words is easy for a human to remember, but difficult to hack.
+
+[drawdata](https://pypi.org/project/drawdata/) - Have you ever needed a toy dataset to test some code or try out a model? Finding data that has the right sort of shape can be difficult, but with drawdata you can draw a data set with Jupyter, VSCode and Colab. 
+
+[passagemath](https://passagemath.org/) - a general purpose mathematical software system. The passagemath fork uses the motto "Creating a Free Passage Between the Scientific Python Ecosystem and Mathematical Software Communities."
+
+
+### Useful R Libraries
+
+[testthat](https://testthat.r-lib.org/) is an R library created with the intention to make writing tests for your code fun and easy. It is on CRAN, so download and installation is straightforward.
+
+
+### HPC (super computers)
+
+[JupyterDaskOnSlurm Template](https://github.com/RS-DAT/JDS_development_template)
+
+[CernVM](https://cvmfs.readthedocs.io/en/stable/cpt-overview.html) is a way to produce standardised virtual machines for use on super computers meaning all researchers can work in the same environment and better co-develop and share tools, scripts, and software.
+
 
 ### Visual Programming
 
@@ -78,11 +127,11 @@ The Google made competitor to Scratch, again the target audience is children and
 
 ### Special mention: Open source tools
 
-[Jasp](https://jasp-stats.org/) -
-R based SPSS replacement developed by a team at the UvA. It is still in development, but a functional version is available. 
+[TAXILA](https://taxila.nl/content_providers) - a scraping service that finds courses, workshops, events, learning 
+materials, and trainers from 37 different partner institutions in the Netherlands. You can create an account and 
+subscribe to get alerts on the information that interests you or if you prefer curate your own list with the RSS feed
+or via their API.
 
-[AntTools](https://www.laurenceanthony.net/software.html) -
-A set of open source tools for text analysis made by Lawrence Anthony.
-
-[VSCodium](https://vscodium.com/) - 
-Use the versatility of the VS Code without the tracking of Microsoft!
+[EUROPEAN ALTERNATIVES](https://european-alternatives.eu/) - a website with European digital services and products as 
+alternatives for their American counterparts. They are categorised for ease of browsing and you can also try searching 
+for products or services you already use to find the suggested alternatives.
