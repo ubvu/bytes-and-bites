@@ -31,6 +31,8 @@ ___________________
 
 [HTML for people](https://htmlforpeople.com/) - HTML is not a programming languages, but seeing as the ability to craft a website or frontend for a tool is very useful this resource gets an honourable mention.
 
+[Introduction to Python](https://datalab01.ict.hva.nl/) by Pieter Bons of the HvA is a selection of short videos walking you through the basics of using Python. 
+
 #### Free coding courses
 
 [W3Schools](https://www.w3schools.com/) – All – A site with free courses for all sorts of programming languages that also has embedded coding playgrounds, tests, questions, and cheatsheets. 
@@ -44,6 +46,11 @@ ___________________
 [eScience center](https://www.esciencecenter.nl/training-materials/) - The Netherlands has several centralised support groups, one of the better known ones is the eScience center. To attend their courses costs, but they keep their learning materials free, so you can follow them in your own time.
 
 [CodeRefinery](https://coderefinery.org/) provides intermediate level courses for software management, data management, and project skills, orientated around research. The courses are free to join and you can review the older courses that have been recorded either on Twitch or Youtube. To ask questions in the session you will need an account for those services. 
+
+[AI@VU](https://vu-ai-hub.vercel.app/courses) is a site that is under development to allow you to follow all AI Bachelors courses from the VU.
+
+[SSI Training hub](https://www.software.ac.uk/training/training-hub) - The Software Sustainability Institute in the UK has a selection of trainings in their training hub covering different topics, levels, and programming languages.
+
 
 #### Paid coding course sites
 
