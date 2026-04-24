@@ -12,7 +12,7 @@ Today we are hosting our first ever datahack!
 There are currently two datasets available and both have some additional contextual information on the project and topic.
 
 ## Dataset 1 - Videos from de tweede kamer
-This dataset is from [Antonis Koutsoumpis](a.koutsoumpis@vu.nl) from Management, Organisation and SBE. 
+This dataset is from [Antonis Koutsoumpis](mailto:a.koutsoumpis@vu.nl) from Management, Organisation and SBE. 
 Download the data [here](https://doi.org/10.5281/zenodo.19485448) or check out a shorter dataset [here](https://filesender.surf.nl/?s=download&token=c019a398-dc2e-4cff-8711-b2b055ffd118)! The following is context from the researcher:
 
 "_I would like to create a function that extracts jitter, shimmer, and harmonicity from audio files of continuous speech. Jitter, shimmer, and harmonicity should be extracted from sustained vowels, instead of continuous speech. To achieve the task from continuous speech, we need to identify parts in the continuous speech where participants sustained a vowel sound for some time (e..g, and 'uh', 'ee', 'aa', etc for a few milliseconds, e.g, at least 80 ms). In summary, the script should perform the following:_
@@ -21,12 +21,18 @@ _A similar procedure is described in this paper: Nathan, V., Rahman, M. M., Vata
 
 
 ## Dataset 2 - Crystal materials data
-This dataset is from [Senja Barthel]() et al. from the Maths department and is about materials science. The main topic of the data is crystalline structures. She gave this description of the project:
+This dataset is from [Senja Barthel](https://research.vu.nl/en/persons/senja-barthel/) et al. from the Maths department and is about materials science. The main topic of the data is crystalline structures. She gave this description of the project:
 
 "_The idea of this research project was to use machine learning to investigate in how far the performance in terms ( e.g. gas adsorption (standard is nitrogen, carbon dioxide, methane, or heat capacity) of metal-organic frameworks is determined by the atomic composition of the materials (made in a lego-style fashion using organic lingers that are attached to metal centers), and in how far it is determined by the underlying crystallographic net._"
 
 **Download** the data [here](https://filesender.surf.nl/?s=download&token=88caf3a4-4e13-433c-b7f4-8810eae74ca0) and check out the fuller documentation [here](https://filesender.surf.nl/?s=download&token=ec3f60cf-ddde-4800-bf0a-c90115a40591)!
 
+Links for additional context:
+-   [Chemistry and Applications of Metal-Organic Frameworks](https://www.science.org/doi/10.1126/science.1230444)
+-   [Crystallographic nets and their quotient graphs](https://www.researchgate.net/publication/227608010_Crystallographic_nets_and_their_quotien)
+-   [wiki for metal organice frameworks](https://en.wikipedia.org/wiki/Metal%E2%80%93organic_framework)
+-   book for [Introduction to Metal-Organic Frameworks](https://link.springer.com/chapter/10.1007/978-981-16-7959-9_1)
+-   [github link for the team](https://github.com/EnGeo-Team/)
 
 ## Updates
 
