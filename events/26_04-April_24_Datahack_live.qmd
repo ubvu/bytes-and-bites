@@ -25,14 +25,32 @@ This dataset is from [Senja Barthel](https://research.vu.nl/en/persons/senja-bar
 
 "_The idea of this research project was to use machine learning to investigate in how far the performance in terms ( e.g. gas adsorption (standard is nitrogen, carbon dioxide, methane, or heat capacity) of metal-organic frameworks is determined by the atomic composition of the materials (made in a lego-style fashion using organic lingers that are attached to metal centers), and in how far it is determined by the underlying crystallographic net._"
 
-**Download** the data [here](https://filesender.surf.nl/?s=download&token=88caf3a4-4e13-433c-b7f4-8810eae74ca0) and check out the fuller documentation [here](https://filesender.surf.nl/?s=download&token=ec3f60cf-ddde-4800-bf0a-c90115a40591)!
+**Download** the data [here]() and check out the fuller documentation [here](https://filesender.surf.nl/?s=download&token=ec3f60cf-ddde-4800-bf0a-c90115a40591)!
 
 Links for additional context:
+
 -   [Chemistry and Applications of Metal-Organic Frameworks](https://www.science.org/doi/10.1126/science.1230444)
+
 -   [Crystallographic nets and their quotient graphs](https://www.researchgate.net/publication/227608010_Crystallographic_nets_and_their_quotien)
+
 -   [wiki for metal organice frameworks](https://en.wikipedia.org/wiki/Metal%E2%80%93organic_framework)
+
 -   book for [Introduction to Metal-Organic Frameworks](https://link.springer.com/chapter/10.1007/978-981-16-7959-9_1)
+
 -   [github link for the team](https://github.com/EnGeo-Team/)
+
+
+**On the variables** 
+"_The coordination sequence counts how many vertices there are n steps away from any given node. Nodes are considered the same if the symmetry group matches them onto one another._
+ 
+_The vertex symbols encode the length of shortest cycles (with multiplicities if there are several of shortest length) of the graph (i.e. the crystalline net) for any pair of edges at any symmetrically distinct vertex._"
+
+
+**Plan for the dataset**
+"_The aim was to see in how far the information of the noccectivity of the building blocks can predict the performance parameters, i.e. material properties. And in how far that differs from using the chemical composition of the linkers\metal nodes instead. Basically: what is due to the construction built from the lego, and what is due to the colours of the lego pieces that are used._
+ 
+_That was the plan. So I computed the chemical composition of the building blocks (the color of the legos) which is the ligand and center information. And I calculated descriptors for the crystallographic net (the construction blueprint)._"
+
 
 ## Updates
 
