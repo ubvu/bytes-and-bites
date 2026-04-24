@@ -1,0 +1,36 @@
+---
+title: "Bytes & Bites - LIVE: Updates and info from the Datahack"
+draft: false
+date: "04/24/2026"
+description: "11-17 @ MF building, room A311"
+---
+
+Theme: Live, info
+
+Today we are hosting our first ever datahack! 
+
+There are currently two datasets available and both have some additional contextual information on the project and topic.
+
+## Dataset 1 - Videos from de tweede kamer
+This dataset is from [Antonis Koutsoumpis](a.koutsoumpis@vu.nl) from Management, Organisation and SBE. 
+Download the data [here](https://doi.org/10.5281/zenodo.19485448) or check out a shorter dataset [here](https://filesender.surf.nl/?s=download&token=c019a398-dc2e-4cff-8711-b2b055ffd118)! The following is context from the researcher:
+
+"_I would like to create a function that extracts jitter, shimmer, and harmonicity from audio files of continuous speech. Jitter, shimmer, and harmonicity should be extracted from sustained vowels, instead of continuous speech. To achieve the task from continuous speech, we need to identify parts in the continuous speech where participants sustained a vowel sound for some time (e..g, and 'uh', 'ee', 'aa', etc for a few milliseconds, e.g, at least 80 ms). In summary, the script should perform the following:_
+_1) process an audio file and identify speech; 2) identidy parts of the speech where participants sustained a vowel sound (e.g., sustained the vowel 'aa' for at least 80 milliseconds); 3) extract jitter, shimmer, and harmonicity (e.g., using an open source voice analysis software such as OpenSmile, Praat, etc.) from those identified parts of the audio file; 4) average those values across the entire audio file per participant; 5) store the output in a csv file._
+_A similar procedure is described in this paper: Nathan, V., Rahman, M. M., Vatanparvar, K., Nemati, E., Blackstock, E., & Kuang, J. (2019, November). Extraction of voice parameters from continuous running speech for pulmonary disease monitoring. In 2019 IEEE international conference on bioinformatics and biomedicine (BIBM) (pp. 859-864). IEEE. [link](https://doi.org/10.1109/BIBM47256.2019.8983115)_"
+
+
+## Dataset 2 - Crystal materials data
+This dataset is from [Senja Barthel]() et al. from the Maths department and is about materials science. The main topic of the data is crystalline structures. She gave this description of the project:
+
+"_The idea of this research project was to use machine learning to investigate in how far the performance in terms ( e.g. gas adsorption (standard is nitrogen, carbon dioxide, methane, or heat capacity) of metal-organic frameworks is determined by the atomic composition of the materials (made in a lego-style fashion using organic lingers that are attached to metal centers), and in how far it is determined by the underlying crystallographic net._"
+
+**Download** the data [here](https://filesender.surf.nl/?s=download&token=88caf3a4-4e13-433c-b7f4-8810eae74ca0) and check out the fuller documentation [here](https://filesender.surf.nl/?s=download&token=ec3f60cf-ddde-4800-bf0a-c90115a40591)!
+
+
+## Updates
+
+More info wil be added as it comes in
+
+# Pizza
+Pizza will be served as always! We expect the delivery around 13:00-13:30 :)

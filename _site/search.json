@@ -137,7 +137,7 @@
     "href": "index.html#events",
     "title": "Bytes & Bites",
     "section": "Events",
-    "text": "Events\nWe meet once a month on Tuesdays, time: 16-18, location: O|2 building, room 01W08\n\n\n\n\n\n\nTitle\n\n\n\nDate\n\n\n\n\n\n\n\n\nBytes & Bites - Documentation: A LEGO story (2nd attempt)\n\n\nMay 12, 2026\n\n\n\n\n\n\nBytes & Bites presents - A Datahack: Work on real research data\n\n\nApril 24, 2026\n\n\n\n\n\n\nBytes & Bites - R Workshop: Retrieve and analyse AI related news\n\n\nApril 14, 2026\n\n\n\n\n\n\nBytes & Bites - Game testing: Rogue.Ai\n\n\nMarch 10, 2026\n\n\n\n\n\n\nNo matching items"
+    "text": "Events\nWe meet once a month on Tuesdays, time: 16-18, location: O|2 building, room 01W08\n\n\n\n\n\n\nTitle\n\n\n\nDate\n\n\n\n\n\n\n\n\nBytes & Bites - Documentation: A LEGO story (2nd attempt)\n\n\nMay 12, 2026\n\n\n\n\n\n\nBytes & Bites presents - A Datahack: Work on real research data\n\n\nApril 24, 2026\n\n\n\n\n\n\nBytes & Bites - LIVE: Updates and info from the Datahack\n\n\nApril 24, 2026\n\n\n\n\n\n\nBytes & Bites - R Workshop: Retrieve and analyse AI related news\n\n\nApril 14, 2026\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "events/26_05-May_12_LEGO_and_Documentation.html",
@@ -145,237 +145,6 @@
     "title": "Bytes & Bites - Documentation: A LEGO story (2nd attempt)",
     "section": "",
     "text": "Credit to https://www.publicdomainpictures.net\n\n\nTheme: Documentation, Fundamentals\nNote: This is a re-organisation of the event that didn’t go ahead in February.\nGuest speakers: Charlie Greene, the VU library research software engineer will be hosting the May edition of Bytes & Bites where we will be playing with LEGO!\nRegister\nThe colourful bricks can be used to make anything you want and in this session they will help us learn more about documentation! So bring your creative mindset and we’ll bring the LEGO, see you there!\nPizza will be served as always!"
-  },
-  {
-    "objectID": "events/26_04-April_14_webscraping_with_R.html",
-    "href": "events/26_04-April_14_webscraping_with_R.html",
-    "title": "Bytes & Bites - R Workshop: Retrieve and analyse AI related news",
-    "section": "",
-    "text": "Theme: Webscraping and text analysis Level: 2,3\nGuest speakers: Sofia Gil Clavel reseacher and Lab Manager at the Societal Analytics Lab and expert R teacher will be joining us this month to provide a work shop.\nRegister\nLearn how to retrieve data using Application Programming Interfaces (APIs), as well as how to analyze it. In this session we will cover scraping web data, cleaning it for analysis, analysing text, and plotting the results that are ready for publication!\n\nRequirements\nParticipants need to:\n· Bring their own laptops.\n· Have R and Rstudio installed.\n· Have experience using the tidyverse packages.\n· Have already required their Guardian developer token via this webpage.\nAll the necessary to follow this session will be available at this GitHub repository 24 hours before the workshop.\nPizza will be served as always!"
-  },
-  {
-    "objectID": "events/26_02-February_10_lego_and_docs.html",
-    "href": "events/26_02-February_10_lego_and_docs.html",
-    "title": "Bytes & Bites - Documentation: A LEGO story",
-    "section": "",
-    "text": "Credit to https://www.publicdomainpictures.net\n\n\nTheme: Documentation, Fundamentals\nGuest speakers: Charlie Greene, the VU library research software engineer will be hosting the February edition of Bytes & Bites where we will be playing with LEGO!\nRegister\nThe colourful bricks can be used to make anything you want and in this session they will help us learn more about documentation! So bring your creative mindset and we’ll bring the LEGO, see you there!\nPizza will be served as always!"
-  },
-  {
-    "objectID": "events/25_12-December_09_coding_advent.html",
-    "href": "events/25_12-December_09_coding_advent.html",
-    "title": "Bytes & Bites - National Advent of Code Challenge",
-    "section": "",
-    "text": "Theme: Advent of Code\nWe are once more approaching the winter festivities and that means two things, every other evening is a borrel and the advent of code has returned! To keep up with tradition we will work on the problems collectively and see if we can solve all 9 in our regular 2 hour session. No peeking at solutions before we try them!\nSome festive foods will be served this time around!\nRegister"
-  },
-  {
-    "objectID": "events/25_10-October_07_hackathon.html",
-    "href": "events/25_10-October_07_hackathon.html",
-    "title": "Bytes & Bites - Hackathon: Making a chatbot",
-    "section": "",
-    "text": "Hackathon poster\n\n\nTheme: Chatbots\nGuest speakers:\nMaurice Vanderfeesten, who manages research innovation here in the VU, has been testing training different models for LLMs. He will show some of his work and outline the process he used for each of the models.\nRadu Apsan from the Nebula team in the Network Institute will also give a short presentation on the great work they are doing on their LLM stack hosted at the VU, its current capabilities and plans for the future.\nElisa Rodenberg will outline the parameters of the chatbot, what it should do, provide some data to work with and the typical process and rules of the work the bot should do.\nRegister\nCome one, come all, Bytes & Bites is hosting a hackathon! The gauntlet has been laid down to make a chatbot for use in the VU. Form a team or craft it solo, for your chance to win the prize! The royal highness has decreed that the three best entrants will enjoy each enjoy a prize, so try your hand at the challenge.\nPizza and drinks will be served as always!"
-  },
-  {
-    "objectID": "events/25_05-May_13_templates.html",
-    "href": "events/25_05-May_13_templates.html",
-    "title": "Bytes & Bites - Project Templates & AUMC Intro",
-    "section": "",
-    "text": "Theme: Templates & Introductions\nGuest speakers: Dr. Bauke van der Velde Reseach Data Management and Software Management Consultant at the AUMC, a recent start with a lot of programming experience within research (as the title would suggest). Dr. Thomas Pronk a Research Software Consultant at the AUMC who has a focus on FAIR and open science, with a focus on improving research code quality.\nRegister\nThis week is a somewhat more open session. Starting with two presentations, the introduction of the AUMC Reseach Support team and the introduction of software project templates here at the VU. There will be plenty of space for questions and discussion after each presentation, as well as a general discussion session in the second hour.\nPizza will be served as always!"
-  },
-  {
-    "objectID": "events/18_December_24_visualization.html",
-    "href": "events/18_December_24_visualization.html",
-    "title": "Bytes & Bites - Data Visualisation Coding Tutorial",
-    "section": "",
-    "text": "Theme: A Data Visualisation Coding Tutorial in R and Python.\nProgramming beginners in R ans/or Python will be empowered to harness basic data analysis tools essential for Neuroscientific research and beyond. We will provide basic practical insights and hands-on experience to enhance your research analysis capabilities. Don’t miss this opportunity to enhance your skill set and network with fellow enthusiasts.\nIf you are a novice and wouldn’t want to miss some tasty pizza and snacks, this event is for you. We look forward to seeing you on Tuesday the 18th of June!\nThis session’s speakers are Fatima Khan and Carmen Domínguez, 2nd year Master in Neuroscience VU students. They created a visualization tutorial that can be done here.\nRegister Slides\n\nFeatured TidyTuesday Dataset\nWould you like to practice your coding skills and experiment with others (or individually) with a real dataset that is (probably) not related to your research project? We select a featured dataset from the TidyTuesday Data Science Learning challenge that you can analyze during the event. Ask for help if you get stuck and practice your data analysis skills.\nTalking about Pizza, how often do you wonder about science around cheese?\n\nThis week’s dataset is all about cheese: Dataset of the week\n\nThe data this week comes from cheese.com.\nCheese is nutritious food made mostly from the milk of cows but also other mammals, including sheep, goats, buffalo, reindeer, camels and yaks. Around 4000 years ago people have started to breed animals and process their milk. That’s when the cheese was born. Explore this site to find out about different kinds of cheese from all around the world.\n248 cheeses have listed fat content.\n\nIs there a relationship between fat content and cheese type?\nWhat about texture, flavor, or aroma?"
-  },
-  {
-    "objectID": "events/11_July_23_bugs.html",
-    "href": "events/11_July_23_bugs.html",
-    "title": "Bytes & Bites - Bugs and Demos",
-    "section": "",
-    "text": "Theme: Bring your own bugs!\nRegister\nThis edition of Bytes and Bites is all about you and your code! Tell us more about what you are working on or share what is blocking you. We meet one last time before the summer break for an informal bug-party.\n\nNo preparation required\nThis meeting is as informal as you like. We make sure that there will be enough time and space to talk about what we are working on and what bugs us.\n\n\nHave a bigger problem or would like to present your project with more time?\nYou can send us your projects or questions before if you want. This way we can plan presenter time or make sure that we have the right persons to answer your question as good as anyone can."
-  },
-  {
-    "objectID": "events/09_January_24_eessi.html",
-    "href": "events/09_January_24_eessi.html",
-    "title": "Bytes & Bites - EESSI",
-    "section": "",
-    "text": "Theme: Environment for Scientific Software Installations\nIn the first edition of 2024 of Bytes and Bites, Peter Stol (BAZIS, clusters and supercomputers) will tell you all about EESSI.\nThis event had to be cancelled due to unforeseeable circumstances! We will hear about EESSI later this year.\nRegister"
-  },
-  {
-    "objectID": "events/07_November_23.html",
-    "href": "events/07_November_23.html",
-    "title": "Bytes & Bites - Software Management Plans",
-    "section": "",
-    "text": "Theme: Software Management Plans and how you can benefit from them\nGuest speaker: Dr. Carlos Martinez-Ortiz Community Manager at the Netherlands eScience Center.\nRegister\nThis session of Bytes & Bites will focus on Software Management Plans (SMPs) and how your software project can benefit from planning ahead. SMPs are relevant for beginners and professionals alike and can be applied to any project of any size in any language. We will learn together how to create a SMP and discover in a playful way what components matter to our project.\nPizza will be served as always!"
-  },
-  {
-    "objectID": "events/06_February_24_book.html",
-    "href": "events/06_February_24_book.html",
-    "title": "Bytes & Bites - Computational Analysis of Communication with Wouter van Atteveldt",
-    "section": "",
-    "text": "Theme: Computational Analysis of Communication\nIn this edition of Bytes & Bites, Prof. Wouter van Atteveldt and Prof. Damian Trilling will present their work at the Societal Analytics Lab and talk about their book “Computational Analysis of Communication”. The book gives a practical introduction to the analysis of texts, networks, and images with code examples in Python and R. The book is open and freely available, which makes computational techniques accessible (and fun!) to as many students and researchers as possible, regardless of means and institutional support.\nOur guest speakers also well known for their journal: CCR - Computational Communication Research, an Open Access and community-owned journalabout the understanding, development and application of computational methods in communication research.\nRegister\nSlides"
-  },
-  {
-    "objectID": "events/05_March_24_documentation.html",
-    "href": "events/05_March_24_documentation.html",
-    "title": "Bytes & Bites - Documentation and Good Practices",
-    "section": "",
-    "text": "Theme: Documentation and Good Practices\nThis edition of Bytes & Bites will focus on making your life and work easier in the long-term. We will talk about very practical first steps you can do right away to organize your code in a better way, for example by documenting your code for yourself, your collaborators, and potential reviewers and third-party users.\nWe will run this event slightly different than usual and make it as interactive and fun as possible. Practice your Lego skills and join us on March 5th!\nThere is only limited time to give you a good overview and get you started. If you are interested in learning more about best software management practices, please consider taking part in the CodeRefinery in March: https://coderefinery.github.io/2024-03-12-workshop/\nThe CodeRefinery workshop is online and covers the following topics:\n\ncollaboration;\nresolving conflicts;\nsocial coding;\ndocumentation;\ntesting;\nmodular coding;\nGit for version control.\n\nRegister"
-  },
-  {
-    "objectID": "events/04_April_23_visualizations.html",
-    "href": "events/04_April_23_visualizations.html",
-    "title": "Bytes & Bites - Visualization",
-    "section": "",
-    "text": "Theme: Visualizations\nRegister\nSlides\n\nGeneral tips on visualization\n\nIntroduction to data visualization\nExamples of bad graphs in papers\n\n\n\nDatasets\n\nDatasets about Dutch society by the CBS\nPublic datasets from different domains\nDatasets from data science community Kaggle\n\n\n\nExamples of programming resources\n\nR\n\nChapter in data carpentries workshop\nIntroduction to ggplot\n\n\n\nPython\n\nCarpentries workshop on how to create interactive visualizations\nNotebooks to play with some examples\nA collection of Jupyter notebooks for geoscientists\nChapter in data carpentries workshop\n\n\n\nMatlab\n\nOverview of different plot options\nTutorial for plotting and graphics\nTutorial to visualizations (including 3d)\n\n\n\nHPC (any language)\n\nAcademic training for HPC users\nWork in progress, examples and tips"
-  },
-  {
-    "objectID": "eat.html",
-    "href": "eat.html",
-    "title": "Eat",
-    "section": "",
-    "text": "A freshly cooked Margherita pizza. Credit - rawpixel.com\nAt the core of Bytes and Bites is the combination of coding and pizza with a side of community. While we order from various pizza chains for our meetups pizza is a satisfying and relatively easy to make. So, to keep with the theme of sharing knowledge here is recipe for a simple Margherita pizza:"
-  },
-  {
-    "objectID": "eat.html#ingredients",
-    "href": "eat.html#ingredients",
-    "title": "Eat",
-    "section": "Ingredients",
-    "text": "Ingredients\n\nDough\n\n150g strong bread flour\n1/2 tsp yeast\n1/2 tsp salt\n1/2 tbsp olive oil\n100ml warm water\n\n\n\nSauce\n\n50ml passata\n1 small clove of garlic\n1/2 tsp of dried basil or 6 - 8 basil leaves\n1/2 tsp olive oil\nsalt and pepper to taste\n\n\n\nToppings\n\nMozzarella to taste"
-  },
-  {
-    "objectID": "eat.html#recipe",
-    "href": "eat.html#recipe",
-    "title": "Eat",
-    "section": "Recipe",
-    "text": "Recipe\n\nDough\n\nMix the dry ingredients in a large bowl\nMake a well, or dent, in the pile of dry ingredients\nAdd the water and oil to into the well and mix with a spoon or clean hands\nEmpty the dough onto a clean surface that has a light dusting of flour and knead the dough for 5-10 minutes\nReturn the dough to the bowl (optional: lightly oil the bowl first) and cover with a tea towel\n\n\n\nSauce\nThe sauce can be cooked to bring the sweet richness of the tomatoes out, it can be made with a simple rough chopping of the ingredients, or simply all added to a blender or food processor.\nCooking\n\nCrush, grate, or finely chop the garlic and add to a pot or pan with heated oil\nLet it fry for 30 seconds on a medium high heat, moving regularly to avoid burning\nIf using dried basil add it now and let it fry for a few seconds\nAdd the pasata to the pot/pan and mix the garlic in before leaving to heat for 15 minutes with regular movement\nIf the sauce has reduced too much and the volume is too little add some water and mix through\nIf using fresh basil roughly chop it and add it to the sauce before taking it off the heat\n\nChop & Mix\n\nUse a grate, dice, or crush your garlic and add to a bowl\nAdd pasata and olive oil to the bowl and mix\nRoughly chop your basil and add to the bowl if fresh. If dried add directly to the bowl\nMix the sauce, add salt and pepper to taste, mix against\n\nBlend\n\nAdd all ingredients to a blender or food processor and blend\n\n\n\nPre-heat the oven\n\nHeat the oven to 220C for a fan oven, if you have a pizza stone use it otherwise place a tray in the oven whilst it heats. Pizza ovens should be at about 400C\n\n\n\nToppings\n\nCut the Mozzarella into slices or tear into pieces with your hands\n\n\n\nMaking the base\n\nFlour your clean surface and gently knead the dough on it\nForm the dough approximately into a ball on the lightly floured surface\nUse a rolling pin, or another clean cylinder to flatten the ball into something approximating a circle with ~25cm diameter\n\n\n\nFrom base to Pizza\n\nPlace the pizza base on a lightly floured baking sheet\nAdd the sauce to the base smoothing with the back of a spoon, it doesn’t need to be perfect\nEvenly scatter your Mozzarella across the base\nPlace the pizza and baking sheet onto the preheated stone or tray (be careful to not burn yourself or damage your kitchen surface). If cooking in a pizza oven you will not need the baking sheet in the oven\nIf in a regular oven cook the pizza for 8-10 minutes, checking to confirm the base is cooked to your wishes. If in a pizza oven cook for 90-120 seconds\nRemove from your oven of choice, put the pizza on a plate and enjoy!"
-  },
-  {
-    "objectID": "eat.html#bonus-seasoning",
-    "href": "eat.html#bonus-seasoning",
-    "title": "Eat",
-    "section": "Bonus seasoning",
-    "text": "Bonus seasoning\n\nTry some chili infused olive oil on your pizza once cooked\nA few fresh basil leaves will impart a lot of flavour and will nicely garnish the pizza\n“Pizza oil” usually works well on most pizzas as a dressing post cooking – mix; olive oil, crushed garlic, dried oregano, dried basil, and a little salt"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "Bytes & Bites",
-    "section": "",
-    "text": "Bytes & Bites is a programming CAFE, CAFE being an acronym for “Code Along, Feel Empowered”. It was started in April 2023 as part of a cross institution initiative to support researchers in the domain of programming. There is no specific language focus (both human and machine), but it tends to mostly be Python and R.\n\nprogramming café /noun/ - a welcoming and inclusive space to connect people, share knowledge and support researchers in their coding journeys\n\nBytes & Bites is a monthly meetup, usually in the O|2 building, room 01W08 on the Vrije Universiteit Amsterdam campus. It is a part of the VU software community typically with VULTURE level 2 and 3 talks, workshops, and presentations, though everyone of any level is welcome.\nThe idea is to provide a welcoming and inclusive space to connect anyone interested in programming with other programmers to help facilitate knowledge sharing and support. We also eat pizza and chat!\nIf you would like to learn more about Bytes and Bites why not read about previous events on the events page or join us at the next session?\nTo find out more about the CAFE initiative read the paper here."
-  },
-  {
-    "objectID": "about.html#what-is-bytes-bites",
-    "href": "about.html#what-is-bytes-bites",
-    "title": "Bytes & Bites",
-    "section": "",
-    "text": "Bytes & Bites is a programming CAFE, CAFE being an acronym for “Code Along, Feel Empowered”. It was started in April 2023 as part of a cross institution initiative to support researchers in the domain of programming. There is no specific language focus (both human and machine), but it tends to mostly be Python and R.\n\nprogramming café /noun/ - a welcoming and inclusive space to connect people, share knowledge and support researchers in their coding journeys\n\nBytes & Bites is a monthly meetup, usually in the O|2 building, room 01W08 on the Vrije Universiteit Amsterdam campus. It is a part of the VU software community typically with VULTURE level 2 and 3 talks, workshops, and presentations, though everyone of any level is welcome.\nThe idea is to provide a welcoming and inclusive space to connect anyone interested in programming with other programmers to help facilitate knowledge sharing and support. We also eat pizza and chat!\nIf you would like to learn more about Bytes and Bites why not read about previous events on the events page or join us at the next session?\nTo find out more about the CAFE initiative read the paper here."
-  },
-  {
-    "objectID": "about.html#our-level-system",
-    "href": "about.html#our-level-system",
-    "title": "Bytes & Bites",
-    "section": "Our level system",
-    "text": "Our level system\nNot every event is suitable for every programmer. To help people decide if it’s the right levl for them we use a level system. Take a look to see where you land and check the events to see which level(s) they are.\nLvl : 0\nYou have a vague idea of what programming is. Perhaps it still feels more like basement dweller or matrix activity to you.\nThe events at this level are more like sales pitches and should answer the following for you, what is programming, can a code hurt you, how can I automate the boring parts of my life, will a robot ever love? Here you will see examples of how colleagues gained time, kudos, and comradery from programming projects.\nLvl: 1\nYou might have just completed a carpentry or online programming course and can just about use the skill transfer to work on a different dataset than the example one.\nEvents at this level are more introductionary, a Carpentry or similar course. How to write a basic program to do the most basic tasks a researcher might need to do – open data, filter, make a graph. We explain the mindset of coding to an extent, “how does a computer think?”.\nLvl: 2\nYou can code their own projects, use stackoverflow, and might follow a youtuber or two. You know when to use chunks of code you find, but might not yet understand it all.\nA level 2 event will teach how to write good, clean code. Topics such as naming conventions, folder structure, lambda functions, doc strings, and code readability are covered here. Additional useful topics at this level would be making a web app and writing a package or exe in order to keep their code accessible.\nLvl: 3\nYou can handle yourself, help others, know a few sites to check for tricks, and you read documentation (to an extent). You know enough to make tools for others that are in regular use and could teach anyone at least something (nobody knows everything).\nLevel 3 events are the current typical level of Bytes & Bites - talks from internal or external speakers about more advanced topics. These serve more as inspiration, a place where ideas will click into place for the attendees. They will ask insightful questions and share relevant knowledge at the sessions.\nLvl: 4\nYou’re a long time programmer and are almost beyond writing code at this point. You know the names of more Linux distros than family members. You likely spend most time thinking about the code and directing others than writing code, but the code you write is perfection.\nWe have looped back around to sales pitches. These should be more about efficiency of code, quality of life changes, and infrastructure discussion. The attendees influence policy and so need to be sold on cutting edge ideas. Expect arguments over seemingly minor topics."
-  },
-  {
-    "objectID": "community.html",
-    "href": "community.html",
-    "title": "Bytes & Bites",
-    "section": "",
-    "text": "It would be bold of us to assume that Bytes & Bites is the only coding community in the VU, but we have so that’s that.\nNo, there are other great coding communities and courses right here in our university including, but not limited to:\n\nlow volume coding, a chill coding session every two weeks on a Thursday afternoon where programmers of all levels and backgrounds are welcome to turn up with questions and problems or just to have a space to work on your project.\nhack4her as you can probably guess is female orientated hackathon event, or in their own words “Hack4Her is the only annual female-focused student hackathon in the Netherlands”.\nVULTURE the university wide coding community for programmers of all levels in all roles to learn about events, share tools, articles, problems, ideas, and of course solutions.\nSoftware and Sustainability\nSPINlab the Spatial Information Laboratory is the centre for research and education in Geo-Information Science at the Vrije Universiteit Amsterdam.\nVUSec is the Systems and Network Security Group at the VU and is part of the computer science department.\nequals in tech a group looking to even the playing field for women in the Dutch tech world."
-  },
-  {
-    "objectID": "events/03_October_23_IDEs.html",
-    "href": "events/03_October_23_IDEs.html",
-    "title": "Bytes & Bites - JupyterLab & IDEs",
-    "section": "",
-    "text": "Theme: Coding environments\nRegister\nIntroduction Slides\nSlides for IDEs & JupyterLab\n\nNotes\nUseful links:\n\nMiniconda\nAnaconda\nJupyter Lab\nSoftware Carpentry Python workshop in November"
-  },
-  {
-    "objectID": "events/05_December_23_adventofcode.html",
-    "href": "events/05_December_23_adventofcode.html",
-    "title": "Bytes & Bites - National Advent of Code Challenge",
-    "section": "",
-    "text": "Theme: Advent of Code\nRegister\nPsssst - we’re developing something nice for you. Details will follow as soon as we"
-  },
-  {
-    "objectID": "events/05_September_23_roundtable.html",
-    "href": "events/05_September_23_roundtable.html",
-    "title": "Bytes & Bites - Roundtable & Introduction",
-    "section": "",
-    "text": "Theme: Roundtable and Introduction to Bytes & Bites\nRegister\nSlides (Introducing Bytes & Bites)\nOur first session after the summer break will focus on our projects we’ve been working on over the summer, and introduce our plans for the rest of the year. This can be software project related, but it’s also a great opportunity to talk about future plans for our software community meetings “Bytes & Bites”. We used the summer break to identify interesting topics and sketch out some ideas for the remaining year. Let’s share some pizzas and discuss together some ideas.\nWe can collect our ideas in this Google Doc"
-  },
-  {
-    "objectID": "events/06_June_23_datawrangling.html",
-    "href": "events/06_June_23_datawrangling.html",
-    "title": "Bytes & Bites - Data wrangling",
-    "section": "",
-    "text": "Theme: Data wrangling with guest speaker Douwe Molenaar\nRegister\nSlides (introduction)\nSlides (data wrangling)"
-  },
-  {
-    "objectID": "events/06_June_23_datawrangling.html#data",
-    "href": "events/06_June_23_datawrangling.html#data",
-    "title": "Bytes & Bites - Data wrangling",
-    "section": "Data",
-    "text": "Data\n\nportal project\n\n\nLet us know what you want!\nFill in this short survey to shape B&B to your liking!"
-  },
-  {
-    "objectID": "events/09_April_24_eessi.html",
-    "href": "events/09_April_24_eessi.html",
-    "title": "Bytes & Bites - (how to) Bring your code",
-    "section": "",
-    "text": "Theme: (how to) Bring your code\nThis session will focus on your project! There will be time to work on your code, collaborate and ask for help.\nWe will talk about code reviews, what they are and how you could use them.\nThere will also be time to talk about future plans for our software community meetings “Bytes & Bites”.\nLet’s share some pizzas and discuss together some ideas.\nThere will also be time to ask questions related to programming, improve your programming skills, meet other researchers, or delve into any topic that piques your interest.\nRegister\nSlides\n POSTPONED:\n In this edition of Bytes & Bites, Peter Stol (BAZIS, cluster computing and supercomputers) will tell you all about the European Environment for Scientific Software Installations (EESSI pronounced as “easy”).\n The EESSI is a brand new collaboration between different European HPC sites & industry partners, with the common goal to set up a shared repository of scientific software installations that can be used on a variety of systems, regardless of which flavor/version of Linux distribution or processor architecture is used, or whether it’s a full size HPC cluster, a cloud environment or a personal workstation."
-  },
-  {
-    "objectID": "events/09_May_23_puzzles.html",
-    "href": "events/09_May_23_puzzles.html",
-    "title": "Bytes & Bites - Puzzles",
-    "section": "",
-    "text": "Theme: Puzzles\nRegister\nSlides\n\nSuggested puzzles to get started\n\nAoC 2020 day 1\nAoC 2019 day 1\nAoC 2020 day 5\nAoC 2021 day 5\n\n\n\nLet us know what you want!\nFill in this short survey to shape B&B to your liking!"
-  },
-  {
-    "objectID": "events/15_October_24_versioncontrol.html",
-    "href": "events/15_October_24_versioncontrol.html",
-    "title": "Bytes & Bites - Version Control",
-    "section": "",
-    "text": "Theme: Version Control\nRegister\nJoin us for the next engaging session of Bytes & Bites where will talk about being in control of your coding, jumping back to better times, and collaborating with others on a programming challenge. We will use Git and train with GitHub as an example platform.\nYou do not need to bring your own dataset for the practical part. Instead, we will challenge you with a TidyTuesday dataset about the most important thing for a researcher: Coffee We can be creative, work together in teams and have some tasty pizza and snacks.\n⭐👕 Best analysis/visualization of the coffee dataset gets a cool shirt as a prize! 👕⭐\n\n\n\nLet us know what you want!\nFill in this short survey to shape B&B to your liking!"
-  },
-  {
-    "objectID": "events/25_04-April_09_make_R_package.html",
-    "href": "events/25_04-April_09_make_R_package.html",
-    "title": "Bytes & Bites - R Packaging",
-    "section": "",
-    "text": "Theme: R Packaging\nBytes & Bites is back! This time with a new host, the UBVU Research Software Engineer Charlie Greene, who will be taking over organising sessions from here on out.\nGuest speaker: Dr. Bjørn Bartholdy Data Steward at TU Delft and general R wizard.\nRegister\nThis session of Bytes & Bites covers the topic of Reusability in software development and how using an R package over a project can increase it. We will cover how to make a package in R with an example project. Suitable for all levels!\nPizza will be served as always!"
-  },
-  {
-    "objectID": "events/25_09-September_09_using_gitlab.html",
-    "href": "events/25_09-September_09_using_gitlab.html",
-    "title": "Bytes & Bites - Gitlab: A Guide",
-    "section": "",
-    "text": "Theme: Version Control\nGuest speakers: Dr. Stefan Kirsch is a Data Steward at Tilburg University and a fellow of the eScience center.\nRegister\nStefan will be presenting using Gitlab,including all the tips and tricks he has learned. There will also be some coverage of GitHub exclusive functions and how they can be used.\nDuring the discussion of the current state of geopolitics at the Data conversations in June the looming potential security issue of using American made technology was covered. Microsoft is currently widely used in the Netherlands and it is also the owner of Github. Thankfully the VU has its own Gitlab environment available to all employees of the VU.\nPizza will be served as always!"
-  },
-  {
-    "objectID": "events/25_11-November_04_code_auditor.html",
-    "href": "events/25_11-November_04_code_auditor.html",
-    "title": "Bytes & Bites - Code Auditor: Automated code reviews",
-    "section": "",
-    "text": "Theme: Code review, FAIR, Tool\nGuest speakers: Dr. Serkan Girgin is an expert in Big Geodata and as a result has a lot of experience with cloud computing both of which require clean and functional code. To deal with this he has created Code Auditor (DOI here). The open-source Code Auditor tool can help you to identify potential issues and offer guidance on how to resolve them.\nRegister\nIn this session, you’ll learn how to use Code Auditor to assess research software projects against best practices, identify potential issues, and receive actionable recommendations for improvement. The session is aimed at researchers and RSEs who develop research software, as well as data and software stewards who support FAIR practices in research software development.\nWith Code Auditor, you can quickly analyze an existing software project, such as a local code base or GitHub repository, and receive a detailed report on various aspects, including code layout, version control, license, citation, user documentation, code documentation, packaging, unit testing, and publishing. The report will highlight issues like missing citation files, inconsistent packaging information, incomplete code documentation, and more, while providing actionable suggestions for improvement.\nPizza will be served as always!"
-  },
-  {
-    "objectID": "events/26_01-January_08_new_year.html",
-    "href": "events/26_01-January_08_new_year.html",
-    "title": "Bytes & Bites - Update: A Non-event",
-    "section": "",
-    "text": "Theme: Update on the community\nWe hope that everyone enjoyed the winter holidays and brought in the new year as they saw fit! Another year has passed and we are now only (at the time of writing) 4394 days away from the 2038 problem reaching its crescendo, or passing by without a hitch.\nThis is not a blog post about that though, it is a non-event event post. There won’t be a Bytes & Bites session this month, but we will return next month! There is a lot planned for the year including another hackathon and a data hack.\nFor now though we would like to hear what you would like to see in these sessions, what topics would you find interesting to hear about and is there anything you’d like to change about the format? If you would like to tell us, then fill out the anonymous form here and we will do our best to implement your requests :)\n\np.s, if you are looking for a new IDE, why not take a look at Positron if you are an R programmer or VS Codium if you work in another language?"
-  },
-  {
-    "objectID": "events/26_03-March_10_game_testing.html",
-    "href": "events/26_03-March_10_game_testing.html",
-    "title": "Bytes & Bites - Game testing: Rogue.Ai",
-    "section": "",
-    "text": "Theme: Debugging and games\nGuest speakers: Charlie Greene, the Bytes & Bites host and UBVU research software engineer themselves.\nRegister\nOver the winter in need of a new hobby the educational game Rogue.Ai was developed. An open source game focused on helping people to learn how to debug (or speed up their existing skills) Rogue.Ai is a pandemic inspired game based around the perils of trusting LLMs with too much control of your projects.\nJoin the session to learn a bit about the creation process, pygame, and a chance to test it out (and provide some feedback if you feel like it)!\nPizza will be served as always!"
   },
   {
     "objectID": "events/26_04-April_24_datahack.html",
@@ -406,18 +175,277 @@
     "text": "Things to Note\nThis is a daytime event that runs a long time, so we expect the hackers and researchers to drop in and out as fits their agenda.\nPizza and drinks will be provided as always!"
   },
   {
+    "objectID": "events/26_03-March_10_game_testing.html",
+    "href": "events/26_03-March_10_game_testing.html",
+    "title": "Bytes & Bites - Game testing: Rogue.Ai",
+    "section": "",
+    "text": "Theme: Debugging and games\nGuest speakers: Charlie Greene, the Bytes & Bites host and UBVU research software engineer themselves.\nRegister\nOver the winter in need of a new hobby the educational game Rogue.Ai was developed. An open source game focused on helping people to learn how to debug (or speed up their existing skills) Rogue.Ai is a pandemic inspired game based around the perils of trusting LLMs with too much control of your projects.\nJoin the session to learn a bit about the creation process, pygame, and a chance to test it out (and provide some feedback if you feel like it)!\nPizza will be served as always!"
+  },
+  {
+    "objectID": "events/26_01-January_08_new_year.html",
+    "href": "events/26_01-January_08_new_year.html",
+    "title": "Bytes & Bites - Update: A Non-event",
+    "section": "",
+    "text": "Theme: Update on the community\nWe hope that everyone enjoyed the winter holidays and brought in the new year as they saw fit! Another year has passed and we are now only (at the time of writing) 4394 days away from the 2038 problem reaching its crescendo, or passing by without a hitch.\nThis is not a blog post about that though, it is a non-event event post. There won’t be a Bytes & Bites session this month, but we will return next month! There is a lot planned for the year including another hackathon and a data hack.\nFor now though we would like to hear what you would like to see in these sessions, what topics would you find interesting to hear about and is there anything you’d like to change about the format? If you would like to tell us, then fill out the anonymous form here and we will do our best to implement your requests :)\n\np.s, if you are looking for a new IDE, why not take a look at Positron if you are an R programmer or VS Codium if you work in another language?"
+  },
+  {
+    "objectID": "events/25_11-November_04_code_auditor.html",
+    "href": "events/25_11-November_04_code_auditor.html",
+    "title": "Bytes & Bites - Code Auditor: Automated code reviews",
+    "section": "",
+    "text": "Theme: Code review, FAIR, Tool\nGuest speakers: Dr. Serkan Girgin is an expert in Big Geodata and as a result has a lot of experience with cloud computing both of which require clean and functional code. To deal with this he has created Code Auditor (DOI here). The open-source Code Auditor tool can help you to identify potential issues and offer guidance on how to resolve them.\nRegister\nIn this session, you’ll learn how to use Code Auditor to assess research software projects against best practices, identify potential issues, and receive actionable recommendations for improvement. The session is aimed at researchers and RSEs who develop research software, as well as data and software stewards who support FAIR practices in research software development.\nWith Code Auditor, you can quickly analyze an existing software project, such as a local code base or GitHub repository, and receive a detailed report on various aspects, including code layout, version control, license, citation, user documentation, code documentation, packaging, unit testing, and publishing. The report will highlight issues like missing citation files, inconsistent packaging information, incomplete code documentation, and more, while providing actionable suggestions for improvement.\nPizza will be served as always!"
+  },
+  {
+    "objectID": "events/25_09-September_09_using_gitlab.html",
+    "href": "events/25_09-September_09_using_gitlab.html",
+    "title": "Bytes & Bites - Gitlab: A Guide",
+    "section": "",
+    "text": "Theme: Version Control\nGuest speakers: Dr. Stefan Kirsch is a Data Steward at Tilburg University and a fellow of the eScience center.\nRegister\nStefan will be presenting using Gitlab,including all the tips and tricks he has learned. There will also be some coverage of GitHub exclusive functions and how they can be used.\nDuring the discussion of the current state of geopolitics at the Data conversations in June the looming potential security issue of using American made technology was covered. Microsoft is currently widely used in the Netherlands and it is also the owner of Github. Thankfully the VU has its own Gitlab environment available to all employees of the VU.\nPizza will be served as always!"
+  },
+  {
+    "objectID": "events/25_04-April_09_make_R_package.html",
+    "href": "events/25_04-April_09_make_R_package.html",
+    "title": "Bytes & Bites - R Packaging",
+    "section": "",
+    "text": "Theme: R Packaging\nBytes & Bites is back! This time with a new host, the UBVU Research Software Engineer Charlie Greene, who will be taking over organising sessions from here on out.\nGuest speaker: Dr. Bjørn Bartholdy Data Steward at TU Delft and general R wizard.\nRegister\nThis session of Bytes & Bites covers the topic of Reusability in software development and how using an R package over a project can increase it. We will cover how to make a package in R with an example project. Suitable for all levels!\nPizza will be served as always!"
+  },
+  {
+    "objectID": "events/15_October_24_versioncontrol.html",
+    "href": "events/15_October_24_versioncontrol.html",
+    "title": "Bytes & Bites - Version Control",
+    "section": "",
+    "text": "Theme: Version Control\nRegister\nJoin us for the next engaging session of Bytes & Bites where will talk about being in control of your coding, jumping back to better times, and collaborating with others on a programming challenge. We will use Git and train with GitHub as an example platform.\nYou do not need to bring your own dataset for the practical part. Instead, we will challenge you with a TidyTuesday dataset about the most important thing for a researcher: Coffee We can be creative, work together in teams and have some tasty pizza and snacks.\n⭐👕 Best analysis/visualization of the coffee dataset gets a cool shirt as a prize! 👕⭐\n\n\n\nLet us know what you want!\nFill in this short survey to shape B&B to your liking!"
+  },
+  {
+    "objectID": "events/09_May_23_puzzles.html",
+    "href": "events/09_May_23_puzzles.html",
+    "title": "Bytes & Bites - Puzzles",
+    "section": "",
+    "text": "Theme: Puzzles\nRegister\nSlides\n\nSuggested puzzles to get started\n\nAoC 2020 day 1\nAoC 2019 day 1\nAoC 2020 day 5\nAoC 2021 day 5\n\n\n\nLet us know what you want!\nFill in this short survey to shape B&B to your liking!"
+  },
+  {
+    "objectID": "events/09_April_24_eessi.html",
+    "href": "events/09_April_24_eessi.html",
+    "title": "Bytes & Bites - (how to) Bring your code",
+    "section": "",
+    "text": "Theme: (how to) Bring your code\nThis session will focus on your project! There will be time to work on your code, collaborate and ask for help.\nWe will talk about code reviews, what they are and how you could use them.\nThere will also be time to talk about future plans for our software community meetings “Bytes & Bites”.\nLet’s share some pizzas and discuss together some ideas.\nThere will also be time to ask questions related to programming, improve your programming skills, meet other researchers, or delve into any topic that piques your interest.\nRegister\nSlides\n POSTPONED:\n In this edition of Bytes & Bites, Peter Stol (BAZIS, cluster computing and supercomputers) will tell you all about the European Environment for Scientific Software Installations (EESSI pronounced as “easy”).\n The EESSI is a brand new collaboration between different European HPC sites & industry partners, with the common goal to set up a shared repository of scientific software installations that can be used on a variety of systems, regardless of which flavor/version of Linux distribution or processor architecture is used, or whether it’s a full size HPC cluster, a cloud environment or a personal workstation."
+  },
+  {
+    "objectID": "events/06_June_23_datawrangling.html",
+    "href": "events/06_June_23_datawrangling.html",
+    "title": "Bytes & Bites - Data wrangling",
+    "section": "",
+    "text": "Theme: Data wrangling with guest speaker Douwe Molenaar\nRegister\nSlides (introduction)\nSlides (data wrangling)"
+  },
+  {
+    "objectID": "events/06_June_23_datawrangling.html#data",
+    "href": "events/06_June_23_datawrangling.html#data",
+    "title": "Bytes & Bites - Data wrangling",
+    "section": "Data",
+    "text": "Data\n\nportal project\n\n\nLet us know what you want!\nFill in this short survey to shape B&B to your liking!"
+  },
+  {
+    "objectID": "events/05_September_23_roundtable.html",
+    "href": "events/05_September_23_roundtable.html",
+    "title": "Bytes & Bites - Roundtable & Introduction",
+    "section": "",
+    "text": "Theme: Roundtable and Introduction to Bytes & Bites\nRegister\nSlides (Introducing Bytes & Bites)\nOur first session after the summer break will focus on our projects we’ve been working on over the summer, and introduce our plans for the rest of the year. This can be software project related, but it’s also a great opportunity to talk about future plans for our software community meetings “Bytes & Bites”. We used the summer break to identify interesting topics and sketch out some ideas for the remaining year. Let’s share some pizzas and discuss together some ideas.\nWe can collect our ideas in this Google Doc"
+  },
+  {
+    "objectID": "events/05_December_23_adventofcode.html",
+    "href": "events/05_December_23_adventofcode.html",
+    "title": "Bytes & Bites - National Advent of Code Challenge",
+    "section": "",
+    "text": "Theme: Advent of Code\nRegister\nPsssst - we’re developing something nice for you. Details will follow as soon as we"
+  },
+  {
+    "objectID": "events/03_October_23_IDEs.html",
+    "href": "events/03_October_23_IDEs.html",
+    "title": "Bytes & Bites - JupyterLab & IDEs",
+    "section": "",
+    "text": "Theme: Coding environments\nRegister\nIntroduction Slides\nSlides for IDEs & JupyterLab\n\nNotes\nUseful links:\n\nMiniconda\nAnaconda\nJupyter Lab\nSoftware Carpentry Python workshop in November"
+  },
+  {
+    "objectID": "community.html",
+    "href": "community.html",
+    "title": "Bytes & Bites",
+    "section": "",
+    "text": "It would be bold of us to assume that Bytes & Bites is the only coding community in the VU, but we have so that’s that.\nNo, there are other great coding communities and courses right here in our university including, but not limited to:\n\nlow volume coding, a chill coding session every two weeks on a Thursday afternoon where programmers of all levels and backgrounds are welcome to turn up with questions and problems or just to have a space to work on your project.\nhack4her as you can probably guess is female orientated hackathon event, or in their own words “Hack4Her is the only annual female-focused student hackathon in the Netherlands”.\nVULTURE the university wide coding community for programmers of all levels in all roles to learn about events, share tools, articles, problems, ideas, and of course solutions.\nSoftware and Sustainability\nSPINlab the Spatial Information Laboratory is the centre for research and education in Geo-Information Science at the Vrije Universiteit Amsterdam.\nVUSec is the Systems and Network Security Group at the VU and is part of the computer science department.\nequals in tech a group looking to even the playing field for women in the Dutch tech world."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Bytes & Bites",
+    "section": "",
+    "text": "Bytes & Bites is a programming CAFE, CAFE being an acronym for “Code Along, Feel Empowered”. It was started in April 2023 as part of a cross institution initiative to support researchers in the domain of programming. There is no specific language focus (both human and machine), but it tends to mostly be Python and R.\n\nprogramming café /noun/ - a welcoming and inclusive space to connect people, share knowledge and support researchers in their coding journeys\n\nBytes & Bites is a monthly meetup, usually in the O|2 building, room 01W08 on the Vrije Universiteit Amsterdam campus. It is a part of the VU software community typically with VULTURE level 2 and 3 talks, workshops, and presentations, though everyone of any level is welcome.\nThe idea is to provide a welcoming and inclusive space to connect anyone interested in programming with other programmers to help facilitate knowledge sharing and support. We also eat pizza and chat!\nIf you would like to learn more about Bytes and Bites why not read about previous events on the events page or join us at the next session?\nTo find out more about the CAFE initiative read the paper here."
+  },
+  {
+    "objectID": "about.html#what-is-bytes-bites",
+    "href": "about.html#what-is-bytes-bites",
+    "title": "Bytes & Bites",
+    "section": "",
+    "text": "Bytes & Bites is a programming CAFE, CAFE being an acronym for “Code Along, Feel Empowered”. It was started in April 2023 as part of a cross institution initiative to support researchers in the domain of programming. There is no specific language focus (both human and machine), but it tends to mostly be Python and R.\n\nprogramming café /noun/ - a welcoming and inclusive space to connect people, share knowledge and support researchers in their coding journeys\n\nBytes & Bites is a monthly meetup, usually in the O|2 building, room 01W08 on the Vrije Universiteit Amsterdam campus. It is a part of the VU software community typically with VULTURE level 2 and 3 talks, workshops, and presentations, though everyone of any level is welcome.\nThe idea is to provide a welcoming and inclusive space to connect anyone interested in programming with other programmers to help facilitate knowledge sharing and support. We also eat pizza and chat!\nIf you would like to learn more about Bytes and Bites why not read about previous events on the events page or join us at the next session?\nTo find out more about the CAFE initiative read the paper here."
+  },
+  {
+    "objectID": "about.html#our-level-system",
+    "href": "about.html#our-level-system",
+    "title": "Bytes & Bites",
+    "section": "Our level system",
+    "text": "Our level system\nNot every event is suitable for every programmer. To help people decide if it’s the right levl for them we use a level system. Take a look to see where you land and check the events to see which level(s) they are.\nLvl : 0\nYou have a vague idea of what programming is. Perhaps it still feels more like basement dweller or matrix activity to you.\nThe events at this level are more like sales pitches and should answer the following for you, what is programming, can a code hurt you, how can I automate the boring parts of my life, will a robot ever love? Here you will see examples of how colleagues gained time, kudos, and comradery from programming projects.\nLvl: 1\nYou might have just completed a carpentry or online programming course and can just about use the skill transfer to work on a different dataset than the example one.\nEvents at this level are more introductionary, a Carpentry or similar course. How to write a basic program to do the most basic tasks a researcher might need to do – open data, filter, make a graph. We explain the mindset of coding to an extent, “how does a computer think?”.\nLvl: 2\nYou can code their own projects, use stackoverflow, and might follow a youtuber or two. You know when to use chunks of code you find, but might not yet understand it all.\nA level 2 event will teach how to write good, clean code. Topics such as naming conventions, folder structure, lambda functions, doc strings, and code readability are covered here. Additional useful topics at this level would be making a web app and writing a package or exe in order to keep their code accessible.\nLvl: 3\nYou can handle yourself, help others, know a few sites to check for tricks, and you read documentation (to an extent). You know enough to make tools for others that are in regular use and could teach anyone at least something (nobody knows everything).\nLevel 3 events are the current typical level of Bytes & Bites - talks from internal or external speakers about more advanced topics. These serve more as inspiration, a place where ideas will click into place for the attendees. They will ask insightful questions and share relevant knowledge at the sessions.\nLvl: 4\nYou’re a long time programmer and are almost beyond writing code at this point. You know the names of more Linux distros than family members. You likely spend most time thinking about the code and directing others than writing code, but the code you write is perfection.\nWe have looped back around to sales pitches. These should be more about efficiency of code, quality of life changes, and infrastructure discussion. The attendees influence policy and so need to be sold on cutting edge ideas. Expect arguments over seemingly minor topics."
+  },
+  {
+    "objectID": "eat.html",
+    "href": "eat.html",
+    "title": "Eat",
+    "section": "",
+    "text": "A freshly cooked Margherita pizza. Credit - rawpixel.com\nAt the core of Bytes and Bites is the combination of coding and pizza with a side of community. While we order from various pizza chains for our meetups pizza is a satisfying and relatively easy to make. So, to keep with the theme of sharing knowledge here is recipe for a simple Margherita pizza:"
+  },
+  {
+    "objectID": "eat.html#ingredients",
+    "href": "eat.html#ingredients",
+    "title": "Eat",
+    "section": "Ingredients",
+    "text": "Ingredients\n\nDough\n\n150g strong bread flour\n1/2 tsp yeast\n1/2 tsp salt\n1/2 tbsp olive oil\n100ml warm water\n\n\n\nSauce\n\n50ml passata\n1 small clove of garlic\n1/2 tsp of dried basil or 6 - 8 basil leaves\n1/2 tsp olive oil\nsalt and pepper to taste\n\n\n\nToppings\n\nMozzarella to taste"
+  },
+  {
+    "objectID": "eat.html#recipe",
+    "href": "eat.html#recipe",
+    "title": "Eat",
+    "section": "Recipe",
+    "text": "Recipe\n\nDough\n\nMix the dry ingredients in a large bowl\nMake a well, or dent, in the pile of dry ingredients\nAdd the water and oil to into the well and mix with a spoon or clean hands\nEmpty the dough onto a clean surface that has a light dusting of flour and knead the dough for 5-10 minutes\nReturn the dough to the bowl (optional: lightly oil the bowl first) and cover with a tea towel\n\n\n\nSauce\nThe sauce can be cooked to bring the sweet richness of the tomatoes out, it can be made with a simple rough chopping of the ingredients, or simply all added to a blender or food processor.\nCooking\n\nCrush, grate, or finely chop the garlic and add to a pot or pan with heated oil\nLet it fry for 30 seconds on a medium high heat, moving regularly to avoid burning\nIf using dried basil add it now and let it fry for a few seconds\nAdd the pasata to the pot/pan and mix the garlic in before leaving to heat for 15 minutes with regular movement\nIf the sauce has reduced too much and the volume is too little add some water and mix through\nIf using fresh basil roughly chop it and add it to the sauce before taking it off the heat\n\nChop & Mix\n\nUse a grate, dice, or crush your garlic and add to a bowl\nAdd pasata and olive oil to the bowl and mix\nRoughly chop your basil and add to the bowl if fresh. If dried add directly to the bowl\nMix the sauce, add salt and pepper to taste, mix against\n\nBlend\n\nAdd all ingredients to a blender or food processor and blend\n\n\n\nPre-heat the oven\n\nHeat the oven to 220C for a fan oven, if you have a pizza stone use it otherwise place a tray in the oven whilst it heats. Pizza ovens should be at about 400C\n\n\n\nToppings\n\nCut the Mozzarella into slices or tear into pieces with your hands\n\n\n\nMaking the base\n\nFlour your clean surface and gently knead the dough on it\nForm the dough approximately into a ball on the lightly floured surface\nUse a rolling pin, or another clean cylinder to flatten the ball into something approximating a circle with ~25cm diameter\n\n\n\nFrom base to Pizza\n\nPlace the pizza base on a lightly floured baking sheet\nAdd the sauce to the base smoothing with the back of a spoon, it doesn’t need to be perfect\nEvenly scatter your Mozzarella across the base\nPlace the pizza and baking sheet onto the preheated stone or tray (be careful to not burn yourself or damage your kitchen surface). If cooking in a pizza oven you will not need the baking sheet in the oven\nIf in a regular oven cook the pizza for 8-10 minutes, checking to confirm the base is cooked to your wishes. If in a pizza oven cook for 90-120 seconds\nRemove from your oven of choice, put the pizza on a plate and enjoy!"
+  },
+  {
+    "objectID": "eat.html#bonus-seasoning",
+    "href": "eat.html#bonus-seasoning",
+    "title": "Eat",
+    "section": "Bonus seasoning",
+    "text": "Bonus seasoning\n\nTry some chili infused olive oil on your pizza once cooked\nA few fresh basil leaves will impart a lot of flavour and will nicely garnish the pizza\n“Pizza oil” usually works well on most pizzas as a dressing post cooking – mix; olive oil, crushed garlic, dried oregano, dried basil, and a little salt"
+  },
+  {
+    "objectID": "events/04_April_23_visualizations.html",
+    "href": "events/04_April_23_visualizations.html",
+    "title": "Bytes & Bites - Visualization",
+    "section": "",
+    "text": "Theme: Visualizations\nRegister\nSlides\n\nGeneral tips on visualization\n\nIntroduction to data visualization\nExamples of bad graphs in papers\n\n\n\nDatasets\n\nDatasets about Dutch society by the CBS\nPublic datasets from different domains\nDatasets from data science community Kaggle\n\n\n\nExamples of programming resources\n\nR\n\nChapter in data carpentries workshop\nIntroduction to ggplot\n\n\n\nPython\n\nCarpentries workshop on how to create interactive visualizations\nNotebooks to play with some examples\nA collection of Jupyter notebooks for geoscientists\nChapter in data carpentries workshop\n\n\n\nMatlab\n\nOverview of different plot options\nTutorial for plotting and graphics\nTutorial to visualizations (including 3d)\n\n\n\nHPC (any language)\n\nAcademic training for HPC users\nWork in progress, examples and tips"
+  },
+  {
+    "objectID": "events/05_March_24_documentation.html",
+    "href": "events/05_March_24_documentation.html",
+    "title": "Bytes & Bites - Documentation and Good Practices",
+    "section": "",
+    "text": "Theme: Documentation and Good Practices\nThis edition of Bytes & Bites will focus on making your life and work easier in the long-term. We will talk about very practical first steps you can do right away to organize your code in a better way, for example by documenting your code for yourself, your collaborators, and potential reviewers and third-party users.\nWe will run this event slightly different than usual and make it as interactive and fun as possible. Practice your Lego skills and join us on March 5th!\nThere is only limited time to give you a good overview and get you started. If you are interested in learning more about best software management practices, please consider taking part in the CodeRefinery in March: https://coderefinery.github.io/2024-03-12-workshop/\nThe CodeRefinery workshop is online and covers the following topics:\n\ncollaboration;\nresolving conflicts;\nsocial coding;\ndocumentation;\ntesting;\nmodular coding;\nGit for version control.\n\nRegister"
+  },
+  {
+    "objectID": "events/06_February_24_book.html",
+    "href": "events/06_February_24_book.html",
+    "title": "Bytes & Bites - Computational Analysis of Communication with Wouter van Atteveldt",
+    "section": "",
+    "text": "Theme: Computational Analysis of Communication\nIn this edition of Bytes & Bites, Prof. Wouter van Atteveldt and Prof. Damian Trilling will present their work at the Societal Analytics Lab and talk about their book “Computational Analysis of Communication”. The book gives a practical introduction to the analysis of texts, networks, and images with code examples in Python and R. The book is open and freely available, which makes computational techniques accessible (and fun!) to as many students and researchers as possible, regardless of means and institutional support.\nOur guest speakers also well known for their journal: CCR - Computational Communication Research, an Open Access and community-owned journalabout the understanding, development and application of computational methods in communication research.\nRegister\nSlides"
+  },
+  {
+    "objectID": "events/07_November_23.html",
+    "href": "events/07_November_23.html",
+    "title": "Bytes & Bites - Software Management Plans",
+    "section": "",
+    "text": "Theme: Software Management Plans and how you can benefit from them\nGuest speaker: Dr. Carlos Martinez-Ortiz Community Manager at the Netherlands eScience Center.\nRegister\nThis session of Bytes & Bites will focus on Software Management Plans (SMPs) and how your software project can benefit from planning ahead. SMPs are relevant for beginners and professionals alike and can be applied to any project of any size in any language. We will learn together how to create a SMP and discover in a playful way what components matter to our project.\nPizza will be served as always!"
+  },
+  {
+    "objectID": "events/09_January_24_eessi.html",
+    "href": "events/09_January_24_eessi.html",
+    "title": "Bytes & Bites - EESSI",
+    "section": "",
+    "text": "Theme: Environment for Scientific Software Installations\nIn the first edition of 2024 of Bytes and Bites, Peter Stol (BAZIS, clusters and supercomputers) will tell you all about EESSI.\nThis event had to be cancelled due to unforeseeable circumstances! We will hear about EESSI later this year.\nRegister"
+  },
+  {
+    "objectID": "events/11_July_23_bugs.html",
+    "href": "events/11_July_23_bugs.html",
+    "title": "Bytes & Bites - Bugs and Demos",
+    "section": "",
+    "text": "Theme: Bring your own bugs!\nRegister\nThis edition of Bytes and Bites is all about you and your code! Tell us more about what you are working on or share what is blocking you. We meet one last time before the summer break for an informal bug-party.\n\nNo preparation required\nThis meeting is as informal as you like. We make sure that there will be enough time and space to talk about what we are working on and what bugs us.\n\n\nHave a bigger problem or would like to present your project with more time?\nYou can send us your projects or questions before if you want. This way we can plan presenter time or make sure that we have the right persons to answer your question as good as anyone can."
+  },
+  {
+    "objectID": "events/18_December_24_visualization.html",
+    "href": "events/18_December_24_visualization.html",
+    "title": "Bytes & Bites - Data Visualisation Coding Tutorial",
+    "section": "",
+    "text": "Theme: A Data Visualisation Coding Tutorial in R and Python.\nProgramming beginners in R ans/or Python will be empowered to harness basic data analysis tools essential for Neuroscientific research and beyond. We will provide basic practical insights and hands-on experience to enhance your research analysis capabilities. Don’t miss this opportunity to enhance your skill set and network with fellow enthusiasts.\nIf you are a novice and wouldn’t want to miss some tasty pizza and snacks, this event is for you. We look forward to seeing you on Tuesday the 18th of June!\nThis session’s speakers are Fatima Khan and Carmen Domínguez, 2nd year Master in Neuroscience VU students. They created a visualization tutorial that can be done here.\nRegister Slides\n\nFeatured TidyTuesday Dataset\nWould you like to practice your coding skills and experiment with others (or individually) with a real dataset that is (probably) not related to your research project? We select a featured dataset from the TidyTuesday Data Science Learning challenge that you can analyze during the event. Ask for help if you get stuck and practice your data analysis skills.\nTalking about Pizza, how often do you wonder about science around cheese?\n\nThis week’s dataset is all about cheese: Dataset of the week\n\nThe data this week comes from cheese.com.\nCheese is nutritious food made mostly from the milk of cows but also other mammals, including sheep, goats, buffalo, reindeer, camels and yaks. Around 4000 years ago people have started to breed animals and process their milk. That’s when the cheese was born. Explore this site to find out about different kinds of cheese from all around the world.\n248 cheeses have listed fat content.\n\nIs there a relationship between fat content and cheese type?\nWhat about texture, flavor, or aroma?"
+  },
+  {
+    "objectID": "events/25_05-May_13_templates.html",
+    "href": "events/25_05-May_13_templates.html",
+    "title": "Bytes & Bites - Project Templates & AUMC Intro",
+    "section": "",
+    "text": "Theme: Templates & Introductions\nGuest speakers: Dr. Bauke van der Velde Reseach Data Management and Software Management Consultant at the AUMC, a recent start with a lot of programming experience within research (as the title would suggest). Dr. Thomas Pronk a Research Software Consultant at the AUMC who has a focus on FAIR and open science, with a focus on improving research code quality.\nRegister\nThis week is a somewhat more open session. Starting with two presentations, the introduction of the AUMC Reseach Support team and the introduction of software project templates here at the VU. There will be plenty of space for questions and discussion after each presentation, as well as a general discussion session in the second hour.\nPizza will be served as always!"
+  },
+  {
+    "objectID": "events/25_10-October_07_hackathon.html",
+    "href": "events/25_10-October_07_hackathon.html",
+    "title": "Bytes & Bites - Hackathon: Making a chatbot",
+    "section": "",
+    "text": "Hackathon poster\n\n\nTheme: Chatbots\nGuest speakers:\nMaurice Vanderfeesten, who manages research innovation here in the VU, has been testing training different models for LLMs. He will show some of his work and outline the process he used for each of the models.\nRadu Apsan from the Nebula team in the Network Institute will also give a short presentation on the great work they are doing on their LLM stack hosted at the VU, its current capabilities and plans for the future.\nElisa Rodenberg will outline the parameters of the chatbot, what it should do, provide some data to work with and the typical process and rules of the work the bot should do.\nRegister\nCome one, come all, Bytes & Bites is hosting a hackathon! The gauntlet has been laid down to make a chatbot for use in the VU. Form a team or craft it solo, for your chance to win the prize! The royal highness has decreed that the three best entrants will enjoy each enjoy a prize, so try your hand at the challenge.\nPizza and drinks will be served as always!"
+  },
+  {
+    "objectID": "events/25_12-December_09_coding_advent.html",
+    "href": "events/25_12-December_09_coding_advent.html",
+    "title": "Bytes & Bites - National Advent of Code Challenge",
+    "section": "",
+    "text": "Theme: Advent of Code\nWe are once more approaching the winter festivities and that means two things, every other evening is a borrel and the advent of code has returned! To keep up with tradition we will work on the problems collectively and see if we can solve all 9 in our regular 2 hour session. No peeking at solutions before we try them!\nSome festive foods will be served this time around!\nRegister"
+  },
+  {
+    "objectID": "events/26_02-February_10_lego_and_docs.html",
+    "href": "events/26_02-February_10_lego_and_docs.html",
+    "title": "Bytes & Bites - Documentation: A LEGO story",
+    "section": "",
+    "text": "Credit to https://www.publicdomainpictures.net\n\n\nTheme: Documentation, Fundamentals\nGuest speakers: Charlie Greene, the VU library research software engineer will be hosting the February edition of Bytes & Bites where we will be playing with LEGO!\nRegister\nThe colourful bricks can be used to make anything you want and in this session they will help us learn more about documentation! So bring your creative mindset and we’ll bring the LEGO, see you there!\nPizza will be served as always!"
+  },
+  {
+    "objectID": "events/26_04-April_14_webscraping_with_R.html",
+    "href": "events/26_04-April_14_webscraping_with_R.html",
+    "title": "Bytes & Bites - R Workshop: Retrieve and analyse AI related news",
+    "section": "",
+    "text": "Theme: Webscraping and text analysis Level: 2,3\nGuest speakers: Sofia Gil Clavel reseacher and Lab Manager at the Societal Analytics Lab and expert R teacher will be joining us this month to provide a work shop.\nRegister\nLearn how to retrieve data using Application Programming Interfaces (APIs), as well as how to analyze it. In this session we will cover scraping web data, cleaning it for analysis, analysing text, and plotting the results that are ready for publication!\n\nRequirements\nParticipants need to:\n· Bring their own laptops.\n· Have R and Rstudio installed.\n· Have experience using the tidyverse packages.\n· Have already required their Guardian developer token via this webpage.\nAll the necessary to follow this session will be available at this GitHub repository 24 hours before the workshop.\nPizza will be served as always!"
+  },
+  {
+    "objectID": "events/26_04-April_24_Datahack_live.html",
+    "href": "events/26_04-April_24_Datahack_live.html",
+    "title": "Bytes & Bites - LIVE: Updates and info from the Datahack",
+    "section": "",
+    "text": "Theme: Live, info\nToday we are hosting our first ever datahack!\nThere are currently two datasets available and both have some additional contextual information on the project and topic."
+  },
+  {
+    "objectID": "events/26_04-April_24_Datahack_live.html#dataset-1---videos-from-de-tweede-kamer",
+    "href": "events/26_04-April_24_Datahack_live.html#dataset-1---videos-from-de-tweede-kamer",
+    "title": "Bytes & Bites - LIVE: Updates and info from the Datahack",
+    "section": "Dataset 1 - Videos from de tweede kamer",
+    "text": "Dataset 1 - Videos from de tweede kamer\nThis dataset is from Antonis Koutsoumpis from Management, Organisation and SBE. Download the data here or check out a shorter dataset here! The following is context from the researcher:\n“I would like to create a function that extracts jitter, shimmer, and harmonicity from audio files of continuous speech. Jitter, shimmer, and harmonicity should be extracted from sustained vowels, instead of continuous speech. To achieve the task from continuous speech, we need to identify parts in the continuous speech where participants sustained a vowel sound for some time (e..g, and ‘uh’, ‘ee’, ‘aa’, etc for a few milliseconds, e.g, at least 80 ms). In summary, the script should perform the following: 1) process an audio file and identify speech; 2) identidy parts of the speech where participants sustained a vowel sound (e.g., sustained the vowel ‘aa’ for at least 80 milliseconds); 3) extract jitter, shimmer, and harmonicity (e.g., using an open source voice analysis software such as OpenSmile, Praat, etc.) from those identified parts of the audio file; 4) average those values across the entire audio file per participant; 5) store the output in a csv file. A similar procedure is described in this paper: Nathan, V., Rahman, M. M., Vatanparvar, K., Nemati, E., Blackstock, E., & Kuang, J. (2019, November). Extraction of voice parameters from continuous running speech for pulmonary disease monitoring. In 2019 IEEE international conference on bioinformatics and biomedicine (BIBM) (pp. 859-864). IEEE. link”"
+  },
+  {
+    "objectID": "events/26_04-April_24_Datahack_live.html#dataset-2---crystal-materials-data",
+    "href": "events/26_04-April_24_Datahack_live.html#dataset-2---crystal-materials-data",
+    "title": "Bytes & Bites - LIVE: Updates and info from the Datahack",
+    "section": "Dataset 2 - Crystal materials data",
+    "text": "Dataset 2 - Crystal materials data\nThis dataset is from Senja Barthel et al. from the Maths department and is about materials science. The main topic of the data is crystalline structures. She gave this description of the project:\n“The idea of this research project was to use machine learning to investigate in how far the performance in terms ( e.g. gas adsorption (standard is nitrogen, carbon dioxide, methane, or heat capacity) of metal-organic frameworks is determined by the atomic composition of the materials (made in a lego-style fashion using organic lingers that are attached to metal centers), and in how far it is determined by the underlying crystallographic net.”\nDownload the data here and check out the fuller documentation here!"
+  },
+  {
+    "objectID": "events/26_04-April_24_Datahack_live.html#updates",
+    "href": "events/26_04-April_24_Datahack_live.html#updates",
+    "title": "Bytes & Bites - LIVE: Updates and info from the Datahack",
+    "section": "Updates",
+    "text": "Updates\nMore info wil be added as it comes in"
+  },
+  {
     "objectID": "events.html",
     "href": "events.html",
     "title": "Bytes & Bites",
     "section": "",
-    "text": "We meet once a month on Tuesdays, time: 16-18, location: O|2 building, room 01W08\n\n\n\n\n\n\nTitle\n\n\n\nDate\n\n\n\n\n\n\n\n\nBytes & Bites - Documentation: A LEGO story (2nd attempt)\n\n\nMay 12, 2026\n\n\n\n\n\n\nBytes & Bites presents - A Datahack: Work on real research data\n\n\nApril 24, 2026\n\n\n\n\n\n\nBytes & Bites - R Workshop: Retrieve and analyse AI related news\n\n\nApril 14, 2026\n\n\n\n\n\n\nBytes & Bites - Game testing: Rogue.Ai\n\n\nMarch 10, 2026\n\n\n\n\n\n\nBytes & Bites - Documentation: A LEGO story\n\n\nFebruary 10, 2026\n\n\n\n\n\n\nBytes & Bites - Update: A Non-event\n\n\nJanuary 8, 2026\n\n\n\n\n\n\nBytes & Bites - National Advent of Code Challenge\n\n\nDecember 9, 2025\n\n\n\n\n\n\nBytes & Bites - Code Auditor: Automated code reviews\n\n\nNovember 4, 2025\n\n\n\n\n\n\nBytes & Bites - Hackathon: Making a chatbot\n\n\nOctober 7, 2025\n\n\n\n\n\n\nBytes & Bites - Gitlab: A Guide\n\n\nSeptember 9, 2025\n\n\n\n\n\n\nBytes & Bites - Project Templates & AUMC Intro\n\n\nMay 13, 2025\n\n\n\n\n\n\nBytes & Bites - R Packaging\n\n\nApril 9, 2025\n\n\n\n\n\n\nBytes & Bites - Version Control\n\n\nOctober 15, 2024\n\n\n\n\n\n\nBytes & Bites - Data Visualisation Coding Tutorial\n\n\nJune 18, 2024\n\n\n\n\n\n\nBytes & Bites - (how to) Bring your code\n\n\nApril 9, 2024\n\n\n\n\n\n\nBytes & Bites - Documentation and Good Practices\n\n\nMarch 5, 2024\n\n\n\n\n\n\nBytes & Bites - Computational Analysis of Communication with Wouter van Atteveldt\n\n\nFebruary 6, 2024\n\n\n\n\n\n\nBytes & Bites - EESSI\n\n\nJanuary 9, 2024\n\n\n\n\n\n\nBytes & Bites - National Advent of Code Challenge\n\n\nDecember 5, 2023\n\n\n\n\n\n\nBytes & Bites - Software Management Plans\n\n\nNovember 7, 2023\n\n\n\n\n\n\nBytes & Bites - JupyterLab & IDEs\n\n\nOctober 3, 2023\n\n\n\n\n\n\nBytes & Bites - Roundtable & Introduction\n\n\nSeptember 5, 2023\n\n\n\n\n\n\nBytes & Bites - Bugs and Demos\n\n\nJuly 11, 2023\n\n\n\n\n\n\nBytes & Bites - Data wrangling\n\n\nJune 6, 2023\n\n\n\n\n\n\nBytes & Bites - Puzzles\n\n\nMay 9, 2023\n\n\n\n\n\n\nBytes & Bites - Visualization\n\n\nApril 4, 2023\n\n\n\n\n\n\nNo matching items"
+    "text": "We meet once a month on Tuesdays, time: 16-18, location: O|2 building, room 01W08\n\n\n\n\n\n\nTitle\n\n\n\nDate\n\n\n\n\n\n\n\n\nBytes & Bites - Documentation: A LEGO story (2nd attempt)\n\n\nMay 12, 2026\n\n\n\n\n\n\nBytes & Bites presents - A Datahack: Work on real research data\n\n\nApril 24, 2026\n\n\n\n\n\n\nBytes & Bites - LIVE: Updates and info from the Datahack\n\n\nApril 24, 2026\n\n\n\n\n\n\nBytes & Bites - R Workshop: Retrieve and analyse AI related news\n\n\nApril 14, 2026\n\n\n\n\n\n\nBytes & Bites - Game testing: Rogue.Ai\n\n\nMarch 10, 2026\n\n\n\n\n\n\nBytes & Bites - Documentation: A LEGO story\n\n\nFebruary 10, 2026\n\n\n\n\n\n\nBytes & Bites - Update: A Non-event\n\n\nJanuary 8, 2026\n\n\n\n\n\n\nBytes & Bites - National Advent of Code Challenge\n\n\nDecember 9, 2025\n\n\n\n\n\n\nBytes & Bites - Code Auditor: Automated code reviews\n\n\nNovember 4, 2025\n\n\n\n\n\n\nBytes & Bites - Hackathon: Making a chatbot\n\n\nOctober 7, 2025\n\n\n\n\n\n\nBytes & Bites - Gitlab: A Guide\n\n\nSeptember 9, 2025\n\n\n\n\n\n\nBytes & Bites - Project Templates & AUMC Intro\n\n\nMay 13, 2025\n\n\n\n\n\n\nBytes & Bites - R Packaging\n\n\nApril 9, 2025\n\n\n\n\n\n\nBytes & Bites - Version Control\n\n\nOctober 15, 2024\n\n\n\n\n\n\nBytes & Bites - Data Visualisation Coding Tutorial\n\n\nJune 18, 2024\n\n\n\n\n\n\nBytes & Bites - (how to) Bring your code\n\n\nApril 9, 2024\n\n\n\n\n\n\nBytes & Bites - Documentation and Good Practices\n\n\nMarch 5, 2024\n\n\n\n\n\n\nBytes & Bites - Computational Analysis of Communication with Wouter van Atteveldt\n\n\nFebruary 6, 2024\n\n\n\n\n\n\nBytes & Bites - EESSI\n\n\nJanuary 9, 2024\n\n\n\n\n\n\nBytes & Bites - National Advent of Code Challenge\n\n\nDecember 5, 2023\n\n\n\n\n\n\nBytes & Bites - Software Management Plans\n\n\nNovember 7, 2023\n\n\n\n\n\n\nBytes & Bites - JupyterLab & IDEs\n\n\nOctober 3, 2023\n\n\n\n\n\n\nBytes & Bites - Roundtable & Introduction\n\n\nSeptember 5, 2023\n\n\n\n\n\n\nBytes & Bites - Bugs and Demos\n\n\nJuly 11, 2023\n\n\n\n\n\n\nBytes & Bites - Data wrangling\n\n\nJune 6, 2023\n\n\n\n\n\n\nBytes & Bites - Puzzles\n\n\nMay 9, 2023\n\n\n\n\n\n\nBytes & Bites - Visualization\n\n\nApril 4, 2023\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "events.html#events",
     "href": "events.html#events",
     "title": "Bytes & Bites",
     "section": "",
-    "text": "We meet once a month on Tuesdays, time: 16-18, location: O|2 building, room 01W08\n\n\n\n\n\n\nTitle\n\n\n\nDate\n\n\n\n\n\n\n\n\nBytes & Bites - Documentation: A LEGO story (2nd attempt)\n\n\nMay 12, 2026\n\n\n\n\n\n\nBytes & Bites presents - A Datahack: Work on real research data\n\n\nApril 24, 2026\n\n\n\n\n\n\nBytes & Bites - R Workshop: Retrieve and analyse AI related news\n\n\nApril 14, 2026\n\n\n\n\n\n\nBytes & Bites - Game testing: Rogue.Ai\n\n\nMarch 10, 2026\n\n\n\n\n\n\nBytes & Bites - Documentation: A LEGO story\n\n\nFebruary 10, 2026\n\n\n\n\n\n\nBytes & Bites - Update: A Non-event\n\n\nJanuary 8, 2026\n\n\n\n\n\n\nBytes & Bites - National Advent of Code Challenge\n\n\nDecember 9, 2025\n\n\n\n\n\n\nBytes & Bites - Code Auditor: Automated code reviews\n\n\nNovember 4, 2025\n\n\n\n\n\n\nBytes & Bites - Hackathon: Making a chatbot\n\n\nOctober 7, 2025\n\n\n\n\n\n\nBytes & Bites - Gitlab: A Guide\n\n\nSeptember 9, 2025\n\n\n\n\n\n\nBytes & Bites - Project Templates & AUMC Intro\n\n\nMay 13, 2025\n\n\n\n\n\n\nBytes & Bites - R Packaging\n\n\nApril 9, 2025\n\n\n\n\n\n\nBytes & Bites - Version Control\n\n\nOctober 15, 2024\n\n\n\n\n\n\nBytes & Bites - Data Visualisation Coding Tutorial\n\n\nJune 18, 2024\n\n\n\n\n\n\nBytes & Bites - (how to) Bring your code\n\n\nApril 9, 2024\n\n\n\n\n\n\nBytes & Bites - Documentation and Good Practices\n\n\nMarch 5, 2024\n\n\n\n\n\n\nBytes & Bites - Computational Analysis of Communication with Wouter van Atteveldt\n\n\nFebruary 6, 2024\n\n\n\n\n\n\nBytes & Bites - EESSI\n\n\nJanuary 9, 2024\n\n\n\n\n\n\nBytes & Bites - National Advent of Code Challenge\n\n\nDecember 5, 2023\n\n\n\n\n\n\nBytes & Bites - Software Management Plans\n\n\nNovember 7, 2023\n\n\n\n\n\n\nBytes & Bites - JupyterLab & IDEs\n\n\nOctober 3, 2023\n\n\n\n\n\n\nBytes & Bites - Roundtable & Introduction\n\n\nSeptember 5, 2023\n\n\n\n\n\n\nBytes & Bites - Bugs and Demos\n\n\nJuly 11, 2023\n\n\n\n\n\n\nBytes & Bites - Data wrangling\n\n\nJune 6, 2023\n\n\n\n\n\n\nBytes & Bites - Puzzles\n\n\nMay 9, 2023\n\n\n\n\n\n\nBytes & Bites - Visualization\n\n\nApril 4, 2023\n\n\n\n\n\n\nNo matching items"
+    "text": "We meet once a month on Tuesdays, time: 16-18, location: O|2 building, room 01W08\n\n\n\n\n\n\nTitle\n\n\n\nDate\n\n\n\n\n\n\n\n\nBytes & Bites - Documentation: A LEGO story (2nd attempt)\n\n\nMay 12, 2026\n\n\n\n\n\n\nBytes & Bites presents - A Datahack: Work on real research data\n\n\nApril 24, 2026\n\n\n\n\n\n\nBytes & Bites - LIVE: Updates and info from the Datahack\n\n\nApril 24, 2026\n\n\n\n\n\n\nBytes & Bites - R Workshop: Retrieve and analyse AI related news\n\n\nApril 14, 2026\n\n\n\n\n\n\nBytes & Bites - Game testing: Rogue.Ai\n\n\nMarch 10, 2026\n\n\n\n\n\n\nBytes & Bites - Documentation: A LEGO story\n\n\nFebruary 10, 2026\n\n\n\n\n\n\nBytes & Bites - Update: A Non-event\n\n\nJanuary 8, 2026\n\n\n\n\n\n\nBytes & Bites - National Advent of Code Challenge\n\n\nDecember 9, 2025\n\n\n\n\n\n\nBytes & Bites - Code Auditor: Automated code reviews\n\n\nNovember 4, 2025\n\n\n\n\n\n\nBytes & Bites - Hackathon: Making a chatbot\n\n\nOctober 7, 2025\n\n\n\n\n\n\nBytes & Bites - Gitlab: A Guide\n\n\nSeptember 9, 2025\n\n\n\n\n\n\nBytes & Bites - Project Templates & AUMC Intro\n\n\nMay 13, 2025\n\n\n\n\n\n\nBytes & Bites - R Packaging\n\n\nApril 9, 2025\n\n\n\n\n\n\nBytes & Bites - Version Control\n\n\nOctober 15, 2024\n\n\n\n\n\n\nBytes & Bites - Data Visualisation Coding Tutorial\n\n\nJune 18, 2024\n\n\n\n\n\n\nBytes & Bites - (how to) Bring your code\n\n\nApril 9, 2024\n\n\n\n\n\n\nBytes & Bites - Documentation and Good Practices\n\n\nMarch 5, 2024\n\n\n\n\n\n\nBytes & Bites - Computational Analysis of Communication with Wouter van Atteveldt\n\n\nFebruary 6, 2024\n\n\n\n\n\n\nBytes & Bites - EESSI\n\n\nJanuary 9, 2024\n\n\n\n\n\n\nBytes & Bites - National Advent of Code Challenge\n\n\nDecember 5, 2023\n\n\n\n\n\n\nBytes & Bites - Software Management Plans\n\n\nNovember 7, 2023\n\n\n\n\n\n\nBytes & Bites - JupyterLab & IDEs\n\n\nOctober 3, 2023\n\n\n\n\n\n\nBytes & Bites - Roundtable & Introduction\n\n\nSeptember 5, 2023\n\n\n\n\n\n\nBytes & Bites - Bugs and Demos\n\n\nJuly 11, 2023\n\n\n\n\n\n\nBytes & Bites - Data wrangling\n\n\nJune 6, 2023\n\n\n\n\n\n\nBytes & Bites - Puzzles\n\n\nMay 9, 2023\n\n\n\n\n\n\nBytes & Bites - Visualization\n\n\nApril 4, 2023\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "learning_files/resources.html",
