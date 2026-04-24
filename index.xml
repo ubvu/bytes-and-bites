@@ -39,6 +39,43 @@
   <pubDate>Tue, 12 May 2026 00:00:00 GMT</pubDate>
 </item>
 <item>
+  <title>Bytes &amp; Bites - LIVE: Updates and info from the Datahack</title>
+  <link>https://ubvu.github.io/bytes-and-bites/events/26_04-April_24_Datahack_live.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Theme: Live, info</p>
+<p>Today we are hosting our first ever datahack!</p>
+<p>There are currently two datasets available and both have some additional contextual information on the project and topic.</p>
+<section id="dataset-1---videos-from-de-tweede-kamer" class="level2">
+<h2 class="anchored" data-anchor-id="dataset-1---videos-from-de-tweede-kamer">Dataset 1 - Videos from de tweede kamer</h2>
+<p>This dataset is from <a href="a.koutsoumpis@vu.nl">Antonis Koutsoumpis</a> from Management, Organisation and SBE. Download the data <a href="https://doi.org/10.5281/zenodo.19485448">here</a> or check out a shorter dataset <a href="https://filesender.surf.nl/?s=download&amp;token=c019a398-dc2e-4cff-8711-b2b055ffd118">here</a>! The following is context from the researcher:</p>
+<p>“<em>I would like to create a function that extracts jitter, shimmer, and harmonicity from audio files of continuous speech. Jitter, shimmer, and harmonicity should be extracted from sustained vowels, instead of continuous speech. To achieve the task from continuous speech, we need to identify parts in the continuous speech where participants sustained a vowel sound for some time (e..g, and ‘uh’, ‘ee’, ‘aa’, etc for a few milliseconds, e.g, at least 80 ms). In summary, the script should perform the following:</em> <em>1) process an audio file and identify speech; 2) identidy parts of the speech where participants sustained a vowel sound (e.g., sustained the vowel ‘aa’ for at least 80 milliseconds); 3) extract jitter, shimmer, and harmonicity (e.g., using an open source voice analysis software such as OpenSmile, Praat, etc.) from those identified parts of the audio file; 4) average those values across the entire audio file per participant; 5) store the output in a csv file.</em> <em>A similar procedure is described in this paper: Nathan, V., Rahman, M. M., Vatanparvar, K., Nemati, E., Blackstock, E., &amp; Kuang, J. (2019, November). Extraction of voice parameters from continuous running speech for pulmonary disease monitoring. In 2019 IEEE international conference on bioinformatics and biomedicine (BIBM) (pp.&nbsp;859-864). IEEE. <a href="https://doi.org/10.1109/BIBM47256.2019.8983115">link</a></em>”</p>
+</section>
+<section id="dataset-2---crystal-materials-data" class="level2">
+<h2 class="anchored" data-anchor-id="dataset-2---crystal-materials-data">Dataset 2 - Crystal materials data</h2>
+<p>This dataset is from <a href="">Senja Barthel</a> et al.&nbsp;from the Maths department and is about materials science. The main topic of the data is crystalline structures. She gave this description of the project:</p>
+<p>“<em>The idea of this research project was to use machine learning to investigate in how far the performance in terms ( e.g.&nbsp;gas adsorption (standard is nitrogen, carbon dioxide, methane, or heat capacity) of metal-organic frameworks is determined by the atomic composition of the materials (made in a lego-style fashion using organic lingers that are attached to metal centers), and in how far it is determined by the underlying crystallographic net.</em>”</p>
+<p><strong>Download</strong> the data <a href="https://filesender.surf.nl/?s=download&amp;token=88caf3a4-4e13-433c-b7f4-8810eae74ca0">here</a> and check out the fuller documentation <a href="https://filesender.surf.nl/?s=download&amp;token=ec3f60cf-ddde-4800-bf0a-c90115a40591">here</a>!</p>
+</section>
+<section id="updates" class="level2">
+<h2 class="anchored" data-anchor-id="updates">Updates</h2>
+<p>More info wil be added as it comes in</p>
+</section>
+<section id="pizza" class="level1">
+<h1>Pizza</h1>
+<p>Pizza will be served as always! We expect the delivery around 13:00-13:30 :)</p>
+
+
+</section>
+
+ ]]></description>
+  <guid>https://ubvu.github.io/bytes-and-bites/events/26_04-April_24_Datahack_live.html</guid>
+  <pubDate>Fri, 24 Apr 2026 00:00:00 GMT</pubDate>
+</item>
+<item>
   <title>Bytes &amp; Bites presents - A Datahack: Work on real research data</title>
   <link>https://ubvu.github.io/bytes-and-bites/events/26_04-April_24_datahack.html</link>
   <description><![CDATA[ 
@@ -477,26 +514,6 @@
  ]]></description>
   <guid>https://ubvu.github.io/bytes-and-bites/events/05_December_23_adventofcode.html</guid>
   <pubDate>Tue, 05 Dec 2023 00:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>Bytes &amp; Bites - Software Management Plans</title>
-  <link>https://ubvu.github.io/bytes-and-bites/events/07_November_23.html</link>
-  <description><![CDATA[ 
-
-
-
-
-<p>Theme: Software Management Plans and how you can benefit from them</p>
-<p>Guest speaker: <a href="https://www.esciencecenter.nl/team/dr-carlos-martinez-ortiz/">Dr.&nbsp;Carlos Martinez-Ortiz</a> Community Manager at the Netherlands eScience Center.</p>
-<p><a href="https://vu-nl.libcal.com/event/4107697">Register</a></p>
-<p>This session of Bytes &amp; Bites will focus on Software Management Plans (SMPs) and how your software project can benefit from planning ahead. SMPs are relevant for beginners and professionals alike and can be applied to any project of any size in any language. We will learn together how to create a SMP and discover in a playful way what components matter to our project.</p>
-<p>Pizza will be served as always!</p>
-
-
-
- ]]></description>
-  <guid>https://ubvu.github.io/bytes-and-bites/events/07_November_23.html</guid>
-  <pubDate>Tue, 07 Nov 2023 00:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>

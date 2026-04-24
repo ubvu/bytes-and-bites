@@ -1,8 +1,9 @@
 [
   {
-    "listing": "/events.html",
+    "listing": "/index.html",
     "items": [
       "/events/26_05-May_12_LEGO_and_Documentation.html",
+      "/events/26_04-April_24_Datahack_live.html",
       "/events/26_04-April_24_datahack.html",
       "/events/26_04-April_14_webscraping_with_R.html",
       "/events/26_03-March_10_game_testing.html",
@@ -42,9 +43,10 @@
     ]
   },
   {
-    "listing": "/index.html",
+    "listing": "/events.html",
     "items": [
       "/events/26_05-May_12_LEGO_and_Documentation.html",
+      "/events/26_04-April_24_Datahack_live.html",
       "/events/26_04-April_24_datahack.html",
       "/events/26_04-April_14_webscraping_with_R.html",
       "/events/26_03-March_10_game_testing.html",
