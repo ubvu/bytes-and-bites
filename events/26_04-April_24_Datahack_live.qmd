@@ -11,6 +11,13 @@ Today we are hosting our first ever datahack!
 
 There are currently two datasets available and both have some additional contextual information on the project and topic.
 
+## REMINDER
+
+This data is NOT to be publicly shared without the agreement of the researcher! If the work does not proceed to a collaboration then get in contact with us about the process of making example datasets that have the same shape as the data without giving the actual data away so you can provide an example dataset with your work. 
+
+We will follow up with all those who joined next week (week of the 4th of May) to see who has work to share and if they are open to having it published here on the Bytes & Bites website.
+
+
 ## Dataset 1 - Videos from de tweede kamer
 This dataset is from [Antonis Koutsoumpis](mailto:a.koutsoumpis@vu.nl) from Management, Organisation and SBE. 
 Download the data [here](https://doi.org/10.5281/zenodo.19485448) or check out a shorter dataset [here](https://filesender.surf.nl/?s=download&token=c019a398-dc2e-4cff-8711-b2b055ffd118)! The following is context from the researcher:

@@ -10,13 +10,15 @@ Please refer to these materials if you cannot find anything in our documentation
 
 If you come across any sources not in this list that you think could be useful, please reach out and contact the team via the [contribution portal](https://ez-github-contributor.netlify.app/) and we will review it for adding to the list.
 
+
 ### Live code-along sessions
 If you are looking for additional sessions to Bytes & Bites you can perhaps find support in the [codebar](https://codebar.io/) sessions though do note that as a student “_workshops and events are exclusively for women, non-binary, LGBTQ+ members (mirrored also in the [rainborR](https://rainbowr.org/) buddy programme), and people from underrepresented minority groups_”. They do however upload their talks to [their youtube channel](https://www.youtube.com/@codebarhq/videos), much like [PyData](https://www.youtube.com/user/PyDataTV) (talks mostly on data analysis in various languages).
 
 ### Coding courses
 There are many places peddling their coding courses these days, however there are still plenty of good quality free courses. In general you can find everything you need to learn for free in one way or another, including interactive courses.
 
-The UB regularly hosts a coding course for beginners based on the Carpentry workshops, so search for Software Carpentry in the events page of the VU Amsterdam!
+The UB regularly hosts a coding course for beginners based on the Carpentry workshops, so search for Software Carpentry in the [events page of the VU Amsterdam](https://vu.nl/nl/agenda) or directly in [libcal](https://libcal.vu.nl/calendar/universitylibrary)!
+
 
 #### Honourable mentions
 ___________________
@@ -32,6 +34,7 @@ ___________________
 [HTML for people](https://htmlforpeople.com/) - HTML is not a programming languages, but seeing as the ability to craft a website or frontend for a tool is very useful this resource gets an honourable mention.
 
 [Introduction to Python](https://datalab01.ict.hva.nl/) by Pieter Bons of the HvA is a selection of short videos walking you through the basics of using Python. 
+
 
 #### Free coding courses
 
@@ -80,6 +83,26 @@ Undoubtably the largest and most extensive programming forum collection is [Stac
 [GeeksForGeeks](https://www.geeksforgeeks.org/): A more to the point version of Medium/TowardsDataScience with slightly less reputable articles and more frequently outdate code. It can be useful, but take the code as a guide to get the basics working and restructure the code to fit good coding practices. 
 
 
+### Good Practice
+
+![Good practice for cable management, credit https://blog.michaelfmcnamara.com](../images/cable_management.jpg){width=200}
+
+
+Learning how to code is the start of the journey, but as the size of your projects grow the most important factor quickly becomes adhering to good practice standards. Get ahead and start learning now!
+
+[Framework for Open and Reproducible Research Training](https://forrt.org/curated_resources/): Known as FORRT the intention is to provide infrastructure and learning resources for the teaching and learning of open and reproducible science which extends to software.
+
+[The Missing Semester of Your CS Education](https://missing.csail.mit.edu/) is exactly what it says, a guide to all the parts of programming that is not explicitly taught in courses. Written in 18 different languages it covers code quality and standard, version control with Git, and packing and shipping code.
+
+[Practical guide to Software Management Plans](https://zenodo.org/records/7589725): A short guide to the benefits of making a software management plan with links to learn more and examples where and how to use one.
+
+[Introducing Computational Thinking](https://librarycarpentry.github.io/lc-computational-thinking/intro.html) is a work in progress course to teach people how to get the right mindset for thinking like a computer and writing effective code.
+
+[fair-software.nl](https://fair-software.nl/) is a great place to get your intro to the five key points to write Findable, Accessible, Interoperable, and Re-usable software. For a more indepth and institution specific information check out the FAIR software page in the [VU RDM handbook](https://rdm.vu.nl/guides/publishing-fair-software.html). 
+
+[Code for Thought](https://codeforthought.buzzsprout.com/): A podcast series interviewing developers and researchers both providing tips on good practice and information on initiatives and tools. The podcast has episodes in German, French, and English. 
+
+
 ### Python
 
 ![Python logo](../images/programming-logos/Python-logo.png){width=200}
@@ -102,6 +125,8 @@ _______
 [Python for Scientists](https://wiki.physics.udel.edu/wiki_qttg/images/3/31/BOOK%3Dpython_for_scientists.pdf) is a book by John M. Stewart from the Department of Applied Mathematics & Theoretical Physics written for the use of Python in research.
 
 [Python for Scientists](https://pythonforscientists.github.io/), another book of the same title. It is "_an open-source Python textbook designed for introductory courses in computer science or scientific computing. As opposed to other textbooks, which only cover the fundamentals of coding itself, Python for Scientists also provides students with good programming and development skills. Written for students at Kenyon College_".
+
+[The Hitchhiker’s Guide to Python](https://docs.python-guide.org/) is truly a one stop shop for learning how to develop in Python, from virtual environments to code style, testing to scraping, publishing to project structure all in 7 different languages. Reitz and Schlusser have covered almost everything you could every want to know when it comes to good practice in Python.
 
 ##### Assignments
 [Introductory level - ASC](https://github.com/ubvu/Python-Software-Carpentry/tree/main/Introductory/Homeworks) homeworks are intended for those who have followed a beginners Carpentry course or an equivalent introduction level Python course or self study. The first homework can be done twice, first with simple techniques (no loops or functions), second using more advanced methods. The second homework introduces a little more than is covered in the regular beginners Python course taught by the UBVU and is closer to the beginner+ course. 
@@ -131,12 +156,18 @@ _______
 
 [Statology](https://www.statology.org/) has a big focus on status (who would have guessed!) and as a result has a lot of comprehensive R articles. [Check them out here!](https://www.statology.org/r-guides/)
 
+[R for Graduate Students](https://bookdown.org/yih_huynh/Guide-to-R-Book/index.html) is a guide written by a PhD student (Wendy Huynh) for PhD students.
+
+
 ##### Books
 The [Communcation Science R Book](https://dataliteracy.cc/) is a web-book developed by the communication sciences team in the VU Amsterdam that covers all the concepts needed to start with using R for statistical analyses including concept explanations alongside the code guides.
 
 [R for Data Science](https://r4ds.had.co.nz/introduction.html) is the website for the first edition of “R for Data Science”, published January 2017 by Hadley Wickham and Garrett Grolemund. The book covers all the basics needed for coding R projects in a scientific way.
 
 [Hands-on Programming with R](https://rstudio-education.github.io/hopr/) is another website edition of a book, and a great starting point for those wanting to learn how to code. It is also written by Garrett Grolemund.
+
+[Statistical analysis and presentation using R](https://poweleiden.github.io/statistics1/) covers the use of R for an introductory statistics course from the Institute of Political Science in Leiden. They also have a great resource for [debugging in R](https://poweleiden.github.io/statistics1/common_errors.html) showing some of the most common errors and how to fix them.
+
 
 ##### Inline or Interactive
 [Swirl](https://swirlstats.com/) is an R package that teaches you to code in line. Install the package, call upon it and follow the instructions. There are also websites to help with solutions when you are stuck. 

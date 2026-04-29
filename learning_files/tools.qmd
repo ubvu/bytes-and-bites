@@ -50,6 +50,8 @@ of RStudio.
 
 [Notebook.link](https://notebook.link/) - A place to run notebooks in your browser, there is even the possibility to [run C++ in a notebook](https://notebook.link/@quantstack/xeus-cpp).
 
+[Marimo](https://marimo.io/) - An open source Python notebook workspace that saves the code as ".py" that is shareable as an app with built in SQL and LLM features. Share your work in an interactive way. 
+
 
 ### Data Analysis
 
