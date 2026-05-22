@@ -101,6 +101,8 @@ same familiar chatbot manner and is available on all major operating systems.
 
 [testthat](https://testthat.r-lib.org/) is an R library created with the intention to make writing tests for your code fun and easy. It is on CRAN, so download and installation is straightforward.
 
+[mori](https://cran.r-universe.dev/mori) is a library for more memory efficient parallel programming in R. It refers each CPU to the same shared objects instead of making a copy for each.
+
 
 ### HPC (super computers)
 
