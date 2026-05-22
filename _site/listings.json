@@ -11,7 +11,7 @@
     ]
   },
   {
-    "listing": "/index.html",
+    "listing": "/events.html",
     "items": [
       "/events/26_05-May_12_LEGO_and_Documentation.html",
       "/events/26_04-April_24_datahack.html",
@@ -43,7 +43,7 @@
     ]
   },
   {
-    "listing": "/events.html",
+    "listing": "/index.html",
     "items": [
       "/events/26_05-May_12_LEGO_and_Documentation.html",
       "/events/26_04-April_24_datahack.html",
