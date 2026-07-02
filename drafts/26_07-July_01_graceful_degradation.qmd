@@ -1,0 +1,54 @@
+---
+title: "Article - Design: Graceful Degradation"
+draft: true
+date: "07/03/2026"
+description: "The classy way to drop support"
+categories: [software, design, sustainability]
+about:
+    template: jolla
+    image: "../mediabag/images/20xx/x.png"
+---
+
+![<credit for image>](../mediabag/images/20xx/x.png)
+
+# Is a bricked washing machine acceptable?
+
+## Any designer worth their salt says no
+
+Have you ever received a message or mail that a service you're using is going to end? Has it been one you actively use? How about a computers or phone getting a message it will not receive support? Final question, have you ever had a "smart" device lose support? 
+
+
+It is all frustrating, but perhaps most frustrating is the smart devices. Physical, mechanical objects, that for some reason require an internet connection and overly complex software. These products are at risk of losing support any moment. The sole maintainer leaves, there is a hardware issue not allowing for a new update, the company is maintaining too many different services, planned obselence. You would expect to still be able to use your washing machine without the app, right? 
+
+
+# Enter: Graceful Degradation
+
+9,000,000,000km away from the VU is a 3 month project that is at time of writing on month 40 (it is a good thing). The Mars rover ... was worked on for x years and the team hoped it would work for 3 months so that they could gather the data required of the mission, but with careful planning the robot has lived long enough to celebrate x birthdays. Not only that, but it has even [sung happy birthday to itself]() x times.
+
+How has this robot exceeded it's expected lifespan x fold? 
+That is down to graceful degradation, the idea that without support and during the process of degrading the product will still perform, albeit at limited capacity. 
+
+
+
+
+# Graceful Degradation in software
+
+So, how can this principle be applied to software development? 
+
+With the mess of dependencies that projects can end up as today it is an idea to rely on fewer external libraries and try to keep to well supported/funded ones. 
+
+Avoid calls to websites or online services where possible, you never know when they will stop existing.
+
+Keep track of the exact version of the language and libraries you use, the discussion in how to name and organise large libraries is almost as heated as Wikipedia edits.
+
+Try to segment your work such that it isn't too interlocked, a part can break and other sections still run fine.
+
+
+
+
+# TL;DR, conclusion
+
+
+
+
+# Links used as reference & further reading

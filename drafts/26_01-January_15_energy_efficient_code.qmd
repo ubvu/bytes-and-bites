@@ -25,13 +25,26 @@ about:
 
 <links used as reference/ further reading>
 https://arxiv.org/html/2509.10099v1
-https://dev.to/vaib/the-developers-guide-to-green-coding-reducing-your-softwares-carbon-footprint-5amo 
 https://www.e-spincorp.com/green-coding-energy-efficient-software/ 
 https://www.softwareimprovementgroup.com/blog/green-software-development/ 
 https://www.computer.org/publications/tech-news/trends/environmental-cost-of-code 
 https://indico.cern.ch/even
 t/1484669/contributions/6456380/attachments/3062279/5415878/Julia%20Efficiency%20Sustainability.pdf
-https://pypi.org/project/eco-code-analyzer/
-https://ecologits.ai/latest/ 
+
+
+- courses
 https://drive.google.com/file/d/1evA8TrdBOKpd9Uh6JWvHjdxX-ui1ZK0M/view
 https://github.com/S2-group/green-lab/tree/main
+
+- groups to join for green computing
+https://forum.escs-community.org/
+https://ohbm-environment.org/neuroimaging-research-pipelines-group/
+
+- tips for greener computing
+https://hpc.dccn.nl/docs/cluster_howto/best_practices.html
+https://dev.to/vaib/the-developers-guide-to-green-coding-reducing-your-softwares-carbon-footprint-5amo 
+
+- tools for estimating impact
+https://github.com/Cambridge-Sustainable-Computing-Lab/GreenAlgorithms4HPC
+https://pypi.org/project/eco-code-analyzer/
+https://ecologits.ai/latest/ 

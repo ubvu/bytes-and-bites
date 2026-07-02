@@ -8,6 +8,7 @@ description: "16-18 @ O2 building, room 01W08"
 ![_Credit to https://www.publicdomainpictures.net_](../events/mediabag/images/2026/lego_instructions.jpg)
 
 Theme: Documentation, Fundamentals
+Level: 1+
 
 **Note: This is a re-organisation of the event that didn't go ahead in February.**
 

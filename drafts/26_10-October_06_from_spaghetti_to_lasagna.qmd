@@ -1,0 +1,18 @@
+---
+title: "Bytes & Bites - Code refactoring: From Spaghetti code to code Lasagna"
+draft: true
+date: "10/06/2026"
+description: "16-18 @ O2 building, room 01W08"
+---
+
+Theme: Refactoring, FAIR, Support session
+(Level)[../about.qmd]: 1+
+
+
+In this session [Charlie Greene](https://libcal.vu.nl/profile/fb462e443245), the VU library research software engineer, will be presenting the troubles of (spaghetti code)[https://dev.to/jarrydpatel/dotnet-basics-what-is-spaghetti-code-in-c-3n97] and some tips for (refactoring)[https://www.ibm.com/think/topics/code-refactoring]. We will then have time to work on your code and get support to make your own lasagna!
+
+
+[Register](https://vu-nl.libcal.com/calendar/universitylibrary/[EVENTNAME])
+
+
+Pizza (not lasagne sadly) will be served as always!

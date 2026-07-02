@@ -3,7 +3,7 @@ title: "News - What's going on?"
 draft: false
 date: "03/06/2026"
 description: "A short update on what is going on with regards to software trainings and events in the country."
-categories: [news, b, c]
+categories: [news, events, trainings]
 about:
     template: jolla
     image: "../mediabag/images/2026/news_newsletter.jpg"
