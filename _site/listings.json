@@ -2,6 +2,8 @@
   {
     "listing": "/news.html",
     "items": [
+      "/news/articles/26_07-July_02_the_2038_problem.html",
+      "/news/articles/26_05-May_21_lego_writeup.html",
       "/news/articles/26_03-March_11_news.html",
       "/news/articles/26_01-January_09_data_efficient_code.html",
       "/news/articles/25_11-November_06_digital_preservation_day.html",
@@ -11,7 +13,7 @@
     ]
   },
   {
-    "listing": "/events.html",
+    "listing": "/index.html",
     "items": [
       "/events/26_05-May_12_LEGO_and_Documentation.html",
       "/events/26_04-April_24_datahack.html",
@@ -43,7 +45,7 @@
     ]
   },
   {
-    "listing": "/index.html",
+    "listing": "/events.html",
     "items": [
       "/events/26_05-May_12_LEGO_and_Documentation.html",
       "/events/26_04-April_24_datahack.html",

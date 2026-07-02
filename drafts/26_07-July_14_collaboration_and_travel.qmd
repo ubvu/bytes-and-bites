@@ -1,0 +1,26 @@
+---
+title: "Article - Tool: Collaboration and the challenge of travel"
+draft: true
+date: "07/14/2026"
+description: "A new tool to help find nearby collaborators"
+categories: [tools, collaborate, solutions]
+about:
+    template: jolla
+    image: "../mediabag/images/20xx/x.png"
+---
+
+![<credit for image>](../mediabag/images/20xx/x.png)
+
+# How far is too far to travel to work?
+
+
+You're on linkedin or funda or indeed or pararius and while the main factors are pay, cost, field, size, amount of fun, and how nice it looks you still consider, "How long will it take me to get to work?". After it is all factored in and you're happy with your commute suddenly you join a project and now need to get from Hoogezand to Utrecht (a 2 hour and 33 minute commute in case you were wondering). Hmmm....
+
+
+So what if you could factor that into your collaborations? Or events you attend? Or for groups you want to form for paper reviews? Well look no further!
+
+
+... is a simple webtool to select your institution, how long you are willing to travel for and the method of transport and you can find all the other research institutions that fall within that radius. Something useful for when looking to start regular in person events and collaborations. 
+
+
+Feel free to fork it or raise any issues, it is currently very single minded.

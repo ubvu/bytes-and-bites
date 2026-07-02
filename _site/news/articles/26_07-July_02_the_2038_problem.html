@@ -6,10 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2026-05-12">
-<meta name="description" content="16-18 @ O2 building, room 01W08">
+<meta name="dcterms.date" content="2026-07-02">
+<meta name="description" content="More datetime issues.">
 
-<title>Bytes &amp; Bites - Documentation: A LEGO story (2nd attempt) – Bytes &amp; Bites</title>
+<title>Article - Architecture: The 2038 problem – Bytes &amp; Bites</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -25,24 +25,23 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<link href="..//images/favicon.ico" rel="icon">
-<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-36055dde38e1c66a85944b0e21486264.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../..//images/favicon.ico" rel="icon">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-36055dde38e1c66a85944b0e21486264.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -71,8 +70,38 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<link rel="stylesheet" href="../styles.css">
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="../../styles.css">
+<link rel="stylesheet" href="../../alt_style.css">
 </head>
 
 <body class="nav-fixed quarto-light">
@@ -82,10 +111,10 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../images/favicon.ico" alt="" class="navbar-logo">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../images/favicon.ico" alt="" class="navbar-logo">
     </a>
-    <a class="navbar-brand" href="../index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Bytes &amp; Bites</span>
     </a>
   </div>
@@ -96,15 +125,15 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../index.html"> 
+    <a class="nav-link" href="../../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../about.html"> 
+    <a class="nav-link" href="../../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../events.html"> 
+    <a class="nav-link" href="../../events.html"> 
 <span class="menu-text">Events</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -113,29 +142,29 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-learn">    
         <li>
-    <a class="dropdown-item" href="../learning_files/info.html">
+    <a class="dropdown-item" href="../../learning_files/info.html">
  <span class="dropdown-text">Info</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../learning_files/resources.html">
+    <a class="dropdown-item" href="../../learning_files/resources.html">
  <span class="dropdown-text">Resources</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../learning_files/tools.html">
+    <a class="dropdown-item" href="../../learning_files/tools.html">
  <span class="dropdown-text">Tools</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="../eat.html"> 
+    <a class="nav-link" href="../../eat.html"> 
 <span class="menu-text">Eat</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../news.html"> 
+    <a class="nav-link" href="../../news.html"> 
 <span class="menu-text">News</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../community.html"> 
+    <a class="nav-link" href="../../community.html"> 
 <span class="menu-text">Other communities</span></a>
   </li>  
 </ul>
@@ -150,67 +179,123 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+  <ul>
+  <li><a href="#why-is-64-more-than-twice-as-good-as-32" id="toc-why-is-64-more-than-twice-as-good-as-32" class="nav-link active" data-scroll-target="#why-is-64-more-than-twice-as-good-as-32">Why is 64 more than twice as good as 32?</a>
+  <ul class="collapse">
+  <li><a href="#the-y2k38-superbug" id="toc-the-y2k38-superbug" class="nav-link" data-scroll-target="#the-y2k38-superbug">The Y2K38 superbug</a></li>
+  </ul></li>
+  <li><a href="#what-will-the-damage-be" id="toc-what-will-the-damage-be" class="nav-link" data-scroll-target="#what-will-the-damage-be">What will the damage be?</a></li>
+  <li><a href="#how-will-it-be-fixed" id="toc-how-will-it-be-fixed" class="nav-link" data-scroll-target="#how-will-it-be-fixed">How will it be fixed?</a></li>
+  <li><a href="#the-older-sibling-y2k" id="toc-the-older-sibling-y2k" class="nav-link" data-scroll-target="#the-older-sibling-y2k">The older sibling, Y2K</a></li>
+  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion">Conclusion</a></li>
+  <li><a href="#links-further-reading" id="toc-links-further-reading" class="nav-link" data-scroll-target="#links-further-reading">Links &amp; further reading</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-about-jolla">
+  <img src="../mediabag/images/2026/2038_clock.png" class="about-image
+  round " style="height: 15em; width: 15em;">
+ <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Bytes &amp; Bites - Documentation: A LEGO story (2nd attempt)</h1>
-</div>
-
+<h1 class="title">Article - Architecture: The 2038 problem</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">software</div>
+    <div class="quarto-category">datetime</div>
+    <div class="quarto-category">bug</div>
+  </div>
+  </div>
 <div>
   <div class="description">
-    16-18 @ O2 building, room 01W08
+    More datetime issues.
   </div>
 </div>
-
-
 <div class="quarto-title-meta">
-
-    
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">May 12, 2026</p>
+      <p class="date">July 2, 2026</p>
     </div>
   </div>
-  
-    
   </div>
-  
-
-
-</header>
-
+</header><main class="content" id="quarto-document-content">
 
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="../events/mediabag/images/2026/lego_instructions.jpg" class="img-fluid figure-img"></p>
-<figcaption><em>Credit to https://www.publicdomainpictures.net</em></figcaption>
+<p><img src="../mediabag/images/2026/2038_overflow.gif" class="img-fluid figure-img"></p>
+<figcaption><credit for="" image=""></credit></figcaption>
 </figure>
 </div>
-<p>Theme: Documentation, Fundamentals Level: 1+</p>
-<p><strong>Note: This is a re-organisation of the event that didn’t go ahead in February.</strong></p>
-<p>Guest speakers: <a href="https://libcal.vu.nl/profile/fb462e443245">Charlie Greene</a>, the VU library research software engineer will be hosting the May edition of Bytes &amp; Bites where we will be playing with LEGO!</p>
-<p><a href="https://libcal.vu.nl/calendar/universitylibrary/Bytes_and_Bites_May_2026">Register</a></p>
-<p>The colourful bricks can be used to make anything you want and in this session they will help us learn more about documentation! So bring your creative mindset and we’ll bring the LEGO, see you there!</p>
-<p>Pizza will be served as always!</p>
+<section id="why-is-64-more-than-twice-as-good-as-32" class="level1">
+<h1>Why is 64 more than twice as good as 32?</h1>
+<section id="the-y2k38-superbug" class="level2">
+<h2 data-anchor-id="the-y2k38-superbug">The Y2K38 superbug</h2>
+<p>At 7 seconds past 3:14am (UTC, aka Coordinated Universal Time) on the 19th of January 2038 millions of devices will crash. This is known as the 2038 problem.</p>
+<p><br><br></p>
+<blockquote class="blockquote">
+<p>“<em>The 2038 problem is really a case study in technical debt and the long-term consequences of design decisions.</em>”</p>
+<p>– <a href="https://hackaday.com/author/zoeskyforest/">Zoe Skyforest</a></p>
+</blockquote>
+<p><br><br></p>
+<p>The problem appears in all devices or systems that use Unix time and store the value in a 32 bit signed integer. Let’s break down what that means.</p>
+<p>A bit a logical state that is either 1 or 0 (it is binary), on or off, true or false, yes or no. It is used to store values in computers where 1 bit can represent 0 or 1 and two bits can be 0 (00), 1(10), 3 (01) and 4 (11). Scaling this up means that 32 bits have <span class="math inline">\(2^{32}\)</span> different permutations resulting in a maximum value 4,294,967,295 (the first value is 0). An integer is a whole number and it being signed literally means that it can have a sign to signify if it is positive or negative. This leaves us with 2,147,483,647 as the maximum positive value the variable can be and -2,147,483,648 as the maximum negative value it can be.</p>
+<p>Unix time starts at midnight UTC on the 1st of January 1970 (the Unix epoch). This date might look familiar to those used to working with datetimes or anyone who has had a device reset its clock. The time is then stored as the number of seconds since that moment and if you haven’t made the connection yet 2,147,483,647 seconds after the Unix epoch is 03:14:07 19/01/2038 which at time of writing is less than 12 years away.</p>
+<p>Considering the rapid pace at which the tech world moves 12 years could seem like many lifetimes. However, it is worth noting that we are (at time of writing) fast approaching the 39th anniversary of the ever popular GIF format and it has been <strong>37 years</strong> since its last update. Not everything in the tech world moves fast.</p>
+</section>
+</section>
+<section id="what-will-the-damage-be" class="level1">
+<h1>What will the damage be?</h1>
+<p><strong>What can we expect on this fateful day?</strong> Well many devices won’t see 03:14:08, they will instead experience <a href="https://www.twingate.com/blog/glossary/integer%20overflow">integer overflow</a> as the value is larger than what the variable can hold and so the count starts over. All devices using a 32bit signed time will then think it is 2,147,483,647 seconds before the Unix epoch, 20:45:52 UTC on the 13th of December 1901, and I don’t think anyone fancies using a victorian computer. So, any device that makes calculations based on time like interest rates, regularly timed intervals, logging, GPS or internet connections will be trying to use a timestamp nearing 150 years expired. That is not going to be a fun day for IT.</p>
+<p><strong>What will the effect be?</strong> Financial systems won’t be able to track transactions after 2038 for one. Industrial, commercial, medical, government, and financial systems will not be able to keep regularly intervaled processes running on schedule (how many train delays might NS have that day?). Admins of databases and servers will not be able to effectively check or debug issues when they can’t tell when they happened. Older devices won’t be able to signal where they are and what data they have due to not being able to make satellite connections. Quite a broad effect.</p>
+<p><strong>So what will be affected?</strong> Well, plenty of legacy systems such as Windows XP, 32 bit Linux kernels and libraries, 32bit iPhones, OSX power PC Macs will suffer the change. More troublesome are embedded systems and micro controllers for things like your smart light in your flat, recording devices for field research, trackers on animals, or even someone’s insulin pump. These all tend to have a 32 bit system and are so wide spread that replacinng or upgrading them all will be a feat. For anyone who has worked in a long running government facility you probably will have seen windows XP systems running software that is a nightmare to replace, this also extends to traffic lights and water treatment plants in some areas. Seeing how vital they are you can imagine they are a top priority target to update.</p>
+<p>Some less terrifying examples of a low bit integer breaking a system or stopping progress include:</p>
+<ul>
+<li>When Psy’s <a href="https://www.youtube.com/watch?v=9bZkp7q19f0">Gangnam Style</a> was the first video to reach 2,147,483,647 views in December 2014. Youtube had to swap to a 64bit value before it broke.</li>
+<li>In both <a href="https://oldschool.runescape.com/">Old School Runescape</a> and <a href="https://www.rockstargames.com/gta-v/">GTA V</a> there is a maximum currency of 2,147,483,647 Gp/$.</li>
+<li>In the 1985 classic 8bit game <a href="https://supermarioplay.com/">Super Mario Bros.</a> surpassing 127 lives would result in it looping back to -128 lives and meaning you would lose the next time you died.</li>
+</ul>
+</section>
+<section id="how-will-it-be-fixed" class="level1">
+<h1>How will it be fixed?</h1>
+<p>Well, as the initial title states swapping to a 64bit architecture and time system (sort of) solves it. It does just push the problem into the future, but seeing as a 64bit signed integer can store a value up to 9,223,372,036,854,775,807 we should have solved it by the year 292,471,210,647AD, right?</p>
+<p><strong>What do I need to do?</strong> Well, seeing as this is a software orientated group we should take a look at how this could affect your work and how to avoid it:</p>
+<ul>
+<li>Python’s <code>time.time()</code> is 32bit if the system it’s running on is 32bit, you can use <code>datetime.now()</code> instead.</li>
+<li>C/C++’s <code>time_t</code> is 32bit on 32 bit systems, use int64_t instead</li>
+<li>MYSQL’s <code>TIMESTAMP</code> is based on 32bit Unix time, use <code>DATETIME(6)</code> instead.</li>
+<li>Avoid Java’s <code>java.util.Date</code> and instead use <code>java.time.Instant</code>.</li>
+</ul>
+</section>
+<section id="the-older-sibling-y2k" class="level1">
+<h1>The older sibling, Y2K</h1>
+<p>For those of you who are old enough, you might remember the rising fear as the world approached the new millenium, 2000AD. Despite the incredibly wide legged jeans, croptops and chrome the world still felt ill at ease inview of the upcoming <a href="https://en.wikipedia.org/wiki/Year_2000_problem">Y2K bug</a> and the theories surrounding its potential damage.</p>
+<p>The issue was partially due to the high price of RAM: any shortcuts that could be taken to conserve memory were taken. One of these shortcuts was storing years in two digits and adding the prefix “19” (I think you can see where this is going). This was already in practice long before fully digital computers when punch cards were still in use, anything to avoid cramping while punching all those holes. Systems using this two digit setup would of course see the new millenium arrive and assume it is 01/01/1900. Seeing as this was a software problem it was largely dealt with by large numbers of energetic programmers.</p>
+<p>This was of course quite achievable at a time when very few people owned computers or mobiles compared to today.</p>
+</section>
+<section id="conclusion" class="level1">
+<h1>Conclusion</h1>
+<p>Tech debt is real and while it might not matter for most projects (majority are short term or one off solutions), you do need to consider longevity once you start building upon your software or creating solutions for others. Something that seems like a convenient shortcut now could lead to a horrendous worldwide refactor in the future so at least spend a little time considering the alternatives. And make sure to use 64bit integers for your times!</p>
+</section>
+<section id="links-further-reading" class="level1">
+<h1>Links &amp; further reading</h1>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Year_2038_problem">Wiki page for 2038 problem</a></li>
+<li><a href="https://www.codegenes.net/blog/year-2038-bug-what-is-it-how-to-solve-it/">Year 2038 Bug: What It Is, Why TIMESTAMP Fails, and How to Solve It</a></li>
+<li><a href="https://hackaday.com/2025/07/22/the-epochalypse-y2k-but-38-years-later/">The Epochalypse: It’s Y2K, But 38 Years Later</a></li>
+<li><a href="https://www.securityweek.com/the-y2k38-bug-is-a-vulnerability-not-just-a-date-problem-researchers-warn/">Vulnerabilities revealed by the y2k38 bug</a></li>
+<li><a href="https://epoch2038.com/">epoch2038.com</a></li>
+</ul>
 
 
-
-</main> <!-- /main -->
+</section>
+</main>  
+</div>
+ <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
-    const icon = "";
-    const anchorJS = new window.AnchorJS();
-    anchorJS.options = {
-      placement: 'right',
-      icon: icon
-    };
-    anchorJS.add('.anchored');
     const isCodeAnnotation = (el) => {
       for (const clz of el.classList) {
         if (clz.startsWith('code-annotation-')) {                     
