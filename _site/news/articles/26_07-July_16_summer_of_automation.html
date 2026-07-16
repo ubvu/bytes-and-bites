@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="dcterms.date" content="2026-07-16">
+<meta name="description" content="An update on some recent tools in the field.">
 
-<title>news – Bytes &amp; Bites</title>
+<title>News - New tools: The summer of automation – Bytes &amp; Bites</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,26 +25,23 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<link href=".//images/favicon.ico" rel="icon">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-36055dde38e1c66a85944b0e21486264.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../..//images/favicon.ico" rel="icon">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-36055dde38e1c66a85944b0e21486264.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -70,67 +69,10 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-news .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
 
-    const options = {
-      valueNames: ['listing-image','listing-title','listing-date','listing-description','listing-reading-time',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-news'] = new List('listing-news', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../../styles.css">
+<link rel="stylesheet" href="../../alt_style.css">
 </head>
 
 <body class="nav-fixed quarto-light">
@@ -140,10 +82,10 @@ window.Quarto = {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./images/favicon.ico" alt="" class="navbar-logo">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../images/favicon.ico" alt="" class="navbar-logo">
     </a>
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Bytes &amp; Bites</span>
     </a>
   </div>
@@ -154,15 +96,15 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
+    <a class="nav-link" href="../../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
+    <a class="nav-link" href="../../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./events.html"> 
+    <a class="nav-link" href="../../events.html"> 
 <span class="menu-text">Events</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -171,29 +113,29 @@ window.Quarto = {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-learn">    
         <li>
-    <a class="dropdown-item" href="./learning_files/info.html">
+    <a class="dropdown-item" href="../../learning_files/info.html">
  <span class="dropdown-text">Info</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./learning_files/resources.html">
+    <a class="dropdown-item" href="../../learning_files/resources.html">
  <span class="dropdown-text">Resources</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./learning_files/tools.html">
+    <a class="dropdown-item" href="../../learning_files/tools.html">
  <span class="dropdown-text">Tools</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="./eat.html"> 
+    <a class="nav-link" href="../../eat.html"> 
 <span class="menu-text">Eat</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./news.html" aria-current="page"> 
+    <a class="nav-link" href="../../news.html"> 
 <span class="menu-text">News</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./community.html"> 
+    <a class="nav-link" href="../../community.html"> 
 <span class="menu-text">Other communities</span></a>
   </li>  
 </ul>
@@ -211,257 +153,89 @@ window.Quarto = {
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">On this page</h2>
-   
   <ul>
-  <li><a href="#news" id="toc-news" class="nav-link active" data-scroll-target="#news">News</a></li>
+  <li><a href="#are-you-a-summer-shut-in-who-avoids-the-sun" id="toc-are-you-a-summer-shut-in-who-avoids-the-sun" class="nav-link active" data-scroll-target="#are-you-a-summer-shut-in-who-avoids-the-sun">Are you a summer shut in who avoids the sun?</a>
+  <ul class="collapse">
+  <li><a href="#join-the-gang" id="toc-join-the-gang" class="nav-link" data-scroll-target="#join-the-gang">Join the gang!</a></li>
+  </ul></li>
+  <li><a href="#metacheck" id="toc-metacheck" class="nav-link" data-scroll-target="#metacheck">metacheck</a></li>
+  <li><a href="#furrow" id="toc-furrow" class="nav-link" data-scroll-target="#furrow">furrow</a></li>
+  <li><a href="#autometate" id="toc-autometate" class="nav-link" data-scroll-target="#autometate">autoMETAte</a></li>
+  <li><a href="#tldr" id="toc-tldr" class="nav-link" data-scroll-target="#tldr">TL;DR</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
-
-
-
+<div class="quarto-about-jolla">
+  <img src="../mediabag/images/2026/summer_of_automation.png" class="about-image
+  round " style="height: 15em; width: 15em;">
+ <header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">News - New tools: The summer of automation</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">news</div>
+    <div class="quarto-category">solutions</div>
+    <div class="quarto-category">tools</div>
+    <div class="quarto-category">FAIR</div>
+    <div class="quarto-category">automation</div>
+  </div>
+  </div>
+<div>
+  <div class="description">
+    An update on some recent tools in the field.
+  </div>
+</div>
+<div class="quarto-title-meta">
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">July 16, 2026</p>
+    </div>
+  </div>
+  </div>
+</header><main class="content" id="quarto-document-content">
 
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="images/Newspaper.jpg" class="img-fluid figure-img" width="300"></p>
-<figcaption><em>Credit investorinthefamily.com</em></figcaption>
+<p><img src="../mediabag/images/2026/summer_of_automation.png" height="300" class="figure-img"></p>
+<figcaption><credit for="" image=""></credit></figcaption>
 </figure>
 </div>
-<section id="news" class="level2">
-<h2 class="anchored" data-anchor-id="news">News</h2>
-<p>This is an area where short blog posts are made to update the community on what is happening within the VU, the Dutch research support world, and the field of software development in general.</p>
-<div id="listing-news" class="quarto-listing quarto-listing-container-grid">
-<div class="listing-actions-group">
-   <div class="input-group input-group-sm quarto-listing-sort">
-    <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-    <select id="listing-news-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-news'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
-      <option value="" disabled="" selected="" hidden="">Order By</option>
-      <option value="index" data-direction="asc">Default</option>
-      <option value="listing-title" data-direction="asc">
-        Title
-      </option>
-      <option value="listing-date-sort" data-direction="asc">
-        Date - Oldest
-      </option>
-      <option value="listing-date-sort" data-direction="desc">
-        Date - Newest
-      </option>
-    </select>
-  </div>
-    <div class="input-group input-group-sm quarto-listing-filter">
-      <span class="input-group-text"><i class="bi bi-search"></i></span>
-      <input type="text" class="search form-control" placeholder="Filter">
-    </div>
-</div>
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="bmV3cyUyQ3NvbHV0aW9ucyUyQ3Rvb2xzJTJDRkFJUiUyQ2F1dG9tYXRpb24=" data-listing-date-sort="1784152800000" data-listing-file-modified-sort="1784214456609" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="544">
-<a href="./news/articles/26_07-July_16_summer_of_automation.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img src="news\mediabag\images\2026\summer_of_automation.png" style="height: 150px;"  class="thumbnail-image card-img"/></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-News - New tools: The summer of automation
-</h5>
-<div class="listing-reading-time card-text text-muted">3 min</div>
-<div class="card-text listing-description delink">
-<p>An update on some recent tools in the field.</p>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-July 16, 2026
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="1" data-categories="c29mdHdhcmUlMkNkYXRldGltZSUyQ2J1Zw==" data-listing-date-sort="1782943200000" data-listing-file-modified-sort="1782986287047" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1212">
-<a href="./news/articles/26_07-July_02_the_2038_problem.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img src="news\mediabag\images\2026\2038_overflow.gif" style="height: 150px;"  class="thumbnail-image card-img"/></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Article - Architecture: The 2038 problem
-</h5>
-<div class="listing-reading-time card-text text-muted">7 min</div>
-<div class="card-text listing-description delink">
-<p>More datetime issues.</p>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-July 2, 2026
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="2" data-categories="ZXZlbnQlMkNmb2xsb3clMjB1cCUyQ2RvY3VtZW50YXRpb24=" data-listing-date-sort="1779400800000" data-listing-file-modified-sort="1779450773574" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="797">
-<a href="./news/articles/26_05-May_21_lego_writeup.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img src="events\mediabag\images\2026\vu_events_V_feb_26.png" style="height: 150px;"  class="thumbnail-image card-img"/></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Update - About last Tuesday : Lego &amp; Documentation
-</h5>
-<div class="listing-reading-time card-text text-muted">4 min</div>
-<div class="card-text listing-description delink">
-<p>Playing and learning</p>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-May 22, 2026
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="3" data-categories="bmV3cyUyQ2V2ZW50cyUyQ3RyYWluaW5ncw==" data-listing-date-sort="1772751600000" data-listing-file-modified-sort="1782905479296" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="645">
-<a href="./news/articles/26_03-March_11_news.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img src="news\mediabag\images\2026\news_newsletter.jpg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-News - What’s going on?
-</h5>
-<div class="listing-reading-time card-text text-muted">4 min</div>
-<div class="card-text listing-description delink">
-<p>A short update on what is going on with regards to software trainings and events in the country.</p>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-March 6, 2026
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="4" data-categories="ZWZmaWNpZW5jeSUyQ3RpcHMlMkNkYXRhJTJDd2ViZGV2" data-listing-date-sort="1771196400000" data-listing-file-modified-sort="1774534370178" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="10" data-listing-word-count-sort="1979">
-<a href="./news/articles/26_01-January_09_data_efficient_code.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img src="news\mediabag\images\2026\data_binary_blocks.jpg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Article - “we should have always been counting bytes”: Writing data efficient code
-</h5>
-<div class="listing-reading-time card-text text-muted">10 min</div>
-<div class="card-text listing-description delink">
-<p>Stories of herioc saves, impact of file bloat, and some tips</p>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-February 16, 2026
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="5" data-categories="YXJjaGl2aW5nJTJDcHJlc2VydmF0aW9uJTJDdG9vbHM=" data-listing-date-sort="1762383600000" data-listing-file-modified-sort="1774534139401" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="10" data-listing-word-count-sort="1862">
-<a href="./news/articles/25_11-November_06_digital_preservation_day.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./news/mediabag/images/2025/preserved_data.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Article - Digital Preservation Day: What do you know about it?
-</h5>
-<div class="listing-reading-time card-text text-muted">10 min</div>
-<div class="card-text listing-description delink">
-<p>A post for the world digital preservation day</p>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-November 6, 2025
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="6" data-categories="ZXZlbnQlMkNmb2xsb3clMjB1cCUyQ2hhY2thdGhvbg==" data-listing-date-sort="1761256800000" data-listing-file-modified-sort="1761304357653" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="8" data-listing-word-count-sort="1496">
-<a href="./news/articles/25_10-October_14_hackathon_results.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./news/mediabag/images/2025/hackathon_pizza.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Update - About last Tuesday: Hackathon results
-</h5>
-<div class="listing-reading-time card-text text-muted">8 min</div>
-<div class="card-text listing-description delink">
-<p>Our first hackathon!</p>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-October 24, 2025
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="7" data-categories="Zm9sbG93JTIwdXAlMkNRJTI2QQ==" data-listing-date-sort="1757973600000" data-listing-file-modified-sort="1760611902243" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="474">
-<a href="./news/articles/25_09-September_18.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./news/mediabag/images/2025/question_mark.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Update - About last Tuesday: A follow up to questions asked
-</h5>
-<div class="listing-reading-time card-text text-muted">3 min</div>
-<div class="card-text listing-description delink">
-<p>A follow up to the September Bytes&amp;Bites session</p>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-September 16, 2025
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="8" data-categories="TExNcyUyQ0VVJTIwYWx0ZXJuYXRpdmVzJTJDc29sdXRpb25zJTJDdG9vbHM=" data-listing-date-sort="1756936800000" data-listing-file-modified-sort="1774534128454" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="845">
-<a href="./news/articles/25_09-September_04_LLMs.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./news/mediabag/images/2025/robot_thumbnail.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Article - LLMs in research: A round up of services
-</h5>
-<div class="listing-reading-time card-text text-muted">5 min</div>
-<div class="card-text listing-description delink">
-<p>A round up of the available services</p>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-September 4, 2025
-</div>
-</div>
-</div>
-</div></a>
-</div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div>
-
+<section id="are-you-a-summer-shut-in-who-avoids-the-sun" class="level1">
+<h1>Are you a summer shut in who avoids the sun?</h1>
+<section id="join-the-gang" class="level2">
+<h2 data-anchor-id="join-the-gang">Join the gang!</h2>
+<p>The summer is a downtime period for most in academia, for some that means there’s finally time to make new tools. In order to pay our respects to those sun allergic developers here is a a round up of some recent updates and developments of handy tools!</p>
+</section>
+</section>
+<section id="metacheck" class="level1">
+<h1><a href="https://github.com/scienceverse/metacheck">metacheck</a></h1>
+<p>metacheck is a best practice checker for research software, written in R (for R4.3.0+) and can be effortlessly installed from CRAN. It’s first official release was the 0.1.0-beta on the 15th of June meaning it is still very much in the works by its team of 10.</p>
+<p>Despite being a work in progress it already has 21 modules and a fully functional shiny app. From the app you upload your manuscript (a paper that is yet to be reviewed) and can begin analysing it with your chosen modules. metacheck can scan for all sorts of things including checking for missing READMEs, lack of comments in your code, and p–value precision. There are some features that have the option of LLM use to allow for more vague requests instead of explicit or regex forms, but they are opt in and even allow for local models to be used instead.</p>
+<p>Note that the metacheck currently only works with pdf files and will use the Eindhoven TU servers to read and form a <a href="https://grobid.readthedocs.io/en/latest/Introduction/">GROBID</a> xml format (machine learning tool to pick apart the mess that is a pdf and turn it into a machine readable xml). You can of course run this locally, just like with the local LLM option. metacheck has an extensive <a href="https://www.scienceverse.org/metacheck_book/index.html">documentation</a> where you can read more about the each of the modules and how you can contribute to the project. Try it out!</p>
+</section>
+<section id="furrow" class="level1">
+<h1><a href="https://pypi.org/project/furrow/">furrow</a></h1>
+<p>The first release of the Python package furrow came out on the 28th of June with the intention of dealing with unstructured text. Initially created to deal with messy output of digitising handwritten work it creator, Elinah Moyo, then decided to turn the script into a package and add it to PyPI. It currently sits at less than 15KB in version 0.1.3 without any dependencies, so it will run fast and forever! (or at least until some core functions change names or deprecate in a later Python version)</p>
+<p>It is being developed further and more text structuring rules will be added as time goes on, in the meantime the creator is looking for constructive feedback so check out the <a href="https://github.com/ElinahMoyo/furrow/tree/main">repo</a>!</p>
+</section>
+<section id="autometate" class="level1">
+<h1><a href="https://github.com/ubvu/autoMETAte">autoMETAte</a></h1>
+<p>Released on the 30th of June, autoMETAte is a small pre-commit hook created to automate the writing of your metadata. (did you expect anything else?)</p>
+<p>Simply install pre-commit, add the 4 lines to your <code>.pre-commit-config.yaml</code> file, run <code>pre-commit install</code> and it will update a metadata file that is both machine <strong>and</strong> human readable before every commit. The TOML file has an explanation of the fields and includes a privacy filter (on by default) to not include email addresses of the contributors.</p>
+<p>Currently in alpha (but with a <a href="https://zenodo.org/records/21394651">DOI from zenodo</a>), the project is open to feedback and collaborations, especially with groups like <a href="https://zenodo.org/">Zenondo</a> and <a href="https://github.com/UtrechtUniversity/yoda">YODA</a> to allow for a direct upload of the file instead of filiing the fields manually.</p>
+</section>
+<section id="tldr" class="level1">
+<h1>TL;DR</h1>
+<p>Pop on your sunglasses and relax because all these tools are about automating the boring parts of research software!</p>
 
 
 </section>
-
-</main> <!-- /main -->
+</main>  
+</div>
+ <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
-    const icon = "";
-    const anchorJS = new window.AnchorJS();
-    anchorJS.options = {
-      placement: 'right',
-      icon: icon
-    };
-    anchorJS.add('.anchored');
     const isCodeAnnotation = (el) => {
       for (const clz of el.classList) {
         if (clz.startsWith('code-annotation-')) {                     

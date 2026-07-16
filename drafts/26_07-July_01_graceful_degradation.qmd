@@ -35,13 +35,13 @@ That is down to graceful degradation, the idea that without support and during t
 
 So, how can this principle be applied to software development? 
 
-With the mess of dependencies that projects can end up as today it is an idea to rely on fewer external libraries and try to keep to well supported/funded ones. 
+-   With the mess of dependencies that projects can end up as today it is an idea to try to rely on fewer external libraries and aim to keep to well supported/funded ones. 
 
-Avoid calls to websites or online services where possible, you never know when they will stop existing.
+-   Avoid calls to websites or online services where possible, you never know when they will stop existing.
 
-Keep track of the exact version of the language and libraries you use, the discussion in how to name and organise large libraries is almost as heated as Wikipedia edits.
+-   Keep track of the exact version of the language and libraries you use, the discussion in how to name and organise large libraries is almost as heated as Wikipedia edits.
 
-Try to segment your work such that it isn't too interlocked, a part can break and other sections still run fine.
+-   Try to segment your work such that it isn't too interlocked, a part can break and other sections still run fine.
 
 
 
