@@ -1,0 +1,40 @@
+---
+title: "Article - Digital Preservation Day: Techniques from the future"
+draft: true
+date: "11/06/2026"
+description: "Thoughts on data preservation."
+categories: [archiving, preservation, techniques]
+about:
+    template: jolla
+    image: "../mediabag/images/20xx/x.png"
+---
+
+![<credit for image>](../mediabag/images/20xx/x.png)
+
+# Diamonds might be forever, but are bits eternal?
+
+If there is one thing we can be certain of it is the second law of thermodynamics - entropy (a measure of disorder) never decreases. The pyramids will fall, heat will even out, technology will fail and rust, and you will have ever more scattered documents in your home. It is a physical innevitability, but we can try to put it off for as long as possible. 
+
+<Key quote>
+
+Most humans seek order and understanding
+
+# Early hominin
+Learning from the past
+survivorship bias to look for what went wrong
+
+
+# Data in the year 3000
+Imagining the future, what has survived. 
+Physical objects
+the library being a centre for all information
+information on disc
+information lasered into glass
+creating physical objects attached to traditionally non-physical data
+bird whistle to store data
+dna to store data (new species)
+decentralised storage (torrenting)
+
+<TL;DR, conclusion>
+
+<links used as reference/ further reading>

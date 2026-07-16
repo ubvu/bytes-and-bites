@@ -1,0 +1,51 @@
+---
+title: "News - New tools: The summer of automation"
+draft: false
+date: "07/16/2026"
+description: "An update on some recent tools in the field."
+categories: [news, solutions, tools, FAIR, automation]
+about:
+    template: jolla
+    image: "../mediabag/images/2026/summer_of_automation.png"
+format: html
+css: ../../alt_style.css
+---
+
+![<credit for image>](../mediabag/images/2026/summer_of_automation.png){height=300}
+
+# Are you a summer shut in who avoids the sun?
+
+## Join the gang!
+
+The summer is a downtime period for most in academia, for some that means there's finally time to make new tools. In order to pay our respects to those sun allergic developers here is a a round up of some recent updates and developments of handy tools!
+
+
+# [metacheck](https://github.com/scienceverse/metacheck)
+
+metacheck is a best practice checker for research software, written in R (for R4.3.0+) and can be effortlessly installed from CRAN. It's first official release was the 0.1.0-beta on the 15th of June meaning it is still very much in the works by its team of 10. 
+
+
+Despite being a work in progress it already has 21 modules and a fully functional shiny app. From the app you upload your manuscript (a paper that is yet to be reviewed) and can begin analysing it with your chosen modules. metacheck can scan for all sorts of things including checking for missing READMEs, lack of comments in your code, and p--value precision. There are some features that have the option of LLM use to allow for more vague requests instead of explicit or regex forms, but they are opt in and even allow for local models to be used instead. 
+
+Note that the metacheck currently only works with pdf files and will use the Eindhoven TU servers to read and form a [GROBID](https://grobid.readthedocs.io/en/latest/Introduction/) xml format (machine learning tool to pick apart the mess that is a pdf and turn it into a machine readable xml). You can of course run this locally, just like with the local LLM option. metacheck has an extensive [documentation](https://www.scienceverse.org/metacheck_book/index.html) where you can read more about the each of the modules and how you can contribute to the project. Try it out!
+
+
+# [furrow](https://pypi.org/project/furrow/)
+
+The first release of the Python package furrow came out on the 28th of June with the intention of dealing with unstructured text. Initially created to deal with messy output of digitising handwritten work it creator, Elinah Moyo, then decided to turn the script into a package and add it to PyPI. It currently sits at less than 15KB in version 0.1.3 without any dependencies, so it will run fast and forever! (or at least until some core functions change names or deprecate in a later Python version)
+
+
+It is being developed further and more text structuring rules will be added as time goes on, in the meantime the creator is looking for constructive feedback so check out the [repo](https://github.com/ElinahMoyo/furrow/tree/main)!
+
+
+# [autoMETAte](https://github.com/ubvu/autoMETAte)
+
+Released on the 30th of June, autoMETAte is a small pre-commit hook created to automate the writing of your metadata. (did you expect anything else?)
+
+Simply install pre-commit, add the 4 lines to your `.pre-commit-config.yaml` file, run `pre-commit install` and it will update a metadata file that is both machine **and** human readable before every commit. The TOML file has an explanation of the fields and includes a privacy filter (on by default) to not include email addresses of the contributors. 
+
+Currently in alpha (but with a [DOI from zenodo](https://zenodo.org/records/21394651)), the project is open to feedback and collaborations, especially with groups like [Zenondo](https://zenodo.org/) and [YODA](https://github.com/UtrechtUniversity/yoda) to allow for a direct upload of the file instead of filiing the fields manually. 
+
+
+# TL;DR
+Pop on your sunglasses and relax because all these tools are about automating the boring parts of research software!
