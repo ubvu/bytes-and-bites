@@ -6,10 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2025-11-06">
-<meta name="description" content="A post for the world digital preservation day">
+<meta name="dcterms.date" content="2026-08-12">
+<meta name="description" content="A short guide on when to add a new version number to your work.">
 
-<title>Article - Digital Preservation Day: What do you know about it? – Bytes &amp; Bites</title>
+<title>Guide - Versioning: When is it a release? – Bytes &amp; Bites</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -43,7 +43,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
@@ -77,8 +76,38 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../../styles.css">
+<link rel="stylesheet" href="../../alt_style.css">
 </head>
 
 <body class="nav-fixed quarto-light">
@@ -160,137 +189,122 @@ ul.task-list li input[type="checkbox"] {
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">On this page</h2>
-   
   <ul>
-  <li><a href="#its-world-digital-preservation-day-today-what-does-that-mean" id="toc-its-world-digital-preservation-day-today-what-does-that-mean" class="nav-link active" data-scroll-target="#its-world-digital-preservation-day-today-what-does-that-mean">It’s world digital preservation day today, what does that mean?</a>
+  <li><a href="#have-you-ever-added-v0.1.0-to-your-commit-message" id="toc-have-you-ever-added-v0.1.0-to-your-commit-message" class="nav-link active" data-scroll-target="#have-you-ever-added-v0.1.0-to-your-commit-message">Have you ever added “V0.1.0” to your commit message?</a>
   <ul class="collapse">
-  <li><a href="#looking-back" id="toc-looking-back" class="nav-link" data-scroll-target="#looking-back">Looking back</a></li>
-  <li><a href="#specialised-archives" id="toc-specialised-archives" class="nav-link" data-scroll-target="#specialised-archives">Specialised archives</a></li>
-  <li><a href="#traditional-preservation" id="toc-traditional-preservation" class="nav-link" data-scroll-target="#traditional-preservation">Traditional preservation</a></li>
-  <li><a href="#endangered-data" id="toc-endangered-data" class="nav-link" data-scroll-target="#endangered-data">Endangered data</a></li>
+  <li><a href="#did-you-know-if-it-was-correct-or-did-you-just-hope" id="toc-did-you-know-if-it-was-correct-or-did-you-just-hope" class="nav-link" data-scroll-target="#did-you-know-if-it-was-correct-or-did-you-just-hope">Did you know if it was correct or did you just hope?</a></li>
   </ul></li>
+  <li><a href="#what-is-versioning" id="toc-what-is-versioning" class="nav-link" data-scroll-target="#what-is-versioning">What is versioning?</a></li>
+  <li><a href="#names-or-numbers-which-versioning-system-should-i-use" id="toc-names-or-numbers-which-versioning-system-should-i-use" class="nav-link" data-scroll-target="#names-or-numbers-which-versioning-system-should-i-use">Names or numbers, which versioning system should I use?</a></li>
+  <li><a href="#how-and-when-to-use-versioning" id="toc-how-and-when-to-use-versioning" class="nav-link" data-scroll-target="#how-and-when-to-use-versioning">How and when to use versioning?</a></li>
   <li><a href="#tldr" id="toc-tldr" class="nav-link" data-scroll-target="#tldr">TL;DR</a></li>
-  <li><a href="#links-used-as-reference-further-reading" id="toc-links-used-as-reference-further-reading" class="nav-link" data-scroll-target="#links-used-as-reference-further-reading">Links used as reference &amp; further reading</a></li>
+  <li><a href="#links-used-as-reference-and-further-reading" id="toc-links-used-as-reference-and-further-reading" class="nav-link" data-scroll-target="#links-used-as-reference-and-further-reading">Links used as reference and further reading</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-about-jolla">
+  <img src="../mediabag/images/2026/semantic_versioning.png" class="about-image
+  round " style="height: 15em; width: 15em;">
+ <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Article - Digital Preservation Day: What do you know about it?</h1>
+<h1 class="title">Guide - Versioning: When is it a release?</h1>
   <div class="quarto-categories">
-    <div class="quarto-category">archiving</div>
-    <div class="quarto-category">preservation</div>
-    <div class="quarto-category">tools</div>
+    <div class="quarto-category">version control</div>
+    <div class="quarto-category">software</div>
+    <div class="quarto-category">etiquette</div>
   </div>
   </div>
-
 <div>
   <div class="description">
-    A post for the world digital preservation day
+    A short guide on when to add a new version number to your work.
   </div>
 </div>
-
-
 <div class="quarto-title-meta">
-
-    
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">November 6, 2025</p>
+      <p class="date">August 12, 2026</p>
     </div>
   </div>
-  
-    
   </div>
-  
-
-
-</header>
-
+</header><main class="content" id="quarto-document-content">
 
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="../mediabag/images/2025/preserved_data.png" height="300" class="figure-img"></p>
-<figcaption>A jar of data jam.</figcaption>
+<p><img src="../mediabag/images/2026/versioning.png" height="300" class="figure-img"></p>
+<figcaption>A classic versioning system for a thesis.</figcaption>
 </figure>
 </div>
-<section id="its-world-digital-preservation-day-today-what-does-that-mean" class="level1">
-<h1>It’s world digital preservation day today, what does that mean?</h1>
-<p>Well, as the name states, it is about preserving objects that are both natively digital and physical objects in the digital world. As the world becomes ever more digital and trillions of bytes of data are recorded every day humans are leaving less of a footprint in the creative, knowledge, and cultural parts of society (there is more rubbish than ever for future archaeologists to discover and gain insights into our present day, or get confused in the case of Labubus) and as a result swathes of cultural fads can be lost. The interconnectedness of the world means there’s a huge amount of cultural crossover and new trends come and go with varying popularity and lifetimes. How many reading this even remember what the big meme of January 2025 was?</p>
-<p>It was “I’ve played these games before” from the second series of Squid Games by the way. <em>Unless</em> you’re engaging more with “brainrot” then it was the Eye of Rah, the cyclops character of <a href="https://www.instagram.com/frightenedsheep25937582/">Jeremiah Spingfield</a> inspired by the film The Odyssey. But those who are politically engaged would argue that the biggest meme was Elon Musk’s Nazi salute. Except it wasn’t for American users of TikTok as the ban came into effect and users moved to 小红书 (RedNote). And those adjacent to the manosphere were most likely watching “I Bought a Property in Egypt” edits.</p>
-<p>You might have remembered one of these before the reminder, but did you rememebr<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> them all? Did you even know them all? Millions and billions of views, millions of hours of watch time, global reach, and that is just in the English speaking internet. All of this to say that there is a huge amount of culture that is being forgotten by the majority even just from this year. In fact, there is significant enough challenge in remembering these trends that the programme <a href="https://www.channel4.com/programmes/big-fat-quiz">Big Fat Quiz of the year</a> exists. To research this post out I referred to the website <a href="https://knowyourmeme.com/editorials/poll/see-the-winner-of-january-2025s-meme-of-the-month">Know Your Meme</a> a self proclaimed database of memes that attempts to track the origin, meaning/intention, and the spread of memes. This is a sort of open source internet culture history centre with news, interviews with the subject of memes, explainers, even short white papers. It might not been seen as particularly academic, but it fulfills an important role in digital preservation.</p>
-<p><br><br></p>
-<blockquote class="blockquote">
-<p>“<em>We’ve taken a lot of things for granted…And one of the things that I think people took for granted were libraries…In this era of book banning and alternative facts, I am so deeply grateful for the work that this great archive does</em>”</p>
-<p>– California State Senator Scott Wiener</p>
-</blockquote>
-<p><br><br></p>
-<p>Something you might recognise as more of a household name, if your household was primarily focused on digital preservation, is the internet archive (also known simply as <a href="https://archive.org/">archive.org</a>) that again, as the name states, archives the internet. At the point of writing the archive contains approximately 916 billion web pages, not an insignificant amount! This is probably what is is best known for as users make use of their web crawlers (see scrapers) allowing others to find information that might be otherwise lost or blocked in their country. The name The WayBack Machine might mean something to you, it is the flagship service of the non profit that is the internet archive. It allows users to view scraped pages on a timeline and review the changes over time something that can provide accountability or a blast from the past.</p>
-<section id="looking-back" class="level2">
-<h2 class="anchored" data-anchor-id="looking-back">Looking back</h2>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="../mediabag/images/2025/symbolics_wayback_timeline.png" width="1000" class="figure-img"></p>
-<figcaption>The scraping timeline of symbolics.com</figcaption>
-</figure>
-</div>
-<p>As an example we can <a href="https://web.archive.org/web/20100815000000*/symbolics.com">look back at symbolics.com</a> (the first ever registered domain) and the first thing you will see is the first ever time it was picked up by a crawler (the 7th of December 1998) and the most recent time it was scraped with over 2,500 saves in that timeframe. Below this is the timeline with a bar graph per year to show the scrapes per month and selecting any year will give a calendar with highlighted dates when the page was scraped. Being the oldest registered domain means we have a wealth of history to examine and allow you to witness the heyday of popups (thankfully we’re past that as I think 10 chrome windows blaring music and with flashing images opening at once would still crash most laptops). On the flipside with only a single change in its history the wayback machine is the only way to see the purpose of my favourite website <a href="http://www.nut.net/">nut.net</a> (completely SFW unless there is a new owner since the point of writing).</p>
-<p>For those interested in other types of media archive.org is also a space for forgotten software and games (see also <a href="https://www.myabandonware.com/">myabandonware</a>), music, radio, tv, news, images, and (true to its digital library ethos) books. While not being a perfect system it has acted succesfully as a haven for otherwise commercially forgotten media and datatypes, such as Flash. Once the start for many now successful animators, webdesigners, and game makers it lost all support on the fated New Years Eve 2020 with some reportedly disasterous results for 中国铁路沈阳局集团 (China Railway Shenyang Group) as their operations were planned with a Flash applet. The original article and updates from the rail service have both since been removed, but thankfully the internet archive has <a href="https://web.archive.org/web/20210114132505/https://mp.weixin.qq.com/s/4ICWRoIb6tki4JXmkswEyg">a copy</a>.</p>
-<p>The Internet Archive, of course, also has a selection of over 4000 flash animations that have been stashed there for safe keeping.</p>
+<section id="have-you-ever-added-v0.1.0-to-your-commit-message" class="level1">
+<h1>Have you ever added “V0.1.0” to your commit message?</h1>
+<section id="did-you-know-if-it-was-correct-or-did-you-just-hope" class="level2">
+<h2 data-anchor-id="did-you-know-if-it-was-correct-or-did-you-just-hope">Did you know if it was correct or did you just hope?</h2>
+<p>Once you’re deep enough into programming it’s time to face yet another fundamental of software development, versioning.</p>
+<p>Your commit messages are clear, concise, and more useful than your early messages consisting of “changed comment on line 143” or “fixed read_and_delete function”. It’s time to move to the big leagues and start adding versions to your commit messages to show you’re a serious developer! But how? When does the number change? And why?</p>
 </section>
-<section id="specialised-archives" class="level2">
-<h2 class="anchored" data-anchor-id="specialised-archives">Specialised archives</h2>
-<p>Many agencies, institutions, and governments are hard at work digitising their archives in order to further preserve work. One of the more prominent examples being the UN with mission reports, correspondence, classified, and unclassified documents all being available in the <a href="https://search.archives.un.org/">archive website</a>. Scans of old <a href="https://search.archives.un.org/s-0921-0032-0003-00006">letters from Einstein</a> and <a href="https://search.archives.un.org/ag-022">documents from missions</a> all accompanied by extensive metadata.</p>
-<p>But digital preservation is not limited to mediums of media, whole cities are being digitally preserved <a href="https://stadszaken.nl/artikel/4769/fotorealistische-digital-twin-deventer-is-brug-tussen-leken-en-nerds">in the case of Deventer</a>. The historic city produced a 3D mesh model of the whole city in 2022 allowing for developers of buildings and software alike to make use of it to help improve the city. It is a part of the broader movement to create <em>Digital Twins</em> of real world locations and buildings, and monuments.</p>
-<p>And the Digital Twins work has not stopped at human made objects because in 2019 Wageningen University began creating a Digital Twin of a crop of tomatoes in a greenhouse [<a href="https://www.wur.nl/nl/project/virtual-tomato-crops.htm">1</a>]. Here Digital Twins met simulation and real data from their sensors in their actual greenhouse was fed into the model to develop the twin and grow the virtual crop. This work has since led to a broader project to create infrastructure for developement of Digital Twins of ecosystems [<a href="https://research.wur.nl/en/projects/lter-life-a-research-infrastructure-to-develop-digital-twins-of-e/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fcontributiontobookanthology%2Fconference">2</a>].</p>
 </section>
-<section id="traditional-preservation" class="level2">
-<h2 class="anchored" data-anchor-id="traditional-preservation">Traditional preservation</h2>
-<p>We can’t skip the traditional archivists, libraries and museums. So how are they both adapting to the explosive growth of the digital world? Well, many museums are busy digitising their collections from <a href="https://www.britishmuseum.org/collection/">the British Museum</a> to the <a href="https://www.si.edu/openaccess">Smithsonian</a>, the <a href="https://www.nb.no/en/digital-preservation/">Nation Library of Norway</a> to the <a href="https://libraryir.parliament.go.ke/home">Parliament of Kenya Library</a>, everyone is at it. Here in the Netherlands the <a href="https://www.kb.nl/en/about-us/expertise/digital-preservation">Nationale Bibliotheek</a> alone preserves over a billion files amounting to over 1.5PB (1,500,000 GB, or a little over 33 Billion copies of the Bee Movie script) and the <a href="https://www.rijksmuseum.nl/en/collection">Rijksmuseum</a> has been hard at work to digitally preserve over 800,000 objects allowing visitors to view object that might not regularly be on display or have perhaps not have been on display in their lifetime. With so many at work there are central access points slowly forming to avoid researchers, developers, students, and the interested from having to visit a million and one websites. The EU funded <a href="https://www.europeana.eu/en/collections">europeana</a> takes institution provided resources and even provides an API to encourage programmers to create using their creative commons and public domain works. Otherwise if you prefer to give the institutions the clicks the more international collective of the <a href="https://avicom.mini.icom.museum/technologies/digital-archives/">International Committee for Audiovisual, New Technologies and Social Media</a> simply links to institutional archives in a list broken down by country.</p>
-<p>Here <a href="https://vu.nl/en/about-vu/organisations/vu-archives">in the VU we have an archive</a> of research works, objects of historical importance, maps, art, theses, and more. In fact the art and historical objects are <a href="https://vu.nl/en/about-vu/divisions/university-library/more-about/exhibitions-of-the-special-collections">regularly on display</a> in the university as part of the work by the special collections team. In recent related project <a href="https://vu.nl/en/about-vu/divisions/university-library/more-about/digital-impressions-creating-3d-models-of-clay-tablets">3D models of ancient clay tablets have been made</a> with the intention of exploring the 3D scanning and printing technologies as well as for object based teaching and learning to bring a more tacticle approach to teaching in the university. This is essentially an extension of the Digital Twins idea where copies can be printed to allow more people to explore or study an object, though we should probably hold off printing a full 1:1 scale of Deventer for now.</p>
+<section id="what-is-versioning" class="level1">
+<h1>What is versioning?</h1>
+<p>You will have seen it in use if you have ever stopped to look at your notifications for updates on your console, phone, computer, or other computerised device. Next update take a look, you’ll notice that there is usually a line in the message mentioning the version. Most often it takes the form of a number looking a little like this: “v1.1.14”. That’s what we’re looking at today.</p>
+<p>Software development is typically an ongoing process. We release pieces of work that can function, but over time, add more features we didn’t initially have time for, accomodate requests, fix bugs, adapt for changing hardware and dependencies, or simply never stop tinkering. To keep this never ending process somewhat sane and tidy we use versioning, the act of providing a number or name to correspond to a specific build/form of the software. It means that users, the developers, and anyone using the tool in their stack can track what works and what doesn’t and at what point. If your program stops working, you could “revert to the previous version”; if your work relies on the software, you know which versions work with your stack; if you have a bug report, you can pin point it with the version. It’s a useful thing!</p>
+<p>Within the world of software there are three main versioning systems, <a href="https://semver.org/">Semantic Versioning</a>, <a href="https://calver.org/">date-based versioning</a>, and named versions. Which one you choose is up to you and the needs of your software.</p>
 </section>
-<section id="endangered-data" class="level2">
-<h2 class="anchored" data-anchor-id="endangered-data">Endangered data</h2>
-<p>Despite the best efforts of archivists, libarians, curatists, researchers, and volunteers there is still a lot more to be done to ensure the accessiblity and survival of these works. And while most physical works are regularly tended to and safely stored a few are left behind. One such case is VHS tapes and cassettes, their magnetic strips experience remnance decay (or demagnetisation) on a relatively short time scale. According to Kodak <a href="https://kodakdigitizing.com/blogs/news/how-long-do-vhs-tapes-last">VHS tapes will deteriorate 10-20% within 10-25 years</a> and <a href="https://kodakdigitizing.com/blogs/news/do-cassette-tapes-go-bad">cassettes usually have a lifespan of about 30 years</a>. This might not immediately seem like a great loss, espcecially for younger readers, but those will contain the memories and snippets of the personal lives of millions of people and beyond that recordings of live TV and Radio. One particularly extraordinary example is of this is the multi talented civil rights activist and archivist <a href="https://en.wikipedia.org/wiki/Marion_Stokes">Marion Stokes</a> who recorded approximately <strong>71,000</strong> VHS tapes from pre-recorded programmes like <em>The Oprah Winfrey Show</em> and <em>Star Trek</em> as well as the live news cycle in order to “<em>protect the truth</em>” and allow people to assess the material objectively.</p>
-<p>So what can we do? Well, the team at the Digital Preservation Coalition (DCP) have produced the <a href="https://www.dpconline.org/digipres/champion-digital-preservation/bit-list?view=article&amp;id=2875:bit-list-2019&amp;catid=130">Bit List</a>, a list of digitally endangered species with five labels from “Lower Risk” to “Practically Extinct” and a sixth label for materials/species that have been highlighted by members of the community, but not yet categorised by the committee. <a href="https://docs.google.com/forms/d/e/1FAIpQLSccvgold3yiCfwlmh6tFFh6DEfhREyWx4M4rnyfgFNZ42o66A/viewform">You can nominate</a> digital materials you consider to be at risk to be labelled to help sound the alarm, being more active donate materials to the <a href="https://archive.org/">Internet Archive</a> or <a href="https://archive.org/donate/">donate money for the cause</a>. And on a personal level you can make sure to <a href="https://rdm.vu.nl/manuals/yoda/securing_distribution/vault_archive.html">archive your work</a> and back up your files <a href="https://help.uis.cam.ac.uk/service/security/cyber-security-awareness/wfh-security/backing-up-securely">the safe way.</a></p>
+<section id="names-or-numbers-which-versioning-system-should-i-use" class="level1">
+<h1>Names or numbers, which versioning system should I use?</h1>
+<p>The example used above was <a href="https://semver.org/">Semantic Versioning</a>, probably the most commonly used method for versioning and for good reason, but it can be a little confusing. It’s probably more useful to think about an example of each first.</p>
+<p>Let’s start with named versioning, one of the more prominent examples is the macOS. In 2001, Apple released version 10 of their operating system- OS X- and to highlight their new, even more design driven and user friendly approach to software development, they began using named releases starting with Cheetah (aka Mac OS X 10.0). This naming convention of big cats continued until 2013, when they swapped to locations in California. Themed naming conventions is pretty typical and helps to preserve the “product image”. Perhaps try to think of something relevant to you, the team, or the software itself when deciding on a name/theme.</p>
+<p>Date-based versioning might seem the most straightforward, after all newer is better, right? Well, there are several approaches you might come across for date-based such as VersionNumber.YYYYMMDD, or maybe just the full date YYYYMMDD, perhaps YY.MM is more your speed, or for more precision due to multiple bug fixes YYYYMMDDHMS. In general it is quite clear, your only issue might come up for people who are used to the MM/DD/YYYY format of dates and might expect YYYYDDMM as a result. One major example of this system is the latest long term support release of the Linux based operating system Ubuntu being 26.04 in reference to its April 2026 release.</p>
+<p>Semantic versioning is probably the most common system in software development, but also the most tricky to use. Per the official Semantic Versioning guide the system is MAJOR.MINOR.PATCH where</p>
+<p><strong>MAJOR</strong> = “version when you make incompatible API changes”</p>
+<p><strong>MINOR</strong> = “version when you add functionality in a backward compatible manner”</p>
+<p><strong>PATCH</strong> = “version when you make backward compatible bug fixes”</p>
+<p>In this context, “backward compatible” means that it can work with older versions, in other words, the feature addition/fix won’t break the way anyone might be using your software if they update it. Incompatible means that the changes will (likely) break the way others use your software.</p>
+<p>To make the decision you need to consider a few things such as:</p>
+<ul>
+<li>How frequently do you plan to release?</li>
+<li>Will it be periodic?
+<ul>
+<li>In which case the date-based might be most suitable.</li>
+</ul></li>
+<li>Do you have a lot of features you plan to steadily release?</li>
+<li>Do you expect there to be patches and bug fixes? (be honest)
+<ul>
+<li>Then semantic is probably best.</li>
+</ul></li>
+<li>Do you favour larger and more distinct releases?</li>
+<li>Do you want releases to have some personality?
+<ul>
+<li>Then a named release might be more your style.</li>
+</ul></li>
+<li>Do you want novelty and weirdness?
+<ul>
+<li>Then why not make your own versioning system?</li>
+</ul></li>
+</ul>
+<p>If you want a little inspiration for your novelty versioning system then look no further than TeX, the open source typesetting program (basis for LaTeX and MiKTeX). The creator, Donald Knuth, decided that no major changes would be made after 3.0. Only bug fixes have been made since then and each release adds another digit to the version number from <span class="math inline">\(\pi\)</span>, meaning it tends towards a more accurate <span class="math inline">\(\pi\)</span> value every edition. Upon his death, he wishes for TeX to be frozen at v.<span class="math inline">\(\pi\)</span> meaning that <a href="https://www.ntg.nl/maps/05/34.pdf">‘<em>“bugs” will become permanent “features”</em>’</a>. At the time if writing, the current TeX version is v.3.141592653</p>
 </section>
+<section id="how-and-when-to-use-versioning" class="level1">
+<h1>How and when to use versioning?</h1>
+<p>There are several schools of thought on this, only on release, only internally, and for all changes to the main source code. Each comes with its own logic and reasoning. For instance, provision of a version <strong>only at release</strong> would mean it is purely for users, whether the versioning is for ease of bug reports or for marketing purposes would be up to you. <strong>Only internally</strong> would mean that it is important for development to be able to refer to specific builds, but users will expect to have a consistent (see backwards compatible) experience. “<em>For all changes</em>” versioning covers every base, with both users and developers able to use the version to communicate about the benefits or bugs of a specific build.</p>
+<p>The only exception to this is the ever rare separate version for internal to external. This is typically to provide a simplified of faux versioning system for better marketing or user friendliness while allowing developers to make sure they know exactly what build is being discussed when working on the code. Although this setup could make bug reports a little tricky.</p>
+<p>The how to use versioning mostly comes down to consistency. If you are consistent in your use, whether on versioning system or time of use, it will make sure that development flows better for contributors and usage is easier for users. Whether you use versions only on the main branch, only at release, or for all pushes, make sure to stick to that system and make sure it is clear how it works. Do make sure that you have some way to refer to different builds both internally and externally though, for clarity of communication.</p>
 </section>
 <section id="tldr" class="level1">
 <h1>TL;DR</h1>
-<p>Your data won’t last forever, but there are a lot of ways to support the archiving world; donating materials to the <a href="https://archive.org/">Internet Archive</a>, <a href="https://archive.org/donate/">donate money for the cause</a>, <a href="https://docs.google.com/forms/d/e/1FAIpQLSccvgold3yiCfwlmh6tFFh6DEfhREyWx4M4rnyfgFNZ42o66A/viewform">nominate endangered data types</a>, <a href="https://rdm.vu.nl/manuals/yoda/securing_distribution/vault_archive.html">archive your work</a>, or simply spreading the word.</p>
+<p>Versioning is used to make communicating about different builds and software developments easier. You can choose between the main three systems of <a href="https://semver.org/">Semantic Versioning</a>, <a href="https://calver.org/">date-based versioning</a>, and named versions or if you are bold enough, you can make your own system instead. As long as you are consistent on when you use your versioning, and both users and developers can understand which build is being discussed, then it’s working correctly.</p>
 </section>
-<section id="links-used-as-reference-further-reading" class="level1">
-<h1>Links used as reference &amp; further reading</h1>
-<p><a href="https://archive.org/donate?origin=iawww-TopNavDonateButton">Donate to the internet archive</a></p>
-<p><a href="https://guides.lib.umich.edu/c.php?g=992751">A guide on how to digitally archive work</a> by the University of Michigan Library (already archived itself on archive.org)</p>
-<p><a href="https://www.symbolics.com/">symbolics.com</a>, which <strong>currently</strong> acts as an information source on internet history.</p>
-<p><a href="https://arstechnica.com/tech-policy/2021/01/deactivation-of-flash-cripples-chinese-railroad-for-a-day/">Article on the Flash train trouble</a> from arstechnica.</p>
-<p><a href="https://rdm.vu.nl/manuals/yoda/securing_distribution/vault_archive.html">A short guide on archiving data in the VU</a></p>
-<p><a href="https://geohub-de-kien.hub.arcgis.com/">Explore Deventer’s Digital Twin</a></p>
+<section id="links-used-as-reference-and-further-reading" class="level1">
+<h1>Links used as reference and further reading</h1>
+<p>Credit to <a href="https://devopedia.org/images/article/279/7179.1593248779.png">Devopedia.org</a> for the article thumbnail. - <a href="https://launchdarkly.com/blog/software-release-versioning/">A best practice guide for software release versioning</a> - <a href="https://en.wikipedia.org/wiki/Software_release_life_cycle">Wikipedia page of the software release life cycle</a> - <a href="https://medium.com/@wassimsakri/the-ultimate-guide-to-versioning-in-software-development-e846eb292a0d">Guide on semantic versioning and use in Git</a> - <a href="https://q2-software.nl/blog/semantic-versioning/">Dutch guide on semantic versioning</a> - <a href="https://www.cloudbees.com/blog/best-practices-when-versioning-a-release">Tips for versioning and releases when you have a userbase</a> - <a href="https://victorpierre.dev/blog/beginners-guide-semantic-versioning/">An intro to semantic versioning in the context of good software release practices</a> - <a href="https://axify.io/blog/software-release-lifecycle">A walk through of the life cycle of software release</a> - <a href="https://boomi.com/blog/what-is-api-versioning/">An intro to the use of versioning in APIs and their tool for it</a> - <a href="https://en.wikipedia.org/wiki/Software_versioning">Wikipedia page for software versioning</a> - <a href="https://calver.org/">“<em>CalVer is a versioning convention based on your project’s release calendar, instead of arbitrary numbers.</em>”</a> - <a href="https://github.com/VincentBailly/date-based-version">A small tool to automate date-based versioning in your git repo</a></p>
 
 
 </section>
-
-
-<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
-
-<ol>
-<li id="fn1"><p>A typo, but I am leaving it as an unintentional pun<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-</ol>
-</section></div></main> <!-- /main -->
+</main>  
+</div>
+ <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
-    const icon = "";
-    const anchorJS = new window.AnchorJS();
-    anchorJS.options = {
-      placement: 'right',
-      icon: icon
-    };
-    anchorJS.add('.anchored');
     const isCodeAnnotation = (el) => {
       for (const clz of el.classList) {
         if (clz.startsWith('code-annotation-')) {                     
