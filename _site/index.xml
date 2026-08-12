@@ -10,7 +10,33 @@
 <atom:link href="https://ubvu.github.io/bytes-and-bites/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.7.31</generator>
-<lastBuildDate>Mon, 11 May 2026 22:00:00 GMT</lastBuildDate>
+<lastBuildDate>Mon, 07 Sep 2026 22:00:00 GMT</lastBuildDate>
+<item>
+  <title>Bytes &amp; Bites - Software testing: How to build a marble run</title>
+  <link>https://ubvu.github.io/bytes-and-bites/events/26_09-September_08_marble_runs_and_testing.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://ubvu.github.io/bytes-and-bites/events/mediabag/images/2026/sept_26_img_2.png" class="quarto-figure quarto-figure-center figure-img" height="300"></p>
+</figure>
+</div>
+<p>Theme: Testing, Fundamentals</p>
+<p><a href="../about.html">Level</a>: 1+</p>
+<p><a href="https://libcal.vu.nl/profile/fb462e443245">Charlie Greene</a>, the VU library research software engineer will be hosting the September edition of Bytes &amp; Bites where we will be playing with marble runs!</p>
+<p><a href="https://libcal.vu.nl/calendar/universitylibrary/Bytes_and_Bites_Sep_2026">Register</a></p>
+<p>The chaos of a marble run might not be something you have experienced since you were a child (or since you last watched <a href="https://www.youtube.com/@JellesMarbleRuns">Jelle’s Marble Runs</a>), but we will be returning to it in this session. Despite the fun and chaos there will some learning about testing in software. So, bring your favourite cat’s eye and we’ll see you there!</p>
+<p>Pizza will be served as always!</p>
+
+
+
+ ]]></description>
+  <guid>https://ubvu.github.io/bytes-and-bites/events/26_09-September_08_marble_runs_and_testing.html</guid>
+  <pubDate>Mon, 07 Sep 2026 22:00:00 GMT</pubDate>
+</item>
 <item>
   <title>Bytes &amp; Bites - Documentation: A LEGO story (2nd attempt)</title>
   <link>https://ubvu.github.io/bytes-and-bites/events/26_05-May_12_LEGO_and_Documentation.html</link>
@@ -513,24 +539,6 @@
  ]]></description>
   <guid>https://ubvu.github.io/bytes-and-bites/events/09_January_24_eessi.html</guid>
   <pubDate>Mon, 08 Jan 2024 23:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>Bytes &amp; Bites - National Advent of Code Challenge</title>
-  <link>https://ubvu.github.io/bytes-and-bites/events/05_December_23_adventofcode.html</link>
-  <description><![CDATA[ 
-
-
-
-
-<p>Theme: Advent of Code</p>
-<p><a href="https://vu-nl.libcal.com/event/4118723">Register</a></p>
-<p>Psssst - we’re developing something nice for you. Details will follow as soon as we</p>
-
-
-
- ]]></description>
-  <guid>https://ubvu.github.io/bytes-and-bites/events/05_December_23_adventofcode.html</guid>
-  <pubDate>Mon, 04 Dec 2023 23:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>

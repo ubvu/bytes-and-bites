@@ -1,0 +1,26 @@
+---
+title: "Interview - Sander Bosch: Advocate of Open Science"
+draft: true
+date: "09/15/2026"
+description: "Bytes & Bites' first ever interview!"
+categories: [open science, citizen science, interview]
+about:
+    template: jolla
+    image: "../mediabag/images/20xx/x.png"
+---
+
+![<credit for image>](../mediabag/images/20xx/x.png)
+
+# <Title as a question>
+
+## <subtitle if needed>
+
+<Introduction>
+
+<Key quote>
+
+<main body>
+
+<TL;DR, conclusion>
+
+<links used as reference/ further reading>

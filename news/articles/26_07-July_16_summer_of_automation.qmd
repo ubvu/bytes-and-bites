@@ -11,7 +11,7 @@ format: html
 css: ../../alt_style.css
 ---
 
-![<credit for image>](../mediabag/images/2026/summer_of_automation.png){height=300}
+![Even robots take holidays!](../mediabag/images/2026/summer_of_automation.png){height=300}
 
 # Are you a summer shut in who avoids the sun?
 

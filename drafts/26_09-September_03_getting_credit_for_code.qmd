@@ -1,0 +1,183 @@
+---
+title: "Guide - Credit for your code: DOIs in repos in 4 steps"
+draft: true
+date: "09/03/2026"
+description: "A short guide on how to get a DOI for your code and add it to your repository"
+categories: [guide, techniques, accreditation]
+about:
+    template: jolla
+    image: "../mediabag/images/2026/doi_logo.png"
+---
+
+![Not this type of credit, sadly. Credit to publicdomainpictures.net for the image. (this kind)](../mediabag/images/2026/woman-with-many-credit-cards.png){height=300}
+
+# Your code is written, how can you get more out of it?
+
+Within research code is written almost exclusively as a part of the analysis stage of the research. As a result it is an important part of the scientific process to share it with others and make it publicly accessible where possible. If you are enjoying the coding part of your job then the attention that your repository gets, the stars, the forks, the raised (and closed) issues is handy add on to your CV. However, for those looking to continue further into academia or standout in the software development world you might want another way to register your technological success. 
+
+
+Re-introducing the [DOI](https://doi.org/)! The DOI (Digital Object Identifier) is a **unique** and **persistent** ID typically used to refer to and cite academic articles in journals, books, and sometimes datasets. It can be used for any digital objects as the name suggests and so **can** and **should** be applied to your code. This is your secret to yet more citations!
+
+# Requirements
+
+In order to follow this short guide you will need the following:
+
+    -   An [ORCID](https://orcid.org/)
+    -   A [Zenodo](https://zenodo.org/) account
+    -   Optional an account with a code development and version control service like [Codeberg](https://codeberg.org/), [GitLab](https://about.gitlab.com/), or [GitHub](https://github.com/)
+
+# Step 1 - Preparing your code 
+
+The first step is to make sure that your code is clean, readable, and the process is repeatable. To do this there are several steps to take, 
+
+
+![Some commented out code and poorly placed imports]()
+
+## Cleaning your code 
+
+1. Remove unused pieces of code
+2. Place imports at the start
+3. Place Global variables at the start 
+4. Remove testing print outs from main
+5. Make sure that the code runs without stopping or crashing
+
+### 1. Remove unused pieces of code
+-   Look for functions that are never called
+-   Remove commented out pieces of code
+-   Variables that are created and never used
+-   Dead end calcultions that are not added to the data or output
+
+### 2. Place imports at the start 
+-   Library and package imports should be done at the top of the script
+-   Imports from your other scripts should also be done at the start
+
+### 3. Place Global variables at the start
+-   This allows users to make changes without hunting for where to change them
+-   Typically global variables are defined with their names in all caps to identify them
+
+### 4. Remove testing print outs from main
+-   Print out tests are for development and leaving them in the end product can be confusing for users
+-   Do add tests and checks in a separate test file so users can confirm things are working as intended.
+
+### 5. Make sure that the code runs without stopping or crashing
+-   Your notebook or main should run cleanly without breaking or stopping otherwise it is not quite ready to publish
+-   The code should be able to take the raw data and provide output the same as the published results
+
+
+![]()
+
+## Adding Documentation
+
+1. Include comments in your code 
+2. Write a short README.MD file
+3. Make sure to include a requirements file
+4. Create a metadata file
+5. Provide a license
+
+### 1. Include comments in your code
+-   Explain decisions you have made
+-   Provide explanations on a high level what a complex process does
+-   For functions give an explanation of what it does and what the input and output are
+
+### 2. Write a short README.MD file
+-   Ideally every bit of software comes with a readme file so that people can read about the code before
+-   Write a short explanation of what the script does, what input it needs, what output it creates and how it works
+
+### 3. Make sure to include a requirements file
+-   In order to easily get started (depending on language) a requirements file is ideal to install dependencies in one go
+-   Remember to include all third party libraries and packages and their versions (how packages work and various functions can change over time)
+
+### 4. Create a metadata file
+-   A Basic metadata file can help increase findability of your work
+-   You can create a txt, json, toml, whatever you prefer labelled as "metadata"
+-   Make sure to at least include the basics of project name, creator, version, release date, DOI (to come), and license type
+
+### 5. Provide a license
+-   Without a license potential users will need to contact you to ask for permission to use the code, avoid the admin by including a license
+-   Read about some of the most common licenses on [choosealicense.com](https://choosealicense.com/)
+-   You can download or copy any of these licenses from choosealicense.com or any software development platform
+-   Name the file "LICENSE" with no file extension as is convention
+
+
+![Clean folder with a sample data file]()
+
+## Clean up your folder
+
+1. Remove data
+2. Remove unneccessary scripts
+3. Remove any passwords and API keys
+4. Package code up
+
+### 1. Remove data
+-   This DOI is only for the code, you can create a separate DOI just for your data
+-   Including data will bloat the zip size
+-   If you want it to be self sufficient for testing you could include a small sample data file so a user knows what format the data needs to be
+
+### 2. Remove unneccessary scripts
+-   Get rid of all those "tessst.R", "main_copy(2).py" files, a messy directory is never appealing
+-   Anyting that is not for testing, the main script, or dependencies for the main script can go
+
+### 3. Remove any passwords and API keys
+-   If you are using any online services or accounts then make sure to check your code for anywhere that you have included that information. You want to avoid leaking your (or others) personal data!
+-   If you use a secondary file to store passwords or API keys like a ".env" file then make sure to remove it from your "clean"  publishing version of the project
+
+### 4. Package code up
+- Include readme
+- Remove data
+- Make sure it can take the raw data from your separately linked raw data and produce your results in on go
+- Add the requirements file (or Rproj file)
+
+
+# Step 2 - Create and package a release
+
+Next you need to package it all up into a tidy zip file.
+
+
+![Zipping a project folder]()
+
+
+## With a repo
+-   Upload your clean version to your repo (without venv)
+-   Create a label for the version number using a standard versioning system (check out the [article on versioning systems](26_08-August_12_versioning_systems.qmd))
+-   Create a release
+-   Download the project as a zip file
+
+## Without a repo
+-   Include the date and version number in your readme
+-   Create a zipped copy of the project folder by right clicking and compress to ZIP or using a program like 7-Zip
+
+
+# Step 3 - Getting a DOI
+
+To make a DOI we will make use of Zenodo, an open repository run by the Nuclear and Particle Physics lab [CERN](https://home.cern/). They will also store a copy of your released code so others can find and use it.
+
+
+![Form for Zenodo upload]()
+
+-   Upload the version release to Zenodo
+-   Follow steps
+-   Copy DOI your newly minted and share!
+
+
+![Read me on a repo with DOI]()
+
+# Optional Step 4 - Adding the DOI to your repo
+
+
+## On Github
+
+
+
+## On Codeberg and others
+
+-   Right click and copy the doi image link from zenodo entry or save the image itself
+-   Add the image link or image itself to the DOI at the top of README.MD in your repository
+-   You can format the image with the following line: "[![doi code](<name of file or link to image>)](<DOI link>)"
+-   Commit to your repo and you're done!
+
+
+# Conclusion
+
+Writing code can be hard, but rewarding in the satisfaction of finding a solution. In order to further that reward add a DOI and get cited by those using your hard work to help them on their own coding journey.
+
+<links used as reference/ further reading>
