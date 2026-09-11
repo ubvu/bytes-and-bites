@@ -10,7 +10,33 @@
 <atom:link href="https://ubvu.github.io/bytes-and-bites/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.10.18</generator>
-<lastBuildDate>Tue, 08 Sep 2026 00:00:00 GMT</lastBuildDate>
+<lastBuildDate>Tue, 06 Oct 2026 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>Bytes &amp; Bites - Code refactoring: From Spaghetti code to code Lasagna</title>
+  <link>https://ubvu.github.io/bytes-and-bites/events/26_10-October_06_from_spaghetti_to_lasagna.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Theme: Refactoring, FAIR, Support session (Level)[../about.qmd]: 1+</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://ubvu.github.io/bytes-and-bites/events/mediabag/images/2026/spaghetti_code_poster_1.png" height="300" class="figure-img"></p>
+<figcaption>Join us to fix that spaghetti</figcaption>
+</figure>
+</div>
+<p>In this session <a href="https://libcal.vu.nl/profile/fb462e443245">Charlie Greene</a>, the VU library research software engineer, will be presenting the troubles of (spaghetti code)[https://dev.to/jarrydpatel/dotnet-basics-what-is-spaghetti-code-in-c-3n97] and some tips for (refactoring)[https://www.ibm.com/think/topics/code-refactoring]. We will then have time to work on your code and get support to make your own lasagna!</p>
+<p><a href="https://libcal.vu.nl/calendar/universitylibrary/Bytes_and_Bites_Oct_2026">Register</a></p>
+<p>Bring your messy code that you have been putting off fixing and take advantage of the support from the group or simply the effect of body doubling.</p>
+<p>Pizza (not lasagne, sadly) will be served as always!</p>
+
+
+
+ ]]></description>
+  <guid>https://ubvu.github.io/bytes-and-bites/events/26_10-October_06_from_spaghetti_to_lasagna.html</guid>
+  <pubDate>Tue, 06 Oct 2026 00:00:00 GMT</pubDate>
+</item>
 <item>
   <title>Bytes &amp; Bites - Software testing: How to build a marble run</title>
   <link>https://ubvu.github.io/bytes-and-bites/events/26_09-September_08_marble_runs_and_testing.html</link>
@@ -65,43 +91,6 @@
   <pubDate>Tue, 12 May 2026 00:00:00 GMT</pubDate>
 </item>
 <item>
-  <title>Bytes &amp; Bites presents - A Datahack: Work on real research data</title>
-  <link>https://ubvu.github.io/bytes-and-bites/events/26_04-April_24_datahack.html</link>
-  <description><![CDATA[ 
-
-
-
-
-<p>Theme: datahack</p>
-<p><img src="https://ubvu.github.io/bytes-and-bites/events/mediabag/images/2026/datahack_icon.png" height="300"></p>
-<section id="do-you-like-the-programming-side-but-not-the-writing-side-of-academia" class="level1">
-<h1>Do you like the programming side, but not the writing side of academia?</h1>
-<p>On the 24th of April we will be hosting our first ever datahack!</p>
-<section id="what-is-a-datahack" class="level2">
-<h2 class="anchored" data-anchor-id="what-is-a-datahack">What is a datahack?</h2>
-<p>A dataset or datasets are provided with explanation of the origin, columns, codes, and purpose. The hackers are then let loose on the data to work on it to find completely new insights, make a tool, or create some cool unique graphics.</p>
-</section>
-<section id="how-does-it-work" class="level2">
-<h2 class="anchored" data-anchor-id="how-does-it-work">How does it work?</h2>
-<p>Researchers have kindly donated some datasets that they wanted to do more with but perhaps didn’t have the time, money, or skills. That’s where you come in. This all day event is for solo hackers or teams to work on a dataset to: bring the data dreams to life, find completely new insights, make an analytical tool, or create some cool unique graphics.</p>
-<p><a href="https://libcal.vu.nl/event/4508414">Register</a><br>
-<a href="https://forms.office.com/Pages/ResponsePage.aspx?id=nJwqRqYt-0uzGA-DBD_km4HqWtL4iLFHsVXEaG3GTI1UQ09ZR1RON0M5UUhDTzZYQkw5SUUyWjY3OS4u">Donate data</a></p>
-<p>Researchers will provide an explanation of the project and its aims as well as a walkthrough of the datasets provided. Some researchers may also be available during the hack to answer questions you have about quirks of their field or dataset. At the end of the session you can add a link to your repo to the project list with an explanation of what you did, how it works, and what else you would like to add. If the researcher likes it they might write a paper about it and you will be credited for your work!</p>
-</section>
-<section id="things-to-note" class="level2">
-<h2 class="anchored" data-anchor-id="things-to-note">Things to Note</h2>
-<p>This is a daytime event that runs a long time, so we expect the hackers and researchers to drop in and out as fits their agenda.</p>
-<p>Pizza and drinks will be provided as always!</p>
-
-
-</section>
-</section>
-
- ]]></description>
-  <guid>https://ubvu.github.io/bytes-and-bites/events/26_04-April_24_datahack.html</guid>
-  <pubDate>Fri, 24 Apr 2026 00:00:00 GMT</pubDate>
-</item>
-<item>
   <title>Bytes &amp; Bites - LIVE: Updates and info from the Datahack</title>
   <link>https://ubvu.github.io/bytes-and-bites/events/26_04-April_24_Datahack_live.html</link>
   <description><![CDATA[ 
@@ -153,6 +142,43 @@
 
  ]]></description>
   <guid>https://ubvu.github.io/bytes-and-bites/events/26_04-April_24_Datahack_live.html</guid>
+  <pubDate>Fri, 24 Apr 2026 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Bytes &amp; Bites presents - A Datahack: Work on real research data</title>
+  <link>https://ubvu.github.io/bytes-and-bites/events/26_04-April_24_datahack.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Theme: datahack</p>
+<p><img src="https://ubvu.github.io/bytes-and-bites/events/mediabag/images/2026/datahack_icon.png" height="300"></p>
+<section id="do-you-like-the-programming-side-but-not-the-writing-side-of-academia" class="level1">
+<h1>Do you like the programming side, but not the writing side of academia?</h1>
+<p>On the 24th of April we will be hosting our first ever datahack!</p>
+<section id="what-is-a-datahack" class="level2">
+<h2 class="anchored" data-anchor-id="what-is-a-datahack">What is a datahack?</h2>
+<p>A dataset or datasets are provided with explanation of the origin, columns, codes, and purpose. The hackers are then let loose on the data to work on it to find completely new insights, make a tool, or create some cool unique graphics.</p>
+</section>
+<section id="how-does-it-work" class="level2">
+<h2 class="anchored" data-anchor-id="how-does-it-work">How does it work?</h2>
+<p>Researchers have kindly donated some datasets that they wanted to do more with but perhaps didn’t have the time, money, or skills. That’s where you come in. This all day event is for solo hackers or teams to work on a dataset to: bring the data dreams to life, find completely new insights, make an analytical tool, or create some cool unique graphics.</p>
+<p><a href="https://libcal.vu.nl/event/4508414">Register</a><br>
+<a href="https://forms.office.com/Pages/ResponsePage.aspx?id=nJwqRqYt-0uzGA-DBD_km4HqWtL4iLFHsVXEaG3GTI1UQ09ZR1RON0M5UUhDTzZYQkw5SUUyWjY3OS4u">Donate data</a></p>
+<p>Researchers will provide an explanation of the project and its aims as well as a walkthrough of the datasets provided. Some researchers may also be available during the hack to answer questions you have about quirks of their field or dataset. At the end of the session you can add a link to your repo to the project list with an explanation of what you did, how it works, and what else you would like to add. If the researcher likes it they might write a paper about it and you will be credited for your work!</p>
+</section>
+<section id="things-to-note" class="level2">
+<h2 class="anchored" data-anchor-id="things-to-note">Things to Note</h2>
+<p>This is a daytime event that runs a long time, so we expect the hackers and researchers to drop in and out as fits their agenda.</p>
+<p>Pizza and drinks will be provided as always!</p>
+
+
+</section>
+</section>
+
+ ]]></description>
+  <guid>https://ubvu.github.io/bytes-and-bites/events/26_04-April_24_datahack.html</guid>
   <pubDate>Fri, 24 Apr 2026 00:00:00 GMT</pubDate>
 </item>
 <item>
@@ -520,25 +546,6 @@
  ]]></description>
   <guid>https://ubvu.github.io/bytes-and-bites/events/06_February_24_book.html</guid>
   <pubDate>Tue, 06 Feb 2024 00:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>Bytes &amp; Bites - EESSI</title>
-  <link>https://ubvu.github.io/bytes-and-bites/events/09_January_24_eessi.html</link>
-  <description><![CDATA[ 
-
-
-
-
-<p>Theme: Environment for Scientific Software Installations</p>
-<p>In the first edition of 2024 of Bytes and Bites, Peter Stol (BAZIS, clusters and supercomputers) will tell you all about <a href="https://www.eessi-hpc.org/">EESSI</a>.</p>
-<p>This event had to be cancelled due to unforeseeable circumstances! We will hear about EESSI later this year.</p>
-<p><a href="https://vu-nl.libcal.com/event/4132911">Register</a></p>
-
-
-
- ]]></description>
-  <guid>https://ubvu.github.io/bytes-and-bites/events/09_January_24_eessi.html</guid>
-  <pubDate>Tue, 09 Jan 2024 00:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>
