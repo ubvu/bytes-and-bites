@@ -36,6 +36,10 @@ get started!
 
 [code-auditor](https://github.com/SS-NES/code-auditor/tree/v0.2.1) - A package and command-line utility to audit code quality and compliance to the best practices. 
 
+[autoMETAte](https://github.com/ubvu/autoMETAte) - A pre-commit hook that will create and update a metadata file for your software every time you make a commit to always be up to date.
+
+[metacheck](https://github.com/scienceverse/metacheck) - An automated best practice check for research papers written in R with options to run locally or on Dutch cloud services.
+
 
 ### IDEs and Workspaces
 
