@@ -17,6 +17,7 @@
   {
     "listing": "/index.html",
     "items": [
+      "/events/26_10-October_06_from_spaghetti_to_lasagna.html",
       "/events/26_09-September_08_marble_runs_and_testing.html",
       "/events/26_05-May_12_LEGO_and_Documentation.html",
       "/events/26_04-April_24_datahack.html",
@@ -50,6 +51,7 @@
   {
     "listing": "/events.html",
     "items": [
+      "/events/26_10-October_06_from_spaghetti_to_lasagna.html",
       "/events/26_09-September_08_marble_runs_and_testing.html",
       "/events/26_05-May_12_LEGO_and_Documentation.html",
       "/events/26_04-April_24_datahack.html",

@@ -32,7 +32,7 @@ While the photo of the Mars bar wrapper takes up a about 11 times less than the 
 
 **Account deletion** - It is a new age in the digital realm and despite seeing increasing screen time and subscriptions many are opting out of services and deleting their accounts. While this doesn't always result in the data being publicly (or privately) removed it still does for some services.
 
-**Data scrubbing services** - You might have seen it when hunting for answers, finally someone with the exact same problem as you and there is a top rated answer "apricot shoeshining forward kevin - This comment has been removed by xxx". In order to deal with the services that make it difficult to leave or don't remove your 
+**Data scrubbing services** - You might have seen it when hunting for answers, finally someone with the exact same problem as you and there is a top rated answer "apricot shoeshining forward kevin - This comment has been removed by Redact". In order to deal with the services that make it difficult to leave or don't remove your 
 
 , companies disappearing.
 Data being regularly wiped.
@@ -77,7 +77,8 @@ Seeing as this is archaeology, maybe the current world can learn from the past.
 https://www.tandfonline.com/doi/full/10.1080/24701475.2026.2693431#abstract
 https://shs.hal.science/search/index/q/%2A/authIdHal_s/francesco-beretta/sort/producedDate_tdate+desc/
 https://www.tandfonline.com/journals/tham20
-https://www.tandfonline.com/subjects/humanities?startPage=&ConceptID=5582
+https://www.tandfonline.com/subjects/humanities?startPage=&ConceptID=5582 
+https://redact.dev/ 
 
 [^sheets_calc]: 2084 sheets of A4 to be exact, according to excel with one row for column names.
 

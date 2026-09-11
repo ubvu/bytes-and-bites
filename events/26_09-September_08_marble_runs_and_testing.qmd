@@ -2,7 +2,7 @@
 title: "Bytes & Bites - Software testing: How to build a marble run"
 draft: false
 date: "09/08/2026"
-description: "16-18 @ location TBA"
+description: "16-18 @ O2 01W08"
 ---
 
 

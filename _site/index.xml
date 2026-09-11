@@ -10,7 +10,33 @@
 <atom:link href="https://ubvu.github.io/bytes-and-bites/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.7.31</generator>
-<lastBuildDate>Mon, 07 Sep 2026 22:00:00 GMT</lastBuildDate>
+<lastBuildDate>Mon, 05 Oct 2026 22:00:00 GMT</lastBuildDate>
+<item>
+  <title>Bytes &amp; Bites - Code refactoring: From Spaghetti code to code Lasagna</title>
+  <link>https://ubvu.github.io/bytes-and-bites/events/26_10-October_06_from_spaghetti_to_lasagna.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Theme: Refactoring, FAIR, Support session (Level)[../about.qmd]: 1+</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://ubvu.github.io/bytes-and-bites/events/mediabag/images/2026/spaghetti_code_poster_1.png" height="300" class="figure-img"></p>
+<figcaption>Join us to fix that spaghetti</figcaption>
+</figure>
+</div>
+<p>In this session <a href="https://libcal.vu.nl/profile/fb462e443245">Charlie Greene</a>, the VU library research software engineer, will be presenting the troubles of (spaghetti code)[https://dev.to/jarrydpatel/dotnet-basics-what-is-spaghetti-code-in-c-3n97] and some tips for (refactoring)[https://www.ibm.com/think/topics/code-refactoring]. We will then have time to work on your code and get support to make your own lasagna!</p>
+<p><a href="https://libcal.vu.nl/calendar/universitylibrary/Bytes_and_Bites_Oct_2026">Register</a></p>
+<p>Bring your messy code that you have been putting off fixing and take advantage of the support from the group or simply the effect of body doubling.</p>
+<p>Pizza (not lasagne, sadly) will be served as always!</p>
+
+
+
+ ]]></description>
+  <guid>https://ubvu.github.io/bytes-and-bites/events/26_10-October_06_from_spaghetti_to_lasagna.html</guid>
+  <pubDate>Mon, 05 Oct 2026 22:00:00 GMT</pubDate>
+</item>
 <item>
   <title>Bytes &amp; Bites - Software testing: How to build a marble run</title>
   <link>https://ubvu.github.io/bytes-and-bites/events/26_09-September_08_marble_runs_and_testing.html</link>
@@ -520,25 +546,6 @@
  ]]></description>
   <guid>https://ubvu.github.io/bytes-and-bites/events/06_February_24_book.html</guid>
   <pubDate>Mon, 05 Feb 2024 23:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>Bytes &amp; Bites - EESSI</title>
-  <link>https://ubvu.github.io/bytes-and-bites/events/09_January_24_eessi.html</link>
-  <description><![CDATA[ 
-
-
-
-
-<p>Theme: Environment for Scientific Software Installations</p>
-<p>In the first edition of 2024 of Bytes and Bites, Peter Stol (BAZIS, clusters and supercomputers) will tell you all about <a href="https://www.eessi-hpc.org/">EESSI</a>.</p>
-<p>This event had to be cancelled due to unforeseeable circumstances! We will hear about EESSI later this year.</p>
-<p><a href="https://vu-nl.libcal.com/event/4132911">Register</a></p>
-
-
-
- ]]></description>
-  <guid>https://ubvu.github.io/bytes-and-bites/events/09_January_24_eessi.html</guid>
-  <pubDate>Mon, 08 Jan 2024 23:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>

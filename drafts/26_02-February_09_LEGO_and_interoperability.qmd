@@ -1,0 +1,22 @@
+---
+title: "Bytes & Bites - Interoperability through LEGO: What is it and how to do it"
+draft: true
+date: "02/09/2026"
+description: "16-18 @ O2 building, room 01W08"
+---
+
+Theme: Interoperability, Interactive
+
+Guest speakers: [Alex Brandsen](https://www.alexbrandsen.nl/) works spreading the good word on interoperability (standardising and making sure that software works with as many setups and other tools as possible) via the [TDCC-SH](https://tdcc.nl/ssh/interoperability-missions/) (Thematic Digital Competence Centres for Social Sciences & Humanities). He has worked to research and create tools for text mining of unstructured data using machine learning. Beyond that he has developed a fun training on interoperability. 
+
+
+[Register](https://vu-nl.libcal.com/calendar/universitylibrary/[EVENTNAME])
+
+
+Once again LEGO will be aiding us to learn about a fundamental part of good software development practice, interoperability! Join us to learn how everyone's favourite childhood toy can help us to become better developers while playing.
+
+
+"_This beginner-friendly workshop will make you think about some of the aspects of interoperability through a LEGO challenge, with the aim of strengthening your understanding of the I in FAIR. After the building, we will use your LEGO constructions to illustrate interoperability and start a discussion. If you are interested but not yet (very) knowledgeable about interoperability, this is the workshop for you!_"
+
+
+Pizza will be served as always!
