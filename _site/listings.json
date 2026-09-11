@@ -2,6 +2,7 @@
   {
     "listing": "/news.html",
     "items": [
+      "/news/articles/26-09-September_11_marblerun_writeup.html",
       "/news/articles/26_08-August_12_versioning_systems.html",
       "/news/articles/26_07-July_16_summer_of_automation.html",
       "/news/articles/26_07-July_02_the_2038_problem.html",
@@ -15,7 +16,7 @@
     ]
   },
   {
-    "listing": "/index.html",
+    "listing": "/events.html",
     "items": [
       "/events/26_10-October_06_from_spaghetti_to_lasagna.html",
       "/events/26_09-September_08_marble_runs_and_testing.html",
@@ -49,7 +50,7 @@
     ]
   },
   {
-    "listing": "/events.html",
+    "listing": "/index.html",
     "items": [
       "/events/26_10-October_06_from_spaghetti_to_lasagna.html",
       "/events/26_09-September_08_marble_runs_and_testing.html",
