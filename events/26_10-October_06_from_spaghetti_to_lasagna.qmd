@@ -2,7 +2,7 @@
 title: "Bytes & Bites - Code refactoring: From Spaghetti code to code Lasagna"
 draft: false
 date: "10/06/2026"
-description: "16-18 @ O2 building, room 01W08"
+description: "16-18 @ NU building, room 04B17"
 ---
 
 Theme: Refactoring, FAIR, Support session
@@ -21,3 +21,5 @@ Bring your messy code that you have been putting off fixing and take advantage o
 
 
 Pizza (not lasagne, sadly) will be served as always!
+
+**NOTE:** We will NOT be in our regular room this time and will instead be in the NU building on the 4th floor.
