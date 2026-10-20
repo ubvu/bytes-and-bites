@@ -150,15 +150,25 @@ _______
 #### General
 _______
 
+##### Courses
+
+[CCS R Course Materials](https://github.com/ccs-amsterdam/r-course-material/tree/master) _"a collection of R tutorials, developed at the Vrije Universiteit Amsterdam for Communication Science courses that use R."_ From data wrangling to data scraping, simulations to LLMs, if the Communication Science team has taught an R course on it, you can find it here.
+
+[Intro to programming in R](https://github.com/SofiaG1l/R_Course) - A course from the VU Amsterdam's very own Sofia Gil-Clavel
+
+[UC Business Analytics R Programming Guide](https://uc-r.github.io/) - The Business Anayltics group at the University of Cincinnati have provided a selection of pages that constitute their R course, click on the menu button on the left of the page to access the different topics and start learning!
+
+_______
+
 ##### Articles & Guides
 
 [R Studio Education](https://education.rstudio.com/), a collection of educational resources for R split into skill levels.
 
-[CCS R Course Materials](https://github.com/ccs-amsterdam/r-course-material/tree/master) _"a collection of R tutorials, developed at the Vrije Universiteit Amsterdam for Communication Science courses that use R."_ From data wrangling to data scraping, simulations to LLMs, if the Communication Science team has taught an R course on it, you can find it here.
-
 [Statology](https://www.statology.org/) has a big focus on status (who would have guessed!) and as a result has a lot of comprehensive R articles. [Check them out here!](https://www.statology.org/r-guides/)
 
 [R for Graduate Students](https://bookdown.org/yih_huynh/Guide-to-R-Book/index.html) is a guide written by a PhD student (Wendy Huynh) for PhD students.
+
+[R Cheatsheets](https://rstudio.github.io/cheatsheets/) from Posit (creators of R studio and Positron) cover all the essentials from visualisation to data cleaning to working with text to turning your project into a website. 
 
 
 ##### Books
