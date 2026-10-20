@@ -10,7 +10,56 @@
 <atom:link href="https://ubvu.github.io/bytes-and-bites/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.7.31</generator>
-<lastBuildDate>Mon, 05 Oct 2026 22:00:00 GMT</lastBuildDate>
+<lastBuildDate>Mon, 23 Nov 2026 23:00:00 GMT</lastBuildDate>
+<item>
+  <title>Bytes &amp; Bites - Hackathon: Start up Challenges</title>
+  <link>https://ubvu.github.io/bytes-and-bites/events/26_11-November_24_startup_hackathon.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://ubvu.github.io/bytes-and-bites/events/mediabag/images/2026/hackathon_26_banner.png" height="300" class="figure-img"></p>
+<figcaption>The 2026 hackathon banner</figcaption>
+</figure>
+</div>
+<p>Theme: Hackathon, Security</p>
+<p><a href="../about.html">Level</a>: 2+</p>
+<p>Bytes &amp; Bites is hosting another hackathon! The 3 challenges come from a healthcare start up that is part of the VU start up community. Join us solo or in a team to work on one of the real business challenges in our 4 hour hackathon!</p>
+<p><a href="https://libcal.vu.nl/calendar/universitylibrary/Bytes_and_Bytes_Nov26_Hackathon">Register</a></p>
+<p>Our guest, the founder of the start up has 3 security related challenges (don’t worry you don’t need a security background, just be aware that it’s dealing with sensitive data). A full working solution is not needed, in fact a theoretical solution may be enough or a proof of concept in a language of your choice.</p>
+<p>In order to be viable as a winning solution you will need to keep your repository private and not share the code. The chosen solution(s) will have the opportunity to sign a paid deal with the company on their solution and continuing services. If you prefer to keep ownership of your code and share publicly then you can do so, but due to the nature of the challenge it won’t be able to be used as a winning solution.</p>
+<p>There will be pizza, snacks, drinks, stickers, and more!</p>
+
+
+
+ ]]></description>
+  <guid>https://ubvu.github.io/bytes-and-bites/events/26_11-November_24_startup_hackathon.html</guid>
+  <pubDate>Mon, 23 Nov 2026 23:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Bytes &amp; Bites - Code Alchemy: Turning code into value</title>
+  <link>https://ubvu.github.io/bytes-and-bites/events/26_11-November_10_DLAB_intros.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Theme: Business, Valorisation, Credit</p>
+<p><a href="../about.html">Level</a>: 1+</p>
+<p>Guest speakers: <a href="https://www.linkedin.com/in/brambark/">Bram Bark</a>, the very knowledgable program manager of the Demonstator lab (<a href="https://www.demonstratorlab.nl/">DLAB</a>) will be presenting what the DLAB is and how it works. <a href="https://ttt-ai.nl/events/workshop-understanding-open-source-software-and-valorisation">Tom Stirrop</a>, business developer at the <a href="https://www.amsterdamumc.nl/nl">AUMC</a> will be sharing his extensive experience in turning work into impact in both the open source world and the commercial close source markets.</p>
+<p><a href="https://libcal.vu.nl/calendar/universitylibrary/Bytes_and_Bites_Nov_2026">Register</a></p>
+<p>Have you been working on a project and thought “I wonder if I could make money from this?” or “Could this become a fully fledged tool?”, well sometimes you can. In this November edition of Bytes &amp; Bites we will talk about how you can start a business whilst working or studying at the VU and what that process looks like. We will hear about the process of valorisation, the highs and lows, and the process of taking a concept and messy code base to a product.</p>
+<p>Pizza will be served as always!</p>
+
+
+
+ ]]></description>
+  <guid>https://ubvu.github.io/bytes-and-bites/events/26_11-November_10_DLAB_intros.html</guid>
+  <pubDate>Mon, 09 Nov 2026 23:00:00 GMT</pubDate>
+</item>
 <item>
   <title>Bytes &amp; Bites - Code refactoring: From Spaghetti code to code Lasagna</title>
   <link>https://ubvu.github.io/bytes-and-bites/events/26_10-October_06_from_spaghetti_to_lasagna.html</link>
@@ -30,6 +79,7 @@
 <p><a href="https://libcal.vu.nl/calendar/universitylibrary/Bytes_and_Bites_Oct_2026">Register</a></p>
 <p>Bring your messy code that you have been putting off fixing and take advantage of the support from the group or simply the effect of body doubling.</p>
 <p>Pizza (not lasagne, sadly) will be served as always!</p>
+<p><strong>NOTE:</strong> We will NOT be in our regular room this time and will instead be in the NU building on the 4th floor.</p>
 
 
 
@@ -496,56 +546,6 @@
  ]]></description>
   <guid>https://ubvu.github.io/bytes-and-bites/events/09_April_24_eessi.html</guid>
   <pubDate>Mon, 08 Apr 2024 22:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>Bytes &amp; Bites - Documentation and Good Practices</title>
-  <link>https://ubvu.github.io/bytes-and-bites/events/05_March_24_documentation.html</link>
-  <description><![CDATA[ 
-
-
-
-
-<p>Theme: Documentation and Good Practices</p>
-<p>This edition of Bytes &amp; Bites will focus on making your life and work easier in the long-term. We will talk about very practical first steps you can do right away to organize your code in a better way, for example by documenting your code for yourself, your collaborators, and potential reviewers and third-party users.</p>
-<p>We will run this event slightly different than usual and make it as interactive and fun as possible. Practice your Lego skills and join us on March 5th!</p>
-<p>There is only limited time to give you a good overview and get you started. If you are interested in learning more about best software management practices, please consider taking part in the CodeRefinery in March: https://coderefinery.github.io/2024-03-12-workshop/</p>
-<p>The CodeRefinery workshop is online and covers the following topics:</p>
-<ul>
-<li>collaboration;</li>
-<li>resolving conflicts;</li>
-<li>social coding;</li>
-<li>documentation;</li>
-<li>testing;</li>
-<li>modular coding;</li>
-<li>Git for version control.</li>
-</ul>
-<p><a href="https://vu-nl.libcal.com/event/4186166">Register</a></p>
-
-
-
- ]]></description>
-  <guid>https://ubvu.github.io/bytes-and-bites/events/05_March_24_documentation.html</guid>
-  <pubDate>Mon, 04 Mar 2024 23:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>Bytes &amp; Bites - Computational Analysis of Communication with Wouter van Atteveldt</title>
-  <link>https://ubvu.github.io/bytes-and-bites/events/06_February_24_book.html</link>
-  <description><![CDATA[ 
-
-
-
-
-<p>Theme: Computational Analysis of Communication</p>
-<p>In this edition of Bytes &amp; Bites, Prof.&nbsp;Wouter van Atteveldt and Prof.&nbsp;Damian Trilling will present their work at the Societal Analytics Lab and talk about their book “Computational Analysis of Communication”. The book gives a practical introduction to the analysis of texts, networks, and images with code examples in Python and R. The book is open and freely available, which makes computational techniques accessible (and fun!) to as many students and researchers as possible, regardless of means and institutional support.</p>
-<p>Our guest speakers also well known for their journal: CCR - Computational Communication Research, an Open Access and community-owned journalabout the understanding, development and application of computational methods in communication research.</p>
-<p><a href="https://vu-nl.libcal.com/event/4162072">Register</a></p>
-<p><a href="https://docs.google.com/presentation/d/1TUAXBvdGrUmvJe-3IdlsjsrehJeMTezr8XntHou7yJk/edit?usp=sharing">Slides</a></p>
-
-
-
- ]]></description>
-  <guid>https://ubvu.github.io/bytes-and-bites/events/06_February_24_book.html</guid>
-  <pubDate>Mon, 05 Feb 2024 23:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>

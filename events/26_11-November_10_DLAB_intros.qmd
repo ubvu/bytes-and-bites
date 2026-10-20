@@ -1,0 +1,21 @@
+---
+title: "Bytes & Bites - Code Alchemy: Turning code into value"
+draft: False
+date: "11/10/2026"
+description: "16-18 @ O2 building, room 01W08"
+---
+
+Theme: Business, Valorisation, Credit
+
+[Level](../about.qmd): 1+
+
+Guest speakers: [Bram Bark](https://www.linkedin.com/in/brambark/), the very knowledgable program manager of the Demonstator lab ([DLAB](https://www.demonstratorlab.nl/)) will be presenting what the DLAB is and how it works.
+[Tom Stirrop](https://ttt-ai.nl/events/workshop-understanding-open-source-software-and-valorisation), business developer at the [AUMC](https://www.amsterdamumc.nl/nl) will be sharing his extensive experience in turning work into impact in both the open source world and the commercial close source markets.
+
+
+[Register](https://libcal.vu.nl/calendar/universitylibrary/Bytes_and_Bites_Nov_2026)
+
+
+Have you been working on a project and thought "I wonder if I could make money from this?" or "Could this become a fully fledged tool?", well sometimes you can. In this November edition of Bytes & Bites we will talk about how you can start a business whilst working or studying at the VU and what that process looks like. We will hear about the process of valorisation, the highs and lows, and the process of taking a concept and messy code base to a product.
+
+Pizza will be served as always!

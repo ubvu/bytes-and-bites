@@ -9,7 +9,7 @@ Theme: *
 
 Guest speakers: [<name>](<link>) <DESCRIPTION & COMPLIMENT>.
 
-[Register](https://vu-nl.libcal.com/calendar/universitylibrary/[EVENTNAME])
+[Register](https://libcal.vu.nl/calendar/universitylibrary/[EVENTNAME])
 
 <DESCRIPTION OF EVENT>
 
