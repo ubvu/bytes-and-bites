@@ -1,0 +1,28 @@
+---
+title: "Article - Adopt a repo day: A new tradition"
+draft: true
+date: "07/10/2026"
+description: "A new tradition to keep the digital landscape from degrading"
+categories: [open science, sustainability, open source]
+about:
+    template: jolla
+    image: "../mediabag/images/20xx/x.png"
+---
+
+![<credit for image>](../mediabag/images/20xx/x.png)
+
+# <Title as a question>
+
+## <subtitle if needed>
+
+<Introduction>
+
+<Key quote>
+
+<main body>
+
+<TL;DR, conclusion>
+
+<links used as reference/ further reading>
+https://ropensci.org/help-wanted/ 
+https://endoflife.date/ 
