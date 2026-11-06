@@ -10,7 +10,12 @@ Theme: Business, Valorisation, Credit
 [Level](../about.qmd): 1+
 
 Guest speakers: [Bram Bark](https://www.linkedin.com/in/brambark/), the very knowledgable program manager of the Demonstator lab ([DLAB](https://www.demonstratorlab.nl/)) will be presenting what the DLAB is and how it works.
-[Tom Stirrop](https://ttt-ai.nl/events/workshop-understanding-open-source-software-and-valorisation), business developer at the [AUMC](https://www.amsterdamumc.nl/nl) will be sharing his extensive experience in turning work into impact in both the open source world and the commercial close source markets.
+
+~~[Tom Stirrop](https://ttt-ai.nl/events/workshop-understanding-open-source-software-and-valorisation)~~ **is no longer able to attend**, business developer at the [AUMC](https://www.amsterdamumc.nl/nl) will be sharing his extensive experience in turning work into impact in both the open source world and the commercial close source markets.
+
+[Lucy O'Shea](https://tdcc.nl/spotlight-on-lucy-oshea/) Datasteward of FGB and VU valorisation champion will inform us on what the VU offers its researchers and students regarding valorisation and IP rights.
+
+We will also have a found from the VU start up environment talk to us about their experience starting a company in the VU!
 
 
 [Register](https://libcal.vu.nl/calendar/universitylibrary/Bytes_and_Bites_Nov_2026)
