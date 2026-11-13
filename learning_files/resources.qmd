@@ -112,6 +112,15 @@ Learning how to code is the start of the journey, but as the size of your projec
 #### General
 _______
 
+##### Courses
+[VU Introduction to Python](https://vu-intropython.github.io/TAs-Material/intro.html) A course made for bachelor's level, but suitable for anyone looking to get their start in Python covering all the fundamentals of programming in Python (though not are all beginner level).
+
+[Digital Earth Africa Beginner's Guide](https://docs.digitalearthafrica.org/en/latest/sandbox/notebooks/Beginners_guide/index.html) An intro guide to juptyer notebooks, importing, cleaning, analysing, and plotting large geographical datasets.
+
+[University of Helsinki Python MOOC](https://programming-25.mooc.fi/) - The Department of Computer Science at the University of Helsinki has made a MOOC (massive open online course) for their introduction to programming and advanced programming from their Bachelor's course. It includes a textbook, slides, and videos covering all the material. 
+
+_______
+
 ##### Articles & Guides
 [Mouse vs Python](https://www.blog.pythonlibrary.org/) is an extensive python themed blog by Mike Driscoll writing small guides on the solution he found for a problem he faced in his work. There are a lot of more niche topics covered here. 
 
@@ -122,10 +131,6 @@ _______
 [python-course.eu](https://python-course.eu/) is a website that covers all the fundamentals (from beginner to advanced) of programming in python using mostly standard Python libraries meaning few installations are needed.
 
 [TheLinuxCode](https://thelinuxcode.com/tag/python/) A blog site from a seasoned programmer Augusto Dueñas writing about all manner of topics that he has come across or worked on. This is the filtered list for Python posts only.
-
-[Digital Earth Africa Beginner's Guide](https://docs.digitalearthafrica.org/en/latest/sandbox/notebooks/Beginners_guide/index.html) An intro guide to juptyer notebooks, importing, cleaning, analysing, and plotting large geographical datasets.
-
-[VU Introduction to Python](https://vu-intropython.github.io/TAs-Material/intro.html) A course made for bachelor's level, but suitable for anyone looking to get their start in Python covering all the fundamentals of programming in Python (though not are all beginner level).
 
 
 ##### Books
