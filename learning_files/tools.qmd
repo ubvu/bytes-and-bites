@@ -98,7 +98,11 @@ same familiar chatbot manner and is available on all major operating systems.
 
 [drawdata](https://pypi.org/project/drawdata/) - Have you ever needed a toy dataset to test some code or try out a model? Finding data that has the right sort of shape can be difficult, but with drawdata you can draw a data set with Jupyter, VSCode and Colab. 
 
-[passagemath](https://passagemath.org/) - a general purpose mathematical software system. The passagemath fork uses the motto "Creating a Free Passage Between the Scientific Python Ecosystem and Mathematical Software Communities."
+[passagemath](https://passagemath.org/) - A general purpose mathematical software system. The passagemath fork uses the motto "Creating a Free Passage Between the Scientific Python Ecosystem and Mathematical Software Communities."
+
+[PsychoPy](https://pypi.org/project/psychopy/) - A python package created by scientists for creating and running psychological experiments.
+
+[pymizu](https://github.com/shikokuchuo/pymizu) - Asynchronous and parallel Python over shared memory that can even talk directly between R and Python! 
 
 
 ### Useful R Libraries
@@ -106,6 +110,8 @@ same familiar chatbot manner and is available on all major operating systems.
 [testthat](https://testthat.r-lib.org/) is an R library created with the intention to make writing tests for your code fun and easy. It is on CRAN, so download and installation is straightforward.
 
 [mori](https://cran.r-universe.dev/mori) is a library for more memory efficient parallel programming in R. It refers each CPU to the same shared objects instead of making a copy for each.
+
+[mizu](https://github.com/shikokuchuo/mizu) is a library for asynchronous and parallel R over shared memory that can even talk directly between R and Python! 
 
 
 ### HPC (super computers)
@@ -132,6 +138,7 @@ A visual programming language made by MIT to introduce children and newcomers to
 [Blockly](https://developers.google.com/blockly) -
 The Google made competitor to Scratch, again the target audience is children and newcomers, but there are capabilities for easy deployment and embedding into your own website. They have games to learn how to use it and the concepts.
 
+[PyschoPy Desktop](https://psychopy.org/documentation.html) - An free application made by scientists for creating studies with a visual interface for psychophysics, cognitive neuroscience and experimental psychology.
 
 ### Special mention: Open source tools
 
