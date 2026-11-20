@@ -10,7 +10,32 @@
 <atom:link href="https://ubvu.github.io/bytes-and-bites/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.11.9</generator>
-<lastBuildDate>Tue, 24 Nov 2026 00:00:00 GMT</lastBuildDate>
+<lastBuildDate>Tue, 08 Dec 2026 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>Bytes &amp; Bites - Code challenge: National Advent of Code</title>
+  <link>https://ubvu.github.io/bytes-and-bites/events/26_12-December_08_advent_of_code26.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Theme: Advent of Code <a href="../about.html">Level</a>: 2+</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://ubvu.github.io/bytes-and-bites/events/mediabag/images/2026/christmas_computer.png" class="img-fluid figure-img"></p>
+<figcaption>A christmassy computer</figcaption>
+</figure>
+</div>
+<p>We are once more approaching the winter festivities and that means two things, every other evening is a borrel and the <a href="https://adventofcode.com/">advent of code</a> has returned! To keep up with tradition we will work on the problems collectively and see if we can solve all 8 in our regular 2 hour session. No peeking at solutions before we try them!</p>
+<p>Some festive snacks will be served this time around as well as the usual pizza!</p>
+<p><a href="https://libcal.vu.nl/calendar/universitylibrary/Bytes_and_Bites_Dec_2026">Register</a></p>
+
+
+
+ ]]></description>
+  <guid>https://ubvu.github.io/bytes-and-bites/events/26_12-December_08_advent_of_code26.html</guid>
+  <pubDate>Tue, 08 Dec 2026 00:00:00 GMT</pubDate>
+</item>
 <item>
   <title>Bytes &amp; Bites - Hackathon: Start up Challenges</title>
   <link>https://ubvu.github.io/bytes-and-bites/events/26_11-November_24_startup_hackathon.html</link>
@@ -523,32 +548,6 @@
  ]]></description>
   <guid>https://ubvu.github.io/bytes-and-bites/events/18_December_24_visualization.html</guid>
   <pubDate>Tue, 18 Jun 2024 00:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>Bytes &amp; Bites - (how to) Bring your code</title>
-  <link>https://ubvu.github.io/bytes-and-bites/events/09_April_24_eessi.html</link>
-  <description><![CDATA[ 
-
-
-
-
-<p>Theme: (how to) Bring your code</p>
-<p>This session will focus on your project! There will be time to work on your code, collaborate and ask for help.</p>
-<p>We will talk about code reviews, what they are and how you could use them.</p>
-<p>There will also be time to talk about future plans for our software community meetings “Bytes &amp; Bites”.</p>
-<p>Let’s share some pizzas and discuss together some ideas.</p>
-<p>There will also be time to ask questions related to programming, improve your programming skills, meet other researchers, or delve into any topic that piques your interest.</p>
-<p><a href="https://vu-nl.libcal.com/event/4195798">Register</a></p>
-<p><a href="https://docs.google.com/presentation/d/1nUTBU6WHEgNq9IggT6edrXVGTvypyYyy/edit?usp=sharing&amp;ouid=100199522561101718712&amp;rtpof=true&amp;sd=true">Slides</a></p>
-<p><span style="font-size: 12px; color: red;"> POSTPONED:</span></p>
-<p><span style="font-size: 10px; color: red;"> In this edition of Bytes &amp; Bites, Peter Stol (BAZIS, cluster computing and supercomputers) will tell you all about the European Environment for Scientific Software Installations (<a href="https://www.eessi-hpc.org/">EESSI</a> pronounced as “easy”).</span></p>
-<p><span style="font-size: 10px; color: red;"> The EESSI is a brand new collaboration between different European HPC sites &amp; industry partners, with the common goal to set up a shared repository of scientific software installations that can be used on a variety of systems, regardless of which flavor/version of Linux distribution or processor architecture is used, or whether it’s a full size HPC cluster, a cloud environment or a personal workstation.</span></p>
-
-
-
- ]]></description>
-  <guid>https://ubvu.github.io/bytes-and-bites/events/09_April_24_eessi.html</guid>
-  <pubDate>Tue, 09 Apr 2024 00:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>
