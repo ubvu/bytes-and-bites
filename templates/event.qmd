@@ -6,6 +6,7 @@ description: "16-18 @ O2 building, room 01W08"
 ---
 
 Theme: *
+[Level](././about.qmd): X
 
 Guest speakers: [<name>](<link>) <DESCRIPTION & COMPLIMENT>.
 
