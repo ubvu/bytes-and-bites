@@ -19,6 +19,7 @@
   {
     "listing": "/events.html",
     "items": [
+      "/events/26_12-December_08_advent_of_code26.html",
       "/events/26_11-November_24_startup_hackathon.html",
       "/events/26_11-November_10_DLAB_intros.html",
       "/events/26_10-October_06_from_spaghetti_to_lasagna.html",
@@ -55,6 +56,7 @@
   {
     "listing": "/index.html",
     "items": [
+      "/events/26_12-December_08_advent_of_code26.html",
       "/events/26_11-November_24_startup_hackathon.html",
       "/events/26_11-November_10_DLAB_intros.html",
       "/events/26_10-October_06_from_spaghetti_to_lasagna.html",
