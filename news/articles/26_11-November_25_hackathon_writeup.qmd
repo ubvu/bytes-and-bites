@@ -1,6 +1,6 @@
 ---
 title: "Update - About last Tuesday:2026 Hackathon"
-draft: true
+draft: false
 date: "26/11/2026"
 description: "A writeup of the 2026 hackathon."
 categories: [event, follow up, hackathon]
