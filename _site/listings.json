@@ -17,7 +17,7 @@
     ]
   },
   {
-    "listing": "/events.html",
+    "listing": "/index.html",
     "items": [
       "/events/26_12-December_08_advent_of_code26.html",
       "/events/26_11-November_24_startup_hackathon.html",
@@ -54,7 +54,7 @@
     ]
   },
   {
-    "listing": "/index.html",
+    "listing": "/events.html",
     "items": [
       "/events/26_12-December_08_advent_of_code26.html",
       "/events/26_11-November_24_startup_hackathon.html",

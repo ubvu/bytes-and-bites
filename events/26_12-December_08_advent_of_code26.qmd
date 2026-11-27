@@ -13,6 +13,8 @@ Theme: Advent of Code
 
 We are once more approaching the winter festivities and that means two things, every other evening is a borrel and the [advent of code](https://adventofcode.com/) has returned! To keep up with tradition we will work on the problems collectively and see if we can solve all 8 in our regular 2 hour session. No peeking at solutions before we try them!
 
+If you would like to join the national Coding CAFE leaderboard then sign up through [the form](https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=nJwqRqYt-0uzGA-DBD_km4HqWtL4iLFHsVXEaG3GTI1UQ0NHSjhTVFFaRDlFR0UzNlA4R1pZVVowSi4u)!
+
 Some festive snacks will be served this time around as well as the usual pizza!
 
 [Register](https://libcal.vu.nl/calendar/universitylibrary/Bytes_and_Bites_Dec_2026)
